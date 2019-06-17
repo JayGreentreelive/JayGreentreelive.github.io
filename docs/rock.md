@@ -3,13 +3,13 @@ title: Getting Started with Rock RMS
 description: Getting Started with Rock RMS
 ---
 
-Some bugs are determined by the maintainer of Pop\! projects to be easy to fix, these bugs are referred to as "bitesize" bugs and will show up in the project's issue tracker as such.
-
 ![RockRMS](https://raw.githubusercontent.com/SparkDevNetwork/Rock/develop/Images/github-banner.png)
 
-The bitesize bug badge exists on the right side of the project's issue tracker. New contributors should look for these for an easy bug that they can tackle in an hour or two. Experienced contributors can grab these if they want something they can knock out quickly when they are short on time.
+### What is Rock?
 
-Solving these bugs often contributes to better polish for the overall project. Alone, these bugs may seem small, but when you add them up they vastly improve the quality of the platform. They also offer an opportunity to get involved in the project without dedicating a lot of time.
+Rock is an open source church management system that focuses on the heart of ministry - people. Fully-featured and mobile-friendly, Rock is building a vibrant community and innovative new solutions to meet your ministry goals.
+
+Owned and shepherded by a non-profit ministry itself, Rock will always focus on meeting the needs of the organizations it serves.
 
 []().
 
