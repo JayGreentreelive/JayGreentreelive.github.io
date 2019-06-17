@@ -11,9 +11,9 @@ The bitesize bug badge exists on the right side of the project's issue tracker. 
 
 Solving these bugs often contributes to better polish for the overall project. Alone, these bugs may seem small, but when you add them up they vastly improve the quality of the platform. They also offer an opportunity to get involved in the project without dedicating a lot of time.
 
-[Bitesize bugs for Pop\!\_OS (distro)](https://github.com/pop-os/pop/labels/bite-sized).
+[]().
 
-### Bitesize Bug Example
+### Section Title
 
 Let's go through how to contribute via a bitesize bug fix. First take a look at what is listed as a [bitesize bug via the issue tracker](https://github.com/pop-os/pop/labels/bite-sized).
 
