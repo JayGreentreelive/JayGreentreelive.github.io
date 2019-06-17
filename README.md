@@ -1,6 +1,6 @@
-# Pop!_Docs
+# Thursday Church Docs
 
-Minisite for Pop!_OS and related projects.
+Minisite for Thursday Church and related projects.
 
 [Listing of all docs](/docs)
 
@@ -32,7 +32,7 @@ description: Bar baz bin qux
 
 And then **don't** start the doc with a heading, as it will show up automatically. 
 
-You should also set a description; this will show up on the [docs index](http://pop.system76.com/docs/) page.
+You should also set a description; this will show up on the [docs index](/docs/) page.
 
 
 ### Local Development
