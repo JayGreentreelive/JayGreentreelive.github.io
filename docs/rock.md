@@ -5,7 +5,7 @@ description: Getting Started with Rock RMS
 
 Some bugs are determined by the maintainer of Pop\! projects to be easy to fix, these bugs are referred to as "bitesize" bugs and will show up in the project's issue tracker as such.
 
-![RockRMS](/images/rockrms/rock-logo.svg)
+![RockRMS](https://raw.githubusercontent.com/SparkDevNetwork/Rock/develop/Images/github-banner.png)
 
 The bitesize bug badge exists on the right side of the project's issue tracker. New contributors should look for these for an easy bug that they can tackle in an hour or two. Experienced contributors can grab these if they want something they can knock out quickly when they are short on time.
 
