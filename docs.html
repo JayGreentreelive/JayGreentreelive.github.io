@@ -1,0 +1,29 @@
+---
+layout: default
+title: Thursday Church documentation System
+---
+
+<header class="section">
+  <h1>{% if page.title %}{{ page.title }} {% else %} {{ site.title }} {% endif %}</h1>
+</header>
+
+<section class="content docs">
+  {% assign pages = site.pages | sort:"title" %}
+
+  {% for page in pages %}
+    {% if page.hidden != true %}
+      {% if page.layout == "docs" %}
+        <article class="doc-description">
+          <h3><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
+          <p>
+            {% if page.description %}
+              {{ page.description | markdownify }}
+            {% else %}
+              {{ page.content | markdownify | strip_html | truncatewords:50 }}
+            {% endif %}
+          </p>
+        </article>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</section>
