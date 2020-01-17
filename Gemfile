@@ -1,2 +1,6 @@
-source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+source 'http://rubygems.org'
+
+gem 'compass'
+gem 'foundation'
+gem 'jekyll'
+gem 'jekyll-admin'
