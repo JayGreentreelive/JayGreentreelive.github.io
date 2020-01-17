@@ -1,0 +1,21 @@
+---
+layout: default
+section: watch
+class: section-watch section-series
+---
+
+{% for series in site.data.watch %}
+{% if series.id == page.series-id %}
+
+{% include tertiary.html %}
+
+<!-- Page Main -->
+<div class="page-main">
+  {{ content }}
+  {% include watch-messages.html %}
+</div>
+
+<div class="series-locator">series-{{ series.id }}</div>
+
+{% endif %}
+{% endfor %}

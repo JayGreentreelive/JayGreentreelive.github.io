@@ -1,0 +1,48 @@
+---
+layout: default
+title: LIFE Groups
+permalink: /life-groups/
+class: lifegroups lifegroups-1
+---
+
+<section class="page-section section-first section-lifegroups-top">
+    <div class="medium-10 medium-centered text-center columns">
+      <h2>LIFE Groups</h2>
+      <p>Description (What are life groups)</p>
+      </div>
+</section>
+
+  <div class="row padded">
+    <div class="large-12 columns">
+      
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+        {% for item in site.data.lifegroups %}
+        {% if item.location == "Vincennes" %}
+        {% capture type %}LIFE Groups{% endcapture %}
+        {% include lifegroup-item.html %}
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+<section class="page-section" id="digital-missions">
+
+  <div class="row padded">
+    <div class="large-12 columns">
+      
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+        {% for item in site.data.lifegroups %}
+        {% if item.location == "Bicknell" %}
+        {% capture type %}LIFE Groups{% endcapture %}
+        {% include involved-item.html %}
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</section>
+

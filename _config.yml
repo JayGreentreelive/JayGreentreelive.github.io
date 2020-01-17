@@ -1,0 +1,22 @@
+baseurl: /
+permalink: /:categories/:title/
+#markdown: rdiscount
+excerpt_separator: ""
+relative_permalinks: false
+prose:
+  rooturl: 'announcements/_posts'
+  siteurl: 'http://greentreeconsulting.cc/'
+  metadata:
+    _posts:
+      - name: 'layout'
+        field:
+          element: 'hidden'
+          value: 'announcement'
+      - name: 'permalink'
+        field:
+          element: 'text'
+          label: 'Permalink'
+          value: ''
+title: Thursday Church
+description: Doing Church Differently
+google_analytics:

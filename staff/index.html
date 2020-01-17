@@ -1,0 +1,48 @@
+---
+layout: default
+title: Staff
+permalink: /staff/
+class: who-we-are about header-light
+---
+
+<section class="page-section section-first section-lifegroups-top">
+    <div class="medium-10 medium-centered text-center columns">
+      <h2>Meet The Team</h2>
+      <p></p>
+      </div>
+</section>
+
+  <div class="row padded">
+    <div class="large-12 columns">
+      
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+        {% for item in site.data.lifegroups %}
+        {% if item.location == "Church" %}
+        {% capture type %}Staff{% endcapture %}
+        {% include staff-item.html %}
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+<section class="page-section" id="digital-missions">
+
+  <div class="row padded">
+    <div class="large-12 columns">
+      
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+        {% for item in site.data.lifegroups %}
+        {% if item.location == "Gracies" %}
+        {% capture type %}LIFE Groups{% endcapture %}
+        {% include staff-item.html %}
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</section>
+

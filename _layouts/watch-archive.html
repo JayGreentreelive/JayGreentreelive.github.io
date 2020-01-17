@@ -1,0 +1,33 @@
+---
+layout: default
+section: watch
+class: header-red section-watch section-series
+---
+
+{% for series in site.data.watch %}
+{% if series.id == page.series-id %}
+
+<!-- Page Main -->
+<div class="page-main">
+
+  <div class="page-section section-first">
+    <div class="row">
+      <div class="medium-6 large-4 columns">
+        <h1 class="text-red">{{ series.title }}</h1>
+        <p>{{ series.description_medium | newline_to_br }}</p>
+      </div>
+      <div class="medium-6 large-7 columns">
+        <img class="watch-archive-art" data-interchange="[{{ series.image_medium }}, (default)], [{{ series.image_large }}, (medium)]" alt="{{ series.title }}" />
+        <noscript><img class="watch-archive-art" src="{{ series.image_small }}" alt="{{ series.title }}" /></noscript>
+      </div>
+    </div>
+  </div>
+
+  {% include watch-messages.html %}
+</div>
+
+<div class="series-locator">series-{{ series.id }}</div>
+
+
+{% endif %}
+{% endfor %}
