@@ -1,38 +1,27 @@
-- id: karen-alvis
-  title: Karen Alvis
-  location: Fort Sachville Project
-  position: Manager
-  facebook: 
-  description_small: ''
-  description_medium: ''
-  email: 
-  image_small: /assets/images/staff/karen-alvis/small.png
-  image_medium: /assets/images/staff/karen-alvis/medium.png
-  image_large: /assets/images/staff/karen-alvis/large.png
-
-- id: susie-brower
-  title: Susie Brower
-  location: The Faith Store
-  position: manager
-  facebook: 
-  description_small: ''
-  description_medium: ''
-  email: 
-  image_small: /assets/images/staff/susie-brower/small.png
-  image_medium: /assets/images/staff/susie-brower/medium.png
-  image_large: /assets/images/staff/susie-brower/large.png
-
-- id: margie-case
-  title: Margie Case
+- id: debbie-salters
+  title: Debbie Salters
   location: Church
-  position: Business Manager
+  position: Lead Pastor
+  facebook: 
+  description_small: ''
+  description_medium: 'As the Lead Pastor, Debbie provides leadership and guidance for the church as a whole. Following a vision God gave her for a different kind of church, She and a handful of people launched Thursday Church in January 2008.'
+  email: 
+  image_small: /assets/images/staff/debbie-salters/small.png
+  image_medium: /assets/images/staff/debbie-salters/medium.png
+  image_large: /assets/images/staff/debbie-salters/large.png
+
+
+- id: jason-walsh
+  title: Jason Walsh
+  location: Church
+  position: Campus Pastor
   facebook: 
   description_small: ''
   description_medium: ''
   email: 
-  image_small: /assets/images/staff/margie-case/small.png
-  image_medium: /assets/images/staff/margie-case/medium.png
-  image_large: /assets/images/staff/margie-case/large.png
+  image_small: /assets/images/staff/jason-walsh/small.png
+  image_medium: /assets/images/staff/jason-walsh/medium.png
+  image_large: /assets/images/staff/jason-walsh/large.png
 
 - id: andrea-clegg
   title: Andrea Clegg
@@ -58,65 +47,6 @@
   image_medium: /assets/images/staff/barry-clegg/medium.png
   image_large: /assets/images/staff/barry-clegg/large.png
 
-- id: dave-dunbar
-  title: Dave Dunbar
-  location: Church
-  position: Mens Ministry
-  facebook: 
-  description_small: ''
-  description_medium: ''
-  email: 
-  image_small: /assets/images/staff/dave-dunbar/small.png
-  image_medium: /assets/images/staff/dave-dunbar/medium.png
-  image_large: /assets/images/staff/dave-dunbar/large.png
-
-- id: kristi-ritz
-  title: Kristi Ritz
-  location: The Faith Store
-  position: manager
-  facebook: 
-  description_small: ''
-  description_medium: ''
-  email: 
-  image_small: /assets/images/staff/kristi-ritz/small.png
-  image_medium: /assets/images/staff/kristi-ritz/medium.png
-  image_large: /assets/images/staff/kristi-ritz/large.png
-
-- id: kim-rudolph
-  title: Kim Rudolph
-  location: Church
-  position: Childrens Ministry
-  facebook: 
-  description_small: ''
-  description_medium: ''
-  email: 
-  image_small: /assets/images/staff/kim-rudolph/small.png
-  image_medium: /assets/images/staff/kim-rudolph/medium.png
-  image_large: /assets/images/staff/kim-rudolph/large.png
-
-- id: debbie-salters
-  title: Debbie Salters
-  location: Church
-  position: Lead Pastor
-  facebook: 
-  description_small: ''
-  description_medium: 'As the Lead Pastor, Debbie provides leadership and guidance for the church as a whole. Following a vision God gave her for a different kind of church, She and a handful of people launched Thursday Church in January 2008.'
-  email: 
-  image_small: /assets/images/staff/debbie-salters/small.png
-  image_medium: /assets/images/staff/debbie-salters/medium.png
-  image_large: /assets/images/staff/debbie-salters/large.png
-
-- id: jordan-shields
-  title: Jordan Shields
-  location: Gracie's Restaurtant
-  position: Manager
-  facebook: 
-  description_small: ''
-  description_medium: ''
-  email: 
-  image_small: /assets/images/staff/jordan-shields/small.png
-  image_medium: /assets/images/staff/jordan-shields/medium.png
-  image_large: /assets/images/staff/jordan-shields/large.png
 
 - id: kathryn-thacker
   title: Kathryn Thacker
@@ -130,26 +60,63 @@
   image_medium: /assets/images/staff/kathryn-thacker/medium.png
   image_large: /assets/images/staff/kathryn-thacker/large.png
 
-- id: jason-walsh
-  title: Jason Walsh
+- id: dave-dunbar
+  title: Dave Dunbar
   location: Church
-  position: Campus Pastor
+  position: Mens Ministry
   facebook: 
   description_small: ''
   description_medium: ''
   email: 
-  image_small: /assets/images/staff/jason-walsh/small.png
-  image_medium: /assets/images/staff/jason-walsh/medium.png
-  image_large: /assets/images/staff/jason-walsh/large.png
+  image_small: /assets/images/staff/dave-dunbar/small.png
+  image_medium: /assets/images/staff/dave-dunbar/medium.png
+  image_large: /assets/images/staff/dave-dunbar/large.png
 
-- id: jay-greentree
-  title: Jay Greentree
+
+- id: margie-case
+  title: Margie Case
   location: Church
-  position: Technology Consultant
+  position: Business Manager
   facebook: 
   description_small: ''
   description_medium: ''
   email: 
-  image_small: /assets/images/staff/jason-walsh/small.png
-  image_medium: /assets/images/staff/jason-walsh/medium.png
-  image_large: /assets/images/staff/jason-walsh/large.png
+  image_small: /assets/images/staff/margie-case/small.png
+  image_medium: /assets/images/staff/margie-case/medium.png
+  image_large: /assets/images/staff/margie-case/large.png
+
+- id: karen-alvis
+  title: Karen Alvis
+  location: Fort Sachville Project
+  position: Manager
+  facebook: 
+  description_small: ''
+  description_medium: ''
+  email: 
+  image_small: /assets/images/staff/karen-alvis/small.png
+  image_medium: /assets/images/staff/karen-alvis/medium.png
+  image_large: /assets/images/staff/karen-alvis/large.png
+
+- id: susie-brower
+  title: Susie Brower
+  location: The Faith Store
+  position: manager
+  facebook: 
+  description_small: ''
+  description_medium: ''
+  email: 
+  image_small: /assets/images/staff/susie-brower/small.png
+  image_medium: /assets/images/staff/susie-brower/medium.png
+  image_large: /assets/images/staff/susie-brower/large.png
+
+- id: jordan-shields
+  title: Jordan Shields
+  location: Gracie's Restaurtant
+  position: Manager
+  facebook: 
+  description_small: ''
+  description_medium: ''
+  email: 
+  image_small: /assets/images/staff/jordan-shields/small.png
+  image_medium: /assets/images/staff/jordan-shields/medium.png
+  image_large: /assets/images/staff/jordan-shields/large.png
