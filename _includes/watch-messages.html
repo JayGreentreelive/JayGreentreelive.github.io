@@ -1,47 +1,40 @@
-<section class="watch-messages page-section section-last section-light" id="messages">
-  <div class="row">
-    <div class="large-7 columns">
-      <h2 class="underlined">In this series</h2>
-
-      <!-- Get the messages out of the series and list them out -->
-      {% for message in series.messages reversed %}
-
-      <div class="row message">
-        <a href="javascript:void(0);" data-video-player="{{message.video}}" onclick="ga('send', 'event', 'Watch', 'Play', 'Play Message”');">
-        <div class="small-1 medium-3 columns">
-          <h4>
-            <span class="hide-for-small">{% cycle 'Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6' %}</span>
-            <span class="show-for-small">{% cycle '1', '2', '3', '4', '5', '6' %}</span>
-          </h4>
+<div class='container mg-t-lg mg-b-lg serif' >
+        <div class='row '>
+          {% for message in series.messages reversed %}
+          <div class='col-md-7 '>
+          <h1>{{ series.title }}</h1>
+          <p>{{ series.description_medium | newline_to_br }}</p>
         </div>
-        <div class="small-8 medium-7 columns medium-text-right">
-          <h6>{{ message.title }}</h6>
-        </div>
-        <div class="small-2 medium-2 columns medium-text-right play-message">
-          <div class="action text-lprimary small"><span class="hide-for-small">Play</span> <i class="icon icon-play"></i></div>
-        </div>
-      </a>
+        <div class='col-md-4 col-md-offset-1 series-sidebar'></div>
       </div>
+      <div class='row '>
+        <div class='col-md-12 '>
+          <hr class='mg-t-md mg-b-none'></div>
+        </div>
+        <div class='item-and-audio-holder'>
+          <div class='row mg-b-md2 mg-t-md2'>
+            <div class='col-sm-4 col-md-3 col-md-offset-1 text-center' >
+              <a href='{{ item.url }}'>
+              <img src='' class='img-responsive img-full-width mg-b-md'></a>
+              <a href="javascript:void(0);" data-video-player="{{message.video}}" onclick="ga('send', 'event', 'Watch', 'Play', 'Play Message”');" class='hidden-xs btn btn-left btn-default'><i class='icon-right-4'></i> View Sermon</a></div>
+              <div class='col-sm-8  col-md-7 sermon-item-info' >
+                <a href='/sermons/little-lies-enormous-effect/part-1/'>
+                  <h3>{{ message.title }}</h3>
+                  
+                </a>
+                <div class='serif-sm'></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      {% endfor %}
+<div class="series-locator">series-{{ series.id }}</div>
 
-    </div>
 
-    <div class="large-4 columns">
-      <h2 class="underlined">Invite</h2>
+{% endfor %} 
 
-      <a href="http://twitter.com/home/?status=“Some text goes here that captures the essence of some pretty sweet quotage.” http://lifechurch.tv{{ page.url }}" target="_blank" class="action small text-lprimary"><i class="icon-social-twitter"></i> Invite on Twitter</a>
-
-      <a href="http://www.facebook.com/sharer.php?app_id=567912296616576&amp;sdk=joey&amp;u=http%3A%2F%2Fwww.lifechurch.tv{{ page.url }}%2F" target="_blank" class="action text-lprimary small"><i class="icon-social-facebook"></i> Invite on Facebook</a>
-
-      <a href="https://plus.google.com/share?url=www.lifechurch.tv{{ page.url }}%2F" target="_blank" class="action text-lprimary small"><i class="icon-social-gplus"></i> Invite on Google+</a>
-
-      <!--<a href="#" target="_blank" class="action text-lprimary small"><i class="icon-social-instagram"></i> Invite on Instagram</a>-->
-
-    </div>
-  </div>
-
-</section>
 
 {% for message in series.messages %}
 

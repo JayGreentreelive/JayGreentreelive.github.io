@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 9]> <html class="lt-ie9" lang="en"> <![endif]-->
 <!--[if !IE] -->
@@ -21,11 +22,30 @@
       <![endif]-->
     <!-- link href='//fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic|Open+Sans:100,200,300,400,600,700,800,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'-->
    <!-- styles -->
-<link rel="stylesheet" href="/assets/css/bootstrap.css">
-<link rel="stylesheet" href="/assets/css/icon-font.css">
-<link rel="stylesheet" href="/assets/css/magnific-popup.css">
-<link rel="stylesheet" href="/assets/css/events.css">
-<link rel="stylesheet" href="/assets/css/site.css">
+    <!--link href='//fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic|Open+Sans:100,200,300,400,600,700,800,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'-->
+    <link rel="stylesheet" href="/site/templates/css/bootstrap.css">
+    <link rel="stylesheet" href="/site/templates/css/magnific-popup.css">
+    <link rel="stylesheet" href="/site/templates/css/audioplayer.css">
+    <link rel="stylesheet" href="/site/templates/css/site-helpers.css">
+    <link rel="stylesheet" href="/site/templates/css/icon-font.css">
+    <link rel="stylesheet" href="/site/templates/css/events.css">
+    <link rel="stylesheet" href="/site/templates/css/site.css">
+    <link rel="stylesheet" href="/site/templates/css/font-awesome/css/font-awesome.css">
+           <style>
+          .top-home{ background: #490b4d url("") no-repeat center center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
+                          .template-home .header-banner h2 { font-size: 3.2em}
+
+      @media (max-width: 480px) {
+          .template-campus .top-home,.template-home .top-home{ height:433px !important;}
+          .template-campus .header-banner, .template-home .header-banner { height:433px !important;}
+          .template-campus .center-row, .template-home .center-row {margin-top:70px; height: 393px !important;}
+          .header-banner h2{ font-size: 1.65em}
+          .template-home .header-banner h2 { font-size: 1.82em}
+      }
+          </style>
+    <!-- Javascript ================================================== -->
+    <script src="/site/templates/js/plugins/modernizr/modernizr.min.js"></script>
+
        <!--[if gte IE 9]>
         <style type="text/css">.gradient,.gradient:after {filter: none; } </style>
       <![endif]-->
@@ -34,7 +54,25 @@
 <body>
 
 <div id='wrapper' class='page-id-1 template-live'>
-
+        <!-- Announcement -->
+    {% for announcement in site.data.announcement %}
+    {% if announcement.active == true %}
+    {% if page.section != 'announcements' %}
+    <!-- begin top-bar announcements and live alerts -->
+     <div id='top-bar-live' data-alert class="alert-box {{ announcement.type }}">
+        <div class='container  pd-t-sm pd-b-sm'>
+                <div class='row'>
+                    <div class='col-md-12'>
+                      {% if announcement.url %}<a class="announcement-link" href="{{ announcement.url }}">{% endif %}
+                     <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i>
+                     {{ announcement.message }}
+                   {% if announcement.url %}</a>{% endif %}
+              </div></div></div>
+   </div>
+   <!-- End top-bar announcements and live alerts -->
+    {% endif %}
+    {% endif %}
+    {% endfor %}
 <div class='header' id='chapel-header-bar'>
     <div id='search-area'>
        <div class='container'>
@@ -55,16 +93,7 @@
 
 
 
-  <div id='floating-bar-nav' >
- 
- <!--div id='top-bar-live'>
-        <div class='container  pd-t-sm pd-b-sm'>
-                <div class='row'>
-                    <div class='col-md-12'>
-                     <i id='live-btn-icon' class='icon-fw icon-video-camera-1'></i> We are streaming live.  <a id='live-btn'  href='/live/' title="Live" >Watch Now!</a>
-              </div></div></div>
-   </div -->
-
+  <div id='floating-bar-nav'>
 
        <div id='top-quick-menu' class=''>
          <div class='container'>
@@ -98,25 +127,27 @@
                   <li id="nav_about" class='dropdown'><a href='#' id='about-nav' >Who We Are</a>
                     <ul>
                       <li><a href='/about/' style="color: white;">About Us </a></li>
-                      <li ><a href='/staff/' style="color: white;">Meet The Team  </a></li>
-                      <li ><a href='/beliefs/' style="color: white;">What We Believe </a></li>
-                      <li ><a href='/contact/' style="color: white;">Contact Us </a></li>
+                      <li ><a href='/about/staff/' style="color: white;">Meet The Team  </a></li>
+                      <li ><a href='/about/beliefs/' style="color: white;">What We Believe </a></li>
+                      <li ><a href='/about/contact/' style="color: white;">Contact Us </a></li>
                     </ul>
                   </li>
-                  <li id="nav_locations" class='dropdown'><a href='#' id='locations-nav' >Maps & Directions</a>
+                  <li id="nav_locations" class='dropdown'><a href='#' id='locations-nav' >Locations</a>
                     <ul>
-                      <li><a href='/locations/' style="color: white;">Our Campuses </a></li>
+                      <li><a href='/locations/vincennes/' style="color: white;">Vincennes </a></li>
+                      <li><a href='/locations/bicknell/' style="color: white;">Bicknell  </a></li>
+                      <li><a href='/locations/french-creole/' style="color: white;">French (Creole) </a></li>
                     </ul>
                   </li>
                   <li id="nav_connect" class='dropdown'><a href='#' >Ministries</a>
                     <ul>
-                      <li ><a href='/kids/' style="color: white;">Kids </a></li>
-                      <li ><a href='/students/' style="color: white;">Students </a></li>
-                      <li ><a href='/life-groups/' style="color: white;">LIFE Groups </a></li>
-                      <li ><a href='/global-missions/' style="color: white;">Global Missions </a></li>
-                      <li ><a href='/celebrate-recovery/' style="color: white;">Celebrate Recovery </a></li>
-                      <li ><a href='/mobile-food-pantry/' style="color: white;">Mobile Food Pantry </a></li>
-                      <li ><a href='/3d-groups/' style="color: white;">3D Groups </a></li>
+                      <li ><a href='/ministries/kids/' style="color: white;">Kids </a></li>
+                      <li ><a href='/ministries/students/' style="color: white;">Students </a></li>
+                      <li ><a href='/ministries/life-groups/' style="color: white;">LIFE Groups </a></li>
+                      <li ><a href='/ministries/global-missions/' style="color: white;">Global Missions </a></li>
+                      <li ><a href='/ministries/celebrate-recovery/' style="color: white;">Celebrate Recovery </a></li>
+                      <li ><a href='/ministries/mobile-food-pantry/' style="color: white;">Mobile Food Pantry </a></li>
+                      <li ><a href='/ministries/3d-groups/' style="color: white;">3D Groups </a></li>
                     </ul>
                   </li>
                      <li id="nav_connect" class='dropdown'><a href='#' >Events</a>
@@ -129,10 +160,9 @@
                     <ul>
                       <!--li ><a href='/give/why-we-give/' style="color: white;">Why We Give </a></li-->
                       <li ><a href='/give/' style="color: white;">Give Now </a></li>
-                    </ul>
-                  </li>
-
-                  <li id="nav_resources" class='dropdown'><a href='#' >Watch</a>
+                                  </ul>
+                                </li>
+                                <li id="nav_resources" class='dropdown'><a href='#' >Watch</a>
                                   <ul>
                                     <li ><a href='/watch/' style="color: white;">Sermons </a></li>
                                     <li ><a href='/live/' style="color: white;">Live </a></li>
@@ -203,14 +233,14 @@
                         </div>
              </div>
              <div class="col-xs-12  col-sm-4 col-md-4  " id="footer-contact">
-                <a href="#contact-form" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target=""><i class="icon-right-4 icon-fw"></i> Contact Us</a>
+                <a href="#contact-form" class="btn btn-default btn-clear btn-left mg-t-sm" data-toggle="modal" data-target=""><i class="icon-right-4 icon-fw"></i> Contact Us</a>
              </div>
              <div class="col-xs-12  col-sm-4 col-md-4 " style="text-align:center;">
                    <div id="social-icons">
-                      <a target="_blank" href="" title="Facebook" class="social-fb"><i class="icon-facebook-square  "></i></a>
-                      <a target="_blank" href="" title="Twitter" class="social-tw"><i class="icon-twitter"></i></a>
-                      <a target="_blank" href="" title="Instagram" class="social-in"><i class="icon-instagram "></i></a>
-                      <a target="_blank" href="" title="Youtube" class='social-yt'><i class="icon-youtube"></i></a>
+                      <a target="_blank" href="http://thecha.pl/1PfouMf" title="Facebook" class="social-fb"><i class="icon-facebook-square  "></i></a>
+                      <a target="_blank" href="http://thecha.pl/2d2vCF4" title="Twitter" class="social-tw"><i class="icon-twitter"></i></a>
+                      <a target="_blank" href="http://thecha.pl/2dhdG8K" title="Instagram" class="social-in"><i class="icon-instagram "></i></a>
+                      <a target="_blank" href='http://thecha.pl/1PKODFi' title="Youtube" class='social-yt'><i class="icon-youtube"></i></a>
                    </div>
              </div>
          </div>
@@ -408,6 +438,32 @@ not be included in the outgoing email as part of your prayer request.</small></p
 </div>
 
 </div>
+    <script src="/site/templates/js/plugins/jquery/jquery.min.js"></script>
+    <script src='/site/templates/js/plugins/fastbutton/google.fastbutton.js'></script>
+    <script src='/site/templates/js/plugins/fastbutton/jquery.google.fastbutton.js'></script>
+    <script src='/site/templates/js/bootstrap.min.js'></script>
+    <script src='/site/templates/js/plugins/emailObfuscation/emo.min.js'></script>
+    <script src='/site/templates/js/plugins/fitvids/jquery.fitvids.min.js'></script>
+    <script src='/site/templates/js/plugins/validate/jquery.validate.js'></script>
+    <script src='/site/templates/js/main.js'></script>
+    <script src='/site/templates/js/popup.js'></script>
+    <script src='/site/templates/js/share.js'></script>
+    <script src="/site/templates/js/live.js"></script>
+    <script src='/site/templates/css/ckeditor/ckeditor.js'></script>
+    <script src='/site/templates/css/ckeditor/samples/js/sample.js'></script>
+    <script src="/assets/bower_components/jquery/jquery.min.js"></script>
+    <script src="/assets/bower_components/foundation/js/vendor/fastclick.js"></script>
+    <script src="/assets/bower_components/foundation/js/foundation/foundation.js"></script>
+    <script src="/assets/bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+    <script src="/assets/bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+    <script src="/assets/bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+    <script src="/assets/bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+    <script src="/assets/bower_components/jquery.stellar/jquery.stellar.min.js"></script>
+    <script src="/assets/js/church_online_counter.js"></script>
+    <script src="/assets/js/tomodo.korz-0.5.js"></script>
+    <script src="/assets/js/jobs-parser.js"></script>
+    <script src="/assets/js/stat-animator.js"></script>
+    <script src="/assets/js/app.js"></script>
 
 <!-- form modals end -->
 <script>
@@ -415,25 +471,6 @@ initSample();
 </script>
 
 <!-- end wrapper -->
-
-
-
-
-    <script src="/assets/js/plugins/jquery/jquery.min.js"></script>
-    <script src='/assets/js/plugins/fastbutton/google.fastbutton.js'></script>
-    <script src='/assets/js/plugins/fastbutton/jquery.google.fastbutton.js'></script>
-    <script src='/assets/js/bootstrap.min.js'></script>
-    <script src='/assets/js/plugins/emailObfuscation/emo.min.js'></script>
-    <script src='/assets/js/plugins/fitvids/jquery.fitvids.min.js'></script>
-    <script src='/assets/js/plugins/validate/jquery.validate.js'></script>
-    <script src='/assets/js/main.js'></script>
-    <script src='/assets/js/popup.js'></script>
-    <script src='/assets/js/share.js'></script>
-    <script src="/assets/js/live.js"></script>
-    <script src='/assets/css/ckeditor/ckeditor.js'></script>
-    <script src='/assets/css/ckeditor/samples/js/sample.js'></script>
-
-    <?php if(isset($additionalJS)) echo '<script>'. $additionalJS .'</script>'; ?>
 
 
     {% if site.google_analytics %}

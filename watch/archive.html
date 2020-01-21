@@ -5,51 +5,37 @@ section: watch archive
 permalink: /watch/archive/
 class: header-red
 ---
-
-<div class="row">
-  <div class="large-12 columns">
+<section class="page-section section-first section-lifegroups-top">
+    <div class="medium-10 medium-centered text-center columns">
     <h2>Message Archives</h2>
   </div>
 </div>
 
-<div class="row">
-  <div class="large-12 columns">
-    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+<div class='section ' style='background-color:#efefef;'>
 
-    {% for post in site.categories.watch limit:1000 %}
-    {% for series in site.data.watch %}
-    {% if series.id == post.series-id %}
-    {% assign series = site.data.watch | find_first : "id", post.series-id %}
-    {% capture date %}{{ post.date | date: '%Y' }}{% endcapture %}
-    {% capture ndate %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+<div class='container pd-t-lg pd-b-lg'>
+  <div class='row multi-columns-row'>
+{% assign latest = site.data.watch | first %}
 
+      {% for post in site.categories.watch %}
+      {% for series in site.data.watch %}
+      {% if series.id == post.series-id %}
+    <div class='col-xs-12 col-sm-6 col-md-4 col-lg-4'>
 
-      {% if date != ndate %}
-      </ul>
-      <div class="row">
-        <div class="medium-12 columns">
-          <br />
-          <h4 class="month">{{ post.date | date: '%Y' }}</h4>
-          <br />
-        </div>
-      </div>
-      <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
-      {% endif %}
+<div style='background-color:#ffffff;padding-bottom:10px;' class='serif serif-md'>
+<a href='/{{ post.url }}'><img src='{{ series.image_small }}' class='img-responsive'></a>
 
-      <!-- Archive Item -->
-      <li class="watch-item">
-        <a href="{{ post.url }}">
-          <div class="panel">
-            <img data-interchange="[{{ series.image_small }}, (default)], [{{ series.image_medium }}, (medium)]" alt="{{ series.title }}" />
-            <noscript><img src="{{ series.image_small }}" alt="{{ series.title }}"></noscript>
-
-            <h6>{{ series.title }}</h6>
-          </div>
-        </a>
-      </li>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
-    </ul>
+<div style='padding:10px 20px;'>
+  <h3 style='margin-top:0px;padding-top:6px;padding-bottom:0px;'><a href='{{ post.url }}'>{{ series.title }}</a></h3>
+  <p class='text-muted mg-b-sm'>{{ series.date }}</p>
+  <p>{{ series.description_small }}</p>
+  <div class=' mg-t-md  mg-b-sm'><a class='btn btn-default btn-left' href='{{ post.url }}'><i class='icon-right-4'></i> View Series</a>
   </div>
+
+</div>
+</div>
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
 </div>

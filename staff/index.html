@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Staff
-permalink: /staff/
-class: who-we-are about header-light
+permalink: /staff
 ---
 
 <section class="page-section section-first section-lifegroups-top">
@@ -16,7 +15,7 @@ class: who-we-are about header-light
     <div class="large-12 columns">
       
       <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
-        {% for item in site.data.lifegroups %}
+        {% for item in site.data.staff %}
         {% if item.location == "Church" %}
         {% capture type %}Staff{% endcapture %}
         {% include staff-item.html %}
@@ -34,7 +33,7 @@ class: who-we-are about header-light
     <div class="large-12 columns">
       
       <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
-        {% for item in site.data.lifegroups %}
+        {% for item in site.data.staff %}
         {% if item.location == "Gracies" %}
         {% capture type %}LIFE Groups{% endcapture %}
         {% include staff-item.html %}

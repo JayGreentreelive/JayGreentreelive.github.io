@@ -1,15 +1,82 @@
+- id: easter
+  title: Easter
+  speaker: 
+  headline: ''
+  description_small: 'Coming in April 2020'
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: part 2
+    headline:
+    video:
+
+- id: whats-at-the-core
+  title: What's at the core
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: 'Coming in March 2020'
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: healthy-hearts
+  title: Healthy Hearts
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: 'Coming February 2020'
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
 - id: vision-2020
   title: Vision 20/20
+  speaker: Pastor Debbie Salters
   headline: ''
-  description_small: 
+  description_small: 'Current series'
   description_medium: 
   quote: 
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: /assets/images/watch/series/vision2020.jpg
+  image_small: 
   image_medium: 
-  image_large: /assets/images/watch/series/vision2020.jpg
+  image_large: 
   image_social: 
   messages:
   - title: Part 1
@@ -21,6 +88,28 @@
 
 - id: little-lies-enormous-effect
   title: Little lies Enormous Effect
+  speaker: 
+  headline: ''
+  description_small: ''
+  description_medium: ''
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: Part 2
+    headline: ''
+    video: 
+
+- id: love-thy-neighbor-as-yourself
+  title: Love Thy Neighbor As Yourself
   headline: ''
   description_small: 
   description_medium: 
@@ -28,20 +117,104 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: /site/assets/files/1370/love-thy-neighbor-1.jpg
+  image_small: 
   image_medium: 
-  image_large: /site/assets/files/1370/love-thy-neighbor-1.jpg
+  image_large: 
   image_social: 
   messages:
   - title: Part 1
+    headline: ''
+    video: 
+  - title: Part 2
+    headline: ''
+    video: 
+
+- id: the-war-within
+  title: The War Within
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: Part 2
+    headline: ''
+    video: 
+
+- id: dual-citizenship
+  title: Dual Citizenship
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: Part 2
+    headline: ''
+    video: 
+
+- id: whats-for-dinner
+  title: Whats for Dinner
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: Part 2
+    headline: ''
+    video: 
+
+- id: travis-roberta-sanders
+  title: Travis & Roberta Sanders
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
     headline: ''
     video: 
   - title: 
     headline: ''
     video: 
 
-- id: little-lies-enormous-effect
-  title: Little lies Enormous Effect
+- id: dead-man-walking
+  title: Dead Man Walking
   headline: ''
   description_small: 
   description_medium: 
@@ -49,12 +222,663 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: /site/assets/files/1370/love-thy-neighbor-1.jpg
+  image_small: 
   image_medium: 
-  image_large: /site/assets/files/1370/love-thy-neighbor-1.jpg
+  image_large: 
   image_social: 
   messages:
-  - title: Part 1
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: sermon-in-a-song
+  title: Sermon in a Song
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: do-all-roads-lead-to-one-god
+  title: Do all roads lead to one God
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: is-jesus-about-to-return
+  title: Is Jesus about to return
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: speaking-without-thiunking
+  title: Speaking without thinking
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: are-you-living-or-simply-existing
+  title: Are you living or simply existing?
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: the-wizard-of-oz
+  title: The Wizard of Oz
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: division-or-vision
+  title: Division or vision
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: the-week-after-the-week-after-that-and-all-of-the-weeks-to-come
+  title: The week after, the week after that, and all of the weeks to come
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: the-tomb-is-empty-so-our-lives-can-be-full
+  title: The tomb is empty so our lives can be full
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: serving-with-love
+  title: Serving with love
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: where-the-weary-find-rest
+  title: Where the weary find rest
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: march-madness
+  title: March Madness
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: we-cant-get-to-heaven-on-our-own
+  title: We can't get to Heaven on our own
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: messengers-of-hope
+  title: Messengers of Hope
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: where-seldom-is-heard-a-discouraging-word
+  title: Where seldom is heard a discouraging word
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: friends
+  title: friends
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: having-vision-matters
+  title: Having vision matters
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: joy-in-christ
+  title: Joy in Christ
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: living-in-the-in-between
+  title: Living in the in-between
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: play-by-the-rules
+  title: Play by the rules
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: we-have-to-put-our-hands-in-the-dirt
+  title: We have to put our hands in the dirt
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: waste-not-want-not
+  title: Waste not want not
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: our-thoughts-are-powerful
+  title: Our thoughts are powerful
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: again-i-say-amen
+  title: Again I say amen
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: toward-the-amazing
+  title: Toward-the-amazing
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: where-you-go-i-go
+  title: Where you go I go
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: god-intervenes-when-the-church-prays
+  title: God intervenes when the Church prays
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: jesus-is-that-friend-that-floods-our-soul-with-joy
+  title: Jesus is that friend that floods our soul with joy
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: friend-day-is-coming-are-you-ready
+  title: Friend day is coming are you ready
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: baptism-is-a-commission-to-a-lifelong-vacation
+  title: Baptism is a commission to a lifelong vacation
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: a-new-thing
+  title: A new thing
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  image_social: 
+  messages:
+  - title: 
     headline: ''
     video: 
   - title: 

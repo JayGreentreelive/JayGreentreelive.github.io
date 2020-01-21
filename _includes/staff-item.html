@@ -1,0 +1,13 @@
+<div class='col-xs-6 col-sm-6 col-md-3 mg-b-md ' id="{{ item.id }}">
+    <div class='staff-holder'>
+        <!--a href='{{ item.url }}'-->
+            <div class='staff-photo'>
+                <img src='{{ item.image_small }}' class='img-responsive' /></div>
+                <div class='staff-bar'>
+                    <h3>{{ item.title }}</h3>
+                    <div class='staff-title'>{{ item.position }}</div>
+                    <p>{{ item.description_small | newline_to_br }}</p>
+                </div>
+            <!--/a-->
+        </div>
+    </div>

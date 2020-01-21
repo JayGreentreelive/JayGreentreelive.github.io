@@ -1,0 +1,11 @@
+# type: notice or alert
+# active: true or false
+# icon: weather-snow, weather-rain, campus, money, calendar, maintenance
+# message: the message in the announcement
+# url: link or leave blank
+
+- live: false
+  type: notice
+  icon: money
+  message: 2019 giving statements will be available soon at your campus. If you give online please contact the Vincennes campus to speak with Margie.
+  url: /giving/statements

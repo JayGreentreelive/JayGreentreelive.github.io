@@ -4,7 +4,7 @@
 # message: the message in the announcement
 # url: link or leave blank
 
-- active: false
+- active: true
   type: notice
   icon: money
   message: 2019 giving statements will be available soon at your campus. If you give online please contact the Vincennes campus to speak with Margie.

@@ -3421,3 +3421,127 @@ ul.wpex-social-share{
   -moz-box-sizing:content-box;
   -webkit-box-sizing:content-box;
 }
+/* line 45, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
+.flex-video {
+  position: relative;
+  padding-top: 1.5625rem;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+/* line 28, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
+.flex-video.widescreen {
+  padding-bottom: 57.25%;
+}
+/* line 29, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
+.flex-video.vimeo {
+  padding-top: 0;
+}
+/* line 34, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
+.flex-video iframe,
+.flex-video object,
+.flex-video embed,
+.flex-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 1, ../scss/design/_video-player.scss */
+.video-player {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 12;
+}
+/* line 13, ../scss/design/_video-player.scss */
+.video-player .wistia-flex-video {
+  position: relative;
+  padding-top: 1.5625rem;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+/* line 28, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
+.video-player .wistia-flex-video.widescreen {
+  padding-bottom: 57.25%;
+}
+/* line 29, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
+.video-player .wistia-flex-video.vimeo {
+  padding-top: 0;
+}
+/* line 34, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
+.video-player .wistia-flex-video iframe,
+.video-player .wistia-flex-video object,
+.video-player .wistia-flex-video embed,
+.video-player .wistia-flex-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 16, ../scss/design/_video-player.scss */
+.video-player .wistia-flex-video iframe {
+  height: 100%;
+  width: 100%;
+  margin-top: -20px;
+}
+@media only screen and (max-width: 40em) {
+  /* line 23, ../scss/design/_video-player.scss */
+  .video-player .video-player-inner {
+    margin-top: 57px;
+  }
+}
+/* line 29, ../scss/design/_video-player.scss */
+.video-player .video-player-inner .social {
+  position: absolute;
+  top: 19px;
+  left: 15px;
+  width: 70%;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 29, ../scss/design/_video-player.scss */
+  .video-player .video-player-inner .social {
+    top: 15px;
+  }
+}
+/* line 42, ../scss/design/_video-player.scss */
+.video-player .button-twitter,
+.video-player .button-facebook,
+.video-player .button-gplus {
+  width: 70px;
+  display: block;
+  float: left;
+}
+/* line 48, ../scss/design/_video-player.scss */
+.video-player #___plus_0 {
+  width: 62px !important;
+}
+/* line 52, ../scss/design/_video-player.scss */
+.video-player .button-gplus iframe {
+  width: 60px !important;
+}
+/* line 56, ../scss/design/_video-player.scss */
+.video-player .close {
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  z-index: 12;
+  cursor: pointer;
+}
+/* line 68, ../scss/design/_video-player.scss */
+.noscroll {
+  overflow: hidden;
+}

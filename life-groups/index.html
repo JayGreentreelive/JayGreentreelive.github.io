@@ -1,8 +1,7 @@
 ---
 layout: default
 title: LIFE Groups
-permalink: /life-groups/
-class: lifegroups lifegroups-1
+permalink: /ministries/life-groups/
 ---
 
 <section class="page-section section-first section-lifegroups-top">
@@ -12,23 +11,33 @@ class: lifegroups lifegroups-1
       </div>
 </section>
 
-  <div class="row padded">
-    <div class="large-12 columns">
-      
-      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+<div class="container pd-t-md pd-b-lg ">
+    <div class="row multi-columns-row ">
         {% for item in site.data.lifegroups %}
         {% if item.location == "Vincennes" %}
         {% capture type %}LIFE Groups{% endcapture %}
         {% include lifegroup-item.html %}
         {% endif %}
         {% endfor %}
-      </ul>
+      </div>
+
+    <div class='container  pd-b-lg'>
+        <div class='row'>
+            <div class='col-md-12'>
+                    </div>
+        </div>
+
+    </div>
+
+
+
+</div> <!-- end section -->
 
     </div>
   </div>
 </section>
 
-<section class="page-section" id="digital-missions">
+<section class="page-section" id="digital-missions" style="display: none;">
 
   <div class="row padded">
     <div class="large-12 columns">

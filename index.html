@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div id='bar-green'></div>
 
 <div class='section section-gray'>
@@ -17,34 +18,40 @@ layout: default
 
 
  <div class='section section-series' style='background-color: #444444; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;'>
+          {% assign latest = site.data.watch | first %}
 
+      {% for post in site.categories.watch limit:1 %}
+      {% for series in site.data.watch %}
+      {% if series.id == post.series-id %}
   <div class='container pd-t-lg pd-b-lg'>
     <div class="row center-row-series">
        <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' id='current-series-graphic'>
           <div class='series-img-holder'>
-            <img src='/site/assets/files/1370/love-thy-neighbor-1.jpg' alt='Part 4' class='img-responsive'/>
+            <img src='{{ series.image_small }}' alt='Part 4' class='img-responsive'/>
           </div>
        </div>
         <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' style='padding:0px 40px;'>
-            <!-- recent message goes here -->
-            <h4>RECENT MESSAGE</h4>
-            <h2>Part 4</h2>
-            <h3>Love Thy Neighbor As Yourself (Part 4)</h3>
-            <p>October 17, 2019 &middot; Pastor Debbie Salters</p>
-            <a class='btn btn-primary btn-clear btn-left mg-t-sm' href='/sermons/love-thy-neighbor-as-yourself/part-3/'>Watch Now</a>
+
+        <!-- recent message goes here -->
+          <h4>CURRENT SERIES</h4>
+          <h3>{{ series.title }}</h3>
+          <a class='btn btn-primary btn-clear btn-left mg-t-sm' href="{{ post.url }}">View Series</a>
+
                      </div>
                   </div>
                 </div>
 
               </div>
-
+{% endif %}
+{% endfor %}
+{% endfor %}
 
 <div class='section section-locations' >
   <div class='container pd-t-lg pd-b-lg'>
 
     <div class="row">
        <div class='col-md-12 pd-b-md text-center'>
-           <h1>Locations &amp;<span class='hidden-sm hidden-md hidden-lg'><br/></span> Times</h1>
+           <h1>Locations &amp; Times</h1>
       </div>
     </div>
 
