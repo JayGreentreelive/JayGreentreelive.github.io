@@ -51,11 +51,12 @@ permalink: /live/
                </div>
 
                <div id="live-message-details">
-                   <h2><?php echo $page->series_title; ?></h2><p></p><h4><?php echo $page->series_subtitle; ?> </h4>Part <?php echo $page->series_part; ?> · <?php echo $page->event_date; ?> · <?php echo $page->live_speaker; ?><p></p>               </div>
+                   <h2>{{ series.title }}</h2><p></p>
+                   <h4>{{ series.subtitle }} </h4>Part {{ series.part }} · {{ series.date }} · {{ series.speaker }}<p></p>               </div>
              </div>
 
             <div class="text-muted mg-b-sm2" id="live-message-body">
-                  <p><?php echo $page->summary; ?></p>
+                  <p>{{ series.summary }}</p>
             </div>
 
 
@@ -99,7 +100,7 @@ equipped for every good work. (2 Timothy 3:16-17)&nbsp;</p>
 
                           <div class="tab-pane " id="notes-tab">
                           	<textarea name="editor1" id="" style="visibility: hidden; display: none;">
-                              <?php echo $page->live_notes; ?>
+                              {{ series.notes }}
                               </textarea>
                           	<div>
                                 
