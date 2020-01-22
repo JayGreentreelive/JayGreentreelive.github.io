@@ -3545,3 +3545,63 @@ ul.wpex-social-share{
 .noscroll {
   overflow: hidden;
 }
+
+
+/* line 2, ../scss/design/_announcements.scss */
+.alert-box {
+  border: none;
+  margin-bottom: 0;
+  z-index: 11;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  color: #333333;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 12, ../scss/design/_announcements.scss */
+.alert-box.alert {
+  background: #490b4d;
+}
+
+/* line 17, ../scss/design/_announcements.scss */
+.announcement-icon {
+  height: 25px;
+  width: 25px;
+  margin: -5px 5px -5px 0;
+  font-size: 23px;
+}
+
+/* line 24, ../scss/design/_announcements.scss */
+.alert .announcement-link {
+  color: #fff;
+}
+
+/* line 65, ../scss/design/_fonts.scss */
+.icon-announcement-money:before {
+  content: '\e813';
+}
+
+/* line 66, ../scss/design/_fonts.scss */
+.icon-announcement-calendar:before {
+  content: '\e810';
+}
+
+/* line 67, ../scss/design/_fonts.scss */
+.icon-announcement-campus:before {
+  content: '\e811';
+}
+
+/* line 68, ../scss/design/_fonts.scss */
+.icon-announcement-maintenance:before {
+  content: '\e812';
+}
+
+/* line 69, ../scss/design/_fonts.scss */
+.icon-announcement-weather-rain:before {
+  content: '\e815';
+}
+
+/* line 70, ../scss/design/_fonts.scss */
+.icon-announcement-weather-snow:before {
+  content: '\e814';
+}

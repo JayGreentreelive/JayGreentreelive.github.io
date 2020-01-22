@@ -4,8 +4,8 @@
 # message: the message in the announcement
 # url: link or leave blank
 
-- live: true
+- live: false
   type: notice
-  icon: campus
-  message: Join us for service live at 10:45am
-  url: /live/
+  icon: money
+  message: 2019 giving statements will be available soon at your campus. If you give online please contact the Vincennes campus to speak with Margie.
+  url: /giving/statements

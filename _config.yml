@@ -5,7 +5,7 @@ excerpt_separator: ""
 relative_permalinks: false
 prose:
   rooturl: 'announcements/_posts'
-  siteurl: 'http://greentreeconsulting.cc/'
+  siteurl: 'http://docs.thursdaychurch.org/'
   metadata:
     _posts:
       - name: 'layout'

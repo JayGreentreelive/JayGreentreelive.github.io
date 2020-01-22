@@ -52,9 +52,6 @@
 </head>
 
 <body>
-
-<div id='wrapper' class='page-id-1 template-live'>
-        <!-- Announcement -->
     {% for announcement in site.data.announcement %}
     {% if announcement.active == true %}
     {% if page.section != 'announcements' %}
@@ -73,6 +70,8 @@
     {% endif %}
     {% endif %}
     {% endfor %}
+<div id='wrapper' class='page-id-1 template-live'>
+
 <div class='header' id='chapel-header-bar'>
     <div id='search-area'>
        <div class='container'>
@@ -134,7 +133,9 @@
                   </li>
                   <li id="nav_locations" class='dropdown'><a href='#' id='locations-nav' >Locations</a>
                     <ul>
-                      <li><a href='/locations/' style="color: white;">Our campuses </a></li>
+                      <li><a href='/locations/vincennes/' style="color: white;">Vincennes </a></li>
+                      <li><a href='/locations/bicknell/' style="color: white;">Bicknell  </a></li>
+                      <li><a href='/locations/french-creole/' style="color: white;">French (Creole) </a></li>
                     </ul>
                   </li>
                   <li id="nav_connect" class='dropdown'><a href='#' >Ministries</a>
@@ -449,7 +450,6 @@ not be included in the outgoing email as part of your prayer request.</small></p
     <script src="/site/templates/js/live.js"></script>
     <script src='/site/templates/css/ckeditor/ckeditor.js'></script>
     <script src='/site/templates/css/ckeditor/samples/js/sample.js'></script>
-
 
 <!-- form modals end -->
 <script>

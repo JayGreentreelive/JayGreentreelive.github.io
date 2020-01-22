@@ -1,3 +1,66 @@
+- id: easter
+  title: Easter
+  speaker: 
+  headline: ''
+  description_small: 'Coming in April 2020'
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/
+  image_medium: /assets/images/watch/series/
+  image_large: /assets/images/watch/series/
+  image_social: /assets/images/watch/series/
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+
+- id: whats-at-the-core
+  title: What's at the core
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: 'Coming in March 2020'
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/
+  image_medium: /assets/images/watch/series/
+  image_large: /assets/images/watch/series/
+  image_social: /assets/images/watch/series/
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: healthy-hearts
+  title: Healthy Hearts
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: 'Coming February 2020'
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/
+  image_medium: /assets/images/watch/series/
+  image_large: /assets/images/watch/series/
+  image_social: /assets/images/watch/series/
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
 - id: vision-2020
   title: Vision 20/20
   speaker: Pastor Debbie Salters
@@ -8,10 +71,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/vision-2020.jpg
+  image_medium: /assets/images/watch/series/vision-2020.jpg
+  image_large: /assets/images/watch/series/vision-2020.jpg
+  image_social: /assets/images/watch/series/vision-2020.jpg
   messages:
   - title: Part 1
     headline: ''
@@ -30,10 +93,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/little-lies-enormous-effect.png
+  image_medium: /assets/images/watch/series/little-lies-enormous-effect.png
+  image_large: /assets/images/watch/series/little-lies-enormous-effect.png
+  image_social: /assets/images/watch/series/little-lies-enormous-effect.png
   messages:
   - title: Part 1
     headline: ''
@@ -51,9 +114,9 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
+  image_small: /site/assets/files/1370/love-thy-neighbor-2.640x360.jpg
+  image_medium: /site/assets/files/1370/love-thy-neighbor-2.640x360.jpg
+  image_large: /site/assets/files/1370/love-thy-neighbor-2.640x360.jpg
   image_social: 
   messages:
   - title: Part 1
@@ -72,10 +135,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/the-war-within.png
+  image_medium: /assets/images/watch/series/the-war-within.png
+  image_large: /assets/images/watch/series/the-war-within.png
+  image_social: /assets/images/watch/series/the-war-within.png
   messages:
   - title: Part 1
     headline: ''
@@ -93,10 +156,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/dual-citizenship.jpg
+  image_medium: /assets/images/watch/series/dual-citizenship.jpg
+  image_large: /assets/images/watch/series/dual-citizenship.jpg
+  image_social: /assets/images/watch/series/dual-citizenship.jpg
   messages:
   - title: Part 1
     headline: ''
@@ -114,10 +177,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/whats-for-dinner.png
+  image_medium: /assets/images/watch/series/whats-for-dinner.png
+  image_large: /assets/images/watch/series/whats-for-dinner.png
+  image_social: /assets/images/watch/series/whats-for-dinner.png
   messages:
   - title: Part 1
     headline: ''
@@ -135,10 +198,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/travis-roberta-sanders.jpg
+  image_medium: /assets/images/watch/series/travis-roberta-sanders.jpg
+  image_large: /assets/images/watch/series/travis-roberta-sanders.jpg
+  image_social: /assets/images/watch/series/travis-roberta-sanders.jpg
   messages:
   - title: 
     headline: ''
@@ -156,10 +219,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/dead-man-walking.png
+  image_medium: /assets/images/watch/series/dead-man-walking.png
+  image_large: /assets/images/watch/series/dead-man-walking.png
+  image_social: /assets/images/watch/series/dead-man-walking.png
   messages:
   - title: 
     headline: ''
@@ -177,10 +240,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/sermon-in-a-song.png
+  image_medium: /assets/images/watch/series/sermon-in-a-song.png
+  image_large: /assets/images/watch/series/sermon-in-a-song.png
+  image_social: /assets/images/watch/series/sermon-in-a-song.png
   messages:
   - title: 
     headline: ''
@@ -198,10 +261,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/do-all-roads-lead-to-one-god.png
+  image_medium: /assets/images/watch/series/do-all-roads-lead-to-one-god.png
+  image_large: /assets/images/watch/series/do-all-roads-lead-to-one-god.png
+  image_social: /assets/images/watch/series/do-all-roads-lead-to-one-god.png
   messages:
   - title: 
     headline: ''
@@ -219,10 +282,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/is-jesus-about-to-return.png
+  image_medium: /assets/images/watch/series/is-jesus-about-to-return.png
+  image_large: /assets/images/watch/series/is-jesus-about-to-return.png
+  image_social: /assets/images/watch/series/is-jesus-about-to-return.png
   messages:
   - title: 
     headline: ''
@@ -231,7 +294,7 @@
     headline: ''
     video: 
 
-- id: speaking-without-thiunking
+- id: speaking-without-thinking
   title: Speaking without thinking
   headline: ''
   description_small: 
@@ -240,10 +303,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/speaking-without-thinking.png
+  image_medium: /assets/images/watch/series/speaking-without-thinking.png
+  image_large: /assets/images/watch/series/speaking-without-thinking.png
+  image_social: /assets/images/watch/series/speaking-without-thinking.png
   messages:
   - title: 
     headline: ''
@@ -261,10 +324,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/are-you-living-or-simply-existing.png
+  image_medium: /assets/images/watch/series/are-you-living-or-simply-existing.png
+  image_large: /assets/images/watch/series/are-you-living-or-simply-existing.png
+  image_social: /assets/images/watch/series/are-you-living-or-simply-existing.png
   messages:
   - title: 
     headline: ''
@@ -282,10 +345,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/the-wizard-of-oz.png
+  image_medium: /assets/images/watch/series/the-wizard-of-oz.png
+  image_large: /assets/images/watch/series/the-wizard-of-oz.png
+  image_social: /assets/images/watch/series/the-wizard-of-oz.png
   messages:
   - title: 
     headline: ''
@@ -303,10 +366,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/division-or-vision.png
+  image_medium: /assets/images/watch/series/division-or-vision.png
+  image_large: /assets/images/watch/series/division-or-vision.png
+  image_social: /assets/images/watch/series/division-or-vision.png
   messages:
   - title: 
     headline: ''
@@ -324,10 +387,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/the-week-after-the-week-after-that-and-all-of-the-weeks-to-come.png
+  image_medium: /assets/images/watch/series/the-week-after-the-week-after-that-and-all-of-the-weeks-to-come.png
+  image_large: /assets/images/watch/series/the-week-after-the-week-after-that-and-all-of-the-weeks-to-come.png
+  image_social: /assets/images/watch/series/the-week-after-the-week-after-that-and-all-of-the-weeks-to-come.png
   messages:
   - title: 
     headline: ''
@@ -345,10 +408,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/the-tomb-is-empty-so-our-lives-can-be-full.png
+  image_medium: /assets/images/watch/series/the-tomb-is-empty-so-our-lives-can-be-full.png
+  image_large: /assets/images/watch/series/the-tomb-is-empty-so-our-lives-can-be-full.png
+  image_social: /assets/images/watch/series/the-tomb-is-empty-so-our-lives-can-be-full.png
   messages:
   - title: 
     headline: ''
@@ -366,10 +429,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/serving-with-love.png
+  image_medium: /assets/images/watch/series/serving-with-love.png
+  image_large: /assets/images/watch/series/serving-with-love.png
+  image_social: /assets/images/watch/series/serving-with-love.png
   messages:
   - title: 
     headline: ''
@@ -387,10 +450,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/where-the-weary-find-rest.png
+  image_medium: /assets/images/watch/series/where-the-weary-find-rest.png
+  image_large: /assets/images/watch/series/where-the-weary-find-rest.png
+  image_social: /assets/images/watch/series/where-the-weary-find-rest.png
   messages:
   - title: 
     headline: ''
@@ -408,10 +471,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/march-madness.png
+  image_medium: /assets/images/watch/series/march-madness.png
+  image_large: /assets/images/watch/series/march-madness.png
+  image_social: /assets/images/watch/series/march-madness.png
   messages:
   - title: 
     headline: ''
@@ -429,10 +492,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/we-cant-get-to-heaven-on-our-own.jpg
+  image_medium: /assets/images/watch/series/we-cant-get-to-heaven-on-our-own.jpg
+  image_large: /assets/images/watch/series/we-cant-get-to-heaven-on-our-own.jpg
+  image_social: /assets/images/watch/series/we-cant-get-to-heaven-on-our-own.jpg
   messages:
   - title: 
     headline: ''
@@ -450,10 +513,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/messengers-of-hope.jpg
+  image_medium: /assets/images/watch/series/messengers-of-hope.jpg
+  image_large: /assets/images/watch/series/messengers-of-hope.jpg
+  image_social: /assets/images/watch/series/messengers-of-hope.jpg
   messages:
   - title: 
     headline: ''
@@ -471,10 +534,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/where-seldom-is-heard-a-discouraging-word.png
+  image_medium: /assets/images/watch/series/where-seldom-is-heard-a-discouraging-word.png
+  image_large: /assets/images/watch/series/where-seldom-is-heard-a-discouraging-word.png
+  image_social: /assets/images/watch/series/where-seldom-is-heard-a-discouraging-word.png
   messages:
   - title: 
     headline: ''
@@ -492,10 +555,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/friends.jpg
+  image_medium: /assets/images/watch/series/friends.jpg
+  image_large: /assets/images/watch/series/friends.jpg
+  image_social: /assets/images/watch/series/friends.jpg
   messages:
   - title: 
     headline: ''
@@ -513,10 +576,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/having-vision-matters.png
+  image_medium: /assets/images/watch/series/having-vision-matters.png
+  image_large: /assets/images/watch/series/having-vision-matters.png
+  image_social: /assets/images/watch/series/having-vision-matters.png
   messages:
   - title: 
     headline: ''
@@ -534,10 +597,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/joy-in-christ.jpg
+  image_medium: /assets/images/watch/series/joy-in-christ.jpg
+  image_large: /assets/images/watch/series/joy-in-christ.jpg
+  image_social: /assets/images/watch/series/joy-in-christ.jpg
   messages:
   - title: 
     headline: ''
@@ -555,10 +618,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/living-in-the-in-between.jpg
+  image_medium: /assets/images/watch/series/living-in-the-in-between.jpg
+  image_large: /assets/images/watch/series/living-in-the-in-between.jpg
+  image_social: /assets/images/watch/series/living-in-the-in-between.jpg
   messages:
   - title: 
     headline: ''
@@ -576,10 +639,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/play-by-the-rules.jpg
+  image_medium: /assets/images/watch/series/play-by-the-rules.jpg
+  image_large: /assets/images/watch/series/play-by-the-rules.jpg
+  image_social: /assets/images/watch/series/play-by-the-rules.jpg
   messages:
   - title: 
     headline: ''
@@ -597,10 +660,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
+  image_medium: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
+  image_large: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
+  image_social: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
   messages:
   - title: 
     headline: ''
@@ -618,10 +681,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/waste-not-want-not.jpg
+  image_medium: /assets/images/watch/series/waste-not-want-not.jpg
+  image_large: /assets/images/watch/series/waste-not-want-not.jpg
+  image_social: /assets/images/watch/series/waste-not-want-not.jpg
   messages:
   - title: 
     headline: ''
@@ -639,10 +702,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/our-thoughts-are-powerful.jpg
+  image_medium: /assets/images/watch/series/our-thoughts-are-powerful.jpg
+  image_large: /assets/images/watch/series/our-thoughts-are-powerful.jpg
+  image_social: /assets/images/watch/series/our-thoughts-are-powerful.jpg
   messages:
   - title: 
     headline: ''
@@ -660,10 +723,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/again-i-say-amen.jpg
+  image_medium: /assets/images/watch/series/again-i-say-amen.jpg
+  image_large: /assets/images/watch/series/again-i-say-amen.jpg
+  image_social: /assets/images/watch/series/again-i-say-amen.jpg
   messages:
   - title: 
     headline: ''
@@ -681,10 +744,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/toward-the-amazing.jpg
+  image_medium: /assets/images/watch/series/toward-the-amazing.jpg
+  image_large: /assets/images/watch/series/toward-the-amazing.jpg
+  image_social: /assets/images/watch/series/toward-the-amazing.jpg
   messages:
   - title: 
     headline: ''
@@ -702,10 +765,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/where-you-go-i-go.jpg
+  image_medium: /assets/images/watch/series/where-you-go-i-go.jpg
+  image_large: /assets/images/watch/series/where-you-go-i-go.jpg
+  image_social: /assets/images/watch/series/where-you-go-i-go.jpg
   messages:
   - title: 
     headline: ''
@@ -723,10 +786,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
+  image_medium: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
+  image_large: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
+  image_social: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
   messages:
   - title: 
     headline: ''
@@ -744,10 +807,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
+  image_medium: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
+  image_large: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
+  image_social: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
   messages:
   - title: 
     headline: ''
@@ -765,10 +828,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
+  image_medium: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
+  image_large: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
+  image_social: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
   messages:
   - title: 
     headline: ''
@@ -786,10 +849,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
+  image_medium: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
+  image_large: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
+  image_social: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
   messages:
   - title: 
     headline: ''
@@ -807,10 +870,10 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: 
-  image_medium: 
-  image_large: 
-  image_social: 
+  image_small: /assets/images/watch/series/a-new-thing.jpg
+  image_medium: /assets/images/watch/series/a-new-thing.jpg
+  image_large: /assets/images/watch/series/a-new-thing.jpg
+  image_social: /assets/images/watch/series/a-new-thing.jpg
   messages:
   - title: 
     headline: ''
