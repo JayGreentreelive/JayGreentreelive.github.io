@@ -1,12 +1,18 @@
+---
+permalink: /api/next-service-time/
+---
+{% assign latest = site.data.live | first %}
+{% for item in site.data.live limit:1 %}
 {
-"nextTime":"6:40pm Thursday",
-"nextDay":"January 23, 2020",
-"year":"2020",
-"month":"01",
-"day":"23",
-"start_hour":"18",
-"start_minute":"40",
-"end_day":"0",
-"end_hour":"20",
-"end_minute":"00"
+"nextTime":"{{ item.nextTime }}",
+"nextDay":"{{ item.nextDate }}",
+"year":"{{ item.year }}",
+"month":"{{ item.month }}",
+"day":"{{ item.day }}",
+"start_hour":"{{ item.startHour }}",
+"start_minute":"{{ item.startTime }}",
+"end_day":"{{ item.endDay }}",
+"end_hour":"{{ item.endHour }}",
+"end_minute":"{{ item.endMinute }}"
 }
+{% endfor %}

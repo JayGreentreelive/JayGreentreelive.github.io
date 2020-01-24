@@ -885,7 +885,7 @@ $(document).ready(function () {
         if (live_streaming == true && need_countdown == false) {
             $('#countdown-block').hide();
         }
-        $.getJSON('/api/next-service-time.json?time=' + new Date().getTime(), function (json) {
+        $.getJSON('/api/next-service-time/?time=' + new Date().getTime(), function (json) {
             $('#next-service').html("Next service:<br/>" + json['nextTime'] + ", <br/>" + json['nextDay']);
             if (!live_streaming || need_countdown == true) {
                 $('#countdown-block').show();
@@ -920,7 +920,7 @@ $(document).ready(function () {
         if (server_time.getDay() == end_service_day && server_time.getHours() == (end_service_hours + 2) && server_time.getMinutes() == end_service_minutes && server_time.getSeconds() == 0) {
             clearInterval(setCountDownDuringLiveEvent);
             $.ajax({
-                url: '/api/live-recent-message.json?time=' + new Date().getTime(),
+                url: '/api/live-recent-message/?time=' + new Date().getTime(),
                 dataType: 'json',
                 success: function (response) {
                     live_streaming = false;
@@ -945,7 +945,7 @@ $(document).ready(function () {
                 if (live_streaming == false) {
                     live_streaming = true;
                     $.ajax({
-                        url: '/api/live-message-details.json?intro=true&time=' + new Date().getTime(),
+                        url: '/api/live-message-details/?intro=true&time=' + new Date().getTime(),
                         dataType: 'json',
                         success: function (response) {
                             var d = CKEDITOR.instances.editor1.getData;

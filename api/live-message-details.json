@@ -1,9 +1,17 @@
+---
+permalink: /api/live-message-details/
+---
+
+{% assign latest = site.data.live | first %}
+{% for item in site.data.live limit:1 %}
+
 {
-	"no_review":"false",
-	"ckeditor_details":"<p><strong></strong><br /></p><hr><br />",
-	"msg_body":null,"msg_details":" <h2 ></h2><p></p>",
-	"msg_takeaway":"",
-	"review_questions":"",
-	"video":"<iframe id="ls_embed_1458644761" src="https://livestream.com/accounts/6957/events/1000825/player?width=960&height=540&enableInfoAndActivity=false&autoPlay=true&mute=false"  width="960" height="540"  frameborder="0" scrolling="no" allowfullscreen></iframe>
-	<script type="text/javascript" data-embed_id="ls_embed_1458644761" src="//livestream.com/assets/plugins/referrer_tracking.js"></script>"
+	"no_review":"{{ item.no_review }}",
+	"ckeditor_details":"{{ item.sermonnotes }}",
+	"msg_body":"{{ item.msg_body }}",
+	"msg_details":"{{ item.msg_details }}",
+	"msg_takeaway":"{{ item.msg_takeaway }}",
+	"review_questions":"{{ item.reviewquestions }}",
+	"video":"{{ item.video }}"
 	}
+{% endfor %}
