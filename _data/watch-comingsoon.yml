@@ -1,0 +1,62 @@
+- id: easter
+  title: Easter
+  speaker: 
+  headline: ''
+  description_small: 'Coming in April 2020'
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/easter.png
+  image_medium: /assets/images/watch/series/easter.png
+  image_large: /assets/images/watch/series/easter.png
+  image_social: /assets/images/watch/series/easter.png
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+
+- id: whats-at-the-core
+  title: What's at the core
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: 'Coming in March 2020'
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/whats-at-the-core.png
+  image_medium: /assets/images/watch/series/whats-at-the-core.png
+  image_large: /assets/images/watch/series/whats-at-the-core.png
+  image_social: /assets/images/watch/series/whats-at-the-core.png
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: healthy-hearts
+  title: Healthy Hearts
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: ''
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/healthy-hearts.png
+  image_medium: /assets/images/watch/series/healthy-hearts.png
+  image_large: /assets/images/watch/series/healthy-hearts.png
+  image_social: /assets/images/watch/series/healthy-hearts.png
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
