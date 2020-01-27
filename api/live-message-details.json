@@ -1,10 +1,8 @@
 ---
 permalink: /api/live-message-details/
 ---
-
 {% assign latest = site.data.live | first %}
-{% for item in site.data.live limit:1 %}
-
+{% for item in site.data.live %}
 {
 	"no_review":"{{ item.no_review }}",
 	"ckeditor_details":"{{ item.sermonnotes }}",

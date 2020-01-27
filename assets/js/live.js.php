@@ -1,4 +1,5 @@
 /** Generated: Wednesday, 14th of June 2017, 02:04:05 PM //  */
+<script>
 (function () {
     var j = false;
     window.JQClass = function () {};
@@ -1173,3 +1174,4 @@ $(document).ready(function () {
     });
     renderCountdown();
 });
+</script>

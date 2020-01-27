@@ -4,11 +4,13 @@
                 <a href=''><img src='{{ item.image_small }}' class=' img-responsive img-full-width' /></a>
                 <div style='padding:10px 20px;'>
                     <h3 style='margin-top:0px;padding-top:6px;padding-bottom:6px;'>
-                        <a href='{{ item.url }}'>{{ item.title }}</a></h3>{{ item.description_medium | newline_to_br }}
+                        {% if item.url %}<a href='{{ item.url }}'>{% endif %}{{ item.title }}{% if item.url %}</a>{% endif %}</h3>{{ item.description_medium | newline_to_br }}
                         <div class='clearfix'></div>
+                        {% if item.url %}
                                 <div class='mg-t-md mg-b-sm'>
                                     <a href='{{ item.url }}' class='btn btn-left btn-default'><i class='icon-right-4'></i> Read More</a>
                                 </div>
+                                {% endif %}
                             </div>
                         </div>
                     </div>

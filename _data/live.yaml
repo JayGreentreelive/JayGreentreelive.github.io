@@ -1,22 +1,41 @@
-- id: sunday
+- id: thursday
   no_review: ''
-  sermonnotes: 'Sermon Study Notes - 01/26/2020'
+  sermonnotes: 'Sermon Study Notes - 01/23/2020'
   msg_body: 'Message info'
   msg_details: 'Sermon msg details'
   msg_takeaway: 'Sermon msg takeaway'
   reviewquestions: 'review questions'
-  video: <iframe id="ls_embed_1458644761" src="https://youtube.com/embed/" width="960" height="540" frameborder="0" scrolling="no"></iframe>
-  nextTime: 10:40am Sunday
-  nextDate: January 26, 2020
+  video: <iframe id="ls_embed_1458644761" src="https://youtube.com/embed/HxVcDxHIfw4" width="960" height="540" frameborder="0" scrolling="no"></iframe>
+  nextTime: 6:40pm Thursday
+  nextDay: January 30, 2020
   year: 2020
   month: 01
-  day: 26
+  day: 30
+  startHour: 18
+  startTime: 40
+  endDay: 4
+  endHour: 20
+  endMinute: 00
+
+- id: sunday
+  no_review: ''
+  active: true
+  sermonnotes: 'Sermon Study Notes - 02/02/2020'
+  msg_body: 'Message info'
+  msg_details: 'Sermon msg details'
+  msg_takeaway: 'Sermon msg takeaway'
+  reviewquestions: 'review questions'
+  video: <iframe id="ls_embed_1458644761" src="https://youtube.com/embed/HxVcDxHIfw4" width="960" height="540" frameborder="0" scrolling="no"></iframe>
+  nextTime: 10:40am Sunday
+  nextDay: February 2, 2020
+  year: 2020
+  month: 02
+  day: 02
   startHour: 10
   startminute: 40
   endDay: 0
   endHour: 12
   endMinute: 00
-
 
 - id: thursday
   no_review: ''
@@ -25,14 +44,14 @@
   msg_details: 'Sermon msg details'
   msg_takeaway: 'Sermon msg takeaway'
   reviewquestions: 'review questions'
-  video: <iframe id="ls_embed_1458644761" src="https://youtube.com/embed/" width="960" height="540" frameborder="0" scrolling="no"></iframe>
-  nextTime: 
-  nextDate:
-  year: 
-  month: 
-  day: 
-  startHour:
-  startTime: 
-  endDay: 
-  endHour: 
-  endMinute: 
+  video: <iframe id="ls_embed_1458644761" src="https://youtube.com/embed/HxVcDxHIfw4" width="960" height="540" frameborder="0" scrolling="no"></iframe>
+  nextTime: 6:40pm Thursday
+  nextDay: January 30, 2020
+  year: 2020
+  month: 01
+  day: 06
+  startHour: 18
+  startTime: 40
+  endDay: 4
+  endHour: 20
+  endMinute: 00

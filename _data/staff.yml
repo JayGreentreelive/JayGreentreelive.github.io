@@ -3,6 +3,7 @@
   location: Church
   position: Lead Pastor
   facebook: 
+  twitter: 
   description_small: ''
   description_medium: 'As the Lead Pastor, Debbie provides leadership and guidance for the church as a whole. Following a vision God gave her for a different kind of church, She and a handful of people launched Thursday Church in January 2008.'
   email: 
@@ -15,6 +16,7 @@
   location: Church
   position: Bicknell Campus Pastor
   facebook: 
+  twitter: 
   description_small: ''
   description_medium: ''
   email: 
@@ -27,6 +29,7 @@
   location: Church
   position: Associate Pastor
   facebook: 
+  twitter: 
   description_small: ''
   description_medium: ''
   email: 
@@ -34,11 +37,26 @@
   image_medium: /assets/images/staff/andrea-clegg.jpg
   image_large: /assets/images/staff/andrea-clegg.jpg
 
+- id: ace-alexis
+  title: Ace Alexis
+  location: Church
+  position: Creole Pastor
+  facebook: 
+  twitter: 
+  description_small: ''
+  description_medium: ''
+  email: 
+  image_small: /assets/images/staff/ace-alexis.jpg
+  image_medium: /assets/images/staff/ace-alexis.jpg
+  image_large: /assets/images/staff/ace-alexis.jpg
+
+
 - id: barry-clegg
   title: Barry Clegg
   location: Church
   position: Technical Arts Director
   facebook: 
+  twitter: 
   description_small: ''
   description_medium: ''
   email: 
@@ -51,6 +69,7 @@
   location: Church
   position: Church Secretary
   facebook: 
+  twitter: 
   description_small: ''
   description_medium: ''
   email: 
@@ -63,6 +82,7 @@
   location: Church
   position: Business Manager
   facebook: 
+  twitter: 
   description_small: ''
   description_medium: ''
   email: 
@@ -75,6 +95,7 @@
   location: Church
   position: Mens Ministry
   facebook: 
+  twitter: 
   description_small: ''
   description_medium: ''
   email: 
@@ -87,6 +108,7 @@
   location: Church
   position: Childrens Ministry
   facebook: 
+  twitter: 
   description_small: ''
   description_medium: ''
   email: 
@@ -101,6 +123,7 @@
   location: Fort Sachville Project
   position: Manager
   facebook: 
+  twitter: 
   description_small: ''
   description_medium: ''
   email: 
@@ -113,6 +136,7 @@
   location: The Faith Store
   position: manager
   facebook: 
+  twitter: 
   description_small: ''
   description_medium: ''
   email: 
@@ -125,6 +149,7 @@
   location: Gracie's Restaurtant
   position: Manager
   facebook: 
+  twitter: 
   description_small: ''
   description_medium: ''
   email: 

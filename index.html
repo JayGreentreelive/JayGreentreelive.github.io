@@ -1,13 +1,9 @@
 ---
 layout: default
 ---
-
-<div id='bar-green'></div>
-
 <div class='section section-gray'>
   <div class='container pd-t-lg pd-b-lg'>
     <div class="row">
-
     <h1>WELCOME</h1>
 <p>We welcome the opportunity to connect with you and your family. We have lots of opportunities to get connected and meet new people. Feel free to browse through our web site and learn about the exciting things happening at Thursday Church.
 
@@ -31,6 +27,8 @@ layout: default
           </div>
        </div>
         <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' style='padding:0px 40px;'>
+
+        <!-- recent message goes here -->
           <h4>CURRENT SERIES</h4>
           <h3>{{ series.title }}</h3>
           <a class='btn btn-primary btn-clear btn-left mg-t-sm' href="{{ post.url }}">View Series</a>
@@ -38,11 +36,11 @@ layout: default
                      </div>
                   </div>
                 </div>
+
+              </div>
 {% endif %}
 {% endfor %}
 {% endfor %}
-              </div>
-
 
 <div class='section section-locations' >
   <div class='container pd-t-lg pd-b-lg'>
@@ -147,9 +145,30 @@ layout: default
     </div>
 
     <div class="row">
+<div class="container pd-t-md pd-b-lg">
+    <div class="row multi-columns-row ">
+        {% for item in site.data.lifegroups limit:3 %}
+        {% if item.location == "Vincennes" %}
+        {% capture type %}LIFE Groups{% endcapture %}
+        {% include lifegroup-item.html %}
+        {% endif %}
+        {% endfor %}
+      </div>
+
+    <div class='container  pd-b-lg'>
+        <div class='row'>
+            <div class='col-md-12 text-center pd-b-md'>
+              <a href='' class='btn btn-left btn-default'><i class='icon-right-4'></i> All LIFE Groups</a>
+            </div>
+        </div>
+
+    </div>
 
 
-      <div class="col-xs-12 col-sm-4 col-md-4"> 
+
+</div> <!-- end section -->
+
+      <!--div class="col-xs-12 col-sm-4 col-md-4"> 
         <div class="home-content-block">
          <a href='/blog/mens-group/'><img src='/site/assets/files/1081/14164315519_1600.640x293.jpg' alt='Men&#039;s Group' class='img-responsive img-full-width'/></a>
             <div class='home-para-block'>
@@ -182,4 +201,4 @@ layout: default
 
     </div>
   </div>
-</div>
+</div-->

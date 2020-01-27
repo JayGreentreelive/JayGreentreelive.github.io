@@ -1,15 +1,17 @@
 ---
 ---
-[
-{% for post in site.categories.watch %}{% if post.title != null and post.title != empty and post.search_omit != true %}
-  {% unless forloop.first == true %},{% endunless %}{% for series in site.data.watch %}{% if series.id == post.series-id %}{
-    "id": "{{ post.id }}",
-    "title": "{{ post.title }}",
-    "link": "{{ site.url }}{{ post.url }}",
-    "date": "{{ post.date }}",
-    "image": "{{ series.image_medium }}",
-    "tags": "{% for category in series.categories %}{{ category.name }} {% for tags in site.data.watch-categories %}{% if tags.title == category.name %}{{ tags.tags }} {% endif %}{% endfor %}{% endfor %}"
-  }
-  {% endif %}{% endfor %}
-{% endif %}{% endfor %}
-]
+{% assign latest = site.data.live | first %}
+{% for post in site.data.live %}
+{
+"nextTime":"{{ post.nextTime }}",
+"nextDay":"{{ post.nextDay }}",
+"year":"{{ post.year }}",
+"month":"{{ post.month }}",
+"day":"{{ post.day }}",
+"start_hour":"{{ post.startHour }}",
+"start_minute":"{{ post.startTime }}",
+"end_day":"{{ post.endDay }}",
+"end_hour":"{{ post.endHour }}",
+"end_minute":"{{ post.endMinute }}"
+}
+{% endfor %}
