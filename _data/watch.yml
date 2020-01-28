@@ -1,5 +1,888 @@
+- id: vision-2020
+  title: Vision 20/20
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: ''
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/Healthy-heart-series.png
+  image_medium: /assets/images/watch/series/Healthy-heart-series.png
+  image_large: /assets/images/watch/series/Healthy-heart-series.png
+  image_social: /assets/images/watch/series/Healthy-heart-series.png
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: little-lies-enormous-effect
+  title: Little lies Enormous Effect
+  speaker: 
+  headline: ''
+  description_small: ''
+  description_medium: ''
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/little-lies-enormous-effect.png
+  image_medium: /assets/images/watch/series/little-lies-enormous-effect.png
+  image_large: /assets/images/watch/series/little-lies-enormous-effect.png
+  image_social: /assets/images/watch/series/little-lies-enormous-effect.png
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: Part 2
+    headline: ''
+    video: 
+
+- id: love-thy-neighbor-as-yourself
+  title: Love Thy Neighbor As Yourself
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /site/assets/files/1370/love-thy-neighbor-2.640x360.jpg
+  image_medium: /site/assets/files/1370/love-thy-neighbor-2.640x360.jpg
+  image_large: /site/assets/files/1370/love-thy-neighbor-2.640x360.jpg
+  image_social: 
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: Part 2
+    headline: ''
+    video: 
+
+- id: the-war-within
+  title: The War Within
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/the-war-within.png
+  image_medium: /assets/images/watch/series/the-war-within.png
+  image_large: /assets/images/watch/series/the-war-within.png
+  image_social: /assets/images/watch/series/the-war-within.png
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: Part 2
+    headline: ''
+    video: 
+
+- id: dual-citizenship
+  title: Dual Citizenship
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/dual-citizenship.jpg
+  image_medium: /assets/images/watch/series/dual-citizenship.jpg
+  image_large: /assets/images/watch/series/dual-citizenship.jpg
+  image_social: /assets/images/watch/series/dual-citizenship.jpg
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: Part 2
+    headline: ''
+    video: 
+
+- id: whats-for-dinner
+  title: Whats for Dinner
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/whats-for-dinner.png
+  image_medium: /assets/images/watch/series/whats-for-dinner.png
+  image_large: /assets/images/watch/series/whats-for-dinner.png
+  image_social: /assets/images/watch/series/whats-for-dinner.png
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: Part 2
+    headline: ''
+    video: 
+
+- id: travis-roberta-sanders
+  title: Travis & Roberta Sanders
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/travis-roberta-sanders.jpg
+  image_medium: /assets/images/watch/series/travis-roberta-sanders.jpg
+  image_large: /assets/images/watch/series/travis-roberta-sanders.jpg
+  image_social: /assets/images/watch/series/travis-roberta-sanders.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: dead-man-walking
+  title: Dead Man Walking
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/dead-man-walking.png
+  image_medium: /assets/images/watch/series/dead-man-walking.png
+  image_large: /assets/images/watch/series/dead-man-walking.png
+  image_social: /assets/images/watch/series/dead-man-walking.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: sermon-in-a-song
+  title: Sermon in a Song
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/sermon-in-a-song.png
+  image_medium: /assets/images/watch/series/sermon-in-a-song.png
+  image_large: /assets/images/watch/series/sermon-in-a-song.png
+  image_social: /assets/images/watch/series/sermon-in-a-song.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: do-all-roads-lead-to-one-god
+  title: Do all roads lead to one God
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/do-all-roads-lead-to-one-god.png
+  image_medium: /assets/images/watch/series/do-all-roads-lead-to-one-god.png
+  image_large: /assets/images/watch/series/do-all-roads-lead-to-one-god.png
+  image_social: /assets/images/watch/series/do-all-roads-lead-to-one-god.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: is-jesus-about-to-return
+  title: Is Jesus about to return
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/is-jesus-about-to-return.png
+  image_medium: /assets/images/watch/series/is-jesus-about-to-return.png
+  image_large: /assets/images/watch/series/is-jesus-about-to-return.png
+  image_social: /assets/images/watch/series/is-jesus-about-to-return.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: speaking-without-thinking
+  title: Speaking without thinking
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/speaking-without-thinking.png
+  image_medium: /assets/images/watch/series/speaking-without-thinking.png
+  image_large: /assets/images/watch/series/speaking-without-thinking.png
+  image_social: /assets/images/watch/series/speaking-without-thinking.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: are-you-living-or-simply-existing
+  title: Are you living or simply existing?
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/are-you-living-or-simply-existing.png
+  image_medium: /assets/images/watch/series/are-you-living-or-simply-existing.png
+  image_large: /assets/images/watch/series/are-you-living-or-simply-existing.png
+  image_social: /assets/images/watch/series/are-you-living-or-simply-existing.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: the-wizard-of-oz
+  title: The Wizard of Oz
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/the-wizard-of-oz.png
+  image_medium: /assets/images/watch/series/the-wizard-of-oz.png
+  image_large: /assets/images/watch/series/the-wizard-of-oz.png
+  image_social: /assets/images/watch/series/the-wizard-of-oz.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: division-or-vision
+  title: Division or vision
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/division-or-vision.png
+  image_medium: /assets/images/watch/series/division-or-vision.png
+  image_large: /assets/images/watch/series/division-or-vision.png
+  image_social: /assets/images/watch/series/division-or-vision.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: the-week-after-the-week-after-that-and-all-of-the-weeks-to-come
+  title: The week after, the week after that, and all of the weeks to come
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/the-week-after-the-week-after-that-and-all-of-the-weeks-to-come.png
+  image_medium: /assets/images/watch/series/the-week-after-the-week-after-that-and-all-of-the-weeks-to-come.png
+  image_large: /assets/images/watch/series/the-week-after-the-week-after-that-and-all-of-the-weeks-to-come.png
+  image_social: /assets/images/watch/series/the-week-after-the-week-after-that-and-all-of-the-weeks-to-come.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: the-tomb-is-empty-so-our-lives-can-be-full
+  title: The tomb is empty so our lives can be full
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/the-tomb-is-empty-so-our-lives-can-be-full.png
+  image_medium: /assets/images/watch/series/the-tomb-is-empty-so-our-lives-can-be-full.png
+  image_large: /assets/images/watch/series/the-tomb-is-empty-so-our-lives-can-be-full.png
+  image_social: /assets/images/watch/series/the-tomb-is-empty-so-our-lives-can-be-full.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: serving-with-love
+  title: Serving with love
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/serving-with-love.png
+  image_medium: /assets/images/watch/series/serving-with-love.png
+  image_large: /assets/images/watch/series/serving-with-love.png
+  image_social: /assets/images/watch/series/serving-with-love.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: where-the-weary-find-rest
+  title: Where the weary find rest
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/where-the-weary-find-rest.png
+  image_medium: /assets/images/watch/series/where-the-weary-find-rest.png
+  image_large: /assets/images/watch/series/where-the-weary-find-rest.png
+  image_social: /assets/images/watch/series/where-the-weary-find-rest.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: march-madness
+  title: March Madness
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/march-madness.png
+  image_medium: /assets/images/watch/series/march-madness.png
+  image_large: /assets/images/watch/series/march-madness.png
+  image_social: /assets/images/watch/series/march-madness.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: we-cant-get-to-heaven-on-our-own
+  title: We can't get to Heaven on our own
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/we-cant-get-to-heaven-on-our-own.jpg
+  image_medium: /assets/images/watch/series/we-cant-get-to-heaven-on-our-own.jpg
+  image_large: /assets/images/watch/series/we-cant-get-to-heaven-on-our-own.jpg
+  image_social: /assets/images/watch/series/we-cant-get-to-heaven-on-our-own.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: messengers-of-hope
+  title: Messengers of Hope
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/messengers-of-hope.jpg
+  image_medium: /assets/images/watch/series/messengers-of-hope.jpg
+  image_large: /assets/images/watch/series/messengers-of-hope.jpg
+  image_social: /assets/images/watch/series/messengers-of-hope.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: where-seldom-is-heard-a-discouraging-word
+  title: Where seldom is heard a discouraging word
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/where-seldom-is-heard-a-discouraging-word.png
+  image_medium: /assets/images/watch/series/where-seldom-is-heard-a-discouraging-word.png
+  image_large: /assets/images/watch/series/where-seldom-is-heard-a-discouraging-word.png
+  image_social: /assets/images/watch/series/where-seldom-is-heard-a-discouraging-word.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: friends
+  title: friends
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/friends.jpg
+  image_medium: /assets/images/watch/series/friends.jpg
+  image_large: /assets/images/watch/series/friends.jpg
+  image_social: /assets/images/watch/series/friends.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: having-vision-matters
+  title: Having vision matters
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/having-vision-matters.png
+  image_medium: /assets/images/watch/series/having-vision-matters.png
+  image_large: /assets/images/watch/series/having-vision-matters.png
+  image_social: /assets/images/watch/series/having-vision-matters.png
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: joy-in-christ
+  title: Joy in Christ
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/joy-in-christ.jpg
+  image_medium: /assets/images/watch/series/joy-in-christ.jpg
+  image_large: /assets/images/watch/series/joy-in-christ.jpg
+  image_social: /assets/images/watch/series/joy-in-christ.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: living-in-the-in-between
+  title: Living in the in-between
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/living-in-the-in-between.jpg
+  image_medium: /assets/images/watch/series/living-in-the-in-between.jpg
+  image_large: /assets/images/watch/series/living-in-the-in-between.jpg
+  image_social: /assets/images/watch/series/living-in-the-in-between.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: play-by-the-rules
+  title: Play by the rules
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/play-by-the-rules.jpg
+  image_medium: /assets/images/watch/series/play-by-the-rules.jpg
+  image_large: /assets/images/watch/series/play-by-the-rules.jpg
+  image_social: /assets/images/watch/series/play-by-the-rules.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: we-have-to-put-our-hands-in-the-dirt
+  title: We have to put our hands in the dirt
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
+  image_medium: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
+  image_large: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
+  image_social: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: waste-not-want-not
+  title: Waste not want not
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/waste-not-want-not.jpg
+  image_medium: /assets/images/watch/series/waste-not-want-not.jpg
+  image_large: /assets/images/watch/series/waste-not-want-not.jpg
+  image_social: /assets/images/watch/series/waste-not-want-not.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: our-thoughts-are-powerful
+  title: Our thoughts are powerful
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/our-thoughts-are-powerful.jpg
+  image_medium: /assets/images/watch/series/our-thoughts-are-powerful.jpg
+  image_large: /assets/images/watch/series/our-thoughts-are-powerful.jpg
+  image_social: /assets/images/watch/series/our-thoughts-are-powerful.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: again-i-say-amen
+  title: Again I say amen
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/again-i-say-amen.jpg
+  image_medium: /assets/images/watch/series/again-i-say-amen.jpg
+  image_large: /assets/images/watch/series/again-i-say-amen.jpg
+  image_social: /assets/images/watch/series/again-i-say-amen.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: toward-the-amazing
+  title: Toward-the-amazing
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/toward-the-amazing.jpg
+  image_medium: /assets/images/watch/series/toward-the-amazing.jpg
+  image_large: /assets/images/watch/series/toward-the-amazing.jpg
+  image_social: /assets/images/watch/series/toward-the-amazing.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: where-you-go-i-go
+  title: Where you go I go
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/where-you-go-i-go.jpg
+  image_medium: /assets/images/watch/series/where-you-go-i-go.jpg
+  image_large: /assets/images/watch/series/where-you-go-i-go.jpg
+  image_social: /assets/images/watch/series/where-you-go-i-go.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: god-intervenes-when-the-church-prays
+  title: God intervenes when the Church prays
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
+  image_medium: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
+  image_large: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
+  image_social: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: jesus-is-that-friend-that-floods-our-soul-with-joy
+  title: Jesus is that friend that floods our soul with joy
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
+  image_medium: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
+  image_large: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
+  image_social: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: friend-day-is-coming-are-you-ready
+  title: Friend day is coming are you ready
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
+  image_medium: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
+  image_large: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
+  image_social: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: baptism-is-a-commission-to-a-lifelong-vacation
+  title: Baptism is a commission to a lifelong vacation
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
+  image_medium: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
+  image_large: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
+  image_social: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: a-new-thing
+  title: A new thing
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/a-new-thing.jpg
+  image_medium: /assets/images/watch/series/a-new-thing.jpg
+  image_large: /assets/images/watch/series/a-new-thing.jpg
+  image_social: /assets/images/watch/series/a-new-thing.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+=======
+- id: easter
+  title: Easter
+  speaker: 
+  headline: ''
+  description_small: 'Coming in April 2020'
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/easter.png
+  image_medium: /assets/images/watch/series/easter.png
+  image_large: /assets/images/watch/series/easter.png
+  image_social: /assets/images/watch/series/easter.png
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+
+- id: whats-at-the-core
+  title: What's at the core
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: 'Coming in March 2020'
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/whats-at-the-core.png
+  image_medium: /assets/images/watch/series/whats-at-the-core.png
+  image_large: /assets/images/watch/series/whats-at-the-core.png
+  image_social: /assets/images/watch/series/whats-at-the-core.png
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
 - id: healthy-hearts
   title: Healthy Hearts
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: ''
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/healthy-hearts.png
+  image_medium: /assets/images/watch/series/healthy-hearts.png
+  image_large: /assets/images/watch/series/healthy-hearts.png
+  image_social: /assets/images/watch/series/healthy-hearts.png
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: vision-2020
+  title: Vision 20/20
   speaker: Pastor Debbie Salters
   headline: ''
   description_small: 'Current series'
@@ -19,23 +902,7 @@
   - title: 
     headline: ''
     video: 
-
-- id: vision-2020
-  title: Vision 20/20
-  speaker: Pastor Debbie Salters
-  headline: ''
-  description_small: ''
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/Healthy-heart-series.png
-  image_medium: /assets/images/watch/series/Healthy-heart-series.png
-  image_large: /assets/images/watch/series/Healthy-heart-series.png
-  image_social: /assets/images/watch/series/Healthy-heart-series.png
-  messages:
-  - title: Part 1
+  - title: 
     headline: ''
     video: 
   - title: 

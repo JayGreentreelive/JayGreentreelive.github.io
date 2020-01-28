@@ -14,7 +14,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="">
     <meta name="author" content="Thursday Church">
-     <script src="/assets/js/plugins/modernizr/modernizr.min.js"></script>
 
       <!--[if lt IE 9]>
           <script type='text/javascript' src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -32,7 +31,7 @@
     <link rel="stylesheet" href="/site/templates/css/site.css">
     <link rel="stylesheet" href="/site/templates/css/font-awesome/css/font-awesome.css">
            <style>
-          .top-home{ background: #490b4d url("") no-repeat center center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
+          .top-home{ background: #490b4d {% if page.heroimage %}url("{{ page.heroimage }}") no-repeat center center{% endif %}; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
                           .template-home .header-banner h2 { font-size: 3.2em}
 
       @media (max-width: 480px) {
@@ -55,21 +54,43 @@
     {% for announcement in site.data.announcement %}
     {% if announcement.active == true %}
     {% if page.section != 'announcements' %}
-    <!-- begin top-bar announcements and live alerts -->
      <div id='top-bar-live' data-alert class="alert-box {{ announcement.type }}">
-        <div class='container  pd-t-sm pd-b-sm'>
-                <div class='row'>
-                    <div class='col-md-12'>
-                      {% if announcement.url %}<a class="announcement-link" href="{{ announcement.url }}">{% endif %}
-                     <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i>
-                     {{ announcement.message }}
-                   {% if announcement.url %}</a>{% endif %}
-              </div></div></div>
-   </div>
-   <!-- End top-bar announcements and live alerts -->
+      <div class='container  pd-t-sm pd-b-sm'>
+        <div class='row'>
+          <div class='col-md-12'>
+            {% if announcement.url %}
+            <a class="announcement-link" href="{{ announcement.url }}">{% endif %}
+              <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i>
+              {{ announcement.message }}
+            {% if announcement.url %}</a>{% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
     {% endif %}
     {% endif %}
     {% endfor %}
+
+        {% for announcement in site.data.announcement-live %}
+    {% if announcement.active == true %}
+    {% if page.section != 'announcements' %}
+     <div id='top-bar-live'>
+      <div class='container pd-t-sm pd-b-sm'>
+        <div class='row'>
+          <div class='col-md-12'>
+            {% if announcement.url %}
+            <a href="{{ announcement.url }}">{% endif %}
+              {{ announcement.message }}
+            {% if announcement.url %}</a>{% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+    
 <div id='wrapper' class='page-id-1 template-live'>
 
 <div class='header' id='chapel-header-bar'>
@@ -79,8 +100,8 @@
                     <div class='col-md-8 col-md-offset-2'>
                           <div class="searchTop">
                              <form id="search-form-top" class='clearfix' action='' method='get'>
-                                    <input class="clear-click" id='search-site-input' placeholder='Search the site' type='text' name='q' value=''>
-                                    <a id="search_query_btn" href="javascript:void(0);" class="icon-right-4"></a>
+                             <input class="clear-click" id='search-site-input' placeholder='Search the site' type='text' name='q' value=''>
+                              <a id="search_query_btn" href="javascript:void(0);" class="icon-right-4"></a>
                             </form>
                         </div>
                   </div>
@@ -93,6 +114,7 @@
 
 
   <div id='floating-bar-nav'>
+
 
        <div id='top-quick-menu' class=''>
          <div class='container'>

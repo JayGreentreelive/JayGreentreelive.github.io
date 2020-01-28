@@ -1,11 +1,57 @@
-# type: notice or alert
-# active: true or false
-# icon: weather-snow, weather-rain, campus, money, calendar, maintenance
-# message: the message in the announcement
-# url: link or leave blank
+- id: thursday
+  no_review: ''
+  sermonnotes: 'Sermon Study Notes - 01/23/2020'
+  msg_body: 'Message info'
+  msg_details: 'Sermon msg details'
+  msg_takeaway: 'Sermon msg takeaway'
+  reviewquestions: 'review questions'
+  video: <iframe id="ls_embed_1458644761" src="https://youtube.com/embed/HxVcDxHIfw4" width="960" height="540" frameborder="0" scrolling="no"></iframe>
+  nextTime: 6:40pm Thursday
+  nextDay: January 30, 2020
+  year: 2020
+  month: 01
+  day: 30
+  startHour: 18
+  startTime: 40
+  endDay: 4
+  endHour: 20
+  endMinute: 00
 
-- live: false
-  type: notice
-  icon: money
-  message: 2019 giving statements will be available soon at your campus. If you give online please contact the Vincennes campus to speak with Margie.
-  url: /giving/statements
+- id: sunday
+  no_review: ''
+  active: true
+  sermonnotes: 'Sermon Study Notes - 02/02/2020'
+  msg_body: 'Message info'
+  msg_details: 'Sermon msg details'
+  msg_takeaway: 'Sermon msg takeaway'
+  reviewquestions: 'review questions'
+  video: <iframe id="ls_embed_1458644761" src="https://youtube.com/embed/HxVcDxHIfw4" width="960" height="540" frameborder="0" scrolling="no"></iframe>
+  nextTime: 10:40am Sunday
+  nextDay: February 2, 2020
+  year: 2020
+  month: 02
+  day: 02
+  startHour: 10
+  startminute: 40
+  endDay: 0
+  endHour: 12
+  endMinute: 00
+
+- id: thursday
+  no_review: ''
+  sermonnotes: 'Sermon Study Notes - 01/23/2020'
+  msg_body: 'Message info'
+  msg_details: 'Sermon msg details'
+  msg_takeaway: 'Sermon msg takeaway'
+  reviewquestions: 'review questions'
+  video: <iframe id="ls_embed_1458644761" src="https://youtube.com/embed/HxVcDxHIfw4" width="960" height="540" frameborder="0" scrolling="no"></iframe>
+  nextTime: 6:40pm Thursday
+  nextDay: January 30, 2020
+  year: 2020
+  month: 01
+  day: 06
+  startHour: 18
+  startTime: 40
+  endDay: 4
+  endHour: 20
+  endMinute: 00

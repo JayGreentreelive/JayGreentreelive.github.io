@@ -1,0 +1,23 @@
+/* humanstxt.org */
+
+/* DEVELOPER */
+
+  Jay Greentree
+    ThursdayChurch.org
+    jay@thursdaychurch.org
+    http://greentreeconsulting.cc
+    @JayTheITGuy1983
+
+/* contact */
+  Thursday Church
+    218 Main St
+    Vincennes, IN 47591
+    (812) 882-2737
+
+
+/* SITE */
+
+  Standards: HTML5, CSS3
+  Components: Bootstrap, Jekyll, jQuery, Reveal
+  Software: Sublime Text, Git
+  Hardware: mac mini 2010
