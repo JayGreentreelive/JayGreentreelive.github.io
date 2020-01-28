@@ -1,5 +1,5 @@
-- id: vision-2020
-  title: Vision 20/20
+- id: healthy-hearts
+  title: Healthy Hearts
   speaker: Pastor Debbie Salters
   headline: ''
   description_small: 'Current series'
@@ -12,6 +12,28 @@
   image_medium: /assets/images/watch/series/vision-2020.jpg
   image_large: /assets/images/watch/series/vision-2020.jpg
   image_social: /assets/images/watch/series/vision-2020.jpg
+  messages:
+  - title: Part 1
+    headline: ''
+    video: 
+  - title: 
+    headline: ''
+    video: 
+
+- id: vision-2020
+  title: Vision 20/20
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: ''
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/Healthy-heart-series.png
+  image_medium: /assets/images/watch/series/Healthy-heart-series.png
+  image_large: /assets/images/watch/series/Healthy-heart-series.png
+  image_social: /assets/images/watch/series/Healthy-heart-series.png
   messages:
   - title: Part 1
     headline: ''
