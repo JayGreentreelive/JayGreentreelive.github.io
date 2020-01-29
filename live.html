@@ -3,9 +3,12 @@ layout: default
 permalink: /live/
 ---
 {% assign latest = site.data.live | first %}
-{% for post in site.data.live %}
-
+{% for post in site.data.live limit:1 %}
+{% if live_streaming %}
+<script> var live_streaming = true; var need_countdown = false; </script>
+{% else %}
 <script> var live_streaming = false; var need_countdown = true; </script>
+{% endif %}
 <div class="container mg-t-lg mg-b-lg serif" id="live-page">
 
     <div class="row header-area">
@@ -110,7 +113,11 @@ permalink: /live/
 
                            <!-- Tab panes -->
                              <div class="tab-pane active" id="chat-tab">
+                              {% if post.chat %}
                                {{ post.chat }}
+                              {% else %}
+                              <p>Chat unavailable</p>
+                              {% endif %}
                              </div>
 
                           <div class="tab-pane " id="notes-tab">
@@ -138,7 +145,7 @@ permalink: /live/
             </div>
         </div>
     </div>
-
+{% endfor %}
 
      <div class="row mg-t-md">
         <div class="col-sm-4 text-center mg-b-md">
@@ -170,4 +177,3 @@ Chapel is one church with multiple locations. We'd love to have you join
       </div>
 
 </div>
-{% endfor %}

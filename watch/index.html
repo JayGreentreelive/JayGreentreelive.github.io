@@ -19,7 +19,7 @@ permalink: /watch/
 
 <div style='padding:10px 20px;'>
 	<h3 style='margin-top:0px;padding-top:6px;padding-bottom:0px;'><a href='{{ post.url }}'>{{ series.title }}</a></h3>
-	<p class='text-muted mg-b-sm'>{{ series.date }}</p>
+	<p class='text-muted mg-b-sm'>{{ post.date | date: "%B %-d, %Y" }}</p>
   <p>{{ series.description_small }}</p>
 	<div class=' mg-t-md  mg-b-sm'><a class='btn btn-default btn-left' href='{{ post.url }}'><i class='icon-right-4'></i> View Series</a>
 	</div>
