@@ -29,52 +29,14 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 08:30AM
-    time: 08-30
-    day: sun
-    duration: 60
-    type: lifekids
-  - title: 10:00AM
-    time: 10-00
-    day: sun
-    duration: 60
-    type: lifekids
-  - title: 10:00AM
-    time: 10-00
-    day: sun
-    duration: 60
-    type: service-time
-  - title: 11:30AM
-    time: 11-30
-    day: sun
-    duration: 60
-    type: lifekids
-  - title: 11:30AM
-    time: 11-30
-    day: sun
-    duration: 60
-    type: service-time
-  - title: 01:00PM
-    time: 13-00
-    day: sun
-    duration: 60
-    type: lifekids
-  - title: 01:00PM
-    time: 13-00
-    day: sun
-    duration: 60
-    type: service-time
-  - title: 06:30PM
-    time: 18-30
-    day: wed
-    duration: 120
-    type: switch
   missions: []
-- id: alb
-  title: Albany NY Campus
+
+- id: frc
+  title: French (Creole) Campus
   email: ''
-  address: 560 Sand Creek Rd Albany, NY 12205
-  facebook: '198238577847'
+  address: 218 Main, NY 12205
+  facebook: ''
+  phone: (812) 882 2737
   times:
   - title: 08:30AM
     time: 08-30
