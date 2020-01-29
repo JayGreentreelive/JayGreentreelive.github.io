@@ -4,6 +4,7 @@
   email: ''
   address: 218 Main St. Vincennes, IN 47591
   facebook: ''
+  phone: (812) 882 2737
   times:
   - title: 06:45PM
     time: 18-45
@@ -16,11 +17,12 @@
     duration: 60
     type: service-time
   missions: []
-- id: mor
-  title: Moore OK Campus
+- id: bck
+  title: Bicknell Campus
   email: ''
-  address: 2916 S. Telephone Rd. Moore, OK 73160
-  facebook: '409843575804511'
+  address: 114 South Main Bicknell, IN 47512
+  facebook: ''
+  phone: (812) 502 2124
   times:
   - title: 08:30AM
     time: 08-30
