@@ -14,13 +14,14 @@ layout: default
 
 
  <div class='section section-series' style='background-color: #444444; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;'>
-          {% assign latest = site.data.watch | first %}
+
+  <div class='container pd-t-lg pd-b-lg'>
+    <div class="row center-row-series">
+              {% assign latest = site.data.watch | first %}
 
       {% for post in site.categories.watch limit:1 %}
       {% for series in site.data.watch %}
       {% if series.id == post.series-id %}
-  <div class='container pd-t-lg pd-b-lg'>
-    <div class="row center-row-series">
        <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' id='current-series-graphic'>
           <div class='series-img-holder'>
             <img src='{{ series.image_small }}' alt='Part 4' class='img-responsive'/>
@@ -35,11 +36,11 @@ layout: default
                      </div>
                   </div>
                 </div>
-
-              </div>
 {% endif %}
 {% endfor %}
 {% endfor %}
+              </div>
+
 
 
 
