@@ -41,6 +41,8 @@ layout: default
 {% endfor %}
 {% endfor %}
 
+
+
 <div class='section section-locations' >
   <div class='container pd-t-lg pd-b-lg'>
 
@@ -51,67 +53,11 @@ layout: default
     </div>
 
     <div class='row'>
-
-            <div class="col-xs-12 col-sm-4 col-md-4 ">
-
-            <div class='pd-xs'>
-              <img src='/site/assets/files/1/map1.jpg' class='img-responsive img-full-width'/>
-
-              <h3>Vincennes</h3>
-             <p class='campus-times'>Thursdays: 6:45pm<br /> Sundays: 10:45am</p>
-
-               <ul class="fa-ul">
-                <li><i class="fa-li icon-location-pin-1"></i>
-                                 218 Main St<br/>
-                                 Vincennes, IN 47591</li>
-                <li><i class="fa-li icon-call-2"></i>812.882.2737</li>
-              </ul>
-               <div class=' mg-t-sm2'><a href='#' class='btn btn-default btn-left '><i class='icon-right-4 icon-fw'></i> Campus Info</a></div>
-            </div>
-
-        </div>
-
-         <div class="col-xs-12 col-sm-4 col-md-4">
-             <div class='pd-xs'>
-              <img src='/site/assets/files/1/map2.jpg' class='img-responsive img-full-width'/>
-
-            <h3>Bicknell</h3>
-           <p class='campus-times'>Thursdays: 6:45pm</p>
-
-           <ul class="fa-ul">
-
-                <li><i class="fa-li icon-location-pin-1"></i>114 South Main St</li>
-                <li>Bicknell, IN, 47591</li>
-                <li><i class="fa-li icon-call-2"></i>812.502.2124</li>
-            </ul>
-            <div class='mg-t-sm2'><a href='#' class='btn btn-default btn-left  '><i class='icon-right-4 icon-fw'></i> Campus Info</a></div>
-            </div>
-        </div>
-
-         <div class="col-xs-12 col-sm-4 col-md-4">
-           <div class='pd-xs'>
-            <img src='/site/assets/files/1/map3.jpg' class='img-responsive img-full-width'/>
-
-             <h3>French (Creole)</h3>
-           <p class='campus-times'>Sundays: 12:30pm</p>
-
-             <ul class="fa-ul">
-               <li><i class="fa-li icon-location-pin-1"></i>218 Main St</li>
-                <li>Vincennes, IN 47591</li>
-              <li><i class="fa-li icon-call-2"></i>
-
-              </li>
-            </ul>
-             <div class=' mg-t-sm2'><a href='#' class='btn btn-default btn-left'><i class='icon-right-4 icon-fw'></i> Campus Info</a></div>
-            </div>
-        </div>
-
+        {% for item in site.data.locations %}
+        {% capture type %}Staff{% endcapture %}
+        {% include location-item.html %}
+        {% endfor %}
     </div>
-
-
-
-
-
   </div>
 </div>
 
