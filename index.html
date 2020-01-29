@@ -53,7 +53,7 @@ layout: default
     </div>
 
     <div class='row'>
-        {% for item in site.data.locations %}
+        {% for item in site.data.locations limit:3 %}
         {% capture type %}Staff{% endcapture %}
         {% include location-item.html %}
         {% endfor %}
