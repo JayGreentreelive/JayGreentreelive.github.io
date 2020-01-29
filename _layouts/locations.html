@@ -88,17 +88,17 @@ section: locations
             <ul class="inline-list">
               <li class="calendar-key key-service-time">
                 <figure></figure>
-                <a href="/watch/">LifeChurch.tv Service</a>
+                <a href="/watch/">Recent Sermons</a>
               </li>
 
               <li class="calendar-key key-switch">
                 <figure></figure>
-                <a href="/kids/#switch">Switch Youth Ministries</a>
+                <a href="/ministries/students/">TC Youth</a>
               </li>
 
               <li class="calendar-key key-lifekids">
                 <figure></figure>
-                <a href="/kids/#lifekids">LifeKids / Loop Ministries</a>
+                <a href="/ministries/kids/#lifekids">TC Kids</a>
               </li>
             </ul>
 
@@ -134,7 +134,7 @@ section: locations
                     </li>
 
                     {% for time in location.times %}
-                    {% if time.day == 'sat' %}
+                    {% if time.day == 'thur' %}
                       <li class="time time-{{ time.time }} duration-{{ time.duration }} type-{{ time.type }}">
 
                         <span class="calendar-key key-{{ time.type }} show-for-small">
