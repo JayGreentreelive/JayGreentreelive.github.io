@@ -5588,6 +5588,7 @@ html {
 }
 /* line 4, ../scss/design/_header.scss */
 .logo {
+  display: none;
  // width: 100px;
   height: 100px;
   background-repeat: no-repeat;
