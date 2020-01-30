@@ -32,11 +32,23 @@
   image_large: /assets/images/watch/series/whats-at-the-core.png
   image_social: /assets/images/watch/series/whats-at-the-core.png
   messages:
-  - title: Part 1
+  - title: Serve God & Others
     headline: ''
     video: 
-  - title: 
+  - title: Transformation - A Call to holiness
     headline: ''
+    video: 
+  - title: Renewal - A Call for forgiveness
+    headline:
+    video: 
+  - title: All One Body - (unity)
+    headline:
+    video: 
+  - title: No Judgemental Attitudes
+    headline:
+    video: 
+  - title: Determined to Love
+    headline:
     video: 
 
 - id: healthy-heart
@@ -49,16 +61,22 @@
   quote_cite: 
   open_url: 
   resources_url: 
-  image_small: /assets/images/watch/series/healthy-hearts-series.png
-  image_medium: /assets/images/watch/series/healthy-hearts-series.png
-  image_large: /assets/images/watch/series/healthy-hearts-series.png
-  image_social: /assets/images/watch/series/healthy-hearts-series.png
+  image_small: /assets/images/watch/series/healthy-heart-series.png
+  image_medium: /assets/images/watch/series/healthy-heart-series.png
+  image_large: /assets/images/watch/series/healthy-heart-series.png
+  image_social: /assets/images/watch/series/healthy-heart-series.png
   messages:
-  - title: Part 1
+  - title: Physical Health
     headline: ''
     video: 
-  - title: 
+  - title: Stout Heart
     headline: ''
+    video: 
+  - title: Willing Heart
+    headline: 
+    video: 
+  - title: Believing Heart
+    headline: 
     video: 
 
 - id: vision-2020
@@ -76,18 +94,25 @@
   image_large: /assets/images/watch/series/vision-2020.jpg
   image_social: /assets/images/watch/series/vision-2020.jpg
   messages:
-  - title: Part 1
-    headline: ''
+  - title: Seek
+    headline: 
+    video: 
+  - title: Pray
+    headline: 
+    video: 
+  - title: Love
+    headline: 
+    video: 
+  - title: Live
+    headline: 
     video: 
   - title: 
-    headline: ''
+    headline:
     video: 
   - title: 
-    headline: ''
+    headline:
     video: 
-  - title: 
-    headline: ''
-    video: 
+
 
 - id: little-lies-enormous-effect
   title: Little lies Enormous Effect

@@ -1,6 +1,6 @@
 baseurl: /
 permalink: /:categories/:title/
-#markdown: rdiscount
+markdown: kramdown
 excerpt_separator: ""
 relative_permalinks: false
 prose:
