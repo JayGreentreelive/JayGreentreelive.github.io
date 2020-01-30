@@ -1,18 +1,18 @@
+
            <div class="col-xs-12 col-sm-4 col-md-4 ">
 
             <div class='pd-xs'>
               <img src='{{ item.image_small }}' class='img-responsive img-full-width'/>
 
-              <h3>{{ item.name }}</h3>
+              <h3>{{ location.title }}</h3>
              <p class='campus-times'>{{ item.time }}</p>
 
                <ul class="fa-ul">
                 <li><i class="fa-li icon-location-pin-1"></i>
-                                 {{ item.address_1 }}<br/>
-                                 {{ item.address_2 }}</li>
-                <li><i class="fa-li icon-call-2"></i>{{ item.phone}}</li>
+                                 {{ location.address }}</li>
+                <li><i class="fa-li icon-call-2"></i>{{ location.phone}}</li>
               </ul>
-               <div class=' mg-t-sm2'><a href='#' class='btn btn-default btn-left '><i class='icon-right-4 icon-fw'></i> Campus Info</a></div>
+               <div class=' mg-t-sm2'><a href='http://maps.google.com/?q={{ location.address }}' class='btn btn-default btn-left' ><i class='icon-right-4 icon-fw'></i> Map &amp; Directions</a></div>
             </div>
 
         </div>

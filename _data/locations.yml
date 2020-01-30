@@ -2,7 +2,7 @@
 - id: vin
   title: Vincennes Campus
   email: ''
-  address: 218 Main St. Vincennes, IN 47591
+  address: 218 Main St.<br /> Vincennes, IN 47591
   facebook: ''
   phone: (812) 882 2737
   times:
@@ -20,7 +20,7 @@
 - id: bck
   title: Bicknell Campus
   email: ''
-  address: 114 South Main Bicknell, IN 47512
+  address: 114 South Main St.<br /> Bicknell, IN 47512
   facebook: ''
   phone: (812) 502 2124
   times:
@@ -34,7 +34,7 @@
 - id: frc
   title: French (Creole) Campus
   email: ''
-  address: 218 Main, NY 12205
+  address: 218 Main <br />Vincenes, IN 47591
   facebook: ''
   phone: (812) 882 2737
   times:
