@@ -1,65 +1,59 @@
 - id: youth-group
   title: Youth Group
   location: Vincennes
-  #url: /life-groups/youth-group
   description_small: ''
   description_medium: 'If you’re in 6th grade through high school, we want to invite you to youth group. We meet upstairs on Sundays from 6-7pm. Come enjoy good eats, great company, plenty of laughter, and great discussion! If you need a ride or have questions about our Youth Group, give Andrea a call at (812) 882-2737.'
   website: /life-groups/youth-group
-  image_small: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_medium: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_large: /site/assets/files/1081/14164315519_1600.640x360.jpg
-    
+  image_small: /assets/images/lifegroups/youthgroup.png
+  image_medium: /assets/images/lifegroups/youthgroup.png
+  image_large: /assets/images/lifegroups/youthgroup.png
+
 - id: girls-night-out
   title: Girls Night Out
   location: Vincennes
-  #url: /life-groups/girls-night-out
   description_small: ''
   description_medium: 'Ladies you are invited to join us on the 1st Monday of each month at 6:30 pm. We meet at different restaurants in the community and enjoy each other’s company. Contact Terri Shields at (812) 890-1493 for the location of our next meeting. We would love to see you!'
   website: /life-groups/girls-night-out
-  image_small: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_medium: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_large: /site/assets/files/1081/14164315519_1600.640x360.jpg
+  image_small: /assets/images/lifegroups/girlsnightout.png
+  image_medium: /assets/images/lifegroups/girlsnightout.png
+  image_large: /assets/images/lifegroups/girlsnightout.png
 
 - id: adult-coloring-group
   title: Adult coloring group
   location: Vincennes
-  #url: /life-groups/adult-coloring-group
   description_small: ''
   description_medium: 'Enjoy a familiar pastime with a great group of adults. We meet on Mondays from 6-7 pm (excluding the 1st Monday of the month) in the Prayer Room at Thursday Church (218 Main St.). Supplies are provided! All adults are welcome! Call Renee with any questions at the church office at (812) 882-2737.'
   website: /life-groups/adult-coloring-group
-  image_small: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_medium: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_large: /site/assets/files/1081/14164315519_1600.640x360.jpg
+  image_small: /assets/images/lifegroups/adult-coloring-group.png
+  image_medium: /assets/images/lifegroups/adult-coloring-group.png
+  image_large: /assets/images/lifegroups/adult-coloring-group.png
 
 - id: mens-group
   title: Men's Group
   location: Vincennes
-  #url: /life-groups/mens-group
   description_small: ''
   description_medium: 'Pastor Dave Dunbar sends out a weekly devotion via text message. If you’d like to receive the devotion or for more information about Men’s Group events, contact Pastor Dave at (812) 403-3817.'
   website: /life-groups/mens-group
-  image_small: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_medium: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_large: /site/assets/files/1081/14164315519_1600.640x360.jpg
+  image_small: /assets/images/lifegroups/mens-group.png
+  image_medium: /assets/images/lifegroups/mens-group.png
+  image_large: /assets/images/lifegroups/mens-group.png
 
 - id: coffee-talk
   title: Coffee Talk
   location: Vincennes
-  #url: /life-groups/coffee-talk
   description_small: ''
   description_medium: "Enjoy a great cup of coffee and a devotional with wonderful ladies on Fridays from 10-11 am at Gracie's Restaurant. All ladies are welcome. Contact Angie Warmuth at (812) 887-8426 with any questions."
   website: /life-groups/coffee-talk
-  image_small: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_medium: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_large: /site/assets/files/1081/14164315519_1600.640x360.jpg
+  image_small: /assets/images/lifegroups/coffeetalk.png
+  image_medium: /assets/images/lifegroups/coffeetalk.png
+  image_large: /assets/images/lifegroups/coffeetalk.png
 
 - id: sermon-study-notes
   title: Sermon Study Notes
   location: Vincennes
-  #url: /life-groups/sermon-study-notes
   description_small: ''
   description_medium: 'Every week on Tuesdays from 5:30-6:30 pm, we meet to study and discuss the weekly Sermon Study Notes. The notes can be found in the worship folder. It’s a great time to dig in and learn more about God’s Word and meet some great people. We meet at Gracie’s Restaurant, 711 Main Street. All adults are welcome.'
   website: /life-groups/sermon-study-notes
-  image_small: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_medium: /site/assets/files/1081/14164315519_1600.640x360.jpg
-  image_large: /site/assets/files/1081/14164315519_1600.640x360.jpg
+  image_small: /assets/images/lifegroups/sermon-study-notes.png
+  image_medium: /assets/images/lifegroups/sermon-study-notes.png
+  image_large: /assets/images/lifegroups/sermon-study-notes.png

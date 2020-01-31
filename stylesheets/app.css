@@ -5599,19 +5599,23 @@ html {
 }
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .logo {
+  display: none;
   background-image: url('/images/branding/logo-black.svg?1396972012');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .logo {
+  display: none;
   background-image: url('/images/branding/logo-black.png?1396972012');
 }
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .logo {
+  display: none;
   background-image: url('/images/branding/logo-black.png?1396972012');
 }
 @media only screen and (max-width: 40em) {
   /* line 4, ../scss/design/_header.scss */
   .logo {
+    display: none;
     margin-top: -4px;
   }
 }
@@ -5619,6 +5623,7 @@ html {
 @media only screen and (max-width: 40em) {
   /* line 19, ../scss/design/_header.scss */
   .home .logo {
+    display: none;
     margin: -3px auto 0;
     left: -5px;
   }
@@ -5626,41 +5631,50 @@ html {
 
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .header-light .logo {
+  display: none;
   background-image: url('/images/branding/logo-white-white.svg?1396972012');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .header-light .logo {
+  display: none;
   background-image: url('/images/branding/logo-white-white.png?1396972012');
 }
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .header-light .logo {
+  display: none;
   background-image: url('/images/branding/logo-white-white.png?1396972012');
 }
 
 /* line 5, ../scss/settings/_svgpng.scss */
 .svg .header-red .logo {
+  display: none;
   background-image: url('/images/branding/logo-red-black.svg?1396972012');
 }
 /* line 6, ../scss/settings/_svgpng.scss */
 .no-svg .header-red .logo {
+  display: none;
   background-image: url('/images/branding/logo-red-black.png?1396972012');
 }
 /* line 7, ../scss/settings/_svgpng.scss */
 .no-js .header-red .logo {
+  display: none;
   background-image: url('/images/branding/logo-red-black.png?1396972012');
 }
 
 @media only screen and (max-width: 40em) {
   /* line 5, ../scss/settings/_svgpng.scss */
   .svg .home .logo {
+    display: none;
     background-image: url('/images/branding/logo-red-white.svg?1396972012');
   }
   /* line 6, ../scss/settings/_svgpng.scss */
   .no-svg .home .logo {
+    display: none;
     background-image: url('/images/branding/logo-red-white.png?1396972012');
   }
   /* line 7, ../scss/settings/_svgpng.scss */
   .no-js .home .logo {
+    display: none;
     background-image: url('/images/branding/logo-red-white.png?1396972012');
   }
 }

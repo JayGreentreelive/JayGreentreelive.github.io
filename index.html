@@ -111,7 +111,7 @@ layout: default
     <div class="row">
 <div class="container pd-t-md pd-b-lg">
     <div class="row multi-columns-row ">
-        {% for item in site.data.lifegroups limit:3 %}
+        {% for item in site.data.lifegroups %}
         {% if item.location == "Vincennes" %}
         {% capture type %}LIFE Groups{% endcapture %}
         {% include lifegroup-item.html %}
@@ -122,7 +122,7 @@ layout: default
     <div class='container  pd-b-lg'>
         <div class='row'>
             <div class='col-md-12 text-center pd-b-md'>
-              <a href='' class='btn btn-left btn-default'><i class='icon-right-4'></i> All LIFE Groups</a>
+              <a href='/ministries/life-groups/' class='btn btn-left btn-default'><i class='icon-right-4'></i> All LIFE Groups</a>
             </div>
         </div>
 
