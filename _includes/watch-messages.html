@@ -1,6 +1,7 @@
 <div class='container mg-t-lg mg-b-lg serif' >
         <div class='row '>
           {% for message in series.messages %}
+          {% if message.video %}
           <div class='col-md-7 '>
           <h1></h1>
         </div>
@@ -21,7 +22,7 @@
                 <a href='{{ message.url }}'>
                   <h3>{{ series.title }}: {{ message.title }}</h3>
                 </a>
-                {% if message.video %}
+                
                 {% include video-player.html id=message.video %}
                 {% endif %}
                 <div class='serif-sm'></div>
