@@ -1,0 +1,57 @@
+---
+layout: default
+title: Stories
+permalink: /stories/
+---
+
+           <div class="container  mg-t-lg ">
+                <div class="row ">
+                    <div class="col-md-8 serif">
+
+                             <h2>Why should I share my story?</h2>
+
+We have an incredible opportunity to give a story to people about what God has done in our lives. When you share your story, God can use it to draw people to Jesus.
+
+<h2>What if I don't think I have a story?</h2>
+
+You can't meet Jesus and be the same person you were before. Every person who comes to know Jesus has a story of life change. You could share how you came to know Jesus as your personal savior, or a remarkable experience that points to Jesus working in your life.                    </div>
+                    <div class="col-md-3 col-md-offset-1  sidebar-section ">
+
+                    <div class='sidebar_content'><h3>SHARE YOUR STORY</h3>
+
+<p>We would love to hear your story and encourage you to take some time to share it with us. Writing out your story will help you remember it to share with others in your life.</p>
+
+<p><a class="btn btn-default btn-left" href="/stories/share/">Share Your Story</a></p></div>
+
+                      
+
+                    
+                                    </div>
+                </div>
+            </div>
+
+
+
+
+        <div class="container  mg-b-lg serif ">
+
+            <div class='row'>
+                <div class='col-md-12'>
+                     <hr class='thin-hr' style='margin:40px 0px 40px 0px !important;'>
+                <h2 class='mg-b-md'>Stories</h2>
+                </div>
+            </div>
+
+            <div class="row multi-columns-row">
+            	{% for story in site.data.stories %}
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mg-b-md media_item">
+                 <a href='{{ story.readmore }}'><img src='{{ story.image_small }}' class='img-responsive img-full-width' /></a>
+                                <h4 style='margin-bottom:2px;'>
+                                	<a href='{{ story.readmore }}'>{{ story.title }}</a>
+                                </h4>
+                                <p>{{ story.description_small }}</p>
+                                <a href="{{ story.readmore }}" class="btn btn-primary">{{ story.readmoretext }}</a>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>

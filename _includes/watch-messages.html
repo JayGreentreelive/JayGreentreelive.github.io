@@ -1,13 +1,13 @@
 <div class='container mg-t-lg mg-b-lg serif' >
         <div class='row '>
-          {% for message in series.messages reversed %}
+          {% for message in series.messages %}
           <div class='col-md-7 '>
-          <h1>{{ series.title }}</h1>
-          <p>{{ series.description_medium | newline_to_br }}</p>
+          <h1></h1>
         </div>
-        <div class='col-md-4 col-md-offset-1 series-sidebar'></div>
+        <div class='col-md-4 col-md-offset-1 series-sidebar'>
+        </div>
       </div>
-      <div class='row '>
+      <div class='row ' id="series-{{ series.id }}">
         <div class='col-md-12 '>
           <hr class='mg-t-md mg-b-none'></div>
         </div>
@@ -15,13 +15,15 @@
           <div class='row mg-b-md2 mg-t-md2'>
             <div class='col-sm-4 col-md-3 col-md-offset-1 text-center' >
               <a href='{{ item.url }}'>
-              <img src='' class='img-responsive img-full-width mg-b-md'></a>
-              <a href="javascript:void(0);" data-video-player="{{message.video}}" onclick="ga('send', 'event', 'Watch', 'Play', 'Play Message”');" class='hidden-xs btn btn-left btn-default'><i class='icon-right-4'></i> View Sermon</a></div>
+              <img src='{{ item.image_small }}' class='img-responsive img-full-width mg-b-md'></a>
+              <a href="{{ messgae.notes }}" class='hidden-xs btn btn-left btn-default'><i class='icon-right-4'></i> View Sermon</a></div>
               <div class='col-sm-8  col-md-7 sermon-item-info' >
                 <a href='{{ message.url }}'>
-                  <h3>{{ message.title }}</h3>
-                  
+                  <h3>{{ series.title }}: {{ message.title }}</h3>
                 </a>
+                {% if message.video %}
+                {% include video-player.html id=message.video %}
+                {% endif %}
                 <div class='serif-sm'></div>
                       </div>
                     </div>
@@ -29,15 +31,4 @@
                 </div>
               </div>
             </div>
-
-<div class="series-locator">series-{{ series.id }}</div>
-
-
-{% endfor %} 
-
-
-{% for message in series.messages %}
-
-{% include video-player.html id=message.video %}
-
 {% endfor %}

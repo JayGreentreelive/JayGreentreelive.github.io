@@ -5,6 +5,25 @@
   msg_details: 'Sermon msg details'
   msg_takeaway: 'Sermon msg takeaway'
   reviewquestions: 'review questions'
+  video: <iframe id="ls_embed_1458644761" src="https://youtube.com/embed/HxVcDxHIfw4" width="960" height="540" frameborder="0" scrolling="no"></iframe>
+  nextTime: 6:40pm Thursday
+  nextDay: February 6, 2020
+  year: 2020
+  month: 02
+  day: 06
+  startHour: 18
+  startTime: 40
+  endDay: 4
+  endHour: 20
+  endMinute: 00
+
+- id: thursday
+  no_review: ''
+  sermonnotes: 'Sermon Study Notes - 01/23/2020'
+  msg_body: 'Message info'
+  msg_details: 'Sermon msg details'
+  msg_takeaway: 'Sermon msg takeaway'
+  reviewquestions: 'review questions'
   video: <iframe id="ls_embed_1458644761" src="https://youtube.com/embed/bWjpDzZG4yg" width="960" height="540" frameborder="0" scrolling="no"></iframe>
   nextTime: 6:40pm Thursday
   nextDay: January 30, 2020
@@ -35,23 +54,4 @@
   startminute: 40
   endDay: 0
   endHour: 12
-  endMinute: 00
-
-- id: thursday
-  no_review: ''
-  sermonnotes: 'Sermon Study Notes - 01/23/2020'
-  msg_body: 'Message info'
-  msg_details: 'Sermon msg details'
-  msg_takeaway: 'Sermon msg takeaway'
-  reviewquestions: 'review questions'
-  video: <iframe id="ls_embed_1458644761" src="https://youtube.com/embed/HxVcDxHIfw4" width="960" height="540" frameborder="0" scrolling="no"></iframe>
-  nextTime: 6:40pm Thursday
-  nextDay: January 30, 2020
-  year: 2020
-  month: 01
-  day: 06
-  startHour: 18
-  startTime: 40
-  endDay: 4
-  endHour: 20
   endMinute: 00
