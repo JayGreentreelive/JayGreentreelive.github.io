@@ -3617,3 +3617,6 @@ img.mfp-img {
 
 .white-popup h2 { margin-top: 0px; padding-top: 0px;}
 
+.background-highlight {
+  background-color:{{site.colors.primary}};
+}
