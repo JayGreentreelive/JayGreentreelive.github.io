@@ -1,50 +1,29 @@
-<section class="watch-messages page-section section-last section-light" id="messages">
-  <div class="row">
-    <div class="large-7 columns">
-      <h2 class="underlined">In this series</h2>
+---
+layout: default
+title: Announcements
+---
+<div class='section ' style='background-color:#efefef;'>
 
-      <!-- Get the messages out of the series and list them out -->
-      {% for message in series.messages reversed %}
+<div class='container pd-t-lg pd-b-lg'>
+	<div class='row multi-columns-row'>
+      {% for post in site.categories.announcements %}
+		<div class='col-xs-12 col-sm-6 col-md-4 col-lg-4'>
 
-      <div class="row message">
-        <a href="javascript:void(0);" data-video-player="{{message.video}}" onclick="ga('send', 'event', 'Watch', 'Play', 'Play Message”');">
-        <div class="small-1 medium-3 columns">
-          <h4>
-            <span class="hide-for-small">{% cycle 'Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6' %}</span>
-            <span class="show-for-small">{% cycle '1', '2', '3', '4', '5', '6' %}</span>
-          </h4>
-        </div>
-        <div class="small-8 medium-7 columns medium-text-right">
-          <h6>{{ message.title }}</h6>
-        </div>
-        <div class="small-2 medium-2 columns medium-text-right play-message">
-          <div class="action text-lprimary small"><span class="hide-for-small">Play</span> <i class="icon icon-play"></i></div>
-        </div>
-      </a>
-      </div>
+<div style='background-color:#ffffff;padding-bottom:10px;' class='serif serif-md'>
+<a href='{{ post.url }}'><img src='{{ announcements.image_small }}' class='img-responsive'></a>
 
-      {% endfor %}
+<div style='padding:10px 20px;'>
+	<h3 style='margin-top:0px;padding-top:6px;padding-bottom:0px;'><a href='{{ post.url }}'>{{ announcements.title }}</a></h3>
+	<p class='text-muted mg-b-sm'>{{ post.date | date: "%B %-d, %Y" }}</p>
+  <p>{{ announcements.description_small }}</p>
+	<div class=' mg-t-md  mg-b-sm'><a class='btn btn-default btn-left' href='{{ post.url }}'><i class='icon-right-4'></i> View announcements</a>
+	</div>
 
-    </div>
+</div>
+</div>
+</div>
 
-    <div class="large-4 columns">
-      <h2 class="underlined">Invite</h2>
-
-      <a href="http://twitter.com/home/?status=“Some text goes here that captures the essence of some pretty sweet quotage.” http://lifechurch.tv{{ page.url }}" target="_blank" class="action small text-lprimary"><i class="icon-social-twitter"></i> Invite on Twitter</a>
-
-      <a href="http://www.facebook.com/sharer.php?app_id=567912296616576&amp;sdk=joey&amp;u=http%3A%2F%2Fwww.lifechurch.tv{{ page.url }}%2F" target="_blank" class="action text-lprimary small"><i class="icon-social-facebook"></i> Invite on Facebook</a>
-
-      <a href="https://plus.google.com/share?url=www.lifechurch.tv{{ page.url }}%2F" target="_blank" class="action text-lprimary small"><i class="icon-social-gplus"></i> Invite on Google+</a>
-
-      <!--<a href="#" target="_blank" class="action text-lprimary small"><i class="icon-social-instagram"></i> Invite on Instagram</a>-->
-
-    </div>
-  </div>
-
-</section>
-{% comment %}
-{% for message in series.messages %}
-{% include video-player.html id=message.video %}
 {% endfor %}
-{% endcomment %}}
+</div>
 
+</div>
