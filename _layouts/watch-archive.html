@@ -10,7 +10,7 @@ class: header-red section-watch section-series
 
 <!-- Page Main -->
 <div class="page-main">
-
+{% comment %}
   <div class="page-section section-first">
     <div class="row">
       <div class="medium-6 large-4 columns">
@@ -23,8 +23,9 @@ class: header-red section-watch section-series
       </div>
     </div>
   </div>
-
+{% endcomment %}
   {% include watch-messages.html %}
+}
 </div>
 
 <!--<div class="series-locator">series-{{ series.id }}</div>-->
