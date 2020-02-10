@@ -45,11 +45,10 @@
     <script src="/site/templates/js/plugins/modernizr/modernizr.min.js"></script>
         <script src="/site/templates/js/plugins/jquery/jquery.min.js"></script>
     <!-- start the countdown when the page loads -->
-    <script src="/assets/js/jquery.countdown.min.js"></script>
     <script type="text/javascript">
       $(function () {
         var holiday = new Date();
-        holiday = new Date("2020-02-06 18:40:00 -0500");
+        holiday = new Date("2020-02-13 18:40:00 -0500");
         $('.defaultCountdown').countdown({until: holiday});
         $('#year').text(holiday.getFullYear());
       });
@@ -89,19 +88,6 @@ initSample();
 </head>
 
 <body>
-<div class="countdown-block" id="countdown-block">
-  <div class="countdown-holder pull-left">
-    <div class="defaultCountdown"></div>
-  </div>
-  <div class="next-service-outer pull-left">
-    
-    <div class="next-service" id="next-service">
-    Next service:  {{ site.utc | date: "%A %B %-d, %Y" }}
-    </div>
-  </div>
-  <div class="clearfix"></div>
-</div>
-  
 
     
 <div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }}'>
@@ -120,14 +106,11 @@ initSample();
                   </div>
                 </div>
            </div>
+
   </div>
 
 
-
-
-
   <div id='floating-bar-nav'>
-
 
        <div id='top-quick-menu' class=''>
          <div class='container'>
@@ -212,45 +195,6 @@ initSample();
                 </div>
             </div>
 
-    {% for announcement in site.data.announcement %}
-    {% if announcement.active == true %}
-    {% if page.section != 'announcements' %}
-     <div id='top-bar-live' data-alert class="alert-box {{ announcement.type }}">
-      <div class='container  pd-t-sm pd-b-sm'>
-        <div class='row'>
-          <div class='col-md-12'>
-            {% if announcement.url %}
-            <a class="announcement-link" href="{{ announcement.url }}">{% endif %}
-              <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i>
-              {{ announcement.message }}
-            {% if announcement.url %}</a>{% endif %}
-              </div>
-            </div>
-          </div>
-        </div>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-
-        {% for announcement in site.data.announcement-live %}
-    {% if announcement.active == true %}
-    {% if page.section != 'announcements' %}
-     <div id='top-bar-live'>
-      <div class='container pd-t-sm pd-b-sm'>
-        <div class='row'>
-          <div class='col-md-12'>
-            {% if announcement.url %}
-            <a href="{{ announcement.url }}">{% endif %}
-              {{ announcement.message }}
-            {% if announcement.url %}</a>{% endif %}
-              </div>
-            </div>
-          </div>
-        </div>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-
   </div>
 
 
@@ -262,8 +206,8 @@ initSample();
     <div class='top-cover-gradient-fromtop gradient'></div>
     <div class='top-cover-gradient-frombot gradient '></div>
 
-      
-      <!--div class='container medium-header header-banner no-subtitle'>
+      {% if page.heroimage %}
+      <div class='container medium-header header-banner no-subtitle'>
 
             <div class='row center-row'>
                 <div class='col-lg-12 center-col'>
@@ -273,7 +217,7 @@ initSample();
                          <div class='col-lg-10 col-lg-offset-1'>
                             <h2>{{ page.description }}</h2>
                             <h3>SERVICE TIMES</h3>
-                            <p class='campus-times'>Thursdays 6:45pm | Sundays 10:45am</p>
+                            <p class='campus-times'>{{ page.servicetimes }}</p>
                             <p class='campus-address'></p>
 
                          </div>
@@ -281,15 +225,21 @@ initSample();
 
                 </div>
             </div>
-          </div-->
+          </div>
+          {% endif %}
         </div>
       </div>
 
       <div id='main' role='main'>
-
-
+<div class="announcement-bar">
+<span style="text-align:center; padding-bottom: 10px:">Next service in:</span> 
+<span class="defaultCountdown"></span>
+</div>
+{% if content %}
         {{ content }}
-
+{% else %}
+<p>Page not found</p>
+{% endif %}
 </div>   <!-- end Main -->
 
 <div id="footer-social-bar">
@@ -308,10 +258,10 @@ initSample();
              </div>
              <div class="col-xs-12  col-sm-4 col-md-4 " style="text-align:center;">
                    <div id="social-icons">
-                      <a target="_blank" href="http://thecha.pl/1PfouMf" title="Facebook" class="social-fb"><i class="icon-facebook-square  "></i></a>
-                      <a target="_blank" href="http://thecha.pl/2d2vCF4" title="Twitter" class="social-tw"><i class="icon-twitter"></i></a>
-                      <a target="_blank" href="http://thecha.pl/2dhdG8K" title="Instagram" class="social-in"><i class="icon-instagram "></i></a>
-                      <a target="_blank" href='http://thecha.pl/1PKODFi' title="Youtube" class='social-yt'><i class="icon-youtube"></i></a>
+                      <a target="_blank" href="http://t.co/1PfouMf" title="Facebook" class="social-fb"><i class="icon-facebook-square  "></i></a>
+                      <a target="_blank" href="http://t.co/2d2vCF4" title="Twitter" class="social-tw"><i class="icon-twitter"></i></a>
+                      <a target="_blank" href="http://t.co/2dhdG8K" title="Instagram" class="social-in"><i class="icon-instagram "></i></a>
+                      <a target="_blank" href='http://t.co/1PKODFi' title="Youtube" class='social-yt'><i class="icon-youtube"></i></a>
                    </div>
              </div>
          </div>
