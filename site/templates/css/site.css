@@ -3176,7 +3176,13 @@ span.divider-line
 
 
 /* Begin Church Online countdown */
+    body {
+  background: #ffffff; }
 
+a {
+  color: #490b4d; }
+  a:hover {
+    color: #1f0520; }
 
 .co-tab-notification:before {
   top: 4px;
@@ -3492,6 +3498,16 @@ li.co-private-chat-tab img, li.co-private-chat-tab .co-default-avatar {
 .share h6, .share .co-share .co-share-button {
   color: #ffffff; }
 
+footer.row {
+  padding-top: 10px; }
+
+footer ul li a, footer p {
+  font-size: 12px;
+  color: #686869;
+  text-decoration: none; }
+
+footer ul li a:hover {
+  color: #389fee; }
 
 /* Componet */
 .co-component-content {
@@ -3818,4 +3834,5 @@ input + .co-error {
   .redactor_toolbar :nth-child(14), .redactor_toolbar :nth-child(15) {
     display: none; } }
 
+  
 /* End Church Online countdown */
