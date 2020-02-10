@@ -231,10 +231,35 @@ initSample();
       </div>
 
       <div id='main' role='main'>
-<div class="announcement-bar">
+
+<!--div class="announcement-bar" style="display:none;">
 <span style="text-align:center; padding-bottom: 10px:">Next service in:</span> 
 <span class="defaultCountdown"></span>
+</div -->
+
+<div id="countdown-header" style="">
+  <span class="co-reminder-header-title">Next event</span>
+<div data-behavior="header-countdown-clock" class="co-header-countdown-time"><div class="co-countdown-unit">
+  <span class="co-countdown-digit co-countdown-days">03</span>
+  <span class="co-countdown-digit-label">days</span>
 </div>
+<div class="co-countdown-unit">
+  <span class="co-countdown-digit co-countdown-hours">04</span>
+  <span class="co-countdown-digit-label">hours</span>
+</div>
+<div class="co-countdown-unit">
+  <span class="co-countdown-digit co-countdown-mins">08</span>
+  <span class="co-countdown-digit-label">mins</span>
+</div>
+<div class="co-countdown-unit">
+  <span class="co-countdown-digit co-countdown-secs">08</span>
+  <span class="co-countdown-digit-label">secs</span>
+</div>
+</div>
+<button><i class="co-icon-alarm-clock"></i>Remind me</button>
+<a href="#" class="co-header-countdown-close"><i class="co-icon-times-large"></i></a>
+</div>
+
 {% if content %}
         {{ content }}
 {% else %}
