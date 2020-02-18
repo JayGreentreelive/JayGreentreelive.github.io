@@ -21,7 +21,8 @@ class: home
 
   <div class='container pd-t-lg pd-b-lg'>
     <div class="row center-row-series">
-      {% assign latest = site.data.watch | first %}
+{% assign latest = site.data.watch | first %}
+
       {% for post in site.categories.watch limit:1 %}
       {% for series in site.data.watch %}
       {% if series.id == post.series-id %}
@@ -34,7 +35,7 @@ class: home
 
           <h4>CURRENT SERIES</h4>
           <h3>{{ series.title }}</h3>
-          <a class='btn btn-primary btn-clear btn-left mg-t-sm' href="{{ post.url }}">View Series</a>
+<a class='btn btn-primary btn-clear btn-left mg-t-sm' href="{{ post.url }}">View Series</a>
                      </div>
 {% endif %}
 {% endfor %}

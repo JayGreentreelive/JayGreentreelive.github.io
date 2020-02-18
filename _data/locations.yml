@@ -17,6 +17,7 @@
     duration: 60
     type: service-time
   missions: []
+
 - id: bck
   title: Bicknell Campus
   email: ''
@@ -43,51 +44,6 @@
     day: sun
     duration: 60
     type: service-time
-  - title: 08:30AM
-    time: 08-30
-    day: sun
-    duration: 60
-    type: lifekids
-  - title: 10:00AM
-    time: 10-00
-    day: sun
-    duration: 60
-    type: service-time
-  - title: 10:00AM
-    time: 10-00
-    day: sun
-    duration: 60
-    type: lifekids
-  - title: 11:30AM
-    time: 11-30
-    day: sun
-    duration: 60
-    type: service-time
-  - title: 11:30AM
-    time: 11-30
-    day: sun
-    duration: 60
-    type: lifekids
-  - title: 05:00PM
-    time: 17-00
-    day: sun
-    duration: 60
-    type: lifekids
-  - title: 05:00PM
-    time: 17-00
-    day: sun
-    duration: 60
-    type: service-time
-  - title: 06:30PM
-    time: 18-30
-    day: sun
-    duration: 60
-    type: service-time
-  - title: 06:30PM
-    time: 18-30
-    day: sun
-    duration: 60
-    type: lifekids
   missions:
   - id: 1
     title: Big Brothers Big Sisters
