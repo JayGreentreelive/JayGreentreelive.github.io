@@ -44,15 +44,16 @@
     <!-- Javascript ================================================== -->
     <script src="/site/templates/js/plugins/modernizr/modernizr.min.js"></script>
         <script src="/site/templates/js/plugins/jquery/jquery.min.js"></script>
+        <script src="/site/templates/js/chop.js"></script>
     <!-- start the countdown when the page loads -->
-    <script type="text/javascript">
+    <!--script type="text/javascript">
       $(function () {
         var holiday = new Date();
         holiday = new Date("2020-02-20 18:40:00 -0500");
         $('.defaultCountdown').countdown({until: holiday});
         $('#year').text(holiday.getFullYear());
       });
-    </script>
+    </script-->
     <!-- end of javascript includes  -->
     <script src='/site/templates/js/plugins/fastbutton/google.fastbutton.js'></script>
     <script src='/site/templates/js/plugins/fastbutton/jquery.google.fastbutton.js'></script>
@@ -89,10 +90,27 @@ initSample();
 
 <body>
 
+  
     
 <div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }}'>
 
 <div class='header' id='chapel-header-bar'>
+
+<!-- begin Countdown -->
+   <div class="announcement-bar">
+    <div id="churchonline_counter">
+      <div class="live">Live Now</div>
+
+      <ul class="time">
+        <li><span>Next Service in:</span></li>
+        <li><span class="days btn-live"></span> <span class="label">days</span></li>
+        <li><span class="hours btn-live"></span> <span class="label">hrs</span></li>
+        <li><span class="minutes btn-live"></span> <span class="label">mins</span></li>
+        <li><span class="seconds btn-live"></span> <span class="label">secs</span></li>
+      </ul>
+    </div>
+  </div>
+<!-- End Countdown -->
     <div id='search-area'>
        <div class='container'>
                 <div class='row'>
@@ -132,6 +150,7 @@ initSample();
                     </div>
                </div>
          </div>
+
       </div>
 
 
@@ -232,10 +251,7 @@ initSample();
 
       <div id='main' role='main'>
 
-<div class="announcement-bar">
-<span style="text-align:center; padding-bottom: 10px:">Next service in:</span> 
-<span class="defaultCountdown"></span>
-</div>
+
 
 
 {% if content %}
