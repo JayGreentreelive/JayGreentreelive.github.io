@@ -51,15 +51,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_data/live.yml",
-			"settings":
-			{
-				"buffer_size": 1852,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -94,10 +85,13 @@
 	"expanded_folders":
 	[
 		"/home/jaygreentree/Github/thursdaychurch.org",
+		"/home/jaygreentree/Github/thursdaychurch.org/_layouts",
 		"/home/jaygreentree/Github/thursdaychurch.org/live"
 	],
 	"file_history":
 	[
+		"/home/jaygreentree/Github/thursdaychurch.org/_data/live.yml",
+		"/home/jaygreentree/Github/thursdaychurch.org/_layouts/default.html",
 		"/home/jaygreentree/Github/thursdaychurch.org/live/index.html",
 		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/live.html",
 		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/_data/missions.yml",
@@ -223,13 +217,11 @@
 		"/Users/jaygreentree/Documents/usb drive cleanup/chop/live.html",
 		"/Applications/mampstack/apache2/htdocs/brotherlylove/assets/js/countdown.js",
 		"/Applications/mampstack/apache2/htdocs/wire/config.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/campus.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/includes/head2.inc",
-		"/Applications/mampstack/apache2/htdocs/brotherlylove/assets/css/style.css"
+		"/Applications/mampstack/apache2/htdocs/site/templates/campus.php"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -243,6 +235,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ccv.church",
+			"ccv",
+			"ccv.church",
+			"ccv",
+			"[YOUR Church Online URL]",
 			"phone"
 		],
 		"highlight": true,
@@ -261,39 +258,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_data/live.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1852,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1688,
-								1688
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
