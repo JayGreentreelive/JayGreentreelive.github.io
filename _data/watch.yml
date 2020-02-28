@@ -47,20 +47,52 @@
   messages:
   - title: Seek
     headline: 
-    video: 
-    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-
+    video: n4iqCLsDBDg
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-1.2.20.pdf
   - title: Pray
     headline: 
-    video: 
-    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-
+    video: tRfglif1EHI
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-1.9.2020.pdf
   - title: Love
     headline: 
-    video: 
-    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-
+    video: Z6m5s0WcfDU
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-1.16.2020.pdf
   - title: Live
     headline: 
-    video: 
-    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-
+    video: FfHUorcjQRQ
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-1.23.2020.pdf
+
+- id: good-news
+  title: Good News
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: ''
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/goodnews.png
+  image_medium: /assets/images/watch/series/goodnews.png
+  image_large: /assets/images/watch/series/goodnews.png
+  image_social: /assets/images/watch/series/goodnews.png
+  messages:
+  - title: The Pressure to Perform
+    headline: 
+    video: FSqtgCXxZo4
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-12.1.19.pdf
+  - title: Love
+    headline: 
+    video: BDxmZ3LqfR4
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-12.5.19.pdf
+  - title: Bounty in the Broken
+    headline: 
+    video: xAIv4SHs1CA
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-12.19.19.pdf
+  - title: God's Perfect Plan
+    headline: 
+    video: 5gsf7R2Tz9g
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-12.26.19.pdf
 
 - id: little-lies-enormous-effect
   title: Little lies Enormous Effect
@@ -77,14 +109,20 @@
   image_large: /assets/images/watch/series/little-lies-enormous-effect.png
   image_social: /assets/images/watch/series/little-lies-enormous-effect.png
   messages:
-  - title: Part 1
+  - title: It’s just a little sin
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-
-  - title: Part 2
+    video: V9UQoelSQEc
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-10.31.19.pdf
+  - title: Forgiveness
     headline: ''
+    video: ojMsNdHanOk
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-11.7.19.pdf
+  - title: 
+    headline: 
     video: 
-    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-
+    notes: 
+  - title:
+
 
 - id: love-thy-neighbor-as-yourself
   title: Love Thy Neighbor As Yourself

@@ -31,16 +31,10 @@
     <link rel="stylesheet" href="/site/templates/css/site.css">
     <link rel="stylesheet" href="/site/templates/css/font-awesome/css/font-awesome.css">
            <style>
-          .top-home{ background: #490b4d {% if page.heroimage %}url("{{ page.heroimage }}") no-repeat center center{% endif %}; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
-          .template-home .header-banner h2 { font-size: 3.2em}
-      @media (max-width: 480px) {
-          .template-campus .top-home,.template-home .top-home{ height:433px !important;}
-          .template-campus .header-banner, .template-home .header-banner { height:433px !important;}
-          .template-campus .center-row, .template-home .center-row {margin-top:70px; height: 393px !important;}
-          .header-banner h2{ font-size: 1.65em}
-          .template-home .header-banner h2 { font-size: 1.82em}
-      }
-          </style>
+             .top-home{
+ background: #490b4d url("{{ page.heroimage }}") no-repeat center center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
+.gradient,.gradient:after {filter: none; } 
+           </style>
     <!-- Javascript ================================================== -->
     <script src="/site/templates/js/plugins/modernizr/modernizr.min.js"></script>
         <script src="/site/templates/js/plugins/jquery/jquery.min.js"></script>
@@ -78,14 +72,7 @@
       </script>
     {% endif %}
 
-<!-- form modals end -->
-<script>
-initSample();
-</script>
 
-       <!--[if gte IE 9]>
-        <style type="text/css">.gradient,.gradient:after {filter: none; } </style>
-      <![endif]-->
 </head>
 
 <body>
@@ -93,8 +80,6 @@ initSample();
   
     
 <div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }}'>
-
-<div class='header' id='chapel-header-bar'>
 
 <!-- begin Countdown -->
    <div class="announcement-bar">
@@ -111,6 +96,8 @@ initSample();
     </div>
   </div>
 <!-- End Countdown -->
+<div class='header' id='chapel-header-bar'>
+
     <div id='search-area'>
        <div class='container'>
                 <div class='row'>
@@ -225,7 +212,7 @@ initSample();
     <div class='top-cover-gradient-fromtop gradient'></div>
     <div class='top-cover-gradient-frombot gradient '></div>
 
-      {% if page.heroimage %}
+
       <div class='container medium-header header-banner no-subtitle'>
 
             <div class='row center-row'>
@@ -235,9 +222,9 @@ initSample();
                        <div class='row'>
                          <div class='col-lg-10 col-lg-offset-1'>
                             <h2>{{ page.description }}</h2>
-                            <h3>SERVICE TIMES</h3>
+                            <!--h3>SERVICE TIMES</h3>
                             <p class='campus-times'>{{ page.servicetimes }}</p>
-                            <p class='campus-address'></p>
+                            <p class='campus-address'></p-->
 
                          </div>
                         </div>
@@ -245,7 +232,7 @@ initSample();
                 </div>
             </div>
           </div>
-          {% endif %}
+
         </div>
       </div>
 
@@ -479,6 +466,8 @@ not be included in the outgoing email as part of your prayer request.</small></p
 
 </div>
 
-
+<script>
+initSample();
+</script>
   </body>
 </html>

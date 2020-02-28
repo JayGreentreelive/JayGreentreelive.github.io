@@ -3207,3 +3207,7 @@ span.divider-line
     display: none;
     font-weight: bold;
 }
+
+.series-locator {
+  display: none;
+}
