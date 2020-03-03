@@ -58,7 +58,9 @@
     <script src='/site/templates/js/main.js'></script>
     <script src='/site/templates/js/popup.js'></script>
     <script src='/site/templates/js/share.js'></script>
-    <script src="/site/templates/js/live.js"></script>
+    <script src="/site/templates/js/live.js">
+      {% include livejs.html %}
+    </script>
     <script src='/site/templates/css/ckeditor/ckeditor.js'></script>
     <script src='/site/templates/css/ckeditor/samples/js/sample.js'></script>
     {% if site.google_analytics %}
