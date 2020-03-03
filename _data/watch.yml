@@ -1,3 +1,35 @@
+- id: whats-at-the-core
+  title: Whats At The Core
+  speaker: Pastor Debbie Salters
+  headline: ''
+  description_small: ''
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/Whats-At-The-Core.png
+  image_medium: /assets/images/watch/series/Whats-At-The-Core.png
+  image_large: /assets/images/watch/series/Whats-At-The-Core.png
+  image_social: /assets/images/watch/series/Whats-At-The-Core.png
+  messages:
+  - title: Serve God and Others
+    headline: ''
+    video: 671ilM0gBho
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-2.27.2020.pdf
+  - title: 
+    headline: ''
+    video: 
+    notes: /assets/pdf/sermonnotes/
+  - title: 
+    headline: 
+    video: 
+    notes: /assets/pdf/sermonnotes/
+  - title: 
+    headline: 
+    video: 
+    notes: /assets/pdf/sermonnotes/
+
 - id: healthy-heart
   title: Healthy Heart
   speaker: Pastor Debbie Salters
@@ -117,12 +149,14 @@
     headline: ''
     video: ojMsNdHanOk
     notes: /assets/pdf/sermonnotes/Study-Notes-TCV-11.7.19.pdf
-  - title: 
+  - title: I am not enough
     headline: 
-    video: 
-    notes: 
-  - title:
-
+    video: oOZXXPvNv-E
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-11.14.19.pdf
+  - title: I Have Nothing to be Thankful for
+    headline:
+    video: mvuz4JlDdM8
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-11.21.19.pdf
 
 - id: love-thy-neighbor-as-yourself
   title: Love Thy Neighbor As Yourself
@@ -140,35 +174,20 @@
   messages:
   - title: Part 1
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-
+    video: LdJjwz1Ixw4
+    notes: /assets/pdf/sermonnotes/Study-NotesTCV-10.3.19.pdf
   - title: Part 2
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-
-
-- id: the-war-within
-  title: The War Within
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/the-war-within.png
-  image_medium: /assets/images/watch/series/the-war-within.png
-  image_large: /assets/images/watch/series/the-war-within.png
-  image_social: /assets/images/watch/series/the-war-within.png
-  messages:
-  - title: Part 1
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-
-  - title: Part 2
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-
+    video: ydVZBkWlor4
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-10.10.19.pdf
+  - title: Part 3
+    headline: 
+    video: -ytsdMYb-Kg
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-10.17.19.pdf
+  - title: Part 4
+    headline: 
+    video: edJGp5eG2NM
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-10.24.19.pdf
 
 - id: dual-citizenship
   title: Dual Citizenship
@@ -184,14 +203,45 @@
   image_large: /assets/images/watch/series/dual-citizenship.jpg
   image_social: /assets/images/watch/series/dual-citizenship.jpg
   messages:
-  - title: Part 1
+  - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: Part 2
+    video: S4yKI7gvH3M
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-9.29.19.pdf
+
+- id: the-war-within
+  title: The War Within
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/the-war-within.png
+  image_medium: /assets/images/watch/series/the-war-within.png
+  image_large: /assets/images/watch/series/the-war-within.png
+  image_social: /assets/images/watch/series/the-war-within.png
+  messages:
+  - title: Taking Every Thought Captive
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: Cma3p0ueI8U
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-8.22.19.pdf
+  - title: The Heart Who's in Charge Here
+    headline: ''
+    video: j-Yp2e1NG5A
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-8.29.19.pdf
+  - title: War of the tongue
+    headline: 
+    video: 1tdEbPSS95Y
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-9.5.19.pdf
+  - title: War of Addiction 
+    headline: 
+    video: OBM8kqbnGDA
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-9.12.19.pdf
+  - title: War of the Hand
+    headline: 
+    video: cIRU0Jj1fhU
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-9.19.19.pdf
 
 - id: whats-for-dinner
   title: Whats for Dinner
@@ -207,14 +257,10 @@
   image_large: /assets/images/watch/series/whats-for-dinner.png
   image_social: /assets/images/watch/series/whats-for-dinner.png
   messages:
-  - title: Part 1
+  - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: Part 2
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: sMdb1DAYmeo
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-8.18.19.pdf
 
 - id: travis-roberta-sanders
   title: Travis & Roberta Sanders
@@ -232,12 +278,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: lKcJ9tGL6gU
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-8.15.19.pdf
 
 - id: dead-man-walking
   title: Dead Man Walking
@@ -255,12 +297,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: eIC-_EZfdLE
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-8.8.19.pdf 
 
 - id: sermon-in-a-song
   title: Sermon in a Song
@@ -276,14 +314,22 @@
   image_large: /assets/images/watch/series/sermon-in-a-song.png
   image_social: /assets/images/watch/series/sermon-in-a-song.png
   messages:
-  - title: 
+  - title: Ah ha ha ha Staying Alive
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
+    video: an_ZrsQ8JRA
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-7.11.19.pdf
+  - title: Raise a Hallelujah
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: gcJcUA6PaDQ
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-7.25.19.pdf
+  - title: You Say
+    headline: ''
+    video: bakpB05WIjY
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-7.25.19.pdf
+  - title: Dry Bones (Come Alive)
+    headline: ''
+    video: lm10bK6UymY
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-8.1.19.pdf
 
 - id: do-all-roads-lead-to-one-god
   title: Do all roads lead to one God
@@ -301,12 +347,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: 5XXdymhnx3Q
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-7.7.19.pdf
 
 - id: is-jesus-about-to-return
   title: Is Jesus about to return
@@ -324,12 +366,27 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: KhQJjx7hgYs
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-6.20.19.pdf
+
+- id: the-influence-of-man
+  title: The Influence of Man
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/The-Influence-of-Man.png
+  image_medium: /assets/images/watch/series/The-Influence-of-Man.png
+  image_large: /assets/images/watch/series/The-Influence-of-Man.png
+  image_social: /assets/images/watch/series/The-Influence-of-Man.png
+  messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: HmAEuxmPOzU
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-6.16.19.pdf
 
 - id: speaking-without-thinking
   title: Speaking without thinking
@@ -347,12 +404,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: 43JA7KTbzj0
+    notes: 
 
 - id: are-you-living-or-simply-existing
   title: Are you living or simply existing?
@@ -370,12 +423,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: IkBqjMTshY0
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-6.2.19.pdf
 
 - id: the-wizard-of-oz
   title: The Wizard of Oz
@@ -391,14 +440,18 @@
   image_large: /assets/images/watch/series/the-wizard-of-oz.png
   image_social: /assets/images/watch/series/the-wizard-of-oz.png
   messages:
-  - title: 
+  - title: Follow The Yellow Brick Road
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
+    video: iasyz9POyzw
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-5.9.19.pdf
+  - title: This Way or That Way
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: AkqRw17G3IQ
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-5.16.19.pdf
+  - title: Theres No Place Like Home
+    headline: ''
+    video: h6bnZ2I8feY
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-5.23.19.pdf
 
 - id: division-or-vision
   title: Division or vision
@@ -416,12 +469,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: 7qbr3Dp_TQs
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-5.2.19.pdf
 
 - id: the-week-after-the-week-after-that-and-all-of-the-weeks-to-come
   title: The week after, the week after that, and all of the weeks to come
@@ -439,12 +488,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: n2JyBZ3NuN4
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-4.25.19.pdf
 
 - id: the-tomb-is-empty-so-our-lives-can-be-full
   title: The tomb is empty so our lives can be full
@@ -462,12 +507,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: tw84_shlAPw
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-4.21.19.pdf
 
 - id: serving-with-love
   title: Serving with love
@@ -485,12 +526,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: PfKCAwKaDhM
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-4.18.19.pdf
 
 - id: where-the-weary-find-rest
   title: Where the weary find rest
@@ -508,12 +545,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: IICob-OIrhY
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-4.11.19.pdf
 
 - id: march-madness
   title: March Madness
@@ -529,14 +562,18 @@
   image_large: /assets/images/watch/series/march-madness.png
   image_social: /assets/images/watch/series/march-madness.png
   messages:
-  - title: 
+  - title: Winning Teams Need Unity
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
+    video: QvqCZG2YBJI
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-3.21.19.pdf
+  - title: Training with Purpose
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: igjr7tEeoho
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-3.28.19.pdf
+  - title: Am I Coachable
+    headline: ''
+    video: e3EY2N9kXL4
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-3.7.19.pdf
 
 - id: we-cant-get-to-heaven-on-our-own
   title: We can't get to Heaven on our own
@@ -554,12 +591,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: JPINLlfFD1w
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-3.14.19.pdf
 
 - id: messengers-of-hope
   title: Messengers of Hope
@@ -577,12 +610,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: TEJ90xWXL1A
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-3.7.19.pdf
 
 - id: where-seldom-is-heard-a-discouraging-word
   title: Where seldom is heard a discouraging word
@@ -600,12 +629,8 @@
   messages:
   - title: 
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: Jmw2jEZBDH4
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-2.28.19.pdf
 
 - id: friends
   title: friends
@@ -621,14 +646,22 @@
   image_large: /assets/images/watch/series/friends.jpg
   image_social: /assets/images/watch/series/friends.jpg
   messages:
-  - title: 
+  - title: You’ve Got a Friend in Me
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
+    video: 9KSWO_4DNeU
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-1.31.19.pdf
+  - title: Honoring God with Our Relationships
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
+    video: EIf4QxrlP74
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-2.7.19.pdf
+  - title: YouFirst
+    headline: ''
+    video: UhtrFWw9EN4
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-2.14.19.pdf
+  - title: Embracing Being Different
+    headline: ''
+    video: clrO2M54vJM
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-2.21.19.pdf
 
 - id: having-vision-matters
   title: Having vision matters
@@ -644,322 +677,19 @@
   image_large: /assets/images/watch/series/having-vision-matters.png
   image_social: /assets/images/watch/series/having-vision-matters.png
   messages:
-  - title: 
+  - title: Building On A Firm Foundation
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
+    video: 6gSzkDEkwIM
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-1.3.19.pdf
+  - title: It’s Personal!
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-
-- id: joy-in-christ
-  title: Joy in Christ
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/joy-in-christ.jpg
-  image_medium: /assets/images/watch/series/joy-in-christ.jpg
-  image_large: /assets/images/watch/series/joy-in-christ.jpg
-  image_social: /assets/images/watch/series/joy-in-christ.jpg
-  messages:
-  - title: 
+    video: bWvEVgzTStQ
+    notes: 
+  - title: Seize the Day
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
+    video: 1ILGWZ1xiu8
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-1.17.19.pdf
+  - title: Vision Casting
     headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-
-- id: living-in-the-in-between
-  title: Living in the in-between
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/living-in-the-in-between.jpg
-  image_medium: /assets/images/watch/series/living-in-the-in-between.jpg
-  image_large: /assets/images/watch/series/living-in-the-in-between.jpg
-  image_social: /assets/images/watch/series/living-in-the-in-between.jpg
-  messages:
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-
-- id: play-by-the-rules
-  title: Play by the rules
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/play-by-the-rules.jpg
-  image_medium: /assets/images/watch/series/play-by-the-rules.jpg
-  image_large: /assets/images/watch/series/play-by-the-rules.jpg
-  image_social: /assets/images/watch/series/play-by-the-rules.jpg
-  messages:
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-
-- id: we-have-to-put-our-hands-in-the-dirt
-  title: We have to put our hands in the dirt
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
-  image_medium: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
-  image_large: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
-  image_social: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
-  messages:
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-
-- id: waste-not-want-not
-  title: Waste not want not
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/waste-not-want-not.jpg
-  image_medium: /assets/images/watch/series/waste-not-want-not.jpg
-  image_large: /assets/images/watch/series/waste-not-want-not.jpg
-  image_social: /assets/images/watch/series/waste-not-want-not.jpg
-  messages:
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-
-- id: our-thoughts-are-powerful
-  title: Our thoughts are powerful
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/our-thoughts-are-powerful.jpg
-  image_medium: /assets/images/watch/series/our-thoughts-are-powerful.jpg
-  image_large: /assets/images/watch/series/our-thoughts-are-powerful.jpg
-  image_social: /assets/images/watch/series/our-thoughts-are-powerful.jpg
-  messages:
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-
-- id: again-i-say-amen
-  title: Again I say amen
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/again-i-say-amen.jpg
-  image_medium: /assets/images/watch/series/again-i-say-amen.jpg
-  image_large: /assets/images/watch/series/again-i-say-amen.jpg
-  image_social: /assets/images/watch/series/again-i-say-amen.jpg
-  messages:
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-
-- id: toward-the-amazing
-  title: Toward-the-amazing
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/toward-the-amazing.jpg
-  image_medium: /assets/images/watch/series/toward-the-amazing.jpg
-  image_large: /assets/images/watch/series/toward-the-amazing.jpg
-  image_social: /assets/images/watch/series/toward-the-amazing.jpg
-  messages:
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-
-- id: where-you-go-i-go
-  title: Where you go I go
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/where-you-go-i-go.jpg
-  image_medium: /assets/images/watch/series/where-you-go-i-go.jpg
-  image_large: /assets/images/watch/series/where-you-go-i-go.jpg
-  image_social: /assets/images/watch/series/where-you-go-i-go.jpg
-  messages:
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-
-- id: god-intervenes-when-the-church-prays
-  title: God intervenes when the Church prays
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
-  image_medium: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
-  image_large: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
-  image_social: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
-  messages:
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-  - title: 
-    headline: ''
-    video: 
-    notes: /assets/pdf/sermonnotes/
-
-- id: jesus-is-that-friend-that-floods-our-soul-with-joy
-  title: Jesus is that friend that floods our soul with joy
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
-  image_medium: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
-  image_large: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
-  image_social: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
-  messages:
-  - title: 
-    headline: ''
-    video: R6YB-id4KYk
-    notes: /assets/pdf/sermonnotes/
-
-- id: friend-day-is-coming-are-you-ready
-  title: Friend day is coming are you ready
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
-  image_medium: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
-  image_large: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
-  image_social: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
-  messages:
-  - title: 
-    headline: ''
-    video: NHXxi_dbs7o
-    notes: /assets/pdf/sermonnotes/
-
-- id: baptism-is-a-commission-to-a-lifelong-vacation
-  title: Baptism is a commission to a lifelong vacation
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
-  image_medium: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
-  image_large: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
-  image_social: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
-  messages:
-  - title: 
-    headline: ''
-    video: 8OTdOZOGVhI
-    notes: /assets/pdf/sermonnotes/
-
-
-- id: a-new-thing
-  title: A new thing
-  headline: ''
-  description_small: 
-  description_medium: 
-  quote: 
-  quote_cite: 
-  open_url: 
-  resources_url: 
-  image_small: /assets/images/watch/series/a-new-thing.jpg
-  image_medium: /assets/images/watch/series/a-new-thing.jpg
-  image_large: /assets/images/watch/series/a-new-thing.jpg
-  image_social: /assets/images/watch/series/a-new-thing.jpg
-  messages:
-  - title: Cleaning the Stain of Sin
-    headline: ''
-    video: 2MN2F72lb6Q
-    notes: /assets/pdf/sermonnotes/
-  - title: Not of, But Above - The Mud
-    headline: ''
-    video: ezsPqRg-Dpc
-    notes: /assets/pdf/sermonnotes/
+    video: G_setYY2MFQ
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-1.24.19.pdf

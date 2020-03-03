@@ -17,10 +17,12 @@
             <div class='col-sm-4 col-md-3 col-md-offset-1 text-center' >
               <a href='{{ item.url }}'>
               <img src='{{ item.image_small }}' class='img-responsive img-full-width mg-b-md'></a>
-              <a href="{{ message.notes }}" target="_blank" class='hidden-xs btn btn-left btn-default'><i class='icon-right-4'></i> View Sermon</a></div>
+              {% if message.notes %}
+              <a href="{{ message.notes }}" target="_blank" class='hidden-xs btn btn-left btn-default'><i class='icon-right-4'></i> Sermon Notes</a></div>
+              {% endif %}
               <div class='col-sm-8  col-md-7 sermon-item-info' >
                 <a href='{{ message.url }}'>
-                  <h3>{{ series.title }}: {{ message.title }}</h3>
+                  <h3>{{ series.title }} {% if message.title %}: {{ message.title }}{% endif %}</h3>
                 </a>
                 
                 {% include video-player.html id=messages.video %}
