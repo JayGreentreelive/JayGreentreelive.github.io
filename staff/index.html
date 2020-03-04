@@ -30,7 +30,9 @@ title: Staff
                 {% if item.email %}
                 <p><strong><a href='mailto:{{ item.email }}'>Email </a></strong></p>
                 {% endif %}
-                                <p>Office: </p>
+                {% if item.phone %}
+                <p><strong>Phone: {{ item.phone }}</strong></p>
+                {% endif %}
                 </div>
                             </div>
         </div>
