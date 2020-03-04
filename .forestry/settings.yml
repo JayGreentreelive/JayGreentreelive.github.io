@@ -4,12 +4,23 @@ auto_deploy: false
 admin_path: dashboard
 webhook_url: 
 sections:
+- type: heading
+  label: Headings
 - type: jekyll-pages
   label: Pages
   create: all
 - type: jekyll-posts
   label: Posts
   create: all
+- type: document
+  path: assets
+  label: Documents
+  match: "**/*"
+- type: directory
+  path: ''
+  label: Directories
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
