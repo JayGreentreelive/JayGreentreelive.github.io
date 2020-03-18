@@ -52,11 +52,9 @@
 	"buffers":
 	[
 		{
-			"file": "_includes/livejs.html",
 			"settings":
 			{
-				"buffer_size": 47509,
-				"encoding": "UTF-8",
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -72,6 +70,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
 		],
 		"width": 0.0
 	},
@@ -93,10 +95,11 @@
 	},
 	"expanded_folders":
 	[
-		"/home/jaygreentree/Github/jaygreentree.github.io"
+		"/home/jay/Documents/github/jaygreentree.github.io"
 	],
 	"file_history":
 	[
+		"/home/jay/Documents/github/jaygreentree.github.io/_includes/livejs.html",
 		"/home/jaygreentree/Github/jaygreentree.github.io/_data/announcement.yml",
 		"/home/jaygreentree/Github/jaygreentree.github.io/staff/index.html",
 		"/home/jaygreentree/Github/jaygreentree.github.io/_includes/livejs.html",
@@ -223,8 +226,7 @@
 		"/Applications/mampstack/apache2/htdocs/site/templates/posts.php",
 		"/Applications/mampstack/apache2/htdocs/site/templates/search.php",
 		"/Applications/mampstack/apache2/htdocs/site/templates/series.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/serve-application.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/media-speaker.php"
+		"/Applications/mampstack/apache2/htdocs/site/templates/serve-application.php"
 	],
 	"find":
 	{
@@ -275,11 +277,10 @@
 			[
 				{
 					"buffer": 0,
-					"file": "_includes/livejs.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 47509,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -292,9 +293,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -383,7 +382,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 487.0,
+	"side_bar_width": 214.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
