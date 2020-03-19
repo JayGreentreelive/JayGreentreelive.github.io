@@ -1,7 +1,5 @@
 - active: true
   type: notice
   icon: money
-  message: >-
-    2019 giving statements will be available soon at your campus. If you give
-    online please contact the Vincennes campus to speak with Margie.
-  url: /giving/statements
+  message: Worship services will be online only until further notice. <a href="">Covid-19 (Coronavirus) Update & Service Announcement</>
+  url: /news/covid-19
