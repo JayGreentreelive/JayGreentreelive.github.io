@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /live/
+section: live
 ---
 {% for post in site.data.live limit:1 %}
 {% if live_streaming %}
@@ -53,11 +54,11 @@ permalink: /live/
               <a href="javascript:void(0)" target="_blank" class="btn btn-left btn-sm-xs btn-default mg-r-sm"><i class="icon-right-2"></i> Connect</a>
               </div>
 
-{% if post.reviewquestion %}
+{% if post.reviewquestions %}
               <div id="review-content" class="hide mg-b-lg">
                   <div id="message-id" class="hide">31003</div>
                   <div class="mg-b-sm"><h4>Review Questions</h4></div>
-                  {{ post.reviewquestion }}
+                  {{ post.reviewquestions }}
               </div>
 {% endif %}
 
@@ -98,6 +99,7 @@ permalink: /live/
                             <textarea name="editor1" rows="25">
                               {{ post.sermonnotes }}
                             </textarea>
+                            <a href="#notes-Modal">Email Study Notes</a>
                           </div>
 
                           <div class="tab-pane" id="response-tab">

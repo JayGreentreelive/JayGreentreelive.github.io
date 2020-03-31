@@ -1,8 +1,8 @@
 - id: thursday
   title: Whats At The Core
-  subtitle: Serve God and others
+  subtitle: Renewal
   partnum: 3
-  date: 02/20/2020
+  date: 03/26/2020
   speaker: Debbie Salters
   chat: 
   servicetimes: 
@@ -13,12 +13,12 @@
   msg_details: 'Sermon msg details'
   msg_takeaway: 'Sermon msg takeaway'
   reviewquestion: 'review questions'
-  video: HxVcDxHIfw4
-  nextTime: 10:40am Sunday
-  nextDay: March 6, 2020
+  video: 
+  nextTime: 06:40am Thursday
+  nextDay: March 26, 2020
   year: "2020"
   month: "03"
-  day: "06"
+  day: "26"
   startHour: "18"
   startTime: "40"
   endDay: "0"

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"announcm",
+				"announcement-bar"
+			],
+			[
 				"di",
 				"display\tproperty"
 			],
@@ -52,10 +56,21 @@
 	"buffers":
 	[
 		{
+			"file": "_layouts/default2.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 23477,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 17377,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -99,7 +114,92 @@
 	],
 	"file_history":
 	[
+		"/home/jay/Documents/Thursday-Church-homepage/theme-defaults/js",
+		"/home/jay/Documents/github/jaygreentree.github.io/assets/css/jquery.countdown.css",
+		"/home/jay/Documents/github/jaygreentree.github.io/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/_data/watch.yml",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/processwire/site/config.php",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/processwire/README.md",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/processwire/site/templates/includes/functions.inc",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/processwire/site/assets/logs/messages.txt",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/processwire/site/templates/includes/head.inc",
+		"/home/jay/rubystack-2.5.7-5/apache2/conf/bitnami/bitnami.conf",
+		"/home/jay/rubystack-2.5.7-5/apps/processwire/htdocs/wire/modules/Jquery/JqueryMagnific/JqueryMagnific.js",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/CodeIgniter4/admin/setup.sh",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/CodeIgniter4/app/Controllers/Live.php",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/CodeIgniter4/admin/starter/app/Config/Paths.php",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/thursdaychurch.github.io/_data/showcases.yml",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/thursdaychurch.github.io/_data/modules.yml",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/thursdaychurch.github.io/_data/contributors.yml",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/thursdaychurch.github.io/_data/categories.yml",
+		"/media/jay/User folders./Users/thurs/source/repos/wjayradio/wjayradio/wjayradio.csproj",
+		"/media/jay/User folders./Users/thurs/source/repos/wjayradio/wjayradio/wjayradio.csproj.user",
+		"/media/jay/User folders./Thursday Church/website/f0-9f-c2-44-69-4c.json",
+		"/home/jay/.cache/.fr-rDCZgF/backup-10.26.2018_21-31-17_graciesrestauran/homedir/new/Gemfile",
+		"/home/jay/.cache/.fr-fBlMFF/backup-10.26.2018_21-31-17_graciesrestauran/homedir/new/_config.yml",
+		"/home/jay/.cache/.fr-LExfeB/backup-10.26.2018_21-31-17_graciesrestauran/homedir/new/blog/_post/_2014-12-19-first-things-first-1.markdown",
+		"/home/jay/.cache/.fr-gBeRCD/backup-10.26.2018_21-31-17_graciesrestauran/homedir/new/_includes/footer.html",
+		"/home/jay/.cache/.fr-XdZBaF/backup-10.26.2018_21-31-17_graciesrestauran/homedir/new/_includes/head.html",
+		"/home/jay/.cache/.fr-2gt3SB/backup-10.26.2018_21-31-17_graciesrestauran/homedir/new/_includes/nav.html",
+		"/home/jay/.cache/.fr-gYx70E/backup-10.26.2018_21-31-17_graciesrestauran/homedir/new/_includes/nav.html",
+		"/home/jay/.cache/.fr-0zlLnB/backup-10.26.2018_21-31-17_graciesrestauran/homedir/new/_layouts/post.html",
+		"/home/jay/.cache/.fr-cfLmIF/backup-10.26.2018_21-31-17_graciesrestauran/homedir/new/_layouts/page.html",
+		"/home/jay/.cache/.fr-lR6JyF/backup-10.26.2018_21-31-17_graciesrestauran/homedir/new/_layouts/default.html",
+		"/home/jay/.cache/.fr-M66iiD/backup-10.26.2018_21-31-17_graciesrestauran/mysql/graciesr_igni295.create",
+		"/home/jay/.cache/.fr-NuJzpD/backup-10.26.2018_21-31-17_graciesrestauran/homedir/public_html/application/views/welcome_message.php",
+		"/home/jay/.cache/.fr-BJjRvE/backup-10.26.2018_21-31-17_graciesrestauran/homedir/public_html/application/controllers/Menu.php",
+		"/home/jay/.cache/.fr-KWVk3L/backup-10.26.2018_07-55-46_thursdaychurch/homedir/public_html/application/views/template/header.php",
+		"/home/jay/.cache/.fr-JXqotL/backup-10.26.2018_07-55-46_thursdaychurch/homedir/public_html/application/views/template/home_slider.php",
+		"/home/jay/.cache/.fr-dryNHM/backup-10.26.2018_07-55-46_thursdaychurch/homedir/public_html/application/controllers/Series.php",
+		"/home/jay/.cache/.fr-lXfTnJ/backup-10.26.2018_07-55-46_thursdaychurch/homedir/public_html/application/controllers/Ministries.php",
+		"/media/jay/CHAPEL/The Chapel/Messages   The Chapel.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/giving/index.html",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/ExpressionEngine5.0.2/system/ee/EllisLab/ExpressionEngine/app.setup.php",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/sitatious/db.php",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/churchcrm/Include/Functions.php",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/churchcrm/Include/LoadConfigs.php",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/churchcrm/Include/Config.php.example",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/churchcrm/Include/Config.php",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/churchcrm/setup/index.php",
+		"/home/jay/rubystack-2.5.7-5/php/etc/php.ini",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/CMSPro/docs/index.php",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/CMSPro/init.php",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/CMSPro/contact_form.php",
+		"/media/jay/Server Stuff/MAMP/Sites/sermons-master/config/database.php",
+		"/media/jay/Server Stuff/MAMP/Sites/sermons/README.md",
+		"/media/jay/Server Stuff/MAMP/Sites/sermons/public/index.php",
+		"/media/jay/Server Stuff/MAMP/Sites/lifechurch/please",
+		"/media/jay/Server Stuff/MAMP/Sites/GreentreeConsulting/install.php",
+		"/media/jay/Server Stuff/MAMP/Sites/GreentreeConsulting/config/database.php",
+		"/home/jay/Documents/github/jaygreentree.github.io/_data/announcement.yml",
+		"/media/jay/Server Stuff/MAMP/Sites/GreentreeConsulting/index.php",
+		"/home/jay/Documents/github/jaygreentree.github.io/_data/live.yml",
+		"/home/jay/Documents/github/jaygreentree.github.io/about.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/_layouts/default.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/announcements/_posts/2020-01-16-live.md",
+		"/media/jay/TCMediaJay/lifechurch-site-gh-pages/railsapp/_layouts/default.html",
+		"/media/jay/TCMediaJay/lifechurch-site-gh-pages/railsapp/_layouts/announcement.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/_config.yml",
+		"/home/jay/Documents/github/runninginproduction.com/_config.yml",
+		"/media/jay/Server Stuff/srv/dev/wwwtcweb/Default.aspx",
+		"/media/jay/Server Stuff/srv/dev/wwwroot-gcweb/About.aspx",
+		"/media/jay/Server Stuff/Windows Backups/11-16-2019/MyBackup_full_b1_s1_v1.tib",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/Newpointe/Globule-Radio/archive.php",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/cms/config/database.php",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/cms/public/assets/vendor/jquery/jquery.min.js",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/cms/public/themes/public/views/home.blade.php",
+		"/home/jay/Documents/github/jaygreentree.github.io/live/index.html",
+		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/cms/public/index.php",
+		"/media/jay/TCMediaJay/Sites/cwp/site/templates/includes/form-modals.inc",
+		"/media/jay/TCMediaJay/lifechurch-site-gh-pages/railsapp/pages/kids.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/_includes/form-modals.html",
 		"/home/jay/Documents/github/jaygreentree.github.io/_includes/livejs.html",
+		"/media/jay/JayGreentre/church-website-processwire-master/church-website-processwire-master/site/templates/includes/functions.inc",
+		"/home/jay/rubystack-2.5.7-5/projects/sample/README.md",
+		"/home/jay/Documents/github/jaygreentree.github.io/news/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/news/_posts/2020-03-18-covid-19.md",
+		"/home/jay/Documents/github/jaygreentree.github.io/news/_posts/2019-04-20-welcome.md",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/news/index.html",
 		"/home/jaygreentree/Github/jaygreentree.github.io/_data/announcement.yml",
 		"/home/jaygreentree/Github/jaygreentree.github.io/staff/index.html",
 		"/home/jaygreentree/Github/jaygreentree.github.io/_includes/livejs.html",
@@ -141,96 +241,11 @@
 		"/Users/jaygreentree/projects/tcweb/watch/_posts/2020-01-05-vision-2020.md",
 		"/Users/jaygreentree/projects/tcweb/_includes/watch-messages.html",
 		"/Users/jaygreentree/projects/tcweb/announcements/_posts/2020-01-16-live.md",
-		"/Users/jaygreentree/projects/tcweb/watch/index.html",
-		"/Users/jaygreentree/projects/tcweb/announcements/_posts/_2014-03-21-easter.md",
-		"/Users/jaygreentree/projects/tcweb/live.html",
-		"/Users/jaygreentree/projects/tcweb/watch.json",
-		"/Users/jaygreentree/projects/tcweb/_data/live.yaml",
-		"/Users/jaygreentree/projects/tcweb/live.json",
-		"/Users/jaygreentree/projects/tcweb/api/next-service-time.json",
-		"/Users/jaygreentree/projects/tcweb/_layouts/default.html",
-		"/Users/jaygreentree/projects/tcweb/site/templates/js/live.js",
-		"/Users/jaygreentree/projects/tcweb/assets/js/live.js",
-		"/Users/jaygreentree/projects/tcweb/api/live-message-details.json",
-		"/Volumes/TCMediaJay/Sites/wp/wp-config.php",
-		"/Volumes/TCMediaJay/JEKYLL/tcweb/index.html",
-		"/Applications/MAMP/Sites/moments.church/_config/bundles/member/member.yaml",
-		"/Applications/MAMP/Sites/moments.church/_config/users/admin.yaml",
-		"/Applications/MAMP/Sites/moments.church/index.php",
-		"/Volumes/TCMediaJay/sql_data.inc",
-		"/Applications/mampstack/apache2/bnconfig.app/Contents/Info.plist",
-		"/Users/jaygreentree/projects/tcweb/_data/announcement-live.yml",
-		"/Users/jaygreentree/projects/tcweb/_data/announcement.yml",
-		"/Applications/mampstack/apache2/Sites/Amazing_Life-master/readme.md",
-		"/Users/jaygreentree/projects/tcweb/assets/css/site.css",
-		"/Users/jaygreentree/projects/tcweb/favicon.ico",
-		"/Users/jaygreentree/projects/tcweb/pages/giving/index.html",
-		"/Users/jaygreentree/projects/tcweb/_includes/lifegroup-item.html",
-		"/Users/jaygreentree/projects/tcweb/_includes/event-item.html",
-		"/Users/jaygreentree/projects/tcweb/events/index.html",
-		"/Users/jaygreentree/projects/tcweb/life-groups/index.html",
-		"/Users/jaygreentree/projects/tcweb/_data/events.yml",
-		"/Users/jaygreentree/projects/tcweb/index.html",
-		"/Users/jaygreentree/projects/tcweb/podcast.xml",
-		"/Applications/MAMP_2019-11-16_09-28-02/htdocs/api/next-service-time/index.php",
-		"/Users/jaygreentree/projects/tcweb/_data/staff.yml",
-		"/Users/jaygreentree/projects/tcweb/podcast/index.html",
-		"/Applications/mampstack/apache2/htdocs/site/config.php",
-		"/Applications/mampstack/apache2/htdocs/site/modules/Helloworld/Helloworld.module",
-		"/Library/WebServer/Documents/site-church/install/info.php",
-		"/Library/WebServer/Documents/index.php",
-		"/Library/WebServer/Documents/site-default/install/install.sql",
-		"/Library/WebServer/Documents/install.php",
-		"/Applications/mampstack/use_mampstack",
-		"/Applications/mampstack/sqlite/include/sqlite3.h",
-		"/Applications/mampstack/apache2/htdocs/site/thursdaychurch/home.php",
-		"/Applications/mampstack/apache2/htdocs/site/modules/LibJulian/LibJulian.module",
-		"/Applications/mampstack/apache2/htdocs/site/thursdaychurch/includes/head.inc",
-		"/Applications/mampstack/apache2/htdocs/countdown.json",
-		"/Applications/mampstack/apache2/htdocs/site/templates/includes/head.inc",
-		"/Users/jaygreentree/ThursdayChurch.sublime-project",
-		"/Applications/mampstack/apache2/htdocs/site/thursdaychurch/includes/foot.inc",
-		"/Applications/mampstack/apache2/htdocs/site/thursdaychurch/event-list.php",
-		"/Applications/mampstack/apache2/htdocs/assets/css/font-awesome.min.css",
-		"/Applications/mampstack/apache2/htdocs/assets/style.css",
-		"/Applications/mampstack/apache2/htdocs/site/thursdaychurch/style.css",
-		"/Applications/mampstack/apache2/htdocs/site/thursdaychurch/css2/colors/theme-color-11.css",
-		"/Applications/mampstack/apache2/htdocs/site/modules/LibJulian/julian/Julian.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/includes/foot.inc",
-		"/Applications/mampstack/apache2/htdocs/site/thursdaychurch/includes/topnav.inc",
-		"/Users/jaygreentree/Documents/Websites/ecohosting_main_files_v2.8/html-templates/version-1/js/theme-color-switcher.js",
-		"/Applications/mampstack/apache2/htdocs/site/templates/includes/topnav.inc",
-		"/Applications/mampstack/apache2/htdocs/index.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/css/site.css",
-		"/Applications/mampstack/apache2/htdocs/site/assets/aiom/css_2177903c8dd738bac1f49cd90231ad91_dev.css",
-		"/Applications/mampstack/apache2/htdocs/site/templates/css/bootstrap4.css",
-		"/Applications/mampstack/apache2/htdocs/site/templates/css/style.css",
-		"/Applications/mampstack/apache2/htdocs/site/templates/group-list.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/group-details.php",
-		"/Applications/mampstack/apache2/htdocs/wire/templates-admin/default.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/styles/main.css",
-		"/Applications/mampstack/apache2/htdocs/site/templates/lifegroups.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/css/bootstrap-theme.css",
-		"/Applications/mampstack/apache2/htdocs/site/templates/home.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/includes/head_.inc",
-		"/Applications/mampstack/apache2/htdocs/.htaccess",
-		"/Applications/mampstack/apache2/htdocs/site/templates/story-detail.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/tags.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/serve.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/staff-detail.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/staff-list.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/story-archive.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/media-archive.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/media.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/post.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/posts.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/search.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/series.php",
-		"/Applications/mampstack/apache2/htdocs/site/templates/serve-application.php"
+		"/Users/jaygreentree/projects/tcweb/watch/index.html"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -244,6 +259,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Sites/ExpressionEngine5.0.2/",
+			"sitatious",
+			"statamic",
+			"public",
+			"CMSPro",
+			"mysql",
+			"page.class",
+			"padZero",
 			"ready",
 			"countdown",
 			"notes",
@@ -277,10 +300,11 @@
 			[
 				{
 					"buffer": 0,
+					"file": "_layouts/default2.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 23477,
 						"regions":
 						{
 						},
@@ -293,7 +317,10 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_name": "",
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -301,13 +328,43 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12602,
+								12602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6534.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -344,7 +401,7 @@
 	"project": "tcweb.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -382,7 +439,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 214.0,
+	"side_bar_width": 327.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -182,7 +182,7 @@
             format: 'dHMS',
             layout: '',
             compact: false,
-            padZeroes: false,
+            padZeroes: true,
             significant: 0,
             description: '',
             expiryUrl: '',

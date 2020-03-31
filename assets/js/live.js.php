@@ -1,58 +1,57 @@
-/** Generated: Wednesday, 14th of June 2017, 02:04:05 PM //  */
 <script>
-(function () {
-    var j = false;
-    window.JQClass = function () {};
-    JQClass.classes = {};
-    JQClass.extend = function extender(f) {
-        var g = this.prototype;
-        j = true;
-        var h = new this();
-        j = false;
-        for (var i in f) {
-            h[i] = typeof f[i] == 'function' && typeof g[i] == 'function' ? (function (d, e) {
-                return function () {
-                    var b = this._super;
-                    this._super = function (a) {
-                        return g[d].apply(this, a || [])
-                    };
-                    var c = e.apply(this, arguments);
-                    this._super = b;
-                    return c
-                }
-            })(i, f[i]) : f[i]
-        }
-
-        function JQClass() {
-            if (!j && this._init) {
-                this._init.apply(this, arguments)
+    (function() {
+        var j = false;
+        window.JQClass = function() {};
+        JQClass.classes = {};
+        JQClass.extend = function extender(f) {
+            var g = this.prototype;
+            j = true;
+            var h = new this();
+            j = false;
+            for (var i in f) {
+                h[i] = typeof f[i] == 'function' && typeof g[i] == 'function' ? (function(d, e) {
+                    return function() {
+                        var b = this._super;
+                        this._super = function(a) {
+                            return g[d].apply(this, a || [])
+                        };
+                        var c = e.apply(this, arguments);
+                        this._super = b;
+                        return c
+                    }
+                })(i, f[i]) : f[i]
             }
+
+            function JQClass() {
+                if (!j && this._init) {
+                    this._init.apply(this, arguments)
+                }
+            }
+            JQClass.prototype = h;
+            JQClass.prototype.constructor = JQClass;
+            JQClass.extend = extender;
+            return JQClass
         }
-        JQClass.prototype = h;
-        JQClass.prototype.constructor = JQClass;
-        JQClass.extend = extender;
-        return JQClass
-    }
-})();
-(function ($) {
+    })();
+(function($) {
     JQClass.classes.JQPlugin = JQClass.extend({
         name: 'plugin',
         defaultOptions: {},
         regionalOptions: {},
         _getters: [],
-        _getMarker: function () {
+        _getMarker: function() {
             return 'is-' + this.name
         },
-        _init: function () {
+        _init: function() {
             $.extend(this.defaultOptions, (this.regionalOptions && this.regionalOptions['']) || {});
             var c = camelCase(this.name);
             $[c] = this;
-            $.fn[c] = function (a) {
+            $.fn[c] = function(a) {
                 var b = Array.prototype.slice.call(arguments, 1);
                 if ($[c]._isNotChained(a, b)) {
                     return $[c][a].apply($[c], [this[0]].concat(b))
                 }
-                return this.each(function () {
+                return this.each(function() {
                     if (typeof a === 'string') {
                         if (a[0] === '_' || !$[c][a]) {
                             throw 'Unknown method: ' + a;
@@ -64,43 +63,51 @@
                 })
             }
         },
-        setDefaults: function (a) {
-            $.extend(this.defaultOptions, a || {})
+
+        setDefaults: function(a) {
+            $.extend(this.defaultOptions,
+                a || {})
         },
-        _isNotChained: function (a, b) {
+        _isNotChained: function(a, b) {
             if (a === 'option' && (b.length === 0 || (b.length === 1 && typeof b[0] === 'string'))) {
                 return true
             }
             return $.inArray(a, this._getters) > -1
         },
-        _attach: function (a, b) {
+        _attach: function(a, b) {
             a = $(a);
             if (a.hasClass(this._getMarker())) {
                 return
             }
             a.addClass(this._getMarker());
-            b = $.extend({}, this.defaultOptions, this._getMetadata(a), b || {});
+            b = $.extend({},
+                this.defaultOptions,
+                this._getMetadata(a),
+                b || {});
             var c = $.extend({
-                name: this.name,
-                elem: a,
-                options: b
-            }, this._instSettings(a, b));
+                    name: this.name,
+                    elem: a,
+                    options: b
+                },
+                this._instSettings(a, b));
             a.data(this.name, c);
             this._postAttach(a, c);
             this.option(a, b)
         },
-        _instSettings: function (a, b) {
+        _instSettings: function(a, b) {
             return {}
         },
-        _postAttach: function (a, b) {},
-        _getMetadata: function (d) {
+        _postAttach: function(a, b) {},
+        _getMetadata: function(d) {
             try {
                 var f = d.data(this.name.toLowerCase()) || '';
                 f = f.replace(/'/g, '"');
-                f = f.replace(/([a-zA-Z0-9]+):/g, function (a, b, i) {
-                    var c = f.substring(0, i).match(/"/g);
-                    return (!c || c.length % 2 === 0 ? '"' + b + '":' : b + ':')
-                });
+                f = f.replace(/([a-zA-Z0-9]+):/g,
+                    function(a, b, i) {
+                        var c = f.substring(0, i).match(/"/g);
+                        return (!c || c.length % 2 === 0 ? '"' + b + '":' : b + ':')
+                    }
+                );
                 f = $.parseJSON('{' + f + '}');
                 for (var g in f) {
                     var h = f[g];
@@ -113,10 +120,10 @@
                 return {}
             }
         },
-        _getInst: function (a) {
+        _getInst: function(a) {
             return $(a).data(this.name) || {}
         },
-        option: function (a, b, c) {
+        option: function(a, b, c) {
             a = $(a);
             var d = a.data(this.name);
             if (!b || (typeof b === 'string' && c == null)) {
@@ -134,8 +141,8 @@
             this._optionsChanged(a, d, e);
             $.extend(d.options, e)
         },
-        _optionsChanged: function (a, b, c) {},
-        destroy: function (a) {
+        _optionsChanged: function(a, b, c) {},
+        destroy: function(a) {
             a = $(a);
             if (!a.hasClass(this._getMarker())) {
                 return
@@ -143,16 +150,18 @@
             this._preDestroy(a, this._getInst(a));
             a.removeData(this.name).removeClass(this._getMarker())
         },
-        _preDestroy: function (a, b) {}
+        _preDestroy: function(a, b) {}
     });
 
     function camelCase(c) {
-        return c.replace(/-([a-z])/g, function (a, b) {
-            return b.toUpperCase()
-        })
+        return c.replace(/-([a-z])/g,
+            function(a, b) {
+                return b.toUpperCase()
+            }
+        )
     }
     $.JQPlugin = {
-        createPlugin: function (a, b) {
+        createPlugin: function(a, b) {
             if (typeof a === 'object') {
                 b = a;
                 a = 'JQPlugin'
@@ -164,7 +173,7 @@
         }
     }
 })(jQuery);
-(function ($) {
+(function($) {
     var w = 'countdown';
     var Y = 0;
     var O = 1;
@@ -214,11 +223,11 @@
         _showClass: w + '-show',
         _descrClass: w + '-descr',
         _timerElems: [],
-        _init: function () {
+        _init: function() {
             var c = this;
             this._super();
             this._serverSyncs = [];
-            var d = (typeof Date.now == 'function' ? Date.now : function () {
+            var d = (typeof Date.now == 'function' ? Date.now : function() {
                 return new Date().getTime()
             });
             var e = (window.performance && typeof window.performance.now == 'function');
@@ -235,15 +244,16 @@
             var g = 0;
             if (!f || $.noRequestAnimationFrame) {
                 $.noRequestAnimationFrame = null;
-                setInterval(function () {
-                    c._updateElems()
-                }, 980)
+                setInterval(function() {
+                        c._updateElems()
+                    },
+                    980)
             } else {
                 g = window.animationStartTime || window.webkitAnimationStartTime || window.mozAnimationStartTime || window.oAnimationStartTime || window.msAnimationStartTime || d();
                 f(timerCallBack)
             }
         },
-        UTCDate: function (a, b, c, e, f, g, h, i) {
+        UTCDate: function(a, b, c, e, f, g, h, i) {
             if (typeof b == 'object' && b.constructor == Date) {
                 i = b.getMilliseconds();
                 h = b.getSeconds();
@@ -264,12 +274,12 @@
             d.setUTCMilliseconds(i || 0);
             return d
         },
-        periodsToSeconds: function (a) {
+        periodsToSeconds: function(a) {
             return a[0] * 31557600 + a[1] * 2629800 + a[2] * 604800 + a[3] * 86400 + a[4] * 3600 + a[5] * 60 + a[6]
         },
-        resync: function () {
+        resync: function() {
             var d = this;
-            $('.' + this._getMarker()).each(function () {
+            $('.' + this._getMarker()).each(function() {
                 var a = $.data(this, d.name);
                 if (a.options.serverSync) {
                     var b = null;
@@ -296,30 +306,30 @@
                 }
             }
         },
-        _instSettings: function (a, b) {
+        _instSettings: function(a, b) {
             return {
                 _periods: [0, 0, 0, 0, 0, 0, 0]
             }
         },
-        _addElem: function (a) {
+        _addElem: function(a) {
             if (!this._hasElem(a)) {
                 this._timerElems.push(a)
             }
         },
-        _hasElem: function (a) {
+        _hasElem: function(a) {
             return ($.inArray(a, this._timerElems) > -1)
         },
-        _removeElem: function (b) {
-            this._timerElems = $.map(this._timerElems, function (a) {
+        _removeElem: function(b) {
+            this._timerElems = $.map(this._timerElems, function(a) {
                 return (a == b ? null : a)
             })
         },
-        _updateElems: function () {
+        _updateElems: function() {
             for (var i = this._timerElems.length - 1; i >= 0; i--) {
                 this._updateCountdown(this._timerElems[i])
             }
         },
-        _optionsChanged: function (a, b, c) {
+        _optionsChanged: function(a, b, c) {
             if (c.layout) {
                 c.layout = c.layout.replace(/&lt;/g, '<').replace(/&gt;/g, '>')
             }
@@ -333,7 +343,7 @@
             }
             this._updateCountdown(a, b)
         },
-        _updateCountdown: function (a, b) {
+        _updateCountdown: function(a, b) {
             a = a.jquery ? a : $(a);
             b = b || this._getInst(a);
             if (!b) {
@@ -369,7 +379,7 @@
                 this._removeElem(a[0])
             }
         },
-        _resetExtraLabels: function (a, b) {
+        _resetExtraLabels: function(a, b) {
             for (var n in b) {
                 if (n.match(/[Ll]abels[02-9]|compactLabels1/)) {
                     a[n] = b[n]
@@ -381,7 +391,7 @@
                 }
             }
         },
-        _adjustSettings: function (a, b, c) {
+        _adjustSettings: function(a, b, c) {
             var d = null;
             for (var i = 0; i < this._serverSyncs.length; i++) {
                 if (this._serverSyncs[i][0] == b.options.serverSync) {
@@ -415,28 +425,28 @@
             }
             b._show = this._determineShow(b)
         },
-        _preDestroy: function (a, b) {
+        _preDestroy: function(a, b) {
             this._removeElem(a[0]);
             a.empty()
         },
-        pause: function (a) {
+        pause: function(a) {
             this._hold(a, 'pause')
         },
-        lap: function (a) {
+        lap: function(a) {
             this._hold(a, 'lap')
         },
-        resume: function (a) {
+        resume: function(a) {
             this._hold(a, null)
         },
-        toggle: function (a) {
+        toggle: function(a) {
             var b = $.data(a, this.name) || {};
             this[!b._hold ? 'pause' : 'resume'](a)
         },
-        toggleLap: function (a) {
+        toggleLap: function(a) {
             var b = $.data(a, this.name) || {};
             this[!b._hold ? 'lap' : 'resume'](a)
         },
-        _hold: function (a, b) {
+        _hold: function(a, b) {
             var c = $.data(a, this.name);
             if (c) {
                 if (c._hold == 'pause' && !b) {
@@ -451,18 +461,18 @@
                 this._updateCountdown(a, c)
             }
         },
-        getTimes: function (a) {
+        getTimes: function(a) {
             var b = $.data(a, this.name);
             return (!b ? null : (b._hold == 'pause' ? b._savePeriods : (!b._hold ? b._periods : this._calculatePeriods(b, b._show, b.options.significant, new Date()))))
         },
-        _determineTime: function (k, l) {
+        _determineTime: function(k, l) {
             var m = this;
-            var n = function (a) {
+            var n = function(a) {
                 var b = new Date();
                 b.setTime(b.getTime() + a * 1000);
                 return b
             };
-            var o = function (a) {
+            var o = function(a) {
                 a = a.toLowerCase();
                 var b = new Date();
                 var c = b.getFullYear();
@@ -507,13 +517,13 @@
             if (p) p.setMilliseconds(0);
             return p
         },
-        _getDaysInMonth: function (a, b) {
+        _getDaysInMonth: function(a, b) {
             return 32 - new Date(a, b, 32).getDate()
         },
-        _normalLabels: function (a) {
+        _normalLabels: function(a) {
             return a
         },
-        _generateHTML: function (c) {
+        _generateHTML: function(c) {
             var d = this;
             c._periods = (c._hold ? c._periods : this._calculatePeriods(c, c._show, c.options.significant, new Date()));
             var e = false;
@@ -539,24 +549,24 @@
             }
             var k = (c.options.compact ? c.options.compactLabels : c.options.labels);
             var l = c.options.whichLabels || this._normalLabels;
-            var m = function (a) {
+            var m = function(a) {
                 var b = c.options['compactLabels' + l(c._periods[a])];
                 return (h[a] ? d._translateDigits(c, c._periods[a]) + (b ? b[a] : k[a]) + ' ' : '')
             };
             var n = (c.options.padZeroes ? 2 : 1);
-            var o = function (a) {
+            var o = function(a) {
                 var b = c.options['labels' + l(c._periods[a])];
                 return ((!c.options.significant && h[a]) || (c.options.significant && j[a]) ? '<span class="' + d._sectionClass + '">' + '<span class="' + d._amountClass + '">' + d._minDigits(c, c._periods[a], n) + '</span>' + '<span class="' + d._periodClass + '">' + (b ? b[a] : k[a]) + '</span></span>' : '')
             };
             return (c.options.layout ? this._buildLayout(c, h, c.options.layout, c.options.compact, c.options.significant, j) : ((c.options.compact ? '<span class="' + this._rowClass + ' ' + this._amountClass + (c._hold ? ' ' + this._holdingClass : '') + '">' + m(Y) + m(O) + m(W) + m(D) + (h[H] ? this._minDigits(c, c._periods[H], 2) : '') + (h[M] ? (h[H] ? c.options.timeSeparator : '') + this._minDigits(c, c._periods[M], 2) : '') + (h[S] ? (h[H] || h[M] ? c.options.timeSeparator : '') + this._minDigits(c, c._periods[S], 2) : '') : '<span class="' + this._rowClass + ' ' + this._showClass + (c.options.significant || f) + (c._hold ? ' ' + this._holdingClass : '') + '">' + o(Y) + o(O) + o(W) + o(D) + o(H) + o(M) + o(S)) + '</span>' + (c.options.description ? '<span class="' + this._rowClass + ' ' + this._descrClass + '">' + c.options.description + '</span>' : '')))
         },
-        _buildLayout: function (c, d, e, f, g, h) {
+        _buildLayout: function(c, d, e, f, g, h) {
             var j = c.options[f ? 'compactLabels' : 'labels'];
             var k = c.options.whichLabels || this._normalLabels;
-            var l = function (a) {
+            var l = function(a) {
                 return (c.options[(f ? 'compactLabels' : 'labels') + k(c._periods[a])] || j)[a]
             };
-            var m = function (a, b) {
+            var m = function(a, b) {
                 return c.options.digits[Math.floor(a / b) % 10]
             };
             var o = {
@@ -625,13 +635,13 @@
                 var r = new RegExp('\\{' + q + '<\\}([\\s\\S]*)\\{' + q + '>\\}', 'g');
                 p = p.replace(r, ((!g && d[i]) || (g && h[i]) ? '$1' : ''))
             }
-            $.each(o, function (n, v) {
+            $.each(o, function(n, v) {
                 var a = new RegExp('\\{' + n + '\\}', 'g');
                 p = p.replace(a, v)
             });
             return p
         },
-        _minDigits: function (a, b, c) {
+        _minDigits: function(a, b, c) {
             b = '' + b;
             if (b.length >= c) {
                 return this._translateDigits(a, b)
@@ -639,12 +649,12 @@
             b = '0000000000' + b;
             return this._translateDigits(a, b.substr(b.length - c))
         },
-        _translateDigits: function (b, c) {
-            return ('' + c).replace(/[0-9]/g, function (a) {
+        _translateDigits: function(b, c) {
+            return ('' + c).replace(/[0-9]/g, function(a) {
                 return b.options.digits[a]
             })
         },
-        _determineShow: function (a) {
+        _determineShow: function(a) {
             var b = a.options.format;
             var c = [];
             c[Y] = (b.match('y') ? '?' : (b.match('Y') ? '!' : null));
@@ -656,7 +666,7 @@
             c[S] = (b.match('s') ? '?' : (b.match('S') ? '!' : null));
             return c
         },
-        _calculatePeriods: function (c, d, e, f) {
+        _calculatePeriods: function(c, d, e, f) {
             c._now = f;
             c._now.setMilliseconds(0);
             var g = new Date(c._now.getTime());
@@ -677,7 +687,7 @@
                 var i = this._getDaysInMonth(f.getFullYear(), f.getMonth());
                 var j = this._getDaysInMonth(g.getFullYear(), g.getMonth());
                 var k = (g.getDate() == f.getDate() || (g.getDate() >= Math.min(i, j) && f.getDate() >= Math.min(i, j)));
-                var l = function (a) {
+                var l = function(a) {
                     return (a.getHours() * 60 + a.getMinutes()) * 60 + a.getSeconds()
                 };
                 var m = Math.max(0, (g.getFullYear() - f.getFullYear()) * 12 + g.getMonth() - f.getMonth() + ((g.getDate() < f.getDate() && !k) || (k && l(g) < l(f)) ? -1 : 0));
@@ -696,7 +706,7 @@
                 }
             }
             var p = Math.floor((g.getTime() - f.getTime()) / 1000);
-            var q = function (a, b) {
+            var q = function(a, b) {
                 h[a] = (d[a] ? Math.floor(p / b) : 0);
                 p -= h[a] * b
             };
@@ -750,19 +760,19 @@ var end_service_day = 0;
 function grabServerTime() {
     var time = null;
     $.ajax({
-        url: '/api/server-time/',
+        url: '/server-time.php',
         async: false,
         dataType: 'text',
-        success: function (text) {
+        success: function(text) {
             time = new Date(text);
         },
-        error: function (http, message, exc) {
+        error: function(http, message, exc) {
             time = new Date();
         }
     });
     return time;
 }
-$(document).ready(function () {
+$(document).ready(function() {
     $('.share-series-twitter').sharrre({
         share: {
             twitter: true
@@ -770,7 +780,7 @@ $(document).ready(function () {
         buttons: {},
         enableHover: false,
         enableTracking: false,
-        click: function (api, options) {
+        click: function(api, options) {
             api.simulateClick();
             api.openPopup('twitter');
         }
@@ -781,15 +791,15 @@ $(document).ready(function () {
         },
         enableHover: false,
         enableTracking: false,
-        click: function (api, options) {
+        click: function(api, options) {
             api.simulateClick();
             api.openPopup('facebook');
         }
     });
-    CKEDITOR.plugins.addExternal('print', '/site/templates/css/ckeditor/print/', 'plugin.js');
+    CKEDITOR.plugins.addExternal('print', '/ckeditor/print/', 'plugin.js');
     CKEDITOR.plugins.addExternal('email', '/site/templates/css/ckeditor/email/', 'plugin.js');
     CKEDITOR.replace('editor1', {
-        customConfig: '/site/templates/css/ckeditor/config.js'
+        customConfig: '/ckeditor/config.js'
     });
     var player = "";
     var playerOrigin = "";
@@ -841,7 +851,7 @@ $(document).ready(function () {
 
     function onFinish() {
         if (outroVideoPlaying == false) {
-            $('#video-holder').html('<iframe id="ls_embed_1458644761" src="https://youtube.com/embed/<?php echo $page->youtube_id; ?>" width="960" height="540" frameborder="0" scrolling="no"></iframe>');
+            $('#video-holder').html('<iframe id="ls_embed_1458644761" src="width="560" height="315" src="https://www.youtube.com/embed/<?php echo $page->youtube_id;?>" frameborder="0" allowfullscreen"></iframe>');
             $("body").fitVids({
                 customSelector: "iframe[src^='https://youtube.com']"
             });
@@ -858,13 +868,17 @@ $(document).ready(function () {
         if ($("#skipIntro").length) {
             if (window.addEventListener) {
                 window.addEventListener('message', onMessageReceived, false);
+
             } else {
                 window.attachEvent('onmessage', onMessageReceived, false);
             }
-            $("#skipIntro").on('click', function (event) {
-                onFinish();
-                ga('send', 'event', 'button', 'click', 'Skip Live Welcome Video', introSecondsPlayed);
-            });
+            $("#skipIntro").on('click',
+                function(event) {
+                    onFinish();
+                    ga('send', 'event', 'button', 'click', 'Skip Live Welcome Video',
+                        introSecondsPlayed);
+                }
+            );
         }
     }
     if (live_streaming == true && $("#skipIntro").length) {
@@ -886,33 +900,36 @@ $(document).ready(function () {
         if (live_streaming == true && need_countdown == false) {
             $('#countdown-block').hide();
         }
-        $.getJSON('/api/next-service-time/?time=' + new Date().getTime(), function (json) {
-            $('#next-service').html("Next service:<br/>" + json['nextTime'] + ", <br/>" + json['nextDay']);
-            if (!live_streaming || need_countdown == true) {
-                $('#countdown-block').show();
-            }
-            end_service_day = parseInt(json['end_day']);
-            end_service_minutes = parseInt(json['end_minute']);
-            end_service_hours = parseInt(json['end_hour']);
-            if (live_streaming == true && need_countdown == false) {
-                $('#countdown-block').hide();
-                setCountDownDuringLiveEvent = setInterval(function () {
-                    halfHourBefore(null);
-                }, 1000);
-            }
-            $('#defaultCountdown').countdown({
-                until: new Date(json['year'], json['month'] - 1, json['day'], json["start_hour"], json["start_minute"], '0'),
-                serverSync: grabServerTime,
-                padZeroes: true,
-                format: 'DHMS',
-                labels: ['years', 'months', 'weeks', 'days', 'hours', 'mins', 'secs'],
-                labels1: ['years', 'month', 'week', 'day', 'hour', 'min', 'sec'],
-                onTick: halfHourBefore,
-                onExpiry: function () {
-                    $('#countdown-block').hide();
+        $.getJSON('/api/next-service-time/?time=' + new Date().getTime(),
+            function(json) {
+                $('#next-service').html("Next service:<br/>" + json['nextTime'] + " <br/>" + json['nextDay']);
+                if (!live_streaming || need_countdown == true) {
+                    $('#countdown-block').show();
                 }
-            });
-        });
+                end_service_day = parseInt(json['end_day']);
+                end_service_minutes = parseInt(json['end_minute']);
+                end_service_hours = parseInt(json['end_hour']);
+                if (live_streaming == true && need_countdown == false) {
+                    $('#countdown-block').hide();
+                    setCountDownDuringLiveEvent = setInterval(function() {
+                            halfHourBefore(null);
+                        },
+                        1000);
+                }
+                $('.defaultCountdown').countdown({
+                    until: new Date(json['year'], json['month'] - 1, json['day'], json["start_hour"], json["start_minute"], '0'),
+                    serverSync: grabServerTime,
+                    padZeroes: true,
+                    format: 'DHMS',
+                    labels: ['years', 'months', 'weeks', 'days', 'hours', 'mins', 'secs'],
+                    labels1: ['years', 'month', 'week', 'day', 'hour', 'min', 'sec'],
+                    onTick: halfHourBefore,
+                    onExpiry: function() {
+                        $('#countdown-block').hide();
+                    }
+                });
+            }
+        );
     }
 
     function halfHourBefore(periods) {
@@ -923,7 +940,7 @@ $(document).ready(function () {
             $.ajax({
                 url: '/api/live-recent-message/?time=' + new Date().getTime(),
                 dataType: 'json',
-                success: function (response) {
+                success: function(response) {
                     live_streaming = false;
                     $('#takeaway-block').hide();
                     $('#video-holder').html(response.video);
@@ -938,7 +955,7 @@ $(document).ready(function () {
                     });
                     renderCountdown();
                 },
-                error: function (response) {}
+                error: function(response) {}
             });
         }
         if (periods != null) {
@@ -948,7 +965,7 @@ $(document).ready(function () {
                     $.ajax({
                         url: '/api/live-message-details/?intro=true&time=' + new Date().getTime(),
                         dataType: 'json',
-                        success: function (response) {
+                        success: function(response) {
                             var d = CKEDITOR.instances.editor1.getData;
                             CKEDITOR.instances.editor1.setData(d + response.ckeditor_details);
                             $('#video-holder').html(response.video);
@@ -968,57 +985,79 @@ $(document).ready(function () {
                                 customSelector: "iframe[src^='https://youtube.com']"
                             });
                         },
-                        error: function (response) {}
+                        error: function(response) {
+
+                        }
                     });
                 }
             }
         }
     }
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        var str = String(e.target);
-        if (str.indexOf("bible") > -1) {
-            if ($('#bible-tab').find("iframe").length == 0) {
-                $('#bible-tab').append('<iframe frameborder="0" allowtransparency="true" src="https://www.bible.com/bible/111/matthew.1.niv" class="bible-iframe"  style="padding:0px;margin:0px;width:100%;min-height: 645px;max-height: 700px;height: 100%;" ></iframe>');
+
+    $('a[data-toggle="tab"]').on('shown.bs.tab',
+        function(e) {
+            var str = String(e.target);
+            if (str.indexOf("bible") > -1) {
+                if ($('#bible-tab').find("iframe").length == 0) {
+                    $('#bible-tab').append('<iframe frameborder="0" allowtransparency="true" src="https://www.bible.com/bible/111/matthew.1.niv" class="bible-iframe" style="padding:0px;margin:0px;width:100%;min-height: 645px;max-height: 700px;height: 100%;"></iframe>');
+                }
             }
-        }
-    })
+        })
+
+    $('a[data-toggle="tab"]').on('shown.bs.tab',
+        function(e) {
+            var str = String(e.target);
+            if (str.indexOf("chat") > -1) {
+                if ($('#welcome-tab').find("iframe").length == 0) {
+                    $('#welcome-tab').append('<iframe frameborder="0" allowtransparency="true" src="https://www.youtube.com/live_chat?v=<?php echo $page->youtube_id;?>&embed_domain=<?php echo $page->domain;?>" class="chat-iframe" style="padding:0px;margin:0px;width:100%;min-height: 645px;max-height: 700px;height: 100%;"></iframe>');
+                }
+            }
+        })
+
     $("#welcome-form").validate({
-        submitHandler: function (form) {
+        submitHandler: function(form) {
             $.ajax({
-                type: $(form).attr('method'),
-                url: $(form).attr('action'),
-                data: $(form).serialize(),
-                dataType: 'json'
-            }).done(function (response) {
-                if (response.success == 'success') {
-                    $("#welcome-form").hide();
-                    $("#welcome-desc").hide();
-                    $("#welcome-response").html("Thank you!");
-                    $("#welcome-response").css("height", "630");
-                } else {}
-            });
+                    type: $(form).attr('method'),
+                    url: $(form).attr('action'),
+                    data: $(form).serialize(),
+                    dataType: 'json'
+                })
+                .done(function(response) {
+                    if (response.success == 'success') {
+                        $("#welcome-form").hide();
+                        $("#welcome-desc").hide();
+                        $("#welcome-response").html("Thank you!");
+                        $("#welcome-response").css("height", "630");
+                    } else {
+
+                    }
+                });
             return false;
         }
     });
     $("#response-form").validate({
-        submitHandler: function (form) {
+        submitHandler: function(form) {
             $.ajax({
-                type: $(form).attr('method'),
-                url: $(form).attr('action'),
-                data: $(form).serialize(),
-                dataType: 'json'
-            }).done(function (response) {
-                if (response.success == 'success') {
-                    $("#response-form").hide();
-                    $("#response-desc").hide();
-                    $("#response-response").html("Thank you!");
-                    $("#response-response").css("height", "630");
-                } else {}
-            });
+                    type: $(form).attr('method'),
+                    url: $(form).attr('action'),
+                    data: $(form).serialize(),
+                    dataType: 'json'
+                })
+                .done(function(response) {
+                    if (response.success == 'success') {
+                        $("#response-form").hide();
+                        $("#response-desc").hide();
+                        $("#response-response").html("Thank you!");
+                        $("#response-response").css("height", "630");
+                    } else {
+
+                    }
+                });
             return false;
         }
     });
-    $("#send_prayer_email").on('click', function (event) {
+
+    $("#send_prayer_email").on('click', function(event) {
         var email = $.trim($("#prayer_email").val());
         var phone = $.trim($("#prayer_phone").val());
         if (email != '') {
@@ -1029,20 +1068,25 @@ $(document).ready(function () {
         }
         $("#prayer_email_status").html(" Sending....");
         var honeypot = $('#send_prayer_website').val();
+
         if (honeypot == '' || honeypot == null) {
             ga('send', 'event', 'button', 'click', 'Prayer Request Email (Live Page)');
+
             $.post("/api/prayer-request/", {
-                name: $("#prayer_name").val(),
-                phone: $("#prayer_phone").val(),
-                email: $("#prayer_email").val(),
-                p_request: $("#p_request").val()
-            }, function () {
-                $("#prayer_email_status").html(" Your prayer request was sent.");
-                $("#p_request").val('');
-            });
+                    name: $("#prayer_name").val(),
+                    phone: $("#prayer_phone").val(),
+                    email: $("#prayer_email").val(),
+                    p_request: $("#p_request").val()
+                },
+                function() {
+                    $("#prayer_email_status").html(" Your prayer request was sent.");
+                    $("#p_request").val('');
+                }
+            );
         }
     });
-    $("#send_tech_support_email").on('click', function (event) {
+
+    $("#send_tech_support_email").on('click', function(event) {
         var email = $.trim($("#tech_email").val());
         var issues = $.trim($("#tech_issues").val());
         if (issues == "") {
@@ -1062,12 +1106,14 @@ $(document).ready(function () {
             email: $("#tech_email").val(),
             name: $("#tech_name").val(),
             issues: $("#tech_issues").val()
-        }, function () {
+        }, function() {
             $("#tech_email_status").html(" Thanks for letting us know your issue.");
+
             $("#tech_email").val('');
         });
     });
-    $("#send_note_email").on('click', function (event) {
+
+    $("#send_note_email").on('click', function(event) {
         var email = $.trim($("#send_email").val());
         if (email == "") {
             $("#email_status").html(" Please enter a valid email address.");
@@ -1088,12 +1134,12 @@ $(document).ready(function () {
             message_id: $("#message-id").html(),
             subject: 'Sermon Notes - ' + sermon_title + ' - ' + current,
             contents: editor_data
-        }, function () {
+        }, function() {
             $("#email_status").html(" Your message was sent");
             $("#send_email").val('');
         });
     });
-    $("#send_note_email_friend").on('click', function (event) {
+    $("#send_note_email_friend").on('click', function(event) {
         var email = $.trim($("#send_email_friend").val());
         var email_friend = $.trim($("#send_email_friend_friendname").val());
         if (email == "") {
@@ -1104,6 +1150,7 @@ $(document).ready(function () {
             $("#email_friend_status").html(" Please enter a valid email address.");
             return false;
         }
+
         if (email_friend == "") {
             $("#email_friend_status").html(" Please enter your friend's email address.");
             return false;
@@ -1117,27 +1164,31 @@ $(document).ready(function () {
         if (honeypot == '' || honeypot == null) {
             ga('send', 'event', 'button', 'click', 'Share Live Email with Friend');
             $.post("/api/email-friend/", {
-                email: $("#send_email_friend").val(),
-                friend_email: $("#send_email_friend_friendname").val(),
-                message: $("#send_email_friend_message").val(),
-                page_id: '1369'
-            }, function () {
-                $("#email_friend_status").html(" Your message was sent");
-                $("#send_email_friend_friendname").val('');
-            });
+                    email: $("#send_email_friend").val(),
+                    friend_email: $("#send_email_friend_friendname").val(),
+                    message: $("#send_email_friend_message").val(),
+                    page_id: '7887'
+                },
+
+                function() {
+                    $("#email_friend_status").html("Your message was sent");
+                    $("#send_email_friend_friendname").val('');
+                });
         }
     });
-    $(".share-series-email .box a").on('click', function (event) {
+    $(".share-series-email .box a").on('click', function(event) {
         event.preventDefault();
         $.magnificPopup.open({
-            items: {
-                src: '#share-email-popup'
+                items: {
+                    src: '#share-email-popup'
+                },
+                type: 'inline'
             },
-            type: 'inline'
-        }, 0);
+            0);
     });
+
     var reviewOff = true;
-    $("#review-questions-click").on('click', function (event) {
+    $("#review-questions-click").on('click', function(event) {
         ga('send', 'event', 'button', 'click', 'Review Questions');
         $('#review-content').toggleClass("hide");
         $("#review-questions-click-holder").toggleClass('mg-b-lg');
@@ -1150,7 +1201,7 @@ $(document).ready(function () {
             $("#review-questions-click").html("<i class='icon-document-1'></i> View Review Questions &amp; Daily Readings");
         }
     });
-    $("#expand").on('click', function (event) {
+    $("#expand").on('click', function(event) {
         ga('send', 'event', 'button', 'click', 'Expand Video');
         $("#section-video").removeClass("col-lg-7");
         $("#section-video").addClass("col-lg-12");
@@ -1161,7 +1212,7 @@ $(document).ready(function () {
         $("#expand").removeClass('size-control-enabled');
         $("#expand").addClass('size-control-disabled');
     });
-    $("#contract").on('click', function (event) {
+    $("#contract").on('click', function(event) {
         ga('send', 'event', 'button', 'click', 'Contract Video');
         $("#section-video").removeClass("col-lg-12");
         $("#section-video").addClass("col-lg-7");
@@ -1173,5 +1224,5 @@ $(document).ready(function () {
         $("#contract").addClass('size-control-disabled');
     });
     renderCountdown();
-});
+}); 
 </script>

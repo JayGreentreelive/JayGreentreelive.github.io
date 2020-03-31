@@ -1,0 +1,341 @@
+<script type="text/javascript">
+  $('#notes-Modal').on('shown.bs.modal', function () {
+    $('#notes-Modal').trigger('focus')
+  })
+  $('#prayer-Modal').on('shown.bs.modal', function () {
+    $('#prayer-Modal').trigger('focus')
+  })
+  $('#sendtofriend-Modal').on('shown.bs.modal', function () {
+    $('#sendtofriend-Modal').trigger('focus')
+  })
+  $('#techsupport-Modal').on('shown.bs.modal', function () {
+    $('#techsupport-Modal').trigger('focus')
+  })
+  $('#connect-Modal').on('shown.bs.modal', function () {
+    $('#connect-Modal').trigger('focus')
+  })
+  $('#contact-modal').on('shown.bs.modal', function () {
+    $('#contact-modal').trigger('focus')
+  })
+</script>
+
+<!-- Begin reusable Modals -->
+
+<!-- Begin Notes Modal -->
+    <div id="notes-Modal" class="modal fade" role="dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">Email Notes</h3>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+            <label>Your Email Address</label>
+            <input id="send_email" name="send_email" type="email" class="form-control email">
+        </div>
+
+        <a href="javascript:void(0)" id="send_note_email" class="btn btn-default btn-left mg-t-sm"><i class="icon-send-1"></i> Send Email</a>
+        <span id="email_status"></span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+</div>
+<!-- End notes Modal -->
+
+<!-- Begin send to friend Modal-->
+    <div id="sendtofriend-Modal" class="modal fade" role="dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">Share This With A Friend</h3>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+            <label>Your Email Address</label>
+            <input id="send_email_friend" name="send_email_friend" type="text" class="form-control email">
+        </div>
+        <div class="form-group">
+            <label>Your Friend's Email Address</label>
+            <input id="send_email_friend_friendname" name="send_email_friend_friendname" type="text" class="form-control email">
+        </div>
+           <div class="form-group">
+          <p class=" mg-b-xs"><strong>Subject:</strong> Thursday Church Live</p>
+          <label>Your Message</label>
+           <textarea class="form-control" placeholder="" id="send_email_friend_message" name="send_email_friend_message">Come join me at Thursday Church live!</textarea>
+
+            <p class="mg-t-sm"><strong>Sharing URL:</strong> http://thursdaychurch.org/live/</p>
+        </div>
+
+         <input name="website" type="hidden" id="send_website" value="">
+
+        <a href="javascript:void(0)" id="send_note_email_friend" class="btn btn-default btn-left mg-t-sm"><i class="icon-send-1"></i> Send Email</a>
+        <span id="email_friend_status"></span>
+
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+</div>
+<!-- End Send to friend Modal -->
+
+
+<!-- Begin Prayer Request Modal -->
+ <div id="prayer-Modal" class="modal fade" role="dialog">
+
+ 	    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">Prayer Request</h3>
+      </div>
+      <div class="modal-body">
+
+        <p>Please know that your requests and praises are emailed out weekly to a group of
+diligent Chapel prayer partners.</p>
+
+<p><small>If you would like to be contacted personally, please include your
+phone number or email address in the space provided. To assure confidentiality, your
+contact information will only be made available to Thursday Church ministry team and will
+not be included in the outgoing email as part of your prayer request.</small></p>
+
+        <form id="prayer-request-form">
+          <div class="form-group">
+              <label>Your First Name</label>
+              <input id="prayer_name" name="prayer_name" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+              <label>Your Email</label>
+              <input id="prayer_email" name="prayer_email" type="email" class="form-control email">
+          </div>
+          <div class="form-group">
+              <label>Your Phone Number</label>
+              <input id="prayer_phone" name="prayer_phone" type="text" class="form-control phone">
+          </div>
+          <div class="form-group">
+              <label>Your Prayer Request (required)</label>
+              <textarea id="p_request" name="p_request" rows="7" class="form-control"></textarea>
+          </div>
+
+           <input name="website" type="hidden" id="send_prayer_website" value="">
+
+
+          <a href="javascript:void(0)" id="send_prayer_email" class="btn btn-default btn-left mg-t-sm"><i class="icon-send-1"></i> Send Prayer Request</a>
+          <span id="prayer_email_status"></span>
+      </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+</div>
+<!-- End Prayer Request Modal -->
+
+<!-- Begin tech support Modal -->
+     <div id="techsupport-Modal" class="modal fade" role="dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">Technical Support Request</h3>
+      </div>
+      <div class="modal-body">
+
+        <p>If you're having trouble viewing the live stream, <a href="https://youtube.com/thursdaychurchvin/live" target="_blank">visit our youtube page</a>. For additional support, contact us below.</p>
+
+        <form id="tech-support-form">
+          <div class="form-group">
+              <label>Your Name</label>
+              <input id="tech_name" name="name" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+              <label>Your Email Address</label>
+              <input id="tech_email" name="email" type="text" class="form-control email">
+          </div>
+          <div class="form-group">
+              <label>Please tell us the issues you are experiencing.</label>
+              <textarea id="tech_issues" name="issues" rows="7" class="form-control"></textarea>
+          </div>
+
+
+          <a href="javascript:void(0)" id="send_tech_support_email" class="btn btn-default btn-left mg-t-sm"><i class="icon-send-1"></i> Send Request</a>
+          <span id="tech_email_status"></span>
+      </form>
+
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+</div>
+<!-- End tech support Modal-->
+
+<!-- Begin get connected Modal -->
+
+<div id="connect-Modal" class="modal fade" role="dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">Get connected with us and let us know more about you.</h3>
+      </div>
+      <div class="modal-body">
+        <p id="welcome-desc"></p>
+        <div id="welcome-response"></div>
+        <form class="form mg-t-md" id="welcome-form" method="post" action="" novalidate="novalidate">
+          <div class="form-group ">
+            <input class="form-control required" placeholder="First Name" id="first_name" name="first_name" type="text">
+          </div>
+          <div class="form-group ">
+            <input class="form-control required" placeholder="Last Name" id="last_name" name="last_name" type="text">
+          </div>
+          <div class="form-group ">
+            <input class="form-control email required" placeholder="Email" id="email" name="email" type="email">
+          </div>
+          <div class="form-group ">
+            <input class="form-control phone required" placeholder="Phone Number (with area code)" id="phone" name="phone" type="tel">
+          </div>
+          <div class="form-group">
+            <input class="form-control required" placeholder="Address" id="address" name="address" type="text">
+          </div>
+          <div class="form-group">
+            <div class="row no-gutters">
+              <div class="col-xs-4">
+                <input class="form-control required" placeholder="City" id="city" name="city" type="text">
+              </div>
+              <div class="col-xs-4">
+                <input class="form-control required" placeholder="State" id="state" name="state" type="text">
+              </div>
+              <div class="col-xs-4">
+                <input class="form-control required" placeholder="Zip Code" id="zip" name="zip" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="checkbox">
+            <label><input name="info-checkbox[]" type="checkbox" value="FirstTime"> I'm a first time guest</label>
+          </div>
+          <div class="checkbox">
+            <label><input name="info-checkbox[]" type="checkbox" value="Decision"> I made a decision to follow Jesus</label>
+          </div>
+          <div class="checkbox">
+            <label><input name="info-checkbox[]" type="checkbox" value="Baptize"> I want to be baptized</label>
+          </div>
+          <!--div class="checkbox">
+            <label><input name="info-checkbox[]" type="checkbox" value="NewBeliever"> I am interested in attending a New Believers Class </label>
+          </div -->
+          <div class="form-group website-form ">
+            <label for="website">Website</label>
+            <input class="form-control" id="website" name="website" type="text">
+          </div>
+          <div class="form-group mg-t-md">
+            <button class="btn btn-left btn-default" id="submit-welcome"><i class="icon-send-1"></i> Send</button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+</div>
+<!-- end get connected Modal -->
+
+
+<!-- Begin Notes Modal -->
+    <div id="contact-Modal" class="modal fade" role="dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">Contact Us</h3>
+      </div>
+      <div class="modal-body">
+<hr>
+<h2>How can we help?</h2>
+<p>Complete the form below and we'll forward your inquiry to the appropriate team member. If you need assistance right away, please call 812.882.2737 to speak with someone.</p>
+
+
+ <form class="form  form-validation" action='?' id='contact-form' method='post' role="form">
+
+
+        <div class='form-group ' >
+            <div class='row'>
+
+               <div class='col-md-6 ' >
+                 <label  for='first_name'>First Name<span class="required">*</span></label>
+                 <input class='form-control required'  id='first_name' name='first_name' type='text'>
+              </div>
+               <div class='col-md-6 ' >
+                <label  for='last_name'>Last Name<span class="required">*</span></label>
+                <input class='form-control required'  id='last_name' name='last_name' type='text'>
+               </div>
+            </div>
+          </div>
+          <div class='form-group ' >
+            <label  for='email'>Email</label>
+            <input class='form-control email '  id='email' name='email' type='email'>
+          </div>
+          <div class='form-group ' >
+            <label  for='phone'>Phone Number (with area code)<span class="required">*</span></label>
+            <input class='form-control phone required'  id='phone' name='phone' type='tel' placeholder="(716) 555-5555">
+          </div>
+          <div class='form-group' >
+            <label for='address'>Street Address</label>
+            <input class='form-control required'  id='address' name='address' type='text'>
+          </div>
+          <div class='form-group'>
+            <div class='row'>
+              <div class='col-sm-6'>
+                <label  for='city'>City</label>
+                <input class='form-control required'  id='city' name='city' type='text'>
+              </div>
+              <div class='col-sm-3 col-xs-6'>
+                <label  for='state'>State</label>
+                <select name='state' class='form-control'>
+                  <?php include("./includes/states.inc");?>
+                  </select>
+                </div>
+                <div class='col-sm-3 col-xs-6'>
+                  <label  for='zip'>Zip Code<span class="required">*</span></label>
+                  <input class='form-control zipcode'  id='zip' name='zip' type='text'>
+                </div>
+              </div>
+            </div>
+            <div class='form-group'>
+              <label>Which location do you attend?<span class="required">*</span></label>
+              <select name="campus" class="form-control">
+                <option value=""></option>
+                <option value="Vincennes">Vincennes</option>
+                <option value="Bicknell" >Bicknell</option>
+                <option value="Online">Online</option>
+              </select>
+            </div>
+            <div class='form-group'>
+              <label  for='availability'>Questions or Comments<span class="required">*</span></label>
+              <textarea class='form-control' rows='5'  name='comments'></textarea>
+            </div>
+              <div class='mg-t-md'>
+                <button class="btn btn-default mg-t-md btn-left" type="submit">Send</button>
+            </div>
+          </form>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+</div>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]> <html class="lt-ie9" lang="en"> <![endif]-->
 <!--[if !IE] -->
@@ -40,14 +39,14 @@
         <script src="/site/templates/js/plugins/jquery/jquery.min.js"></script>
         <script src="/site/templates/js/chop.js"></script>
     <!-- start the countdown when the page loads -->
-    <!--script type="text/javascript">
+    <script type="text/javascript">
       $(function () {
         var holiday = new Date();
-        holiday = new Date("2020-02-20 18:40:00 -0500");
+        holiday = new Date("2020-04-02 18:30:00 -0400");
         $('.defaultCountdown').countdown({until: holiday});
         $('#year').text(holiday.getFullYear());
       });
-    </script-->
+    </script>
     <!-- end of javascript includes  -->
     <script src='/site/templates/js/plugins/fastbutton/google.fastbutton.js'></script>
     <script src='/site/templates/js/plugins/fastbutton/jquery.google.fastbutton.js'></script>
@@ -58,7 +57,7 @@
     <script src='/site/templates/js/main.js'></script>
     <script src='/site/templates/js/popup.js'></script>
     <script src='/site/templates/js/share.js'></script>
-    <script src="/site/templates/js/live.js">
+    <script>
       {% include livejs.html %}
     </script>
     <script src='/site/templates/css/ckeditor/ckeditor.js'></script>
@@ -78,26 +77,27 @@
 </head>
 
 <body>
-
-  
-    
+   
 <div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }}'>
-
-<!-- begin Countdown -->
-   <div class="announcement-bar">
-    <div id="churchonline_counter">
-      <div class="live">Live Now</div>
-
-      <ul class="time">
-        <li><span>Next Service in:</span></li>
-        <li><span class="days btn-live"></span> <span class="label">days</span></li>
-        <li><span class="hours btn-live"></span> <span class="label">hrs</span></li>
-        <li><span class="minutes btn-live"></span> <span class="label">mins</span></li>
-        <li><span class="seconds btn-live"></span> <span class="label">secs</span></li>
-      </ul>
+    <!-- Announcement -->
+    {% for announcement in site.data.announcement %}
+    {% if announcement.active == true %}
+    {% if page.section != 'announcements' %}
+    <div class="announcement-bar">
+    <div data-alert class="alert-box {{ announcement.type }}">
+      <div class="row">
+        <div class="medium-12 columns">
+          {% if announcement.url %}<a class="announcement-link" href="{{ announcement.url }}">{% endif %}
+            <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i> {{ announcement.message }}
+          {% if announcement.url %}</a>{% endif %}
+        </div>
+      </div>
     </div>
   </div>
-<!-- End Countdown -->
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
 <div class='header' id='chapel-header-bar'>
 
     <div id='search-area'>
@@ -129,7 +129,7 @@
                             </a>
                           </div>
                           <div class="top-nav-right pull-right">
-                            <a id="menu-btn" href="javascript:void(0);" title="Menu"><span id="menu-btn-icon" class="icon-fw icon-menu-3"></span> Menu</a>
+                            <a id="menu-btn" href="javascript:void(0);" title="Menu"><span id="menu-btn-icon" class="icon-fw icon-menu-3"></span><span class="hidden-xs"> Menu</span></a>
                             <a id="events-btn" href="/events/" title="Events"><span class="icon-fw icon-calendar-1"></span><span class="hidden-xs"> Events</span></a>
                              <a id="give-btn" class="hidden-xs" href="/give/" title="Giving"><span class="icon-fw icon-heart"></span> Giving</a>
                              <a id="search-btn" href="javascript:void(0);" title="Search"><span id="menu-search-btn-icon" class="icon-fw icon-zoom-2"></span><span class="hidden-xs"> Search</span></a>
@@ -209,14 +209,14 @@
 
 
 
-  <div id='top-area' class='top-home top-short-header'>
+  <div id='top-area' class='top-home {% if page.shortheader %}top-short-header{% endif %}'>
 
     <div class='top-cover-gradient-fromtop gradient'></div>
     <div class='top-cover-gradient-frombot gradient '></div>
 
 
       <div class='container medium-header header-banner no-subtitle'>
-
+{% if page.title %}
             <div class='row center-row'>
                 <div class='col-lg-12 center-col'>
 
@@ -233,13 +233,34 @@
 
                 </div>
             </div>
+            {% endif %}
           </div>
 
         </div>
       </div>
 
       <div id='main' role='main'>
+          {% unless page.section == 'live' %}
+<!-- begin Countdown -->
+   <div class="announcement-bar">
+    
+    <span class="">Next Service begins in: <div class="defaultCountdown"></div></span>
+    {% comment %}
+    <div id="churchonline_counter">
+      <div class="live">Live Now</div>
 
+      <ul class="time">
+        <li><span>Next Service in:</span></li>
+        <li><span class="days btn-live"></span> <span class="label">days</span></li>
+        <li><span class="hours btn-live"></span> <span class="label">hrs</span></li>
+        <li><span class="minutes btn-live"></span> <span class="label">mins</span></li>
+        <li><span class="seconds btn-live"></span> <span class="label">secs</span></li>
+      </ul>
+    </div>
+    {% endcomment %}
+  </div>
+<!-- End Countdown -->
+{% endunless %}
 
 
 
@@ -360,114 +381,8 @@
 </div> <!-- / wrapper -->
 
 <!-- form modals begin -->
-
-      <div id="prayer-request-popup" class="white-popup mfp-hide">
-
-<h2>Prayer Request</h2>
-
-<p>Please know that your requests and praises are emailed out daily to a group of
-diligent Chapel prayer partners.</p>
-
-<p><small>If you would like to be contacted personally, please include your
-phone number or email address in the space provided. To assure confidentiality, your
-contact information will only be made available to The Chapel ministry team and will
-not be included in the outgoing email as part of your prayer request.</small></p>
-
-<form id="prayer-request-form">
-  <div class="form-group">
-      <label>Your First Name</label>
-      <input id="prayer_name" name="prayer_name" type="text" class="form-control">
-  </div>
-  <div class="form-group">
-      <label>Your Email</label>
-      <input id="prayer_email" name="prayer_email" type="email" class="form-control email">
-  </div>
-  <div class="form-group">
-      <label>Your Phone Number</label>
-      <input id="prayer_phone" name="prayer_phone" type="text" class="form-control phone">
-  </div>
-  <div class="form-group">
-      <label>Your Prayer Request (required)</label>
-      <textarea id="p_request" name="p_request" rows="7" class="form-control"></textarea>
-  </div>
-
-   <input name="website" type="hidden" id="send_prayer_website" value="">
-
-
-  <a href="javascript:void(0)" id="send_prayer_email" class="btn btn-default btn-left mg-t-sm"><i class="icon-send-1"></i> Send Prayer Request</a>
-  <span id="prayer_email_status"></span>
-</form>
-
-</div>
-
-<div id="tech-support-popup" class="white-popup mfp-hide">
-
-<h2>Technical Support Request</h2>
-
-<p>If you're having trouble viewing the live stream, <a href="http://youtube.com/thursdaychurchvin/live" target="_blank">visit our Livestream page</a>. For additional support, contact us below.</p>
-
-<form id="tech-support-form">
-  <div class="form-group">
-      <label>Your Name</label>
-      <input id="tech_name" name="name" type="text" class="form-control">
-  </div>
-  <div class="form-group">
-      <label>Your Email Address</label>
-      <input id="tech_email" name="email" type="text" class="form-control email">
-  </div>
-  <div class="form-group">
-      <label>Please tell us the issues you are experiencing.</label>
-      <textarea id="tech_issues" name="issues" rows="7" class="form-control"></textarea>
-  </div>
-
-
-  <a href="javascript:void(0)" id="send_tech_support_email" class="btn btn-default btn-left mg-t-sm"><i class="icon-send-1"></i> Send Request</a>
-  <span id="tech_email_status"></span>
-</form>
-
-</div>
-
-<div id="email-popup" class="white-popup mfp-hide">
-
-<h2>Email Notes</h2>
-<div class="form-group">
-    <label>Your Email Address</label>
-    <input id="send_email" name="send_email" type="email" class="form-control email">
-</div>
-
-<a href="javascript:void(0)" id="send_note_email" class="btn btn-default btn-left mg-t-sm"><i class="icon-send-1"></i> Send Email</a>
-<span id="email_status"></span>
-
-</div>
-
-<div id="share-email-popup" class="white-popup mfp-hide">
-
- <h2>Share This With A Friend</h2>
-<div class="form-group">
-    <label>Your Email Address</label>
-    <input id="send_email_friend" name="send_email_friend" type="text" class="form-control email">
-</div>
-<div class="form-group">
-    <label>Your Friend's Email Address</label>
-    <input id="send_email_friend_friendname" name="send_email_friend_friendname" type="text" class="form-control email">
-</div>
-   <div class="form-group">
-  <p class=" mg-b-xs"><strong>Subject:</strong> The Chapel Live</p>
-  <label>Your Message</label>
-   <textarea class="form-control" placeholder="Come join me in watching The Chapel live!" id="send_email_friend_message" name="send_email_friend_message"></textarea>
-
-    <p class="mg-t-sm"><strong>Sharing URL:</strong> http://thursdaychurch.org/live/</p>
-</div>
-
- <input name="website" type="hidden" id="send_website" value="">
-
-<a href="javascript:void(0)" id="send_note_email_friend" class="btn btn-default btn-left mg-t-sm"><i class="icon-send-1"></i> Send Email</a>
-<span id="email_friend_status"></span>
-
-</div>
-
-</div>
-
+{% include form-modals.html %}
+<!-- form modals end -->
 <script>
 initSample();
 </script>
