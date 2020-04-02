@@ -59,16 +59,16 @@
 			"file": "_layouts/default2.html",
 			"settings":
 			{
-				"buffer_size": 23477,
+				"buffer_size": 28183,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_layouts/default.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 17377,
+				"buffer_size": 4831,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -114,9 +114,81 @@
 	],
 	"file_history":
 	[
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/ninja/.env",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/ninja/config/database.php",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/ninja/public/humans.txt",
+		"/home/jay/rubystack-2.5.7-5/apache2/Sites/ninja/config/app.php",
+		"/home/jay/Documents/Thursday-Church-homepage/Home.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/events/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/about/about.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/_layouts/default2.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/3d-groups.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/404.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/about.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/another-page.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/beliefs.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/bicknell.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/celebrate-recovery.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/contact.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/creole.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/give.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/global-missions.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/kids.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/life-groups.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/mobile-food-pantry.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/offline.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/staff.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/students.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/The-Counselor.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/vincenness.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/why-we-give.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/_layouts/announcement.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/_layouts/basic.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/_layouts/locations.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/_layouts/watch-archive.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/_layouts/watch.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/_posts/2020-01-14-welcome-to-jekyll.markdown",
+		"/home/jay/Documents/github/jaygreentree.github.io/announcements/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/life-groups/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/live/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/locations/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/news/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/news/_posts/2020-03-18-covid-19.md",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/about/beliefs.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/about/contact.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/about/staff.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/events/calendar.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/events/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/giving/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/giving/why-we-give.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/locations/bicknell.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/locations/french.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/locations/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/locations/vincenness.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/ministries/3d-groups.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/ministries/celebrate-recovery.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/ministries/globalmissions.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/ministries/kids.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/ministries/mobile-food-pantry.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/ministries/students.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/pages/news/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/podcast/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/staff/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/stories/called-to-serve.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/stories/forgiveness.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/stories/index.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/stories/share.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/watch/archive.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/watch/index-old.html",
+		"/home/jay/Documents/github/jaygreentree.github.io/watch/index.html",
+		"/home/jay/Documents/Thursday-Church-homepage/assets/js/plugins/slick/slick-1.8.1/index.html",
+		"/home/jay/Desktop/American Truck Simulator.desktop",
+		"/home/jay/Documents/github/jaygreentree.github.io/_data/announcement.yml",
+		"/home/jay/Documents/Thursday-Church-homepage/assets/css/home.css",
+		"/home/jay/Documents/github/jaygreentree.github.io/_layouts/default.html",
 		"/home/jay/Documents/Thursday-Church-homepage/theme-defaults/js",
 		"/home/jay/Documents/github/jaygreentree.github.io/assets/css/jquery.countdown.css",
-		"/home/jay/Documents/github/jaygreentree.github.io/index.html",
 		"/home/jay/Documents/github/jaygreentree.github.io/_data/watch.yml",
 		"/home/jay/rubystack-2.5.7-5/apache2/Sites/processwire/site/config.php",
 		"/home/jay/rubystack-2.5.7-5/apache2/Sites/processwire/README.md",
@@ -153,7 +225,6 @@
 		"/home/jay/.cache/.fr-dryNHM/backup-10.26.2018_07-55-46_thursdaychurch/homedir/public_html/application/controllers/Series.php",
 		"/home/jay/.cache/.fr-lXfTnJ/backup-10.26.2018_07-55-46_thursdaychurch/homedir/public_html/application/controllers/Ministries.php",
 		"/media/jay/CHAPEL/The Chapel/Messages   The Chapel.html",
-		"/home/jay/Documents/github/jaygreentree.github.io/pages/giving/index.html",
 		"/home/jay/rubystack-2.5.7-5/apache2/Sites/ExpressionEngine5.0.2/system/ee/EllisLab/ExpressionEngine/app.setup.php",
 		"/home/jay/rubystack-2.5.7-5/apache2/Sites/sitatious/db.php",
 		"/home/jay/rubystack-2.5.7-5/apache2/Sites/churchcrm/Include/Functions.php",
@@ -170,88 +241,18 @@
 		"/media/jay/Server Stuff/MAMP/Sites/sermons/public/index.php",
 		"/media/jay/Server Stuff/MAMP/Sites/lifechurch/please",
 		"/media/jay/Server Stuff/MAMP/Sites/GreentreeConsulting/install.php",
-		"/media/jay/Server Stuff/MAMP/Sites/GreentreeConsulting/config/database.php",
-		"/home/jay/Documents/github/jaygreentree.github.io/_data/announcement.yml",
-		"/media/jay/Server Stuff/MAMP/Sites/GreentreeConsulting/index.php",
-		"/home/jay/Documents/github/jaygreentree.github.io/_data/live.yml",
-		"/home/jay/Documents/github/jaygreentree.github.io/about.html",
-		"/home/jay/Documents/github/jaygreentree.github.io/_layouts/default.html",
-		"/home/jay/Documents/github/jaygreentree.github.io/announcements/_posts/2020-01-16-live.md",
-		"/media/jay/TCMediaJay/lifechurch-site-gh-pages/railsapp/_layouts/default.html",
-		"/media/jay/TCMediaJay/lifechurch-site-gh-pages/railsapp/_layouts/announcement.html",
-		"/home/jay/Documents/github/jaygreentree.github.io/_config.yml",
-		"/home/jay/Documents/github/runninginproduction.com/_config.yml",
-		"/media/jay/Server Stuff/srv/dev/wwwtcweb/Default.aspx",
-		"/media/jay/Server Stuff/srv/dev/wwwroot-gcweb/About.aspx",
-		"/media/jay/Server Stuff/Windows Backups/11-16-2019/MyBackup_full_b1_s1_v1.tib",
-		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/Newpointe/Globule-Radio/archive.php",
-		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/cms/config/database.php",
-		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/cms/public/assets/vendor/jquery/jquery.min.js",
-		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/cms/public/themes/public/views/home.blade.php",
-		"/home/jay/Documents/github/jaygreentree.github.io/live/index.html",
-		"/media/jay/User folders./Users/Jay L Greentree/Documents/GitHub/cms/public/index.php",
-		"/media/jay/TCMediaJay/Sites/cwp/site/templates/includes/form-modals.inc",
-		"/media/jay/TCMediaJay/lifechurch-site-gh-pages/railsapp/pages/kids.html",
-		"/home/jay/Documents/github/jaygreentree.github.io/_includes/form-modals.html",
-		"/home/jay/Documents/github/jaygreentree.github.io/_includes/livejs.html",
-		"/media/jay/JayGreentre/church-website-processwire-master/church-website-processwire-master/site/templates/includes/functions.inc",
-		"/home/jay/rubystack-2.5.7-5/projects/sample/README.md",
-		"/home/jay/Documents/github/jaygreentree.github.io/news/index.html",
-		"/home/jay/Documents/github/jaygreentree.github.io/news/_posts/2020-03-18-covid-19.md",
-		"/home/jay/Documents/github/jaygreentree.github.io/news/_posts/2019-04-20-welcome.md",
-		"/home/jay/Documents/github/jaygreentree.github.io/pages/news/index.html",
-		"/home/jaygreentree/Github/jaygreentree.github.io/_data/announcement.yml",
-		"/home/jaygreentree/Github/jaygreentree.github.io/staff/index.html",
-		"/home/jaygreentree/Github/jaygreentree.github.io/_includes/livejs.html",
-		"/home/jaygreentree/Github/jaygreentree.github.io/_includes/live-item.html",
-		"/home/jaygreentree/Github/jaygreentree.github.io/_data/live.yml",
-		"/home/jaygreentree/Github/jaygreentree.github.io/_layouts/default.html",
-		"/home/jaygreentree/Github/jaygreentree.github.io/_data/watch.yml",
-		"/home/jaygreentree/Github/jaygreentree.github.io/_data/watch.-2018yml",
-		"/home/jaygreentree/Github/jaygreentree.github.io/watch/_posts/2019-05-05-division-vs-vision.md",
-		"/home/jaygreentree/Github/jaygreentree.github.io/_includes/watch-messages.html",
-		"/home/jaygreentree/Github/jaygreentree.github.io/_includes/video-player.html",
-		"/home/jaygreentree/Github/jaygreentree.github.io/watch/_posts/2019-06-19-the-influence-of-main.md",
-		"/home/jaygreentree/Github/jaygreentree.github.io/watch/_posts/2019-08-15-travis-roberta-sanders.md",
-		"/home/jaygreentree/Github/jaygreentree.github.io/watch/_posts/2019-10-03-love-thy-neighbor-as-yourself.md",
-		"/home/jaygreentree/Github/jaygreentree.github.io/README.md",
-		"/home/jaygreentree/Github/thursdaychurch.org/_data/live.yml",
-		"/home/jaygreentree/Github/thursdaychurch.org/_layouts/default.html",
-		"/home/jaygreentree/Github/thursdaychurch.org/live/index.html",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/live.html",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/_data/missions.yml",
-		"/C/Users/Jay L Greentree/Pictures/grafana-5.3.4.windows-amd64/grafana-5.3.4/README.md",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/_data/locations.yml",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/index.html",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/watch/index.html",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/live.thursdaychurch.org/CNAME",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/live.thursdaychurch.org/_config.yml",
-		"/F/jaygreentree.github.io/_config.yml",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/_data/watch.yml",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/_data/live.yml",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/_layouts/default.html",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/_includes/location-item.html",
-		"/C/Bitnami/rubystack-2.5.7-1/projects/tcweb/_layouts/locations.html",
-		"/Users/jaygreentree/Documents/GitHub/federalist.18f.gov/Gemfile",
-		"/Users/jaygreentree/Documents/GitHub/jaygreentree.github.io/_includes/location-item.html",
-		"/Users/jaygreentree/projects/tcweb/locations/index.html",
-		"/Users/jaygreentree/projects/tcweb/_data/watch.yml",
-		"/Users/jaygreentree/projects/railsapp/_data/watch.yml",
-		"/Users/jaygreentree/projects/tcweb/announcements/index.html",
-		"/Users/jaygreentree/projects/tcweb/watch/_posts/2020-01-05-vision-2020.md",
-		"/Users/jaygreentree/projects/tcweb/_includes/watch-messages.html",
-		"/Users/jaygreentree/projects/tcweb/announcements/_posts/2020-01-16-live.md",
-		"/Users/jaygreentree/projects/tcweb/watch/index.html"
+		"/media/jay/Server Stuff/MAMP/Sites/GreentreeConsulting/config/database.php"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 102.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -259,6 +260,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"btn-primary",
+			"layout: default22",
+			"layout: default",
+			"./",
+			"podcast",
+			"Podcast-circle.png",
+			"Adults",
+			"Music",
+			"Students",
+			"ccv",
 			"Sites/ExpressionEngine5.0.2/",
 			"sitatious",
 			"statamic",
@@ -285,6 +296,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"layout: default2"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -295,7 +307,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -304,46 +316,45 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 23477,
+						"buffer_size": 28183,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								12452,
+								12458
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4338.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_layouts/default.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17377,
+						"buffer_size": 4831,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12602,
-								12602
+								29,
+								29
 							]
 						],
 						"settings":
@@ -353,10 +364,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6534.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -439,7 +450,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 327.0,
+	"side_bar_width": 351.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default2
 title:  "Welcome to Jekyll!"
 date:   2020-01-26 10:40:00 -0500
 categories: jekyll update

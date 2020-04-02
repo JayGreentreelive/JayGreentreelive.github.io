@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<!-- saved from url=(0019)/ -->
+
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} |{% endif %} Thursday Church</title>
     
     <!-- Begin stylesheets -->
-    <script src="/assets/js/plugins/jquery/jquery.min.js"></script>
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="/site/templates/css/magnific-popup.css">
+    <link rel="stylesheet" href="/site/templates/css/audioplayer.css">
+    <link rel="stylesheet" href="/site/templates/css/site-helpers.css">
+    <link rel="stylesheet" href="/site/templates/css/icon-font.css">
+    <link rel="stylesheet" href="/site/templates/css/site.css">
+
     <link rel="stylesheet" href="/assets/css/fonts.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/site.css" type="text/css">
-    
     <link rel="stylesheet" href="/assets/css/home.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/slick.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/slick-theme.css" type="text/css">
@@ -19,16 +23,25 @@
 
 <!-- End Stylesheets -->
     <link rel="shortcut icon" href="/assets/images/icon/favicon.ico">
-        {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
+
+
+
+<style>
+    .page-background {
+    background-color: #000 !important;
+    background-image: url({{ page.heroimage }}) !important;
+    background-size: unset;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 500px) {
+    .page-background {
+        background-image: url({{ page.heroimage }}) !important;
+    }
+}
+</style>
+
 </head>
 <body>
     <div class="page-background">
@@ -83,7 +96,7 @@
                                 <a class="navigation-primary-item-a ccv-modal" href="https://faithlife.com/thursday-church-j/give" target="_blank">Give</a>
                             </li>
                             <li class="navigation-primary-item navigation-primary-search">
-                                <a class="navigation-primary-item-button" href="/search"><img src="./assets/images/magnify-white.png" alt="Search ccv"></a>
+                                <a class="navigation-primary-item-button" href="/search"><img src="/assets/images/magnify-white.png" alt="Search ccv"></a>
                             </li>
                         </ul>
                     </div>
@@ -96,19 +109,19 @@
                     </div>
                 </div>
                 <div class="masthead-nav-mobile">
-                    <img class="btn-mobile-bars" src="./assets/images/menu-white.png" onclick="toggleMobileFullMenu(true);">
+                    <img class="btn-mobile-bars" src="/assets/images/menu-white.png" onclick="toggleMobileFullMenu(true);">
                     <div class="masthead-fullmenu offscreen">
                         <div class="navigation-mobile-title">
                             <div class="navigation-mobile-title-search-wrapper">
                                 Menu
-                                <a class="navigation-mobile-magnify" href="/search"><img src="./assets/images/magnify-white.png" alt="Search TC"></a>
+                                <a class="navigation-mobile-magnify" href="/search"><img src="/assets/images/magnify-white.png" alt="Search TC"></a>
                             </div>
-                            <img class="btn-mobile-close" src="./assets/images/close-white.png" onclick="toggleMobileFullMenu(false);">
+                            <img class="btn-mobile-close" src="/assets/images/close-white.png" onclick="toggleMobileFullMenu(false);">
                         </div>
                         <ul class="navigation-mobile-items">
                             <li>
                                 <div class="dropdown">
-                                    <button class="dropdown-toggle navigation-mobile-item btn-mobile-item-toggle" type="button" data-toggle="dropdown" style="border: 0px;">About CCV<img src="./assets/images/chevron-down-black.png"></button>
+                                    <button class="dropdown-toggle navigation-mobile-item btn-mobile-item-toggle" type="button" data-toggle="dropdown" style="border: 0px;">About CCV<img src="/assets/images/chevron-down-black.png"></button>
                                     <ul class="dropdown-menu">
                                         <li><a class="navigation-mobile-item" href="/about-us">About Us</a></li>
                                         <li><a class="navigation-mobile-item" href="/about-us/our-beliefs">Our Beliefs</a></li>
@@ -119,7 +132,7 @@
                             </li>
                             <li>
                                 <div class="dropdown">
-                                    <button class="dropdown-toggle navigation-mobile-item btn-mobile-item-toggle" type="button" data-toggle="dropdown" style="border: 0px;">Experience CCV<img src="./assets/images/chevron-down-black.png"></button>
+                                    <button class="dropdown-toggle navigation-mobile-item btn-mobile-item-toggle" type="button" data-toggle="dropdown" style="border: 0px;">Experience CCV<img src="/assets/images/chevron-down-black.png"></button>
                                     <ul class="dropdown-menu">
                                         <li><a class="navigation-mobile-item" href="/experience">Experience CCV</a></li>
                                         <li><a class="navigation-mobile-item" href="/experience/the-message">The Message</a></li>
@@ -129,7 +142,7 @@
                             </li>
                             <li>
                                 <div class="dropdown">
-                                    <button class="dropdown-toggle navigation-mobile-item btn-mobile-item-toggle" type="button" data-toggle="dropdown" style="border: 0px;">Ministries<img src="./assets/images/chevron-down-black.png"></button>
+                                    <button class="dropdown-toggle navigation-mobile-item btn-mobile-item-toggle" type="button" data-toggle="dropdown" style="border: 0px;">Ministries<img src="/assets/images/chevron-down-black.png"></button>
                                     <ul class="dropdown-menu">
                                         <li><a class="navigation-mobile-item" href="/ministries">Ministries</a></li>
                                         <li><a class="navigation-mobile-item" href="/ministries/kids">Kids</a></li>
@@ -144,7 +157,7 @@
                             </li>
                             <li>
                                 <div class="dropdown">
-                                    <button class="dropdown-toggle navigation-mobile-item btn-mobile-item-toggle" type="button" data-toggle="dropdown" style="border: 0px;">Get Involved<img src="./assets/images/chevron-down-black.png"></button>
+                                    <button class="dropdown-toggle navigation-mobile-item btn-mobile-item-toggle" type="button" data-toggle="dropdown" style="border: 0px;">Get Involved<img src="/assets/images/chevron-down-black.png"></button>
                                     <ul class="dropdown-menu">
                                         <li><a class="navigation-mobile-item" href="/get-involved">Get Involved</a></li>
                                         <li><a class="navigation-mobile-item" href="/get-involved/events">Events</a></li>
@@ -158,7 +171,7 @@
                             </li>
                             <li>
                                 <div class="dropdown">
-                                    <button class="dropdown-toggle navigation-mobile-item btn-mobile-item-toggle" type="button" data-toggle="dropdown" style="border: 0px;">Watch<img src="./assets/images/chevron-down-black.png"></button>
+                                    <button class="dropdown-toggle navigation-mobile-item btn-mobile-item-toggle" type="button" data-toggle="dropdown" style="border: 0px;">Watch<img src="/assets/images/chevron-down-black.png"></button>
                                     <ul class="dropdown-menu">
                                         <li><a class="navigation-mobile-item" href="/watch">Watch</a></li>
                                         <li><a class="navigation-mobile-item" href="/watch/ccv-live">CCV Live</a></li>
@@ -178,11 +191,135 @@
         <main role="main">
 
 
+
+
+
+<section id="hero" class="main-feature">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                {% if page.title %}
+                <div class="title">
+                    <h1>{{ page.title }}</h1>
+                    <div class="title-content">
+                        <p><strong>{{ page.description }}</strong></p>
+                       {% unless page.title == 'home' %}
+                       <a href="#prayer-request-popup" class="btn btn-primary btn-clear btn-left mg-t-sm">Need Prayer?</a>
+                       <a href="/sermons/" class="btn btn-primary btn-clear btn-left mg-t-sm">Recent Sermons</a>
+                       <a href="//faithlife.com/thursday-church-j/give" class="btn btn-primary btn-clear btn-left mg-t-sm">Give Online</a>
+                       <a href="/live" class="btn btn-default countdown-complete show-live" style="display: none;">Watch TC Live Now</a>
+                       {% endunless %}
+                        </span>
+                        </span>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <div class="content">
+        {{ content }}
+
+</main>
+   <!-- end Main -->
+
+           <footer class="footer">
+            <div class="footer-logo">
+                <img src="/assets/images/ccv-white.svg" height="35" width="100">
+                <span class="footer-copyright"><i class="fa fa-copyright" aria-hidden="true"></i>2008-2020 Thursday Church</span>
+                <div class="footer-social">
+                    <a href="https://facebook.com/ccvonline" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com/ccvonline" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/ccvonline" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-links-section">
+                    <h5>Resources</h5>
+                    <a href="/ministries/adults/life-training">Life Training</a>
+                    <a href="/reach-out/prayer">Prayer</a>
+                    <a href="/ccv-resources">Church Resources</a>
+                    <a href="/rightnowmedia">RightNow Media</a>
+                </div>
+                <div class="footer-links-section">
+                    <h5>Reach out</h5>
+                    <a href="/contact-us">Contact Us</a>
+                    <a href="/career-opportunities">Careers</a>
+                    <a href="/leadership-institute">Leadership Institute</a>
+                </div>
+                <div class="footer-links-section" style="justify-content: space-between;">
+                    <div class="footer-links-subsection">
+                        <h5>Community Services</h5>
+                        <a href="/premarital">Premarital</a>
+                        <a href="/community-services/weddings-at-ccv">Weddings</a>
+                        <a href="/community-services/funerals">Funerals</a>
+                    </div>
+                    <div class="footer-links-legal">
+                        <a href="/privacy-policy">Privacy Policy</a>
+                        <a href="/app">Mobile App</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+<!-- Begin Forms Modal -->
+<section class="nav-sub" style="display: none;">
+    <ul class="nav nav-pills nav-stacked nav-categories">
+        <li>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iframe-cta-contact-us">
+                <i class="fas fa-calendar-plus"></i>&nbsp;Contact Us Popup</button>
+        </li>
+    </ul>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="iframe-cta-contact-us" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header"> 
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fa fa-times-circle"></i>
+                    </span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    <i class="fa fa-calendar-plus"></i>
+                &nbsp;Contact Us
+            </h4>
+            </div>
+            <div class="modal-body">
+                <iframe src="/about/contact/" style="height:100%;width:100%;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Forms Modal -->
+        {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+    <script src="/assets/js/plugins/jquery/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/ui-effect-navbar.js"></script>
+    <script src="/assets/js/countdown.js"></script>
+    <script src="/assets/js/site.js"></script>
+    <script src="/assets/js/plugins/slick/slick.min.js"></script>
 <script>
     $(document).ready(function () {
         // load the api response for ccv live
         var isLive = ('False' == 'True');
-        var timeInMS = new Date('03/29/2020 10:30:00').getTime();
+        var timeInMS = new Date('04/02/2020 18:30:00').getTime();
         if (!isLive && timeInMS) {
             // event is not live yet
             startTimer(timeInMS);
@@ -190,11 +327,11 @@
 
         // initialize slick slider
         $('.service-content-slider').slick({
-            dots: true,
+            dots: false,
             autoplay: true,
             autoplaySpeed: 5000,
-            arrows: false,
-            slidesToShow: 3,
+            arrows: true,
+            slidesToShow: 4,
             responsive: [
                 {
                     breakpoint: 1330,
@@ -212,195 +349,4 @@
         });
     });
 </script>
-
-
-<section id="hero" class="main-feature">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                {% if page.title %}
-                <div class="title">
-                    <h1>{{ page.title }}</h1>
-                    <div class="title-content">
-                        <p><strong>{{ page.description }}</strong></p>
-                       {% unless page.title == 'home' %}
-                       <a href="#prayer-request-popup" class="btn btn-primary">Need Prayer?</a>
-                       <a href="/sermons/" class="btn btn-primary">Recent Sermons</a>
-                       <a href="//faithlife.com/thursday-church-j/give" class="btn btn-primary">Give Online</a>
-                       <a href="/live" class="btn btn-primary countdown-complete show-live" style="display: none;">Watch TC Live Now</a>
-                       {% endunless %}
-                        </span>
-                        </span>
-                    </div>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-{% unless page.title == 'home' %}
-<section class="weekend-experience-resources">
-    <div class="tiles">
-        <div class="row service-content-slider slick-initialized slick-slider">
-            <div class="slick-list draggable">
-                <div class="slick-track" style="opacity: 1; width: 4972px; transform: translate3d(-2712px, 0px, 0px);">
-
-                    <div class="tile slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" style="width: 432px;" tabindex="-1">
-                <a href="/podcast" tabindex="-1">
-                    <div class="tile-header">
-                        <h3 class="mobile">Podcast</h3>
-                        <img src="./assets/images/podcast-circle.png">
-                    </div>
-                    <div class="tile-content">
-                        <h3 class="desktop">Podcast</h3>
-                        <p>Unable to join us online? Sermon audio is available on your mobile devices.</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="tile slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" style="width: 432px;" tabindex="-1">
-                <a href="https://www.youtube.com/channel/UCWXCfQS_M9QNMOYVleAJcuA" tabindex="-1">
-                    <div class="tile-header">
-                        <h3 class="mobile">Online Giving</h3>
-                        <img src="./assets/images/giving-circle.png">
-                    </div>
-                    <div class="tile-content">
-                        <h3 class="desktop">Online Giving</h3>
-                        <p>Online Giving allows you to give via our website using a credit card, debit card, or bank account information.</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="tile slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 432px;" tabindex="-1">
-                <a href="https://www.youtube.com/channel/UCEaevlxOJeCACxz71xflFNA" tabindex="-1">
-                    <div class="tile-header">
-                        <h3 class="mobile">Watch Live</h3>
-                        <img src="./assets/images/watch-circle.png">
-                    </div>
-                    <div class="tile-content">
-                        <h3 class="desktop">Watch Live</h3>
-                        <p>Join us for live worship online Thursdays at 6:45pm and Sundays 10:45am.</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="tile slick-slide" data-slick-index="0" aria-hidden="true" style="width: 432px;" tabindex="-1" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">
-                <a href="/watch" tabindex="-1">
-                    <div class="tile-header">
-                        <h3 class="mobile">Podcast</h3>
-                        <img src="./assets/images/podcast-circle.png">
-                    </div>
-                    <div class="tile-content">
-                        <h3 class="desktop">Podcast</h3>
-                        <p>No matter what you have going on, you can count on our messages being available anytime, anywhere!</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="tile slick-slide" data-slick-index="1" aria-hidden="true" style="width: 432px;" tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01">
-                <a href="https://www.youtube.com/channel/UC3ZelBM3GKvRLVArsug2kqw" tabindex="-1">
-                    <div class="tile-header">
-                        <h3 class="mobile">Online Giving</h3>
-                        <img src="./assets/images/giving-circle.png">
-                    </div>
-                    <div class="tile-content">
-                        <h3 class="desktop">Online Giving</h3>
-                        <p>Online Giving allows you to give via our website using a credit card, debit card, or bank account information.</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="tile slick-slide" data-slick-index="2" aria-hidden="true" style="width: 432px;" tabindex="-1" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02">
-                <a href="https://www.youtube.com/channel/UCWXCfQS_M9QNMOYVleAJcuA" tabindex="-1">
-                    <div class="tile-header">
-                        <h3 class="mobile">Watch Live</h3>
-                        <img src="./assets/images/watch-circle.png">
-                    </div>
-                    <div class="tile-content">
-                        <h3 class="desktop">Watch Live</h3>
-                        <p>Join us for live worship online Thursdays at 6:45pm and Sundays 10:45am.</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="tile slick-slide slick-current slick-active" data-slick-index="3" aria-hidden="false" style="width: 432px;" tabindex="0" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03">
-                <a href="https://www.youtube.com/channel/UCEaevlxOJeCACxz71xflFNA" tabindex="0">
-                    <div class="tile-header">
-                        <h3 class="mobile">Podcast</h3>
-                        <img src="./assets/images/podcast_circle.png">
-                    </div>
-                    <div class="tile-content">
-                        <h3 class="desktop">Podcast</h3>
-                        <p>Unable to join us online? Sermon audio is available on your mobile devices.</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="tile slick-slide slick-cloned slick-active" data-slick-index="4" aria-hidden="false" style="width: 432px;" tabindex="-1">
-                <a href="/watch" tabindex="0">
-                    <div class="tile-header">
-                        <h3 class="mobile">Online Giving</h3>
-                        <img src="./assets/images/giving-circle.png">
-                    </div>
-                    <div class="tile-content">
-                        <h3 class="desktop">Online Giving</h3>
-                        <p>Online Giving allows you to give via our website using a credit card, debit card, or bank account information.</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="tile slick-slide slick-cloned slick-active" data-slick-index="5" aria-hidden="false" style="width: 432px;" tabindex="-1">
-                <a href="https://www.youtube.com/channel/UC3ZelBM3GKvRLVArsug2kqw" tabindex="0">
-                    <div class="tile-header">
-                        <h3 class="mobile">Watch Live</h3>
-                        <img src="./assets/images/watch-circle.png">
-                    </div>
-                    <div class="tile-content">
-                        <h3 class="desktop">Watch Live</h3>
-                        <p>Join us for live worship online Thursdays at 6:45pm and Sundays 10:45am.</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="tile slick-slide slick-cloned" data-slick-index="6" aria-hidden="true" style="width: 432px;" tabindex="-1">
-                <a href="https://www.youtube.com/channel/UCWXCfQS_M9QNMOYVleAJcuA" tabindex="-1">
-                    <div class="tile-header">
-                        <h3 class="mobile">Kids</h3>
-                        <img src="./assets/images/kids-circle.png">
-                    </div>
-                    <div class="tile-content">
-                        <h3 class="desktop">Kids</h3>
-                        <p>Check out our Early Kids and Later Kids weekend content and special bonus content ONLY on our YouTube channel!</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="tile slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" style="width: 432px;" tabindex="-1">
-                <a href="https://www.youtube.com/channel/UCEaevlxOJeCACxz71xflFNA" tabindex="-1">
-                    <div class="tile-header">
-                        <h3 class="mobile">Podcast</h3>
-                        <img src="./assets/images/podcast_circle.png">
-                    </div>
-                    <div class="tile-content">
-                        <h3 class="desktop">Podcast</h3>
-                        <p>Need a playlist for your day? Catch up on the entire collection of CCV Podcast on our YouTube channel!</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-      </div>
-
-
-</div>
-            
-            
-            
-        <ul class="slick-dots" style="" role="tablist"><li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 2" tabindex="-1">1</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 2" tabindex="-1">2</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 2" tabindex="-1">3</button></li><li role="presentation" class="slick-active"><button type="button" role="tab" id="slick-slide-control03" aria-controls="slick-slide03" aria-label="4 of 2" tabindex="0" aria-selected="true">4</button></li></ul></div>
-    </div>
- 
-        {% endunless %}
-   <div class="content">
-        {{ content }}
-
-</main>
-   <!-- end Main -->
+</body></html>
