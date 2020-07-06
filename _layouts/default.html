@@ -36,18 +36,7 @@
            </style>
     <!-- Javascript ================================================== -->
     <script src="/site/templates/js/plugins/modernizr/modernizr.min.js"></script>
-        <script src="/site/templates/js/plugins/jquery/jquery.min.js"></script>
-        <script src="/site/templates/js/chop.js"></script>
-    <!-- start the countdown when the page loads -->
-    <script type="text/javascript">
-      $(function () {
-        var holiday = new Date();
-        holiday = new Date("2020-07-09 18:30:00 -0400");
-        $('.defaultCountdown').countdown({until: holiday});
-        $('#year').text(holiday.getFullYear());
-      });
-    </script>
-    <!-- end of javascript includes  -->
+    <script src="/site/templates/js/plugins/jquery/jquery.min.js"></script>
     <script src='/site/templates/js/plugins/fastbutton/google.fastbutton.js'></script>
     <script src='/site/templates/js/plugins/fastbutton/jquery.google.fastbutton.js'></script>
     <script src='/site/templates/js/bootstrap.min.js'></script>
@@ -72,6 +61,17 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+    <script src="/site/templates/js/chop.js"></script>
+    <!-- start the countdown when the page loads -->
+    <script type="text/javascript">
+      $(function () {
+        var holiday = new Date();
+        holiday = new Date("2020-07-09 18:30:00 -0400");
+        $('.defaultCountdown').countdown({until: holiday});
+        $('#year').text(holiday.getFullYear());
+      });
+    </script>
+    <!-- end of javascript includes  -->
 
 
 </head>

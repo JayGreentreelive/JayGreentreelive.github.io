@@ -41,7 +41,46 @@
     }
 }
 </style>
+    <script src="/assets/js/plugins/jquery/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/ui-effect-navbar.js"></script>
+    <script src="/assets/js/countdown.js"></script>
+    <script src="/assets/js/site.js"></script>
+    <script src="/assets/js/plugins/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // load the api response for ccv live
+        var isLive = ('False' == 'True');
+        var timeInMS = new Date('07/09/2020 18:30:00').getTime();
+        if (!isLive && timeInMS) {
+            // event is not live yet
+            startTimer(timeInMS);
+        }
 
+        // initialize slick slider
+        $('.service-content-slider').slick({
+            dots: false,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            arrows: true,
+            slidesToShow: 4,
+            responsive: [
+                {
+                    breakpoint: 1330,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    });
+</script>
 </head>
 <body>
     <div class="page-background">
@@ -309,44 +348,5 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-    <script src="/assets/js/plugins/jquery/jquery.min.js"></script>
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/ui-effect-navbar.js"></script>
-    <script src="/assets/js/countdown.js"></script>
-    <script src="/assets/js/site.js"></script>
-    <script src="/assets/js/plugins/slick/slick.min.js"></script>
-<script>
-    $(document).ready(function () {
-        // load the api response for ccv live
-        var isLive = ('False' == 'True');
-        var timeInMS = new Date('04/02/2020 18:30:00').getTime();
-        if (!isLive && timeInMS) {
-            // event is not live yet
-            startTimer(timeInMS);
-        }
 
-        // initialize slick slider
-        $('.service-content-slider').slick({
-            dots: false,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            arrows: true,
-            slidesToShow: 4,
-            responsive: [
-                {
-                    breakpoint: 1330,
-                    settings: {
-                        slidesToShow: 2,
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-    });
-</script>
 </body></html>
