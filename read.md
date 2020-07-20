@@ -4,6 +4,7 @@ title: Jekyll Read Me
 permalink: /read/
 ---
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5151bc62-0674-4121-81eb-c23a57c07613/deploy-status)](https://app.netlify.com/sites/hungry-dubinsky-c1d701/deploys)
 
 # Liquid template engine
 
