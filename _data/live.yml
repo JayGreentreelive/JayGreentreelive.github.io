@@ -1,8 +1,8 @@
 - id: thursday
-  title: Whats At The Core
-  subtitle: Renewal
+  title: Down on the farm
+  subtitle: :Lessons learned from
   partnum: 3
-  date: 03/26/2020
+  date: 07/30/2020
   speaker: Debbie Salters
   chat: 
   servicetimes: 
@@ -15,10 +15,10 @@
   reviewquestion: 'review questions'
   video: 
   nextTime: 06:40am Thursday
-  nextDay: March 26, 2020
+  nextDay: July 30, 2020
   year: "2020"
-  month: "03"
-  day: "26"
+  month: "07"
+  day: "30"
   startHour: "18"
   startTime: "40"
   endDay: "0"

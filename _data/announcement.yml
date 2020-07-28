@@ -1,3 +1,8 @@
+# type: notice or alert
+# active: true or false
+# icon: weather-snow, weather-rain, campus, money, calendar, maintenance
+# message: the message in the announcement
+# url: link or leave blank
 - active: false
   type: notice
   icon: money
