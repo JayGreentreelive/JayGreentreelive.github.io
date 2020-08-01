@@ -46,9 +46,7 @@
     <script src='/site/templates/js/main.js'></script>
     <script src='/site/templates/js/popup.js'></script>
     <script src='/site/templates/js/share.js'></script>
-    <script>
-      {% include livejs.html %}
-    </script>
+
     <script src='/site/templates/css/ckeditor/ckeditor.js'></script>
     <script src='/site/templates/css/ckeditor/samples/js/sample.js'></script>
     {% if site.google_analytics %}
@@ -66,7 +64,7 @@
     <script type="text/javascript">
       $(function () {
         var holiday = new Date();
-        holiday = new Date("2020-07-09 18:30:00 -0400");
+        holiday = new Date("2020-08-02 10:30:00 -0400");
         $('.defaultCountdown').countdown({until: holiday});
         $('#year').text(holiday.getFullYear());
       });
