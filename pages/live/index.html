@@ -35,13 +35,14 @@ section: live
 
         <div class="takeaway-block " id="takeaway-block"></div>
         <div class="live-sermon-info mg-t-md ">
-          <div class="pull-right hidden-xs hidden-sm hidden-md mg-b-sm"><a href="javascript:void(0);" class=" mg-r-sm2" id="expand"><i class="fa-lg  icon-maximize-4"></i></a>
+          <div class="pull-right hidden-xs hidden-sm hidden-md mg-b-sm">
+            <a href="javascript:void(0);" class=" mg-r-sm2" id="expand"><i class="fa-lg  icon-maximize-4"></i></a>
             <a href="javascript:void(0);" class="size-control-disabled" id="contract"><i class="fa-lg icon-minimize-1"></i></a>
           </div>
 
                <div id="live-message-details">
                    <h2>{{ post.title }}</h2>
-                   <p>this is a test</p>
+                   <p>{{ post.partnum }}</p>
                    <h4>{{ post.subtitle }} </h4>
                    <p>{{ post.date }} · {{ post.speaker }}</p>               </div>
              </div>
