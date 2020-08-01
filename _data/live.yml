@@ -1,7 +1,7 @@
 - id: thursday
   title: Down on the farm
   subtitle: Lessons Learned from a Goat
-  partnum: 3
+  #partnum: 3
   date: 08/02/2020
   speaker: Debbie Salters
   chat: <iframe width="560" height="315" src="https://www.youtube.com/live_chat?v=MDsACQO4KWQ&embed_domain=thursdaychurch.github.io" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
