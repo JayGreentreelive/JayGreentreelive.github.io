@@ -4,7 +4,7 @@
   partnum: 3
   date: 08/02/2020
   speaker: Debbie Salters
-  chat: 
+  chat: <iframe width="560" height="315" src="https://www.youtube.com/live_chat?v=MDsACQO4KWQ&embed_domain=thursdaychurch.github.io" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   servicetimes: 
   bible: ' <iframe frameborder="0" allowtransparency="true" src="https://www.bible.com/bible/116/GEN.1.NLT" class="bible-iframe"  style="padding:0px;margin:0px;width:100%;min-height: 645px;max-height: 700px;height: 100%;" ></iframe>'
   no_review: ''
@@ -13,7 +13,7 @@
   msg_details: 'Sermon msg details'
   msg_takeaway: 'Sermon msg takeaway'
   reviewquestion: 'review questions'
-  video: 
+  video: <iframe width="560" height="315" src="https://www.youtube.com/embed/MDsACQO4KWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   nextTime: 10:40am Thursday
   nextDay: August 02, 2020
   year: "2020"
