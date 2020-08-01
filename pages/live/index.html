@@ -58,7 +58,7 @@ section: live
 
 {% if post.reviewquestions %}
               <div id="review-content" class="hide mg-b-lg">
-                  <div id="message-id" class="hide">31003</div>
+                  <div id="message-id" class="hide"></div>
                   <div class="mg-b-sm"><h4>Review Questions</h4></div>
                   {{ post.reviewquestions }}
               </div>
@@ -67,24 +67,12 @@ section: live
         </div>
 
         <div class="col-md-12 col-lg-5 page-section live-sidebar " id="section-sidebar">
-
-
-
-
-
                         <ul class="nav nav-tabs nav-justified">
-
-                          <li class="active "><a href="#chat-tab" data-toggle="tab">Chat</a></li>
-
-                          <li class=" "><a href="#notes-tab" data-toggle="tab">Notes</a></li>
-
-                          <li class=" "><a href="#response-tab" data-toggle="tab">Schedule</a></li>
-
-                          <li class=" "><a href="#bible-tab" data-toggle="tab">Bible</a></li>
-
+                          <li class="active"><a href="#chat-tab" data-toggle="tab">Chat</a></li>
+                          <li class=""><a href="#notes-tab" data-toggle="tab">Notes</a></li>
+                          <li class=""><a href="#response-tab" data-toggle="tab">Schedule</a></li>
+                          <li class=""><a href="#bible-tab" data-toggle="tab">Bible</a></li>
                         </ul>
-
-
 
                         <div class="tab-content" id="tabbed-content">
 
@@ -115,11 +103,6 @@ section: live
                           <div class="tab-pane" id="bible-tab">
                            {{ post.bible }}
                           </div>
-
-
-
-
-
             </div>
         </div>
     </div>
