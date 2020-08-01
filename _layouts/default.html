@@ -59,7 +59,9 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-    
+    <script>
+      {% include livejs.html %}
+    </script>
     <!-- start the countdown when the page loads -->
     <script type="text/javascript">
       $(function () {
