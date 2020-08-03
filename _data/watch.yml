@@ -1,21 +1,17 @@
 ---
-- id: struggles
-  title: Struggles
-  headline: 'Let’s be real with our #struggles.'
-  description_small: 'It''s hard to be true to ourselves when we control what the
-    world sees about us online. Let’s learn to be real with our #Struggles.'
-  description_medium: 'As you scroll through your day, does it feel like everyone
-    else has it all together? Someone always has the best job, cutest kid, or happiest
-    relationship. We''re pressured to measure up to other people''s status updates
-    and left with more #struggles.'
+- id: whats-at-the-core
+  title: Whats At The Core
+  headline: ''
+  description_small: ''
+  description_medium: ''
   quote: ''
   quote_cite: ''
-  open_url: http://open.lifechurch.tv/groups/1938-struggles
+  open_url: 
   promo: n0xy2v2cwk
   resources_url: ''
   categories:
   - id: 1
-    name: Relationships
+    name: Serve God and Others
     created_at: '2014-02-03T22:38:58.852Z'
     updated_at: '2014-06-05T19:41:17.695Z'
   - id: 30
