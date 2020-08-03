@@ -1,6 +1,6 @@
 ---
-- id: whats-at-the-core
-  title: Whats At The Core
+- id: down-on-the-farm
+  title: Down on the Farm
   headline: ''
   description_small: ''
   description_medium: ''
@@ -11,12 +11,12 @@
   resources_url: ''
   categories:
   - id: 1
-    name: Serve God and Others
-    created_at: '2020-02-03T22:38:58.852Z'
-    updated_at: '2020-06-05T19:41:17.695Z'
+    name: Lessons Learned from a donkey
+    created_at: '2020-06-28T12:00:00-04:00Z'
+    updated_at: '2020-06-28T19:41:17.695Z'
   - id: 30
-    name: Fears
-    created_at: '2020-06-11T15:18:18.611Z'
+    name: Lessons Learned from Soil
+    created_at: '2020-07-05T12:00:00-04:00Z'
     updated_at: '2020-06-11T15:18:18.611Z'
   - id: 31
     name: Insecurity
