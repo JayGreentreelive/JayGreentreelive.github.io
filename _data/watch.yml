@@ -1,35 +1,51 @@
 ---
-- id: down-on-the-farm
-  title: Down on the Farm
-  headline: ''
-  description_small: ''
-  description_medium: ''
+- id: struggles
+  title: Struggles
+  headline: 'Let’s be real with our #struggles.'
+  description_small: 'It''s hard to be true to ourselves when we control what the
+    world sees about us online. Let’s learn to be real with our #Struggles.'
+  description_medium: 'As you scroll through your day, does it feel like everyone
+    else has it all together? Someone always has the best job, cutest kid, or happiest
+    relationship. We''re pressured to measure up to other people''s status updates
+    and left with more #struggles.'
   quote: ''
   quote_cite: ''
-  open_url: 
+  open_url: http://open.lifechurch.tv/groups/1938-struggles
   promo: n0xy2v2cwk
   resources_url: ''
   categories:
   - id: 1
-    name: Lessons Learned from a donkey
-    created_at: '2020-06-28T12:00:00-04:00Z'
-    updated_at: '2020-06-28T19:41:17.695Z'
+    name: Relationships
+    created_at: '2014-02-03T22:38:58.852Z'
+    updated_at: '2014-06-05T19:41:17.695Z'
   - id: 30
-    name: Lessons Learned from Soil
-    created_at: '2020-07-05T12:00:00-04:00Z'
-    updated_at: '2020-06-11T15:18:18.611Z'
+    name: Fears
+    created_at: '2014-06-11T15:18:18.611Z'
+    updated_at: '2014-06-11T15:18:18.611Z'
   - id: 31
-    name: Lessons learned from a pig
-    created_at: '2020-06-11T15:18:45.147Z'
-    updated_at: '2020-06-11T15:18:45.147Z'
+    name: Insecurity
+    created_at: '2014-06-11T15:18:45.147Z'
+    updated_at: '2014-06-11T15:18:45.147Z'
   - id: 35
-    name: Lessons learned from Geese
-    created_at: '2020-06-11T15:20:16.022Z'
-    updated_at: '2020-06-11T15:20:16.022Z'
+    name: Feelings
+    created_at: '2014-06-11T15:20:16.022Z'
+    updated_at: '2014-06-11T15:20:16.022Z'
   - id: 39
-    name: Lessons Learned from Sheep
-    created_at: '2020-06-11T15:21:10.086Z'
-    updated_at: '2020-06-11T15:21:10.086Z'
+    name: Purpose
+    created_at: '2014-06-11T15:21:10.086Z'
+    updated_at: '2014-06-11T15:21:10.086Z'
+  - id: 42
+    name: Disciplines
+    created_at: '2014-06-11T15:23:03.968Z'
+    updated_at: '2014-06-11T15:23:03.968Z'
+  - id: 43
+    name: Trials
+    created_at: '2014-06-11T15:23:13.523Z'
+    updated_at: '2014-06-11T15:23:13.523Z'
+  - id: 13
+    name: Sins
+    created_at: '2014-06-05T19:20:27.559Z'
+    updated_at: '2014-06-11T16:19:31.726Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/struggles/300x200.jpg?1410207282
   image_medium: http://s3.amazonaws.com/lcapi.production/series/struggles/600x400.jpg?1410207346
   image_large: http://s3.amazonaws.com/lcapi.production/series/struggles/1200x800.jpg?1410207407
@@ -70,20 +86,20 @@
   categories:
   - id: 23
     name: Faith
-    created_at: '2020-06-11T15:16:43.996Z'
-    updated_at: '2020-06-11T15:16:43.996Z'
+    created_at: '2014-06-11T15:16:43.996Z'
+    updated_at: '2014-06-11T15:16:43.996Z'
   - id: 40
     name: Miracles
-    created_at: '2020-06-11T15:21:20.475Z'
-    updated_at: '2020-06-11T15:21:20.475Z'
+    created_at: '2014-06-11T15:21:20.475Z'
+    updated_at: '2014-06-11T15:21:20.475Z'
   - id: 61
     name: Chris Beall
-    created_at: '2020-06-11T15:49:00.818Z'
-    updated_at: '2020-06-11T15:49:00.818Z'
+    created_at: '2014-06-11T15:49:00.818Z'
+    updated_at: '2014-06-11T15:49:00.818Z'
   - id: 75
     name: Spiritual Warfare
-    created_at: '2020-08-05T18:45:34.299Z'
-    updated_at: '2020-08-05T20:06:31.641Z'
+    created_at: '2014-08-05T18:45:34.299Z'
+    updated_at: '2014-08-05T20:06:31.641Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/stand/300x200.jpg?1405366982
   image_medium: http://s3.amazonaws.com/lcapi.production/series/stand/600x400.jpg?1405367007
   image_large: http://s3.amazonaws.com/lcapi.production/series/stand/1200x800.jpg?1405367040
@@ -108,7 +124,7 @@
   - title: Stand Out
     headline: ''
     video: 2p64n4bvmp
-- id: atm-2020-five-easy-steps
+- id: atm-2014-five-easy-steps
   title: Five Easy Steps to Wreck Your Life
   headline: ''
   description_small: ''
@@ -124,16 +140,16 @@
   categories:
   - id: 12
     name: Marriage
-    created_at: '2020-06-05T19:14:26.586Z'
-    updated_at: '2020-06-05T19:14:26.586Z'
+    created_at: '2014-06-05T19:14:26.586Z'
+    updated_at: '2014-06-05T19:14:26.586Z'
   - id: 13
     name: Sins
-    created_at: '2020-06-05T19:20:27.559Z'
-    updated_at: '2020-06-11T16:19:31.726Z'
+    created_at: '2014-06-05T19:20:27.559Z'
+    updated_at: '2014-06-11T16:19:31.726Z'
   image_small: ''
   image_medium: ''
   image_large: ''
-  image_social: http://s3.amazonaws.com/lcapi.production/series/atm-2020-five-easy-steps/400x400.jpg?1404932459
+  image_social: http://s3.amazonaws.com/lcapi.production/series/atm-2014-five-easy-steps/400x400.jpg?1404932459
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -167,12 +183,12 @@
   categories:
   - id: 21
     name: Fruits of the Spirit
-    created_at: '2020-06-11T15:15:50.342Z'
-    updated_at: '2020-06-11T15:15:50.342Z'
+    created_at: '2014-06-11T15:15:50.342Z'
+    updated_at: '2014-06-11T15:15:50.342Z'
   - id: 59
     name: Judah Smith
-    created_at: '2020-06-11T15:48:39.506Z'
-    updated_at: '2020-06-11T15:48:39.506Z'
+    created_at: '2014-06-11T15:48:39.506Z'
+    updated_at: '2014-06-11T15:48:39.506Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/love/300x200.jpg?1402933720
   image_medium: http://s3.amazonaws.com/lcapi.production/series/love/600x400.jpg?1402933753
   image_large: http://s3.amazonaws.com/lcapi.production/series/love/1200x800.jpg?1402933772
@@ -205,12 +221,12 @@
   categories:
   - id: 43
     name: Trials
-    created_at: '2020-06-11T15:23:13.523Z'
-    updated_at: '2020-06-11T15:23:13.523Z'
+    created_at: '2014-06-11T15:23:13.523Z'
+    updated_at: '2014-06-11T15:23:13.523Z'
   - id: 60
     name: Sam Roberts
-    created_at: '2020-06-11T15:48:49.991Z'
-    updated_at: '2020-06-11T15:48:49.991Z'
+    created_at: '2014-06-11T15:48:49.991Z'
+    updated_at: '2014-06-11T15:48:49.991Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/puzzled/300x200.jpg?1401807842
   image_medium: http://s3.amazonaws.com/lcapi.production/series/puzzled/600x400.jpg?1401807867
   image_large: http://s3.amazonaws.com/lcapi.production/series/puzzled/1200x800.jpg?1401807892
@@ -242,16 +258,16 @@
   categories:
   - id: 14
     name: Worship
-    created_at: '2020-06-05T19:23:33.805Z'
-    updated_at: '2020-06-05T19:23:33.805Z'
+    created_at: '2014-06-05T19:23:33.805Z'
+    updated_at: '2014-06-05T19:23:33.805Z'
   - id: 43
     name: Trials
-    created_at: '2020-06-11T15:23:13.523Z'
-    updated_at: '2020-06-11T15:23:13.523Z'
+    created_at: '2014-06-11T15:23:13.523Z'
+    updated_at: '2014-06-11T15:23:13.523Z'
   - id: 74
     name: Carl Lentz
-    created_at: '2020-06-11T16:14:48.792Z'
-    updated_at: '2020-06-11T16:14:48.792Z'
+    created_at: '2014-06-11T16:14:48.792Z'
+    updated_at: '2014-06-11T16:14:48.792Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/in-the-fire/300x200.jpg?1400172764
   image_medium: http://s3.amazonaws.com/lcapi.production/series/in-the-fire/600x400.jpg?1400172786
   image_large: http://s3.amazonaws.com/lcapi.production/series/in-the-fire/1200x800.jpg?1400172809
@@ -283,12 +299,12 @@
   categories:
   - id: 5
     name: Money
-    created_at: '2020-02-03T22:38:58.881Z'
-    updated_at: '2020-06-05T19:12:14.043Z'
+    created_at: '2014-02-03T22:38:58.881Z'
+    updated_at: '2014-06-05T19:12:14.043Z'
   - id: 15
     name: Family
-    created_at: '2020-06-05T19:32:01.499Z'
-    updated_at: '2020-06-05T19:32:01.499Z'
+    created_at: '2014-06-05T19:32:01.499Z'
+    updated_at: '2014-06-05T19:32:01.499Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/outlasters/300x200.jpg?1398097251
   image_medium: http://s3.amazonaws.com/lcapi.production/series/outlasters/600x400.jpg?1398097230
   image_large: http://s3.amazonaws.com/lcapi.production/series/outlasters/1200x800.jpg?1398097208
@@ -327,12 +343,12 @@
   categories:
   - id: 30
     name: Fears
-    created_at: '2020-06-11T15:18:18.611Z'
-    updated_at: '2020-06-11T15:18:18.611Z'
+    created_at: '2014-06-11T15:18:18.611Z'
+    updated_at: '2014-06-11T15:18:18.611Z'
   - id: 35
     name: Feelings
-    created_at: '2020-06-11T15:20:16.022Z'
-    updated_at: '2020-06-11T15:20:16.022Z'
+    created_at: '2014-06-11T15:20:16.022Z'
+    updated_at: '2014-06-11T15:20:16.022Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/the-counselor/300x200.jpg?1396290251
   image_medium: http://s3.amazonaws.com/lcapi.production/series/the-counselor/600x400.jpg?1396296632
   image_large: http://s3.amazonaws.com/lcapi.production/series/the-counselor/1200x800.jpg?1396290667
@@ -370,8 +386,8 @@
   categories:
   - id: 39
     name: Purpose
-    created_at: '2020-06-11T15:21:10.086Z'
-    updated_at: '2020-06-11T15:21:10.086Z'
+    created_at: '2014-06-11T15:21:10.086Z'
+    updated_at: '2014-06-11T15:21:10.086Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/300x200.jpg?1396043492
   image_medium: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/600x400.jpg?1396043573
   image_large: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/1200x800.jpg?1396043604
@@ -403,8 +419,8 @@
   categories:
   - id: 5
     name: Money
-    created_at: '2020-02-03T22:38:58.881Z'
-    updated_at: '2020-06-05T19:12:14.043Z'
+    created_at: '2014-02-03T22:38:58.881Z'
+    updated_at: '2014-06-05T19:12:14.043Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/being-rich/300x200.jpg?1396042535
   image_medium: http://s3.amazonaws.com/lcapi.production/series/being-rich/600x400.jpg?1396042589
   image_large: http://s3.amazonaws.com/lcapi.production/series/being-rich/1200x800.jpg?1396042616
@@ -445,8 +461,8 @@
   categories:
   - id: 42
     name: Disciplines
-    created_at: '2020-06-11T15:23:03.968Z'
-    updated_at: '2020-06-11T15:23:03.968Z'
+    created_at: '2014-06-11T15:23:03.968Z'
+    updated_at: '2014-06-11T15:23:03.968Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/small-things/300x200.jpg?1396042267
   image_medium: http://s3.amazonaws.com/lcapi.production/series/small-things/600x400.jpg?1396042312
   image_large: http://s3.amazonaws.com/lcapi.production/series/small-things/1200x800.jpg?1396042380
@@ -484,12 +500,12 @@
   categories:
   - id: 40
     name: Miracles
-    created_at: '2020-06-11T15:21:20.475Z'
-    updated_at: '2020-06-11T15:21:20.475Z'
+    created_at: '2014-06-11T15:21:20.475Z'
+    updated_at: '2014-06-11T15:21:20.475Z'
   - id: 49
     name: Christine Caine
-    created_at: '2020-06-11T15:27:08.231Z'
-    updated_at: '2020-06-11T15:27:08.231Z'
+    created_at: '2014-06-11T15:27:08.231Z'
+    updated_at: '2014-06-11T15:27:08.231Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/maker-of-miracles/300x200.jpg?1396038137
   image_medium: http://s3.amazonaws.com/lcapi.production/series/maker-of-miracles/600x400.jpg?1396038218
   image_large: http://s3.amazonaws.com/lcapi.production/series/maker-of-miracles/1200x800.jpg?1396038239
@@ -517,12 +533,12 @@
   categories:
   - id: 30
     name: Fears
-    created_at: '2020-06-11T15:18:18.611Z'
-    updated_at: '2020-06-11T15:18:18.611Z'
+    created_at: '2014-06-11T15:18:18.611Z'
+    updated_at: '2014-06-11T15:18:18.611Z'
   - id: 75
     name: Spiritual Warfare
-    created_at: '2020-08-05T18:45:34.299Z'
-    updated_at: '2020-08-05T20:06:31.641Z'
+    created_at: '2014-08-05T18:45:34.299Z'
+    updated_at: '2014-08-05T20:06:31.641Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/fear-not/300x200.jpg?1396042061
   image_medium: http://s3.amazonaws.com/lcapi.production/series/fear-not/600x400.jpg?1396042126
   image_large: http://s3.amazonaws.com/lcapi.production/series/fear-not/1200x800.jpg?1396042178
@@ -557,16 +573,16 @@
   categories:
   - id: 22
     name: Spiritual Growth
-    created_at: '2020-06-11T15:16:13.079Z'
-    updated_at: '2020-06-11T15:16:13.079Z'
+    created_at: '2014-06-11T15:16:13.079Z'
+    updated_at: '2014-06-11T15:16:13.079Z'
   - id: 50
     name: Kevin Durant
-    created_at: '2020-06-11T15:27:20.154Z'
-    updated_at: '2020-06-11T15:27:20.154Z'
+    created_at: '2014-06-11T15:27:20.154Z'
+    updated_at: '2014-06-11T15:27:20.154Z'
   - id: 74
     name: Carl Lentz
-    created_at: '2020-06-11T16:14:48.792Z'
-    updated_at: '2020-06-11T16:14:48.792Z'
+    created_at: '2014-06-11T16:14:48.792Z'
+    updated_at: '2014-06-11T16:14:48.792Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/growing-spiritually/300x200.jpg?1396037980
   image_medium: http://s3.amazonaws.com/lcapi.production/series/growing-spiritually/600x400.jpg?1396038029
   image_large: http://s3.amazonaws.com/lcapi.production/series/growing-spiritually/1200x800.jpg?1396038073
@@ -595,8 +611,8 @@
   categories:
   - id: 13
     name: Sins
-    created_at: '2020-06-05T19:20:27.559Z'
-    updated_at: '2020-06-11T16:19:31.726Z'
+    created_at: '2014-06-05T19:20:27.559Z'
+    updated_at: '2014-06-11T16:19:31.726Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/300x200.jpg?1396041700
   image_medium: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/600x400.jpg?1396041749
   image_large: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/1200x800.jpg?1396041777
@@ -633,12 +649,12 @@
   categories:
   - id: 38
     name: For Men
-    created_at: '2020-06-11T15:20:48.371Z'
-    updated_at: '2020-06-11T15:20:48.371Z'
+    created_at: '2014-06-11T15:20:48.371Z'
+    updated_at: '2014-06-11T15:20:48.371Z'
   - id: 75
     name: Spiritual Warfare
-    created_at: '2020-08-05T18:45:34.299Z'
-    updated_at: '2020-08-05T20:06:31.641Z'
+    created_at: '2014-08-05T18:45:34.299Z'
+    updated_at: '2014-08-05T20:06:31.641Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/fight/300x200.jpg?1396041413
   image_medium: http://s3.amazonaws.com/lcapi.production/series/fight/600x400.jpg?1396041470
   image_large: http://s3.amazonaws.com/lcapi.production/series/fight/1200x800.jpg?1396041534
@@ -666,12 +682,12 @@
   categories:
   - id: 20
     name: Tithe
-    created_at: '2020-06-11T15:15:22.933Z'
-    updated_at: '2020-06-11T15:15:22.933Z'
+    created_at: '2014-06-11T15:15:22.933Z'
+    updated_at: '2014-06-11T15:15:22.933Z'
   - id: 62
     name: Robert Morris
-    created_at: '2020-06-11T15:49:13.579Z'
-    updated_at: '2020-06-11T15:49:13.579Z'
+    created_at: '2014-06-11T15:49:13.579Z'
+    updated_at: '2014-06-11T15:49:13.579Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/multiply-2013/300x200.jpg?1396041297
   image_medium: http://s3.amazonaws.com/lcapi.production/series/multiply-2013/600x400.jpg?1396041347
   image_large: http://s3.amazonaws.com/lcapi.production/series/multiply-2013/1200x800.jpg?1396041369
@@ -706,8 +722,8 @@
   categories:
   - id: 1
     name: Relationships
-    created_at: '2020-02-03T22:38:58.852Z'
-    updated_at: '2020-06-05T19:41:17.695Z'
+    created_at: '2014-02-03T22:38:58.852Z'
+    updated_at: '2014-06-05T19:41:17.695Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/friending/300x200.jpg?1396040901
   image_medium: http://s3.amazonaws.com/lcapi.production/series/friending/600x400.jpg?1396041037
   image_large: http://s3.amazonaws.com/lcapi.production/series/friending/1200x800.jpg?1396041057
@@ -745,12 +761,12 @@
   categories:
   - id: 44
     name: Witnessing
-    created_at: '2020-06-11T15:25:15.255Z'
-    updated_at: '2020-06-11T15:25:15.255Z'
+    created_at: '2014-06-11T15:25:15.255Z'
+    updated_at: '2014-06-11T15:25:15.255Z'
   - id: 51
     name: Ed Young
-    created_at: '2020-06-11T15:27:31.681Z'
-    updated_at: '2020-06-11T15:27:31.681Z'
+    created_at: '2014-06-11T15:27:31.681Z'
+    updated_at: '2014-06-11T15:27:31.681Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/rescue/300x200.jpg?1396037750
   image_medium: http://s3.amazonaws.com/lcapi.production/series/rescue/600x400.jpg?1396037853
   image_large: http://s3.amazonaws.com/lcapi.production/series/rescue/1200x800.jpg?1396037915
@@ -778,12 +794,12 @@
   categories:
   - id: 23
     name: Faith
-    created_at: '2020-06-11T15:16:43.996Z'
-    updated_at: '2020-06-11T15:16:43.996Z'
+    created_at: '2014-06-11T15:16:43.996Z'
+    updated_at: '2014-06-11T15:16:43.996Z'
   - id: 72
     name: Leadership
-    created_at: '2020-06-11T15:52:33.291Z'
-    updated_at: '2020-06-11T15:52:33.291Z'
+    created_at: '2014-06-11T15:52:33.291Z'
+    updated_at: '2014-06-11T15:52:33.291Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/elisha/300x200.jpg?1396039930
   image_medium: http://s3.amazonaws.com/lcapi.production/series/elisha/600x400.jpg?1396039995
   image_large: http://s3.amazonaws.com/lcapi.production/series/elisha/1200x800.jpg?1396040035
@@ -821,8 +837,8 @@
   categories:
   - id: 72
     name: Leadership
-    created_at: '2020-06-11T15:52:33.291Z'
-    updated_at: '2020-06-11T15:52:33.291Z'
+    created_at: '2014-06-11T15:52:33.291Z'
+    updated_at: '2014-06-11T15:52:33.291Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/on-the-road/300x200.jpg?1396039428
   image_medium: http://s3.amazonaws.com/lcapi.production/series/on-the-road/600x400.jpg?1396039710
   image_large: http://s3.amazonaws.com/lcapi.production/series/on-the-road/1200x800.jpg?1396039728
@@ -856,12 +872,12 @@
   categories:
   - id: 46
     name: Church Vision
-    created_at: '2020-06-11T15:25:52.761Z'
-    updated_at: '2020-06-11T15:25:52.761Z'
+    created_at: '2014-06-11T15:25:52.761Z'
+    updated_at: '2014-06-11T15:25:52.761Z'
   - id: 52
     name: Bobby Gruenewald
-    created_at: '2020-06-11T15:28:00.582Z'
-    updated_at: '2020-06-11T15:28:00.582Z'
+    created_at: '2014-06-11T15:28:00.582Z'
+    updated_at: '2014-06-11T15:28:00.582Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/just-getting-started/300x200.jpg?1396038955
   image_medium: http://s3.amazonaws.com/lcapi.production/series/just-getting-started/600x400.jpg?1396039010
   image_large: http://s3.amazonaws.com/lcapi.production/series/just-getting-started/1200x800.jpg?1396039033
@@ -889,24 +905,24 @@
   categories:
   - id: 43
     name: Trials
-    created_at: '2020-06-11T15:23:13.523Z'
-    updated_at: '2020-06-11T15:23:13.523Z'
+    created_at: '2014-06-11T15:23:13.523Z'
+    updated_at: '2014-06-11T15:23:13.523Z'
   - id: 53
     name: Rick Warren
-    created_at: '2020-06-11T15:28:14.901Z'
-    updated_at: '2020-06-11T15:28:14.901Z'
+    created_at: '2014-06-11T15:28:14.901Z'
+    updated_at: '2014-06-11T15:28:14.901Z'
   - id: 54
     name: Steven Furtick
-    created_at: '2020-06-11T15:35:51.030Z'
-    updated_at: '2020-06-11T15:35:51.030Z'
+    created_at: '2014-06-11T15:35:51.030Z'
+    updated_at: '2014-06-11T15:35:51.030Z'
   - id: 55
     name: Joel Osteen
-    created_at: '2020-06-11T15:41:20.437Z'
-    updated_at: '2020-06-11T15:41:20.437Z'
+    created_at: '2014-06-11T15:41:20.437Z'
+    updated_at: '2014-06-11T15:41:20.437Z'
   - id: 56
     name: Dave Ramsey
-    created_at: '2020-06-11T15:42:22.866Z'
-    updated_at: '2020-06-11T15:42:22.866Z'
+    created_at: '2014-06-11T15:42:22.866Z'
+    updated_at: '2014-06-11T15:42:22.866Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/helping-the-hurting/300x200.jpg?1396039125
   image_medium: http://s3.amazonaws.com/lcapi.production/series/helping-the-hurting/600x400.jpg?1396039212
   image_large: http://s3.amazonaws.com/lcapi.production/series/helping-the-hurting/1200x800.jpg?1396039260
@@ -934,8 +950,8 @@
   categories:
   - id: 15
     name: Family
-    created_at: '2020-06-05T19:32:01.499Z'
-    updated_at: '2020-06-05T19:32:01.499Z'
+    created_at: '2014-06-05T19:32:01.499Z'
+    updated_at: '2014-06-05T19:32:01.499Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/bless-this-home/300x200.jpg?1396038303
   image_medium: http://s3.amazonaws.com/lcapi.production/series/bless-this-home/600x400.jpg?1396038350
   image_large: http://s3.amazonaws.com/lcapi.production/series/bless-this-home/1200x800.jpg?1396038377
@@ -972,8 +988,8 @@
   categories:
   - id: 41
     name: God
-    created_at: '2020-06-11T15:22:41.520Z'
-    updated_at: '2020-06-11T15:22:41.520Z'
+    created_at: '2014-06-11T15:22:41.520Z'
+    updated_at: '2014-06-11T15:22:41.520Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/i-am-jesus/300x200.jpg?1396037425
   image_medium: http://s3.amazonaws.com/lcapi.production/series/i-am-jesus/600x400.jpg?1396037484
   image_large: http://s3.amazonaws.com/lcapi.production/series/i-am-jesus/1200x800.jpg?1396037519
@@ -1010,12 +1026,12 @@
   categories:
   - id: 2
     name: Knowing God
-    created_at: '2020-02-03T22:38:58.863Z'
-    updated_at: '2020-02-03T22:38:58.863Z'
+    created_at: '2014-02-03T22:38:58.863Z'
+    updated_at: '2014-02-03T22:38:58.863Z'
   - id: 39
     name: Purpose
-    created_at: '2020-06-11T15:21:10.086Z'
-    updated_at: '2020-06-11T15:21:10.086Z'
+    created_at: '2014-06-11T15:21:10.086Z'
+    updated_at: '2014-06-11T15:21:10.086Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/new/300x200.jpg?1396037280
   image_medium: http://s3.amazonaws.com/lcapi.production/series/new/600x400.jpg?1396037336
   image_large: http://s3.amazonaws.com/lcapi.production/series/new/1200x800.jpg?1396037368
@@ -1050,8 +1066,8 @@
   categories:
   - id: 39
     name: Purpose
-    created_at: '2020-06-11T15:21:10.086Z'
-    updated_at: '2020-06-11T15:21:10.086Z'
+    created_at: '2014-06-11T15:21:10.086Z'
+    updated_at: '2014-06-11T15:21:10.086Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/altar-ego/300x200.jpg?1396036237
   image_medium: http://s3.amazonaws.com/lcapi.production/series/altar-ego/600x400.jpg?1396036279
   image_large: http://s3.amazonaws.com/lcapi.production/series/altar-ego/1200x800.jpg?1396036298
@@ -1088,8 +1104,8 @@
   categories:
   - id: 42
     name: Disciplines
-    created_at: '2020-06-11T15:23:03.968Z'
-    updated_at: '2020-06-11T15:23:03.968Z'
+    created_at: '2014-06-11T15:23:03.968Z'
+    updated_at: '2014-06-11T15:23:03.968Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/my-story/300x200.jpg?1396036085
   image_medium: http://s3.amazonaws.com/lcapi.production/series/my-story/600x400.jpg?1396036159
   image_large: http://s3.amazonaws.com/lcapi.production/series/my-story/1200x800.jpg?1396036183
@@ -1126,16 +1142,16 @@
   categories:
   - id: 1
     name: Relationships
-    created_at: '2020-02-03T22:38:58.852Z'
-    updated_at: '2020-06-05T19:41:17.695Z'
+    created_at: '2014-02-03T22:38:58.852Z'
+    updated_at: '2014-06-05T19:41:17.695Z'
   - id: 48
     name: Ken Blanchard
-    created_at: '2020-06-11T15:26:46.456Z'
-    updated_at: '2020-06-11T15:26:46.456Z'
+    created_at: '2014-06-11T15:26:46.456Z'
+    updated_at: '2014-06-11T15:26:46.456Z'
   - id: 72
     name: Leadership
-    created_at: '2020-06-11T15:52:33.291Z'
-    updated_at: '2020-06-11T15:52:33.291Z'
+    created_at: '2014-06-11T15:52:33.291Z'
+    updated_at: '2014-06-11T15:52:33.291Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/lead-like-jesus/300x200.jpg?1396035436
   image_medium: http://s3.amazonaws.com/lcapi.production/series/lead-like-jesus/600x400.jpg?1396035490
   image_large: http://s3.amazonaws.com/lcapi.production/series/lead-like-jesus/1200x800.jpg?1396035527
@@ -1164,16 +1180,16 @@
   categories:
   - id: 15
     name: Family
-    created_at: '2020-06-05T19:32:01.499Z'
-    updated_at: '2020-06-05T19:32:01.499Z'
+    created_at: '2014-06-05T19:32:01.499Z'
+    updated_at: '2014-06-05T19:32:01.499Z'
   - id: 41
     name: God
-    created_at: '2020-06-11T15:22:41.520Z'
-    updated_at: '2020-06-11T15:22:41.520Z'
+    created_at: '2014-06-11T15:22:41.520Z'
+    updated_at: '2014-06-11T15:22:41.520Z'
   - id: 61
     name: Chris Beall
-    created_at: '2020-06-11T15:49:00.818Z'
-    updated_at: '2020-06-11T15:49:00.818Z'
+    created_at: '2014-06-11T15:49:00.818Z'
+    updated_at: '2014-06-11T15:49:00.818Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/like-a-child/300x200.jpg?1396035268
   image_medium: http://s3.amazonaws.com/lcapi.production/series/like-a-child/600x400.jpg?1396035345
   image_large: http://s3.amazonaws.com/lcapi.production/series/like-a-child/1200x800.jpg?1396035377
@@ -1211,12 +1227,12 @@
   categories:
   - id: 39
     name: Purpose
-    created_at: '2020-06-11T15:21:10.086Z'
-    updated_at: '2020-06-11T15:21:10.086Z'
+    created_at: '2014-06-11T15:21:10.086Z'
+    updated_at: '2014-06-11T15:21:10.086Z'
   - id: 54
     name: Steven Furtick
-    created_at: '2020-06-11T15:35:51.030Z'
-    updated_at: '2020-06-11T15:35:51.030Z'
+    created_at: '2014-06-11T15:35:51.030Z'
+    updated_at: '2014-06-11T15:35:51.030Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/because-of-you-2012/300x200.jpg?1396024682
   image_medium: http://s3.amazonaws.com/lcapi.production/series/because-of-you-2012/600x400.jpg?1396024750
   image_large: http://s3.amazonaws.com/lcapi.production/series/because-of-you-2012/1200x800.jpg?1396030792
@@ -1247,12 +1263,12 @@
   categories:
   - id: 18
     name: Death
-    created_at: '2020-06-11T15:15:02.642Z'
-    updated_at: '2020-06-11T15:15:02.642Z'
+    created_at: '2014-06-11T15:15:02.642Z'
+    updated_at: '2014-06-11T15:15:02.642Z'
   - id: 73
     name: Supernatural
-    created_at: '2020-06-11T15:52:47.494Z'
-    updated_at: '2020-06-11T15:52:47.494Z'
+    created_at: '2014-06-11T15:52:47.494Z'
+    updated_at: '2014-06-11T15:52:47.494Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/the-end/300x200.jpg?1396034855
   image_medium: http://s3.amazonaws.com/lcapi.production/series/the-end/600x400.jpg?1396034937
   image_large: http://s3.amazonaws.com/lcapi.production/series/the-end/1200x800.jpg?1396034967
@@ -1286,12 +1302,12 @@
   categories:
   - id: 2
     name: Knowing God
-    created_at: '2020-02-03T22:38:58.863Z'
-    updated_at: '2020-02-03T22:38:58.863Z'
+    created_at: '2014-02-03T22:38:58.863Z'
+    updated_at: '2014-02-03T22:38:58.863Z'
   - id: 60
     name: Sam Roberts
-    created_at: '2020-06-11T15:48:49.991Z'
-    updated_at: '2020-06-11T15:48:49.991Z'
+    created_at: '2014-06-11T15:48:49.991Z'
+    updated_at: '2014-06-11T15:48:49.991Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/love-and-hate/300x200.jpg?1396034718
   image_medium: http://s3.amazonaws.com/lcapi.production/series/love-and-hate/600x400.jpg?1396034761
   image_large: http://s3.amazonaws.com/lcapi.production/series/love-and-hate/1200x800.jpg?1396034791
@@ -1323,12 +1339,12 @@
   categories:
   - id: 5
     name: Money
-    created_at: '2020-02-03T22:38:58.881Z'
-    updated_at: '2020-06-05T19:12:14.043Z'
+    created_at: '2014-02-03T22:38:58.881Z'
+    updated_at: '2014-06-05T19:12:14.043Z'
   - id: 20
     name: Tithe
-    created_at: '2020-06-11T15:15:22.933Z'
-    updated_at: '2020-06-11T15:15:22.933Z'
+    created_at: '2014-06-11T15:15:22.933Z'
+    updated_at: '2014-06-11T15:15:22.933Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/strapped/300x200.jpg?1396034569
   image_medium: http://s3.amazonaws.com/lcapi.production/series/strapped/600x400.jpg?1396034612
   image_large: http://s3.amazonaws.com/lcapi.production/series/strapped/1200x800.jpg?1396034664
@@ -1369,8 +1385,8 @@
   categories:
   - id: 12
     name: Marriage
-    created_at: '2020-06-05T19:14:26.586Z'
-    updated_at: '2020-06-05T19:14:26.586Z'
+    created_at: '2014-06-05T19:14:26.586Z'
+    updated_at: '2014-06-05T19:14:26.586Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/from-this-day-forward/300x200.jpg?1396034418
   image_medium: http://s3.amazonaws.com/lcapi.production/series/from-this-day-forward/600x400.jpg?1396034477
   image_large: http://s3.amazonaws.com/lcapi.production/series/from-this-day-forward/1200x800.jpg?1396034502
@@ -1411,12 +1427,12 @@
   categories:
   - id: 39
     name: Purpose
-    created_at: '2020-06-11T15:21:10.086Z'
-    updated_at: '2020-06-11T15:21:10.086Z'
+    created_at: '2014-06-11T15:21:10.086Z'
+    updated_at: '2014-06-11T15:21:10.086Z'
   - id: 57
     name: Pierre du Plessis
-    created_at: '2020-06-11T15:47:09.892Z'
-    updated_at: '2020-06-11T15:47:09.892Z'
+    created_at: '2014-06-11T15:47:09.892Z'
+    updated_at: '2014-06-11T15:47:09.892Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/more-than-dust/300x200.jpg?1396033970
   image_medium: http://s3.amazonaws.com/lcapi.production/series/more-than-dust/600x400.jpg?1396034014
   image_large: http://s3.amazonaws.com/lcapi.production/series/more-than-dust/1200x800.jpg?1396034038
@@ -1444,12 +1460,12 @@
   categories:
   - id: 21
     name: Fruits of the Spirit
-    created_at: '2020-06-11T15:15:50.342Z'
-    updated_at: '2020-06-11T15:15:50.342Z'
+    created_at: '2014-06-11T15:15:50.342Z'
+    updated_at: '2014-06-11T15:15:50.342Z'
   - id: 34
     name: Optimistic
-    created_at: '2020-06-11T15:19:48.323Z'
-    updated_at: '2020-06-11T15:19:48.323Z'
+    created_at: '2014-06-11T15:19:48.323Z'
+    updated_at: '2014-06-11T15:19:48.323Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/perspective/300x200.jpg?1396033276
   image_medium: http://s3.amazonaws.com/lcapi.production/series/perspective/600x400.jpg?1396033518
   image_large: http://s3.amazonaws.com/lcapi.production/series/perspective/1200x800.jpg?1396033550
@@ -1487,12 +1503,12 @@
   categories:
   - id: 39
     name: Purpose
-    created_at: '2020-06-11T15:21:10.086Z'
-    updated_at: '2020-06-11T15:21:10.086Z'
+    created_at: '2014-06-11T15:21:10.086Z'
+    updated_at: '2014-06-11T15:21:10.086Z'
   - id: 60
     name: Sam Roberts
-    created_at: '2020-06-11T15:48:49.991Z'
-    updated_at: '2020-06-11T15:48:49.991Z'
+    created_at: '2014-06-11T15:48:49.991Z'
+    updated_at: '2014-06-11T15:48:49.991Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/forget-you/300x200.jpg?1396032329
   image_medium: http://s3.amazonaws.com/lcapi.production/series/forget-you/600x400.jpg?1396032423
   image_large: http://s3.amazonaws.com/lcapi.production/series/forget-you/1200x800.jpg?1396032471
@@ -1523,12 +1539,12 @@
   categories:
   - id: 13
     name: Sins
-    created_at: '2020-06-05T19:20:27.559Z'
-    updated_at: '2020-06-11T16:19:31.726Z'
+    created_at: '2014-06-05T19:20:27.559Z'
+    updated_at: '2014-06-11T16:19:31.726Z'
   - id: 75
     name: Spiritual Warfare
-    created_at: '2020-08-05T18:45:34.299Z'
-    updated_at: '2020-08-05T20:06:31.641Z'
+    created_at: '2014-08-05T18:45:34.299Z'
+    updated_at: '2014-08-05T20:06:31.641Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/soul-detox/300x200.jpg?1396032146
   image_medium: http://s3.amazonaws.com/lcapi.production/series/soul-detox/600x400.jpg?1396032219
   image_large: http://s3.amazonaws.com/lcapi.production/series/soul-detox/1200x800.jpg?1396032245
@@ -1566,12 +1582,12 @@
   categories:
   - id: 41
     name: God
-    created_at: '2020-06-11T15:22:41.520Z'
-    updated_at: '2020-06-11T15:22:41.520Z'
+    created_at: '2014-06-11T15:22:41.520Z'
+    updated_at: '2014-06-11T15:22:41.520Z'
   - id: 43
     name: Trials
-    created_at: '2020-06-11T15:23:13.523Z'
-    updated_at: '2020-06-11T15:23:13.523Z'
+    created_at: '2014-06-11T15:23:13.523Z'
+    updated_at: '2014-06-11T15:23:13.523Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/why-2012/300x200.jpg?1396031869
   image_medium: http://s3.amazonaws.com/lcapi.production/series/why-2012/600x400.jpg?1396031942
   image_large: http://s3.amazonaws.com/lcapi.production/series/why-2012/1200x800.jpg?1396031995
@@ -1609,12 +1625,12 @@
   categories:
   - id: 2
     name: Knowing God
-    created_at: '2020-02-03T22:38:58.863Z'
-    updated_at: '2020-02-03T22:38:58.863Z'
+    created_at: '2014-02-03T22:38:58.863Z'
+    updated_at: '2014-02-03T22:38:58.863Z'
   - id: 54
     name: Steven Furtick
-    created_at: '2020-06-11T15:35:51.030Z'
-    updated_at: '2020-06-11T15:35:51.030Z'
+    created_at: '2014-06-11T15:35:51.030Z'
+    updated_at: '2014-06-11T15:35:51.030Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/found-favor/300x200.jpg?1396031561
   image_medium: http://s3.amazonaws.com/lcapi.production/series/found-favor/600x400.jpg?1396031652
   image_large: http://s3.amazonaws.com/lcapi.production/series/found-favor/1200x800.jpg?1396031694
@@ -1645,12 +1661,12 @@
   categories:
   - id: 38
     name: For Men
-    created_at: '2020-06-11T15:20:48.371Z'
-    updated_at: '2020-06-11T15:20:48.371Z'
+    created_at: '2014-06-11T15:20:48.371Z'
+    updated_at: '2014-06-11T15:20:48.371Z'
   - id: 75
     name: Spiritual Warfare
-    created_at: '2020-08-05T18:45:34.299Z'
-    updated_at: '2020-08-05T20:06:31.641Z'
+    created_at: '2014-08-05T18:45:34.299Z'
+    updated_at: '2014-08-05T20:06:31.641Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/samson-2012/300x200.jpg?1396031079
   image_medium: http://s3.amazonaws.com/lcapi.production/series/samson-2012/600x400.jpg?1396031139
   image_large: http://s3.amazonaws.com/lcapi.production/series/samson-2012/1200x800.jpg?1396031170
@@ -1687,12 +1703,12 @@
   categories:
   - id: 41
     name: God
-    created_at: '2020-06-11T15:22:41.520Z'
-    updated_at: '2020-06-11T15:22:41.520Z'
+    created_at: '2014-06-11T15:22:41.520Z'
+    updated_at: '2014-06-11T15:22:41.520Z'
   - id: 60
     name: Sam Roberts
-    created_at: '2020-06-11T15:48:49.991Z'
-    updated_at: '2020-06-11T15:48:49.991Z'
+    created_at: '2014-06-11T15:48:49.991Z'
+    updated_at: '2014-06-11T15:48:49.991Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/better/300x200.jpg?1396025667
   image_medium: http://s3.amazonaws.com/lcapi.production/series/better/600x400.jpg?1396025751
   image_large: http://s3.amazonaws.com/lcapi.production/series/better/1200x800.jpg?1396025777
@@ -1729,12 +1745,12 @@
   categories:
   - id: 40
     name: Miracles
-    created_at: '2020-06-11T15:21:20.475Z'
-    updated_at: '2020-06-11T15:21:20.475Z'
+    created_at: '2014-06-11T15:21:20.475Z'
+    updated_at: '2014-06-11T15:21:20.475Z'
   - id: 72
     name: Leadership
-    created_at: '2020-06-11T15:52:33.291Z'
-    updated_at: '2020-06-11T15:52:33.291Z'
+    created_at: '2014-06-11T15:52:33.291Z'
+    updated_at: '2014-06-11T15:52:33.291Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/problem-or-a-miracle/300x200.jpg?1396025900
   image_medium: http://s3.amazonaws.com/lcapi.production/series/problem-or-a-miracle/600x400.jpg?1396025944
   image_large: http://s3.amazonaws.com/lcapi.production/series/problem-or-a-miracle/1200x800.jpg?1396025980
@@ -1762,12 +1778,12 @@
   categories:
   - id: 14
     name: Worship
-    created_at: '2020-06-05T19:23:33.805Z'
-    updated_at: '2020-06-05T19:23:33.805Z'
+    created_at: '2014-06-05T19:23:33.805Z'
+    updated_at: '2014-06-05T19:23:33.805Z'
   - id: 60
     name: Sam Roberts
-    created_at: '2020-06-11T15:48:49.991Z'
-    updated_at: '2020-06-11T15:48:49.991Z'
+    created_at: '2014-06-11T15:48:49.991Z'
+    updated_at: '2014-06-11T15:48:49.991Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/carols/300x200.jpg?1396024882
   image_medium: http://s3.amazonaws.com/lcapi.production/series/carols/600x400.jpg?1396024923
   image_large: http://s3.amazonaws.com/lcapi.production/series/carols/1200x800.jpg?1396024948
@@ -1804,8 +1820,8 @@
   categories:
   - id: 1
     name: Relationships
-    created_at: '2020-02-03T22:38:58.852Z'
-    updated_at: '2020-06-05T19:41:17.695Z'
+    created_at: '2014-02-03T22:38:58.852Z'
+    updated_at: '2014-06-05T19:41:17.695Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/those-people/300x200.jpg?1396022828
   image_medium: http://s3.amazonaws.com/lcapi.production/series/those-people/600x400.jpg?1396022900
   image_large: http://s3.amazonaws.com/lcapi.production/series/those-people/1200x800.jpg?1396022945
@@ -1842,16 +1858,16 @@
   categories:
   - id: 21
     name: Fruits of the Spirit
-    created_at: '2020-06-11T15:15:50.342Z'
-    updated_at: '2020-06-11T15:15:50.342Z'
+    created_at: '2014-06-11T15:15:50.342Z'
+    updated_at: '2014-06-11T15:15:50.342Z'
   - id: 43
     name: Trials
-    created_at: '2020-06-11T15:23:13.523Z'
-    updated_at: '2020-06-11T15:23:13.523Z'
+    created_at: '2014-06-11T15:23:13.523Z'
+    updated_at: '2014-06-11T15:23:13.523Z'
   - id: 63
     name: James MacDonald
-    created_at: '2020-06-11T15:49:34.518Z'
-    updated_at: '2020-06-11T15:49:34.518Z'
+    created_at: '2014-06-11T15:49:34.518Z'
+    updated_at: '2014-06-11T15:49:34.518Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/passing-the-test/300x200.jpg?1396022464
   image_medium: http://s3.amazonaws.com/lcapi.production/series/passing-the-test/600x400.jpg?1396022525
   image_large: http://s3.amazonaws.com/lcapi.production/series/passing-the-test/1200x800.jpg?1396022575
@@ -1882,8 +1898,8 @@
   categories:
   - id: 72
     name: Leadership
-    created_at: '2020-06-11T15:52:33.291Z'
-    updated_at: '2020-06-11T15:52:33.291Z'
+    created_at: '2014-06-11T15:52:33.291Z'
+    updated_at: '2014-06-11T15:52:33.291Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/change-your-world/300x200.jpg?1396021202
   image_medium: http://s3.amazonaws.com/lcapi.production/series/change-your-world/600x400.jpg?1396021262
   image_large: http://s3.amazonaws.com/lcapi.production/series/change-your-world/1200x800.jpg?1396021294
@@ -1920,12 +1936,12 @@
   categories:
   - id: 1
     name: Relationships
-    created_at: '2020-02-03T22:38:58.852Z'
-    updated_at: '2020-06-05T19:41:17.695Z'
+    created_at: '2014-02-03T22:38:58.852Z'
+    updated_at: '2014-06-05T19:41:17.695Z'
   - id: 47
     name: Chris Hodges
-    created_at: '2020-06-11T15:26:28.191Z'
-    updated_at: '2020-06-11T15:26:28.191Z'
+    created_at: '2014-06-11T15:26:28.191Z'
+    updated_at: '2014-06-11T15:26:28.191Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/twogather/300x200.jpg?1396021016
   image_medium: http://s3.amazonaws.com/lcapi.production/series/twogather/600x400.jpg?1396021101
   image_large: http://s3.amazonaws.com/lcapi.production/series/twogather/1200x800.jpg?1396021134
@@ -1956,16 +1972,16 @@
   categories:
   - id: 14
     name: Worship
-    created_at: '2020-06-05T19:23:33.805Z'
-    updated_at: '2020-06-05T19:23:33.805Z'
+    created_at: '2014-06-05T19:23:33.805Z'
+    updated_at: '2014-06-05T19:23:33.805Z'
   - id: 40
     name: Miracles
-    created_at: '2020-06-11T15:21:20.475Z'
-    updated_at: '2020-06-11T15:21:20.475Z'
+    created_at: '2014-06-11T15:21:20.475Z'
+    updated_at: '2014-06-11T15:21:20.475Z'
   - id: 75
     name: Spiritual Warfare
-    created_at: '2020-08-05T18:45:34.299Z'
-    updated_at: '2020-08-05T20:06:31.641Z'
+    created_at: '2014-08-05T18:45:34.299Z'
+    updated_at: '2014-08-05T20:06:31.641Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/bold/300x200.jpg?1396020776
   image_medium: http://s3.amazonaws.com/lcapi.production/series/bold/600x400.jpg?1396020833
   image_large: http://s3.amazonaws.com/lcapi.production/series/bold/1200x800.jpg?1396020862
@@ -2003,24 +2019,24 @@
   categories:
   - id: 1
     name: Relationships
-    created_at: '2020-02-03T22:38:58.852Z'
-    updated_at: '2020-06-05T19:41:17.695Z'
+    created_at: '2014-02-03T22:38:58.852Z'
+    updated_at: '2014-06-05T19:41:17.695Z'
   - id: 60
     name: Sam Roberts
-    created_at: '2020-06-11T15:48:49.991Z'
-    updated_at: '2020-06-11T15:48:49.991Z'
+    created_at: '2014-06-11T15:48:49.991Z'
+    updated_at: '2014-06-11T15:48:49.991Z'
   - id: 61
     name: Chris Beall
-    created_at: '2020-06-11T15:49:00.818Z'
-    updated_at: '2020-06-11T15:49:00.818Z'
+    created_at: '2014-06-11T15:49:00.818Z'
+    updated_at: '2014-06-11T15:49:00.818Z'
   - id: 64
     name: Miles Paludan
-    created_at: '2020-06-11T15:50:02.989Z'
-    updated_at: '2020-06-11T15:50:02.989Z'
+    created_at: '2014-06-11T15:50:02.989Z'
+    updated_at: '2014-06-11T15:50:02.989Z'
   - id: 13
     name: Sins
-    created_at: '2020-06-05T19:20:27.559Z'
-    updated_at: '2020-06-11T16:19:31.726Z'
+    created_at: '2014-06-05T19:20:27.559Z'
+    updated_at: '2014-06-11T16:19:31.726Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/re/300x200.jpg?1396020632
   image_medium: http://s3.amazonaws.com/lcapi.production/series/re/600x400.jpg?1396020704
   image_large: http://s3.amazonaws.com/lcapi.production/series/re/1200x800.jpg?1396020726
@@ -2058,16 +2074,16 @@
   categories:
   - id: 61
     name: Chris Beall
-    created_at: '2020-06-11T15:49:00.818Z'
-    updated_at: '2020-06-11T15:49:00.818Z'
+    created_at: '2014-06-11T15:49:00.818Z'
+    updated_at: '2014-06-11T15:49:00.818Z'
   - id: 13
     name: Sins
-    created_at: '2020-06-05T19:20:27.559Z'
-    updated_at: '2020-06-11T16:19:31.726Z'
+    created_at: '2014-06-05T19:20:27.559Z'
+    updated_at: '2014-06-11T16:19:31.726Z'
   - id: 75
     name: Spiritual Warfare
-    created_at: '2020-08-05T18:45:34.299Z'
-    updated_at: '2020-08-05T20:06:31.641Z'
+    created_at: '2014-08-05T18:45:34.299Z'
+    updated_at: '2014-08-05T20:06:31.641Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/getting-past-your-past/300x200.jpg?1396019390
   image_medium: http://s3.amazonaws.com/lcapi.production/series/getting-past-your-past/600x400.jpg?1396019450
   image_large: http://s3.amazonaws.com/lcapi.production/series/getting-past-your-past/1200x800.jpg?1396019479
@@ -2104,20 +2120,20 @@
   categories:
   - id: 5
     name: Money
-    created_at: '2020-02-03T22:38:58.881Z'
-    updated_at: '2020-06-05T19:12:14.043Z'
+    created_at: '2014-02-03T22:38:58.881Z'
+    updated_at: '2014-06-05T19:12:14.043Z'
   - id: 1
     name: Relationships
-    created_at: '2020-02-03T22:38:58.852Z'
-    updated_at: '2020-06-05T19:41:17.695Z'
+    created_at: '2014-02-03T22:38:58.852Z'
+    updated_at: '2014-06-05T19:41:17.695Z'
   - id: 41
     name: God
-    created_at: '2020-06-11T15:22:41.520Z'
-    updated_at: '2020-06-11T15:22:41.520Z'
+    created_at: '2014-06-11T15:22:41.520Z'
+    updated_at: '2014-06-11T15:22:41.520Z'
   - id: 56
     name: Dave Ramsey
-    created_at: '2020-06-11T15:42:22.866Z'
-    updated_at: '2020-06-11T15:42:22.866Z'
+    created_at: '2014-06-11T15:42:22.866Z'
+    updated_at: '2014-06-11T15:42:22.866Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/weird/300x200.jpg?1396018778
   image_medium: http://s3.amazonaws.com/lcapi.production/series/weird/600x400.jpg?1396018846
   image_large: http://s3.amazonaws.com/lcapi.production/series/weird/1200x800.jpg?1396018886
@@ -2157,16 +2173,16 @@
   categories:
   - id: 21
     name: Fruits of the Spirit
-    created_at: '2020-06-11T15:15:50.342Z'
-    updated_at: '2020-06-11T15:15:50.342Z'
+    created_at: '2014-06-11T15:15:50.342Z'
+    updated_at: '2014-06-11T15:15:50.342Z'
   - id: 40
     name: Miracles
-    created_at: '2020-06-11T15:21:20.475Z'
-    updated_at: '2020-06-11T15:21:20.475Z'
+    created_at: '2014-06-11T15:21:20.475Z'
+    updated_at: '2014-06-11T15:21:20.475Z'
   - id: 54
     name: Steven Furtick
-    created_at: '2020-06-11T15:35:51.030Z'
-    updated_at: '2020-06-11T15:35:51.030Z'
+    created_at: '2014-06-11T15:35:51.030Z'
+    updated_at: '2014-06-11T15:35:51.030Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/sun-stand-still/300x200.jpg?1396016407
   image_medium: http://s3.amazonaws.com/lcapi.production/series/sun-stand-still/600x400.jpg?1396016463
   image_large: http://s3.amazonaws.com/lcapi.production/series/sun-stand-still/1200x800.jpg?1396016485
@@ -2197,12 +2213,12 @@
   categories:
   - id: 31
     name: Insecurity
-    created_at: '2020-06-11T15:18:45.147Z'
-    updated_at: '2020-06-11T15:18:45.147Z'
+    created_at: '2014-06-11T15:18:45.147Z'
+    updated_at: '2014-06-11T15:18:45.147Z'
   - id: 44
     name: Witnessing
-    created_at: '2020-06-11T15:25:15.255Z'
-    updated_at: '2020-06-11T15:25:15.255Z'
+    created_at: '2014-06-11T15:25:15.255Z'
+    updated_at: '2014-06-11T15:25:15.255Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/who-do-you-think-you-are/300x200.jpg?1396015782
   image_medium: http://s3.amazonaws.com/lcapi.production/series/who-do-you-think-you-are/600x400.jpg?1396015845
   image_large: http://s3.amazonaws.com/lcapi.production/series/who-do-you-think-you-are/1200x800.jpg?1396015877
@@ -2241,12 +2257,12 @@
   categories:
   - id: 30
     name: Fears
-    created_at: '2020-06-11T15:18:18.611Z'
-    updated_at: '2020-06-11T15:18:18.611Z'
+    created_at: '2014-06-11T15:18:18.611Z'
+    updated_at: '2014-06-11T15:18:18.611Z'
   - id: 60
     name: Sam Roberts
-    created_at: '2020-06-11T15:48:49.991Z'
-    updated_at: '2020-06-11T15:48:49.991Z'
+    created_at: '2014-06-11T15:48:49.991Z'
+    updated_at: '2014-06-11T15:48:49.991Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/i-quit/300x200.jpg?1396018576
   image_medium: http://s3.amazonaws.com/lcapi.production/series/i-quit/600x400.jpg?1396018624
   image_large: http://s3.amazonaws.com/lcapi.production/series/i-quit/1200x800.jpg?1396018673
@@ -2285,8 +2301,8 @@
   categories:
   - id: 46
     name: Church Vision
-    created_at: '2020-06-11T15:25:52.761Z'
-    updated_at: '2020-06-11T15:25:52.761Z'
+    created_at: '2014-06-11T15:25:52.761Z'
+    updated_at: '2014-06-11T15:25:52.761Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/xv/300x200.jpg?1396017703
   image_medium: http://s3.amazonaws.com/lcapi.production/series/xv/600x400.jpg?1396017885
   image_large: http://s3.amazonaws.com/lcapi.production/series/xv/1200x800.jpg?1396017915
@@ -2315,8 +2331,8 @@
   categories:
   - id: 42
     name: Disciplines
-    created_at: '2020-06-11T15:23:03.968Z'
-    updated_at: '2020-06-11T15:23:03.968Z'
+    created_at: '2014-06-11T15:23:03.968Z'
+    updated_at: '2014-06-11T15:23:03.968Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/first/300x200.jpg?1396013916
   image_medium: http://s3.amazonaws.com/lcapi.production/series/first/600x400.jpg?1396014102
   image_large: http://s3.amazonaws.com/lcapi.production/series/first/1200x800.jpg?1396014131
@@ -2344,12 +2360,12 @@
   categories:
   - id: 43
     name: Trials
-    created_at: '2020-06-11T15:23:13.523Z'
-    updated_at: '2020-06-11T15:23:13.523Z'
+    created_at: '2014-06-11T15:23:13.523Z'
+    updated_at: '2014-06-11T15:23:13.523Z'
   - id: 47
     name: Chris Hodges
-    created_at: '2020-06-11T15:26:28.191Z'
-    updated_at: '2020-06-11T15:26:28.191Z'
+    created_at: '2014-06-11T15:26:28.191Z'
+    updated_at: '2014-06-11T15:26:28.191Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/never-lose-heart/300x200.jpg?1395957477
   image_medium: http://s3.amazonaws.com/lcapi.production/series/never-lose-heart/600x400.jpg?1395957539
   image_large: http://s3.amazonaws.com/lcapi.production/series/never-lose-heart/1200x800.jpg?1395957568
@@ -2377,16 +2393,16 @@
   categories:
   - id: 14
     name: Worship
-    created_at: '2020-06-05T19:23:33.805Z'
-    updated_at: '2020-06-05T19:23:33.805Z'
+    created_at: '2014-06-05T19:23:33.805Z'
+    updated_at: '2014-06-05T19:23:33.805Z'
   - id: 26
     name: Hope
-    created_at: '2020-06-11T15:17:15.185Z'
-    updated_at: '2020-06-11T15:17:15.185Z'
+    created_at: '2014-06-11T15:17:15.185Z'
+    updated_at: '2014-06-11T15:17:15.185Z'
   - id: 41
     name: God
-    created_at: '2020-06-11T15:22:41.520Z'
-    updated_at: '2020-06-11T15:22:41.520Z'
+    created_at: '2014-06-11T15:22:41.520Z'
+    updated_at: '2014-06-11T15:22:41.520Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/christmas10/300x200.jpg?1395958092
   image_medium: http://s3.amazonaws.com/lcapi.production/series/christmas10/600x400.jpg?1395958139
   image_large: http://s3.amazonaws.com/lcapi.production/series/christmas10/1200x800.jpg?1395958159
@@ -2413,16 +2429,16 @@
   categories:
   - id: 5
     name: Money
-    created_at: '2020-02-03T22:38:58.881Z'
-    updated_at: '2020-06-05T19:12:14.043Z'
+    created_at: '2014-02-03T22:38:58.881Z'
+    updated_at: '2014-06-05T19:12:14.043Z'
   - id: 33
     name: Pain
-    created_at: '2020-06-11T15:19:30.049Z'
-    updated_at: '2020-06-11T15:19:30.049Z'
+    created_at: '2014-06-11T15:19:30.049Z'
+    updated_at: '2014-06-11T15:19:30.049Z'
   - id: 13
     name: Sins
-    created_at: '2020-06-05T19:20:27.559Z'
-    updated_at: '2020-06-11T16:19:31.726Z'
+    created_at: '2014-06-05T19:20:27.559Z'
+    updated_at: '2014-06-11T16:19:31.726Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/masquerade/300x200.jpg?1395956137
   image_medium: http://s3.amazonaws.com/lcapi.production/series/masquerade/600x400.jpg?1395956192
   image_large: http://s3.amazonaws.com/lcapi.production/series/masquerade/1200x800.jpg?1395956220
@@ -2462,20 +2478,20 @@
   categories:
   - id: 21
     name: Fruits of the Spirit
-    created_at: '2020-06-11T15:15:50.342Z'
-    updated_at: '2020-06-11T15:15:50.342Z'
+    created_at: '2014-06-11T15:15:50.342Z'
+    updated_at: '2014-06-11T15:15:50.342Z'
   - id: 43
     name: Trials
-    created_at: '2020-06-11T15:23:13.523Z'
-    updated_at: '2020-06-11T15:23:13.523Z'
+    created_at: '2014-06-11T15:23:13.523Z'
+    updated_at: '2014-06-11T15:23:13.523Z'
   - id: 59
     name: Judah Smith
-    created_at: '2020-06-11T15:48:39.506Z'
-    updated_at: '2020-06-11T15:48:39.506Z'
+    created_at: '2014-06-11T15:48:39.506Z'
+    updated_at: '2014-06-11T15:48:39.506Z'
   - id: 65
     name: Dino Rizzo
-    created_at: '2020-06-11T15:50:20.388Z'
-    updated_at: '2020-06-11T15:50:20.388Z'
+    created_at: '2014-06-11T15:50:20.388Z'
+    updated_at: '2014-06-11T15:50:20.388Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/planted/300x200.jpg?1395955990
   image_medium: http://s3.amazonaws.com/lcapi.production/series/planted/600x400.jpg?1395956048
   image_large: http://s3.amazonaws.com/lcapi.production/series/planted/1200x800.jpg?1395956078
@@ -2507,8 +2523,8 @@
   categories:
   - id: 39
     name: Purpose
-    created_at: '2020-06-11T15:21:10.086Z'
-    updated_at: '2020-06-11T15:21:10.086Z'
+    created_at: '2014-06-11T15:21:10.086Z'
+    updated_at: '2014-06-11T15:21:10.086Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/chazown/300x200.jpg?1395955851
   image_medium: http://s3.amazonaws.com/lcapi.production/series/chazown/600x400.jpg?1395956613
   image_large: http://s3.amazonaws.com/lcapi.production/series/chazown/1200x800.jpg?1395955909
@@ -2537,16 +2553,16 @@
   categories:
   - id: 15
     name: Family
-    created_at: '2020-06-05T19:32:01.499Z'
-    updated_at: '2020-06-05T19:32:01.499Z'
+    created_at: '2014-06-05T19:32:01.499Z'
+    updated_at: '2014-06-05T19:32:01.499Z'
   - id: 1
     name: Relationships
-    created_at: '2020-02-03T22:38:58.852Z'
-    updated_at: '2020-06-05T19:41:17.695Z'
+    created_at: '2014-02-03T22:38:58.852Z'
+    updated_at: '2014-06-05T19:41:17.695Z'
   - id: 66
     name: Dr. Samuel R. Chand
-    created_at: '2020-06-11T15:50:32.197Z'
-    updated_at: '2020-06-11T15:50:32.197Z'
+    created_at: '2014-06-11T15:50:32.197Z'
+    updated_at: '2014-06-11T15:50:32.197Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/i-believe-in-you/300x200.jpg?1395955702
   image_medium: http://s3.amazonaws.com/lcapi.production/series/i-believe-in-you/600x400.jpg?1395955753
   image_large: http://s3.amazonaws.com/lcapi.production/series/i-believe-in-you/1200x800.jpg?1395955780
@@ -2583,12 +2599,12 @@
   categories:
   - id: 1
     name: Relationships
-    created_at: '2020-02-03T22:38:58.852Z'
-    updated_at: '2020-06-05T19:41:17.695Z'
+    created_at: '2014-02-03T22:38:58.852Z'
+    updated_at: '2014-06-05T19:41:17.695Z'
   - id: 36
     name: Thoughts
-    created_at: '2020-06-11T15:20:28.824Z'
-    updated_at: '2020-06-11T15:20:28.824Z'
+    created_at: '2014-06-11T15:20:28.824Z'
+    updated_at: '2014-06-11T15:20:28.824Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/toxic/300x200.jpg?1395955541
   image_medium: http://s3.amazonaws.com/lcapi.production/series/toxic/600x400.jpg?1395955585
   image_large: http://s3.amazonaws.com/lcapi.production/series/toxic/1200x800.jpg?1395955605
@@ -2628,20 +2644,20 @@
   categories:
   - id: 14
     name: Worship
-    created_at: '2020-06-05T19:23:33.805Z'
-    updated_at: '2020-06-05T19:23:33.805Z'
+    created_at: '2014-06-05T19:23:33.805Z'
+    updated_at: '2014-06-05T19:23:33.805Z'
   - id: 54
     name: Steven Furtick
-    created_at: '2020-06-11T15:35:51.030Z'
-    updated_at: '2020-06-11T15:35:51.030Z'
+    created_at: '2014-06-11T15:35:51.030Z'
+    updated_at: '2014-06-11T15:35:51.030Z'
   - id: 67
     name: Ray Johnston
-    created_at: '2020-06-11T15:50:48.524Z'
-    updated_at: '2020-06-11T15:50:48.524Z'
+    created_at: '2014-06-11T15:50:48.524Z'
+    updated_at: '2014-06-11T15:50:48.524Z'
   - id: 68
     name: Brian Houston
-    created_at: '2020-06-11T15:51:04.977Z'
-    updated_at: '2020-06-11T15:51:04.977Z'
+    created_at: '2014-06-11T15:51:04.977Z'
+    updated_at: '2014-06-11T15:51:04.977Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/one-prayer-10/300x200.jpg?1395955200
   image_medium: http://s3.amazonaws.com/lcapi.production/series/one-prayer-10/600x400.jpg?1395955247
   image_large: http://s3.amazonaws.com/lcapi.production/series/one-prayer-10/1200x800.jpg?1395955275
@@ -2678,16 +2694,16 @@
   categories:
   - id: 17
     name: Dating
-    created_at: '2020-06-11T15:14:52.700Z'
-    updated_at: '2020-06-11T15:14:52.700Z'
+    created_at: '2014-06-11T15:14:52.700Z'
+    updated_at: '2014-06-11T15:14:52.700Z'
   - id: 45
     name: Virtues
-    created_at: '2020-06-11T15:25:27.460Z'
-    updated_at: '2020-06-11T15:25:27.460Z'
+    created_at: '2014-06-11T15:25:27.460Z'
+    updated_at: '2014-06-11T15:25:27.460Z'
   - id: 69
     name: Amy Groeschel
-    created_at: '2020-06-11T15:51:17.593Z'
-    updated_at: '2020-06-11T15:51:17.593Z'
+    created_at: '2014-06-11T15:51:17.593Z'
+    updated_at: '2014-06-11T15:51:17.593Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/forgotten-virtues/300x200.jpg?1395954850
   image_medium: http://s3.amazonaws.com/lcapi.production/series/forgotten-virtues/600x400.jpg?1395954906
   image_large: http://s3.amazonaws.com/lcapi.production/series/forgotten-virtues/1200x800.jpg?1395955104
@@ -2727,12 +2743,12 @@
   categories:
   - id: 18
     name: Death
-    created_at: '2020-06-11T15:15:02.642Z'
-    updated_at: '2020-06-11T15:15:02.642Z'
+    created_at: '2014-06-11T15:15:02.642Z'
+    updated_at: '2014-06-11T15:15:02.642Z'
   - id: 13
     name: Sins
-    created_at: '2020-06-05T19:20:27.559Z'
-    updated_at: '2020-06-11T16:19:31.726Z'
+    created_at: '2014-06-05T19:20:27.559Z'
+    updated_at: '2014-06-11T16:19:31.726Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/faq/300x200.jpg?1395955372
   image_medium: http://s3.amazonaws.com/lcapi.production/series/faq/600x400.jpg?1395955419
   image_large: http://s3.amazonaws.com/lcapi.production/series/faq/1200x800.jpg?1395955438
@@ -2767,20 +2783,20 @@
   categories:
   - id: 18
     name: Death
-    created_at: '2020-06-11T15:15:02.642Z'
-    updated_at: '2020-06-11T15:15:02.642Z'
+    created_at: '2014-06-11T15:15:02.642Z'
+    updated_at: '2014-06-11T15:15:02.642Z'
   - id: 41
     name: God
-    created_at: '2020-06-11T15:22:41.520Z'
-    updated_at: '2020-06-11T15:22:41.520Z'
+    created_at: '2014-06-11T15:22:41.520Z'
+    updated_at: '2014-06-11T15:22:41.520Z'
   - id: 64
     name: Miles Paludan
-    created_at: '2020-06-11T15:50:02.989Z'
-    updated_at: '2020-06-11T15:50:02.989Z'
+    created_at: '2014-06-11T15:50:02.989Z'
+    updated_at: '2014-06-11T15:50:02.989Z'
   - id: 70
     name: Joel A'Bell
-    created_at: '2020-06-11T15:51:31.851Z'
-    updated_at: '2020-06-11T15:51:31.851Z'
+    created_at: '2014-06-11T15:51:31.851Z'
+    updated_at: '2014-06-11T15:51:31.851Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/red-letter-day/300x200.jpg?1395954671
   image_medium: http://s3.amazonaws.com/lcapi.production/series/red-letter-day/600x400.jpg?1395954722
   image_large: http://s3.amazonaws.com/lcapi.production/series/red-letter-day/1200x800.jpg?1395954745
@@ -2821,8 +2837,8 @@
   categories:
   - id: 12
     name: Marriage
-    created_at: '2020-06-05T19:14:26.586Z'
-    updated_at: '2020-06-05T19:14:26.586Z'
+    created_at: '2014-06-05T19:14:26.586Z'
+    updated_at: '2014-06-05T19:14:26.586Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/once-upon-a-marriage/300x200.jpg?1395954447
   image_medium: http://s3.amazonaws.com/lcapi.production/series/once-upon-a-marriage/600x400.jpg?1395954510
   image_large: http://s3.amazonaws.com/lcapi.production/series/once-upon-a-marriage/1200x800.jpg?1395954560
@@ -2860,8 +2876,8 @@
   categories:
   - id: 5
     name: Money
-    created_at: '2020-02-03T22:38:58.881Z'
-    updated_at: '2020-06-05T19:12:14.043Z'
+    created_at: '2014-02-03T22:38:58.881Z'
+    updated_at: '2014-06-05T19:12:14.043Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/margin/300x200.jpg?1395954017
   image_medium: http://s3.amazonaws.com/lcapi.production/series/margin/600x400.jpg?1395954063
   image_large: http://s3.amazonaws.com/lcapi.production/series/margin/1200x800.jpg?1395954090
@@ -2899,8 +2915,8 @@
   categories:
   - id: 42
     name: Disciplines
-    created_at: '2020-06-11T15:23:03.968Z'
-    updated_at: '2020-06-11T15:23:03.968Z'
+    created_at: '2014-06-11T15:23:03.968Z'
+    updated_at: '2014-06-11T15:23:03.968Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/one-thing/300x200.jpg?1395952110
   image_medium: http://s3.amazonaws.com/lcapi.production/series/one-thing/600x400.jpg?1395936667
   image_large: http://s3.amazonaws.com/lcapi.production/series/one-thing/1200x800.jpg?1395936568
@@ -2927,8 +2943,8 @@
   categories:
   - id: 41
     name: God
-    created_at: '2020-06-11T15:22:41.520Z'
-    updated_at: '2020-06-11T15:22:41.520Z'
+    created_at: '2014-06-11T15:22:41.520Z'
+    updated_at: '2014-06-11T15:22:41.520Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/this-christmas/300x200.jpg?1395945033
   image_medium: http://s3.amazonaws.com/lcapi.production/series/this-christmas/600x400.jpg?1395945103
   image_large: http://s3.amazonaws.com/lcapi.production/series/this-christmas/1200x800.jpg?1395945170
@@ -2991,16 +3007,16 @@
   categories:
   - id: 41
     name: God
-    created_at: '2020-06-11T15:22:41.520Z'
-    updated_at: '2020-06-11T15:22:41.520Z'
+    created_at: '2014-06-11T15:22:41.520Z'
+    updated_at: '2014-06-11T15:22:41.520Z'
   - id: 61
     name: Chris Beall
-    created_at: '2020-06-11T15:49:00.818Z'
-    updated_at: '2020-06-11T15:49:00.818Z'
+    created_at: '2014-06-11T15:49:00.818Z'
+    updated_at: '2014-06-11T15:49:00.818Z'
   - id: 64
     name: Miles Paludan
-    created_at: '2020-06-11T15:50:02.989Z'
-    updated_at: '2020-06-11T15:50:02.989Z'
+    created_at: '2014-06-11T15:50:02.989Z'
+    updated_at: '2014-06-11T15:50:02.989Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/carbon-copy/300x200.jpg?1395946430
   image_medium: http://s3.amazonaws.com/lcapi.production/series/carbon-copy/600x400.jpg?1395946485
   image_large: http://s3.amazonaws.com/lcapi.production/series/carbon-copy/1200x800.jpg?1395946538
@@ -3032,8 +3048,8 @@
   categories:
   - id: 73
     name: Supernatural
-    created_at: '2020-06-11T15:52:47.494Z'
-    updated_at: '2020-06-11T15:52:47.494Z'
+    created_at: '2014-06-11T15:52:47.494Z'
+    updated_at: '2014-06-11T15:52:47.494Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/ghost/300x200.jpg?1395946626
   image_medium: http://s3.amazonaws.com/lcapi.production/series/ghost/600x400.jpg?1395946673
   image_large: http://s3.amazonaws.com/lcapi.production/series/ghost/1200x800.jpg?1395946702
@@ -3071,16 +3087,16 @@
   categories:
   - id: 44
     name: Witnessing
-    created_at: '2020-06-11T15:25:15.255Z'
-    updated_at: '2020-06-11T15:25:15.255Z'
+    created_at: '2014-06-11T15:25:15.255Z'
+    updated_at: '2014-06-11T15:25:15.255Z'
   - id: 61
     name: Chris Beall
-    created_at: '2020-06-11T15:49:00.818Z'
-    updated_at: '2020-06-11T15:49:00.818Z'
+    created_at: '2014-06-11T15:49:00.818Z'
+    updated_at: '2014-06-11T15:49:00.818Z'
   - id: 71
     name: Andy Stanley
-    created_at: '2020-06-11T15:52:23.089Z'
-    updated_at: '2020-06-11T15:52:23.089Z'
+    created_at: '2014-06-11T15:52:23.089Z'
+    updated_at: '2014-06-11T15:52:23.089Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/place-for-everyone/300x200.jpg?1395946819
   image_medium: http://s3.amazonaws.com/lcapi.production/series/place-for-everyone/600x400.jpg?1395946866
   image_large: http://s3.amazonaws.com/lcapi.production/series/place-for-everyone/1200x800.jpg?1395946917
@@ -3113,12 +3129,12 @@
   categories:
   - id: 12
     name: Marriage
-    created_at: '2020-06-05T19:14:26.586Z'
-    updated_at: '2020-06-05T19:14:26.586Z'
+    created_at: '2014-06-05T19:14:26.586Z'
+    updated_at: '2014-06-05T19:14:26.586Z'
   - id: 13
     name: Sins
-    created_at: '2020-06-05T19:20:27.559Z'
-    updated_at: '2020-06-11T16:19:31.726Z'
+    created_at: '2014-06-05T19:20:27.559Z'
+    updated_at: '2014-06-11T16:19:31.726Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/five-easy-steps/300x200.jpg?1395949098
   image_medium: http://s3.amazonaws.com/lcapi.production/series/five-easy-steps/600x400.jpg?1395949158
   image_large: http://s3.amazonaws.com/lcapi.production/series/five-easy-steps/1200x800.jpg?1395949182
@@ -3157,16 +3173,16 @@
   categories:
   - id: 1
     name: Relationships
-    created_at: '2020-02-03T22:38:58.852Z'
-    updated_at: '2020-06-05T19:41:17.695Z'
+    created_at: '2014-02-03T22:38:58.852Z'
+    updated_at: '2014-06-05T19:41:17.695Z'
   - id: 44
     name: Witnessing
-    created_at: '2020-06-11T15:25:15.255Z'
-    updated_at: '2020-06-11T15:25:15.255Z'
+    created_at: '2014-06-11T15:25:15.255Z'
+    updated_at: '2014-06-11T15:25:15.255Z'
   - id: 49
     name: Christine Caine
-    created_at: '2020-06-11T15:27:08.231Z'
-    updated_at: '2020-06-11T15:27:08.231Z'
+    created_at: '2014-06-11T15:27:08.231Z'
+    updated_at: '2014-06-11T15:27:08.231Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/stop-acting-like-a-christian/300x200.jpg?1395949281
   image_medium: http://s3.amazonaws.com/lcapi.production/series/stop-acting-like-a-christian/600x400.jpg?1395949351
   image_large: http://s3.amazonaws.com/lcapi.production/series/stop-acting-like-a-christian/1200x800.jpg?1395949381
@@ -3198,16 +3214,16 @@
   categories:
   - id: 28
     name: Serving
-    created_at: '2020-06-11T15:17:48.142Z'
-    updated_at: '2020-06-11T15:17:48.142Z'
+    created_at: '2014-06-11T15:17:48.142Z'
+    updated_at: '2014-06-11T15:17:48.142Z'
   - id: 44
     name: Witnessing
-    created_at: '2020-06-11T15:25:15.255Z'
-    updated_at: '2020-06-11T15:25:15.255Z'
+    created_at: '2014-06-11T15:25:15.255Z'
+    updated_at: '2014-06-11T15:25:15.255Z'
   - id: 46
     name: Church Vision
-    created_at: '2020-06-11T15:25:52.761Z'
-    updated_at: '2020-06-11T15:25:52.761Z'
+    created_at: '2014-06-11T15:25:52.761Z'
+    updated_at: '2014-06-11T15:25:52.761Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/behind-the-curtain/300x200.jpg?1395949464
   image_medium: http://s3.amazonaws.com/lcapi.production/series/behind-the-curtain/600x400.jpg?1395949509
   image_large: http://s3.amazonaws.com/lcapi.production/series/behind-the-curtain/1200x800.jpg?1395949530
@@ -3242,12 +3258,12 @@
   categories:
   - id: 2
     name: Knowing God
-    created_at: '2020-02-03T22:38:58.863Z'
-    updated_at: '2020-02-03T22:38:58.863Z'
+    created_at: '2014-02-03T22:38:58.863Z'
+    updated_at: '2014-02-03T22:38:58.863Z'
   - id: 14
     name: Worship
-    created_at: '2020-06-05T19:23:33.805Z'
-    updated_at: '2020-06-05T19:23:33.805Z'
+    created_at: '2014-06-05T19:23:33.805Z'
+    updated_at: '2014-06-05T19:23:33.805Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/one-prayer-09/300x200.jpg?1395949925
   image_medium: http://s3.amazonaws.com/lcapi.production/series/one-prayer-09/600x400.jpg?1395949977
   image_large: http://s3.amazonaws.com/lcapi.production/series/one-prayer-09/1200x800.jpg?1395949997
@@ -3284,12 +3300,12 @@
   categories:
   - id: 14
     name: Worship
-    created_at: '2020-06-05T19:23:33.805Z'
-    updated_at: '2020-06-05T19:23:33.805Z'
+    created_at: '2014-06-05T19:23:33.805Z'
+    updated_at: '2014-06-05T19:23:33.805Z'
   - id: 40
     name: Miracles
-    created_at: '2020-06-11T15:21:20.475Z'
-    updated_at: '2020-06-11T15:21:20.475Z'
+    created_at: '2014-06-11T15:21:20.475Z'
+    updated_at: '2014-06-11T15:21:20.475Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/elijah/300x200.jpg?1395950082
   image_medium: http://s3.amazonaws.com/lcapi.production/series/elijah/600x400.jpg?1395950122
   image_large: http://s3.amazonaws.com/lcapi.production/series/elijah/1200x800.jpg?1395950151
@@ -3328,12 +3344,12 @@
   categories:
   - id: 2
     name: Knowing God
-    created_at: '2020-02-03T22:38:58.863Z'
-    updated_at: '2020-02-03T22:38:58.863Z'
+    created_at: '2014-02-03T22:38:58.863Z'
+    updated_at: '2014-02-03T22:38:58.863Z'
   - id: 43
     name: Trials
-    created_at: '2020-06-11T15:23:13.523Z'
-    updated_at: '2020-06-11T15:23:13.523Z'
+    created_at: '2014-06-11T15:23:13.523Z'
+    updated_at: '2014-06-11T15:23:13.523Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/can-you-see-him/300x200.jpg?1395950540
   image_medium: http://s3.amazonaws.com/lcapi.production/series/can-you-see-him/600x400.jpg?1395950764
   image_large: http://s3.amazonaws.com/lcapi.production/series/can-you-see-him/1200x800.jpg?1395950790
@@ -3370,12 +3386,12 @@
   categories:
   - id: 5
     name: Money
-    created_at: '2020-02-03T22:38:58.881Z'
-    updated_at: '2020-06-05T19:12:14.043Z'
+    created_at: '2014-02-03T22:38:58.881Z'
+    updated_at: '2014-06-05T19:12:14.043Z'
   - id: 56
     name: Dave Ramsey
-    created_at: '2020-06-11T15:42:22.866Z'
-    updated_at: '2020-06-11T15:42:22.866Z'
+    created_at: '2014-06-11T15:42:22.866Z'
+    updated_at: '2014-06-11T15:42:22.866Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/life-money-hope/300x200.jpg?1395950860
   image_medium: http://s3.amazonaws.com/lcapi.production/series/life-money-hope/600x400.jpg?1395950919
   image_large: http://s3.amazonaws.com/lcapi.production/series/life-money-hope/1200x800.jpg?1395950946
@@ -3411,8 +3427,8 @@
   categories:
   - id: 12
     name: Marriage
-    created_at: '2020-06-05T19:14:26.586Z'
-    updated_at: '2020-06-05T19:14:26.586Z'
+    created_at: '2014-06-05T19:14:26.586Z'
+    updated_at: '2014-06-05T19:14:26.586Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/the-vow/300x200.jpg?1395951072
   image_medium: http://s3.amazonaws.com/lcapi.production/series/the-vow/600x400.jpg?1395951126
   image_large: http://s3.amazonaws.com/lcapi.production/series/the-vow/1200x800.jpg?1395951144
@@ -3449,8 +3465,8 @@
   categories:
   - id: 2
     name: Knowing God
-    created_at: '2020-02-03T22:38:58.863Z'
-    updated_at: '2020-02-03T22:38:58.863Z'
+    created_at: '2014-02-03T22:38:58.863Z'
+    updated_at: '2014-02-03T22:38:58.863Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/trueish/300x200.jpg?1395951218
   image_medium: http://s3.amazonaws.com/lcapi.production/series/trueish/600x400.jpg?1395951254
   image_large: http://s3.amazonaws.com/lcapi.production/series/trueish/1200x800.jpg?1395951275
