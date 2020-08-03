@@ -34,6 +34,37 @@
  background: #490b4d url("{{ page.heroimage }}") no-repeat center center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
 .gradient,.gradient:after {filter: none; } 
            </style>
+    <!-- Javascript ================================================== -->
+    <script src="/site/templates/js/plugins/modernizr/modernizr.min.js"></script>
+    <script src="/site/templates/js/plugins/jquery/jquery.min.js"></script>
+    <script src='/site/templates/js/plugins/fastbutton/google.fastbutton.js'></script>
+    <script src='/site/templates/js/plugins/fastbutton/jquery.google.fastbutton.js'></script>
+    <script src='/site/templates/js/bootstrap.min.js'></script>
+    <script src='/site/templates/js/plugins/emailObfuscation/emo.min.js'></script>
+    <script src='/site/templates/js/plugins/fitvids/jquery.fitvids.min.js'></script>
+    <script src='/site/templates/js/plugins/validate/jquery.validate.js'></script>
+    <script src='/site/templates/js/main.js'></script>
+    <script src='/site/templates/js/popup.js'></script>
+    <script src='/site/templates/js/share.js'></script>
+    <script src='/site/templates/css/ckeditor/ckeditor.js'></script>
+    <script src='/site/templates/css/ckeditor/samples/js/sample.js'></script>
+    <script src='/js/jquery.countdown.js'></script>
+    {%- comment -%}
+    <script>
+      {% include livejs.html %}
+    </script>
+    {%- endcomment -%}
+    <!-- start the countdown when the page loads -->
+    <script type="text/javascript">
+      $(function () {
+        var holiday = new Date();
+        holiday = new Date("2020-08-06 18:30:00 -0400");
+        $('#defaultCountdown').countdown({until: holiday});
+        $('#year').text(holiday.getFullYear());
+      });
+    </script>
+    <!-- end of javascript includes  -->
+
 </head>
 
 <body>
@@ -331,36 +362,7 @@
 </span>
 
 </div> <!-- / wrapper -->
-    <!-- Javascript ================================================== -->
-    <script src="/site/templates/js/plugins/modernizr/modernizr.min.js"></script>
-    <script src="/site/templates/js/plugins/jquery/jquery.min.js"></script>
-    <script src='/site/templates/js/plugins/fastbutton/google.fastbutton.js'></script>
-    <script src='/site/templates/js/plugins/fastbutton/jquery.google.fastbutton.js'></script>
-    <script src='/site/templates/js/bootstrap.min.js'></script>
-    <script src='/site/templates/js/plugins/emailObfuscation/emo.min.js'></script>
-    <script src='/site/templates/js/plugins/fitvids/jquery.fitvids.min.js'></script>
-    <script src='/site/templates/js/plugins/validate/jquery.validate.js'></script>
-    <script src='/site/templates/js/main.js'></script>
-    <script src='/site/templates/js/popup.js'></script>
-    <script src='/site/templates/js/share.js'></script>
-    <script src='/site/templates/css/ckeditor/ckeditor.js'></script>
-    <script src='/site/templates/css/ckeditor/samples/js/sample.js'></script>
-    <script src='/js/jquery.countdown.js'></script>
-    {%- comment -%}
-    <script>
-      {% include livejs.html %}
-    </script>
-    {%- endcomment -%}
-    <!-- start the countdown when the page loads -->
-    <script type="text/javascript">
-      $(function () {
-        var holiday = new Date();
-        holiday = new Date("2020-08-06 18:30:00 -0400");
-        $('#defaultCountdown').countdown({until: holiday});
-        $('#year').text(holiday.getFullYear());
-      });
-    </script>
-    <!-- end of javascript includes  -->
+
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
