@@ -23,3 +23,4 @@ prose:
           element: 'text'
           label: 'Permalink'
           value: ''
+plugins: [jekyll/imgix]

@@ -1,11 +1,86 @@
-- id: down-on-the-farm
-  title: Down on the Farm
-  headline: 
-  description_small: 
-  description_medium: 
+---
+- id: struggles
+  title: Struggles
+  headline: 'Let’s be real with our #struggles.'
+  description_small: 'It''s hard to be true to ourselves when we control what the
+    world sees about us online. Let’s learn to be real with our #Struggles.'
+  description_medium: 'As you scroll through your day, does it feel like everyone
+    else has it all together? Someone always has the best job, cutest kid, or happiest
+    relationship. We''re pressured to measure up to other people''s status updates
+    and left with more #struggles.'
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1909-stand
+  open_url: http://open.lifechurch.tv/groups/1938-struggles
+  promo: n0xy2v2cwk
+  resources_url: ''
+  categories:
+  - id: 1
+    name: Relationships
+    created_at: '2014-02-03T22:38:58.852Z'
+    updated_at: '2014-06-05T19:41:17.695Z'
+  - id: 30
+    name: Fears
+    created_at: '2014-06-11T15:18:18.611Z'
+    updated_at: '2014-06-11T15:18:18.611Z'
+  - id: 31
+    name: Insecurity
+    created_at: '2014-06-11T15:18:45.147Z'
+    updated_at: '2014-06-11T15:18:45.147Z'
+  - id: 35
+    name: Feelings
+    created_at: '2014-06-11T15:20:16.022Z'
+    updated_at: '2014-06-11T15:20:16.022Z'
+  - id: 39
+    name: Purpose
+    created_at: '2014-06-11T15:21:10.086Z'
+    updated_at: '2014-06-11T15:21:10.086Z'
+  - id: 42
+    name: Disciplines
+    created_at: '2014-06-11T15:23:03.968Z'
+    updated_at: '2014-06-11T15:23:03.968Z'
+  - id: 43
+    name: Trials
+    created_at: '2014-06-11T15:23:13.523Z'
+    updated_at: '2014-06-11T15:23:13.523Z'
+  - id: 13
+    name: Sins
+    created_at: '2014-06-05T19:20:27.559Z'
+    updated_at: '2014-06-11T16:19:31.726Z'
+  image_small: http://s3.amazonaws.com/lcapi.production/series/struggles/300x200.jpg?1410207282
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/struggles/600x400.jpg?1410207346
+  image_large: http://s3.amazonaws.com/lcapi.production/series/struggles/1200x800.jpg?1410207407
+  image_social: http://s3.amazonaws.com/lcapi.production/series/struggles/400x400.jpg?1410476333
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/struggles/1500x340.jpeg?1409866940
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/struggles/3000x680.jpeg?1409866971
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/struggles/480x340.jpg?1409340722
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/struggles/960x680.jpg?1409340737
+  messages:
+  - title: Rest
+    headline: ''
+    video: r2liax1joe
+  - title: Compassion
+    headline: ''
+    video: 0exxbrfzz2
+  - title: Authenticity
+    headline: ''
+    video: 83lx2wkink
+  - title: Relationships
+    headline: ''
+    video: 2yv9vufl9r
+  - title: Contentment
+    headline: ''
+    video: f5inyspcmy
+- id: stand
+  title: Stand
+  headline: When push comes to shove, it might seem easier to let things slide rather
+    than fight for what’s right.
+  description_small: When your beliefs are challenged, do you have the courage to
+    Stand?
+  description_medium: When we’re pushed to our limit, we have a choice to make. Will
+    we choose the path of least resistance or will we have the courage to take a Stand?
+  quote: ''
+  quote_cite: ''
+  open_url: http://open.lifechurch.tv/groups/1909-stand
   promo: gq9kpcrcp7
   resources_url: ''
   categories:
@@ -25,14 +100,14 @@
     name: Spiritual Warfare
     created_at: '2014-08-05T18:45:34.299Z'
     updated_at: '2014-08-05T20:06:31.641Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&amp;w=300x200.jpg?1405366982
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&amp;w=600x400.jpg?1405367007
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&amp;w=1200x800.jpg?1405367040
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&amp;w=400x400.jpg?1404934723
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=&amp;w=1500x340.jpg?1406565165
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&amp;w=3000x680.jpg?1406565130
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&amp;w=480x340.jpg?1406565187
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&amp;w=960x680.jpg?1406565217
+  image_small: http://s3.amazonaws.com/lcapi.production/series/stand/300x200.jpg?1405366982
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/stand/600x400.jpg?1405367007
+  image_large: http://s3.amazonaws.com/lcapi.production/series/stand/1200x800.jpg?1405367040
+  image_social: http://s3.amazonaws.com/lcapi.production/series/stand/400x400.jpg?1404934723
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/stand/1500x340.jpg?1406565165
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/stand/3000x680.jpg?1406565130
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/stand/480x340.jpg?1406565187
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/stand/960x680.jpg?1406565217
   messages:
   - title: Standing Firm in the Fire
     headline: ''
@@ -59,7 +134,7 @@
     might think, unless you know what to look for.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1425-5-easy-steps-to-wreck-your-life
+  open_url: http://open.lifechurch.tv/groups/1425-5-easy-steps-to-wreck-your-life
   promo: ''
   resources_url: ''
   categories:
@@ -74,7 +149,7 @@
   image_small: ''
   image_medium: ''
   image_large: ''
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/atm-2014-five-easy-steps/400x400.jpg?1404932459
+  image_social: http://s3.amazonaws.com/lcapi.production/series/atm-2014-five-easy-steps/400x400.jpg?1404932459
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -102,7 +177,7 @@
     Find out what it looks like to have real Love.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1899-love
+  open_url: http://open.lifechurch.tv/groups/1899-love
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/love/
   categories:
@@ -114,14 +189,14 @@
     name: Judah Smith
     created_at: '2014-06-11T15:48:39.506Z'
     updated_at: '2014-06-11T15:48:39.506Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/love/300x200.jpg?1402933720
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/love/600x400.jpg?1402933753
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/love/1200x800.jpg?1402933772
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/love/400x400.jpg?1401897347
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/love/1500x340.jpg?1403276290
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/love/3000x680.jpg?1403276266
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/love/480x340.jpg?1403276311
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/love/960x680.jpg?1403276336
+  image_small: http://s3.amazonaws.com/lcapi.production/series/love/300x200.jpg?1402933720
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/love/600x400.jpg?1402933753
+  image_large: http://s3.amazonaws.com/lcapi.production/series/love/1200x800.jpg?1402933772
+  image_social: http://s3.amazonaws.com/lcapi.production/series/love/400x400.jpg?1401897347
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/love/1500x340.jpg?1403276290
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/love/3000x680.jpg?1403276266
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/love/480x340.jpg?1403276311
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/love/960x680.jpg?1403276336
   messages:
   - title: Wasted Love
     headline: ''
@@ -140,7 +215,7 @@
     you feel Puzzled. '
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1898-puzzled
+  open_url: http://open.lifechurch.tv/groups/1898-puzzled
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/puzzled/
   categories:
@@ -152,14 +227,14 @@
     name: Sam Roberts
     created_at: '2014-06-11T15:48:49.991Z'
     updated_at: '2014-06-11T15:48:49.991Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/puzzled/300x200.jpg?1401807842
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/puzzled/600x400.jpg?1401807867
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/puzzled/1200x800.jpg?1401807892
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/puzzled/400x400.jpg?1400685700
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/puzzled/1500x340.jpg?1401912178
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/puzzled/3000x680.jpg?1401912148
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/puzzled/480x340.jpg?1401912237
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/puzzled/960x680.jpg?1401912263
+  image_small: http://s3.amazonaws.com/lcapi.production/series/puzzled/300x200.jpg?1401807842
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/puzzled/600x400.jpg?1401807867
+  image_large: http://s3.amazonaws.com/lcapi.production/series/puzzled/1200x800.jpg?1401807892
+  image_social: http://s3.amazonaws.com/lcapi.production/series/puzzled/400x400.jpg?1400685700
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/puzzled/1500x340.jpg?1401912178
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/puzzled/3000x680.jpg?1401912148
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/puzzled/480x340.jpg?1401912237
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/puzzled/960x680.jpg?1401912263
   messages:
   - title: Week 2
     headline: ''
@@ -177,7 +252,7 @@
     we're In the Fire.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1892-in-the-fire
+  open_url: http://open.lifechurch.tv/groups/1892-in-the-fire
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/in-the-fire/
   categories:
@@ -193,14 +268,14 @@
     name: Carl Lentz
     created_at: '2014-06-11T16:14:48.792Z'
     updated_at: '2014-06-11T16:14:48.792Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/in-the-fire/300x200.jpg?1400172764
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/in-the-fire/600x400.jpg?1400172786
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/in-the-fire/1200x800.jpg?1400172809
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/in-the-fire/400x400.jpg?1399406210
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/in-the-fire/1500x340.jpg?1401719755
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/in-the-fire/3000x680.jpg?1401719809
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/in-the-fire/480x340.jpg?1400864055
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/in-the-fire/960x680.jpg?1400864098
+  image_small: http://s3.amazonaws.com/lcapi.production/series/in-the-fire/300x200.jpg?1400172764
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/in-the-fire/600x400.jpg?1400172786
+  image_large: http://s3.amazonaws.com/lcapi.production/series/in-the-fire/1200x800.jpg?1400172809
+  image_social: http://s3.amazonaws.com/lcapi.production/series/in-the-fire/400x400.jpg?1399406210
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/in-the-fire/1500x340.jpg?1401719755
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/in-the-fire/3000x680.jpg?1401719809
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/in-the-fire/480x340.jpg?1400864055
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/in-the-fire/960x680.jpg?1400864098
   messages:
   - title: A Problem Called Praise
     headline: ''
@@ -218,7 +293,7 @@
     to make your mark on the world—become an Outlaster.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1880-outlasters
+  open_url: http://open.lifechurch.tv/groups/1880-outlasters
   promo: k3vth6f06h
   resources_url: http://resources.lifechurch.tv/products/outlasters/
   categories:
@@ -230,14 +305,14 @@
     name: Family
     created_at: '2014-06-05T19:32:01.499Z'
     updated_at: '2014-06-05T19:32:01.499Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/outlasters/300x200.jpg?1398097251
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/outlasters/600x400.jpg?1398097230
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/outlasters/1200x800.jpg?1398097208
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/outlasters/400x400.jpg?1397678033
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/outlasters/1500x340.jpg?1400871741
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/outlasters/3000x680.jpg?1400871718
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/outlasters/480x340.jpg?1400871764
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/outlasters/960x680.jpg?1400871800
+  image_small: http://s3.amazonaws.com/lcapi.production/series/outlasters/300x200.jpg?1398097251
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/outlasters/600x400.jpg?1398097230
+  image_large: http://s3.amazonaws.com/lcapi.production/series/outlasters/1200x800.jpg?1398097208
+  image_social: http://s3.amazonaws.com/lcapi.production/series/outlasters/400x400.jpg?1397678033
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/outlasters/1500x340.jpg?1400871741
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/outlasters/3000x680.jpg?1400871718
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/outlasters/480x340.jpg?1400871764
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/outlasters/960x680.jpg?1400871800
   messages:
   - title: Intentional Giving
     headline: ''
@@ -262,7 +337,7 @@
     questions reveal our hearts in The Counselor.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1873-the-counselor
+  open_url: http://open.lifechurch.tv/groups/1873-the-counselor
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/the-counselor/
   categories:
@@ -274,14 +349,14 @@
     name: Feelings
     created_at: '2014-06-11T15:20:16.022Z'
     updated_at: '2014-06-11T15:20:16.022Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/the-counselor/300x200.jpg?1396290251
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/the-counselor/600x400.jpg?1396296632
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/the-counselor/1200x800.jpg?1396290667
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/the-counselor/400x400.jpg?1396290604
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/the-counselor/1500x340.jpg?1400873092
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/the-counselor/3000x680.jpg?1400873070
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/the-counselor/480x340.jpg?1400873118
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/the-counselor/960x680.jpg?1400873134
+  image_small: http://s3.amazonaws.com/lcapi.production/series/the-counselor/300x200.jpg?1396290251
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/the-counselor/600x400.jpg?1396296632
+  image_large: http://s3.amazonaws.com/lcapi.production/series/the-counselor/1200x800.jpg?1396290667
+  image_social: http://s3.amazonaws.com/lcapi.production/series/the-counselor/400x400.jpg?1396290604
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/the-counselor/1500x340.jpg?1400873092
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/the-counselor/3000x680.jpg?1400873070
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/the-counselor/480x340.jpg?1400873118
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/the-counselor/960x680.jpg?1400873134
   messages:
   - title: Why Do You Doubt?
     headline: ''
@@ -305,7 +380,7 @@
     each one of us–with Him, we can release The Artisan Soul in ourselves.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1871-the-artisan-soul
+  open_url: http://open.lifechurch.tv/groups/1871-the-artisan-soul
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/the-artisan-soul/
   categories:
@@ -313,14 +388,14 @@
     name: Purpose
     created_at: '2014-06-11T15:21:10.086Z'
     updated_at: '2014-06-11T15:21:10.086Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/the-artisan-soul/300x200.jpg?1396043492
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/the-artisan-soul/600x400.jpg?1396043573
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/the-artisan-soul/1200x800.jpg?1396043604
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/the-artisan-soul/400x400.jpg?1395087834
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/the-artisan-soul/1500x340.jpg?1400872966
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/the-artisan-soul/3000x680.jpg?1400872948
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/the-artisan-soul/480x340.jpg?1400872984
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/the-artisan-soul/960x680.jpg?1400873009
+  image_small: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/300x200.jpg?1396043492
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/600x400.jpg?1396043573
+  image_large: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/1200x800.jpg?1396043604
+  image_social: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/400x400.jpg?1395087834
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/1500x340.jpg?1400872966
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/3000x680.jpg?1400872948
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/480x340.jpg?1400872984
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/the-artisan-soul/960x680.jpg?1400873009
   messages:
   - title: Part 2
     headline: ''
@@ -338,7 +413,7 @@
     for a new perspective on Being Rich.
   quote: '"test quotes"'
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1863-being-rich
+  open_url: http://open.lifechurch.tv/groups/1863-being-rich
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/be-rich/
   categories:
@@ -346,14 +421,14 @@
     name: Money
     created_at: '2014-02-03T22:38:58.881Z'
     updated_at: '2014-06-05T19:12:14.043Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/being-rich/300x200.jpg?1396042535
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/being-rich/600x400.jpg?1396042589
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/being-rich/1200x800.jpg?1396042616
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/being-rich/400x400.jpg?1393367080
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/being-rich/1500x340.jpg?1400871436
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/being-rich/3000x680.jpg?1400871306
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/being-rich/480x340.jpg?1400871473
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/being-rich/960x680.jpg?1400871506
+  image_small: http://s3.amazonaws.com/lcapi.production/series/being-rich/300x200.jpg?1396042535
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/being-rich/600x400.jpg?1396042589
+  image_large: http://s3.amazonaws.com/lcapi.production/series/being-rich/1200x800.jpg?1396042616
+  image_social: http://s3.amazonaws.com/lcapi.production/series/being-rich/400x400.jpg?1393367080
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/being-rich/1500x340.jpg?1400871436
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/being-rich/3000x680.jpg?1400871306
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/being-rich/480x340.jpg?1400871473
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/being-rich/960x680.jpg?1400871506
   messages:
   - title: Rich Toward God
     headline: ''
@@ -380,7 +455,7 @@
     Big Difference.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1847-small-things-big-difference
+  open_url: http://open.lifechurch.tv/groups/1847-small-things-big-difference
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/small-things-big-difference/
   categories:
@@ -388,14 +463,14 @@
     name: Disciplines
     created_at: '2014-06-11T15:23:03.968Z'
     updated_at: '2014-06-11T15:23:03.968Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/small-things/300x200.jpg?1396042267
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/small-things/600x400.jpg?1396042312
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/small-things/1200x800.jpg?1396042380
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/small-things/400x400.jpg?1393365744
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/small-things/1500x340.jpg?1400872813
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/small-things/3000x680.jpg?1400872791
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/small-things/480x340.jpg?1400872847
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/small-things/960x680.jpg?1400872868
+  image_small: http://s3.amazonaws.com/lcapi.production/series/small-things/300x200.jpg?1396042267
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/small-things/600x400.jpg?1396042312
+  image_large: http://s3.amazonaws.com/lcapi.production/series/small-things/1200x800.jpg?1396042380
+  image_social: http://s3.amazonaws.com/lcapi.production/series/small-things/400x400.jpg?1393365744
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/small-things/1500x340.jpg?1400872813
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/small-things/3000x680.jpg?1400872791
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/small-things/480x340.jpg?1400872847
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/small-things/960x680.jpg?1400872868
   messages:
   - title: Your Habits
     headline: ''
@@ -419,7 +494,7 @@
     of Miracles.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1857-maker-of-miracles
+  open_url: http://open.lifechurch.tv/groups/1857-maker-of-miracles
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/maker-of-miracles/
   categories:
@@ -431,10 +506,10 @@
     name: Christine Caine
     created_at: '2014-06-11T15:27:08.231Z'
     updated_at: '2014-06-11T15:27:08.231Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/maker-of-miracles/300x200.jpg?1396038137
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/maker-of-miracles/600x400.jpg?1396038218
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/maker-of-miracles/1200x800.jpg?1396038239
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/maker-of-miracles/400x400.jpg?1393366808
+  image_small: http://s3.amazonaws.com/lcapi.production/series/maker-of-miracles/300x200.jpg?1396038137
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/maker-of-miracles/600x400.jpg?1396038218
+  image_large: http://s3.amazonaws.com/lcapi.production/series/maker-of-miracles/1200x800.jpg?1396038239
+  image_social: http://s3.amazonaws.com/lcapi.production/series/maker-of-miracles/400x400.jpg?1393366808
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -452,7 +527,7 @@
     overcome our darkest fears as we learn to Fear Not.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1835-fear-not
+  open_url: http://open.lifechurch.tv/groups/1835-fear-not
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/fear-not/
   categories:
@@ -464,14 +539,14 @@
     name: Spiritual Warfare
     created_at: '2014-08-05T18:45:34.299Z'
     updated_at: '2014-08-05T20:06:31.641Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/fear-not/300x200.jpg?1396042061
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/fear-not/600x400.jpg?1396042126
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/fear-not/1200x800.jpg?1396042178
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/fear-not/400x400.jpg?1393349804
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/fear-not/1500x340.jpg?1400874181
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/fear-not/3000x680.jpg?1400874163
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/fear-not/480x340.jpg?1400874286
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/fear-not/960x680.jpg?1400874307
+  image_small: http://s3.amazonaws.com/lcapi.production/series/fear-not/300x200.jpg?1396042061
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/fear-not/600x400.jpg?1396042126
+  image_large: http://s3.amazonaws.com/lcapi.production/series/fear-not/1200x800.jpg?1396042178
+  image_social: http://s3.amazonaws.com/lcapi.production/series/fear-not/400x400.jpg?1393349804
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/fear-not/1500x340.jpg?1400874181
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/fear-not/3000x680.jpg?1400874163
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/fear-not/480x340.jpg?1400874286
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/fear-not/960x680.jpg?1400874307
   messages:
   - title: Fear of Where You Stand with God
     headline: ''
@@ -492,7 +567,7 @@
     Lentz as they discuss life, legacy, and their relationships with God.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1846-growing-spiritually-with-kevin-durant-and-carl-lent
+  open_url: http://open.lifechurch.tv/groups/1846-growing-spiritually-with-kevin-durant-and-carl-lent
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/growing-spiritually/
   categories:
@@ -508,10 +583,10 @@
     name: Carl Lentz
     created_at: '2014-06-11T16:14:48.792Z'
     updated_at: '2014-06-11T16:14:48.792Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/growing-spiritually/300x200.jpg?1396037980
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/growing-spiritually/600x400.jpg?1396038029
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/growing-spiritually/1200x800.jpg?1396038073
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/growing-spiritually/400x400.jpg?1393366868
+  image_small: http://s3.amazonaws.com/lcapi.production/series/growing-spiritually/300x200.jpg?1396037980
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/growing-spiritually/600x400.jpg?1396038029
+  image_large: http://s3.amazonaws.com/lcapi.production/series/growing-spiritually/1200x800.jpg?1396038073
+  image_social: http://s3.amazonaws.com/lcapi.production/series/growing-spiritually/400x400.jpg?1393366868
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -530,7 +605,7 @@
     Sins.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1824-necessary-sins
+  open_url: http://open.lifechurch.tv/groups/1824-necessary-sins
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/necessary-sins/
   categories:
@@ -538,14 +613,14 @@
     name: Sins
     created_at: '2014-06-05T19:20:27.559Z'
     updated_at: '2014-06-11T16:19:31.726Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/necessary-sins/300x200.jpg?1396041700
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/necessary-sins/600x400.jpg?1396041749
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/necessary-sins/1200x800.jpg?1396041777
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/necessary-sins/400x400.jpg?1393350234
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/necessary-sins/1500x340.jpg?1400875321
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/necessary-sins/3000x680.jpg?1400875292
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/necessary-sins/480x340.jpg?1400875359
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/necessary-sins/960x680.jpg?1400875411
+  image_small: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/300x200.jpg?1396041700
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/600x400.jpg?1396041749
+  image_large: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/1200x800.jpg?1396041777
+  image_social: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/400x400.jpg?1393350234
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/1500x340.jpg?1400875321
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/3000x680.jpg?1400875292
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/480x340.jpg?1400875359
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/necessary-sins/960x680.jpg?1400875411
   messages:
   - title: Anger
     headline: ''
@@ -568,7 +643,7 @@
     attacked and we don’t recognize it. It’s time take a stand – it’s time to Fight.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1832-fight
+  open_url: http://open.lifechurch.tv/groups/1832-fight
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/fight/
   categories:
@@ -580,14 +655,14 @@
     name: Spiritual Warfare
     created_at: '2014-08-05T18:45:34.299Z'
     updated_at: '2014-08-05T20:06:31.641Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/fight/300x200.jpg?1396041413
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/fight/600x400.jpg?1396041470
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/fight/1200x800.jpg?1396041534
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/fight/400x400.jpg?1393365772
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/fight/1500x340.jpg?1400874421
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/fight/3000x680.jpg?1400874444
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/fight/480x340.jpg?1400874483
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/fight/960x680.jpg?1400874509
+  image_small: http://s3.amazonaws.com/lcapi.production/series/fight/300x200.jpg?1396041413
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/fight/600x400.jpg?1396041470
+  image_large: http://s3.amazonaws.com/lcapi.production/series/fight/1200x800.jpg?1396041534
+  image_social: http://s3.amazonaws.com/lcapi.production/series/fight/400x400.jpg?1393365772
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/fight/1500x340.jpg?1400874421
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/fight/3000x680.jpg?1400874444
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/fight/480x340.jpg?1400874483
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/fight/960x680.jpg?1400874509
   messages:
   - title: Fight
     headline: ''
@@ -601,7 +676,7 @@
     in our lives when we shift our thinking and start to Multiply.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1821-multiply
+  open_url: http://open.lifechurch.tv/groups/1821-multiply
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/multiply/
   categories:
@@ -613,14 +688,14 @@
     name: Robert Morris
     created_at: '2014-06-11T15:49:13.579Z'
     updated_at: '2014-06-11T15:49:13.579Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/multiply-2013/300x200.jpg?1396041297
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/multiply-2013/600x400.jpg?1396041347
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/multiply-2013/1200x800.jpg?1396041369
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/multiply-2013/400x400.jpg?1393365695
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/multiply-2013/1500x340.jpg?1400875155
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/multiply-2013/3000x680.jpg?1400875094
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/multiply-2013/480x340.jpg?1400875182
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/multiply-2013/960x680.jpg?1400875205
+  image_small: http://s3.amazonaws.com/lcapi.production/series/multiply-2013/300x200.jpg?1396041297
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/multiply-2013/600x400.jpg?1396041347
+  image_large: http://s3.amazonaws.com/lcapi.production/series/multiply-2013/1200x800.jpg?1396041369
+  image_social: http://s3.amazonaws.com/lcapi.production/series/multiply-2013/400x400.jpg?1393365695
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/multiply-2013/1500x340.jpg?1400875155
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/multiply-2013/3000x680.jpg?1400875094
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/multiply-2013/480x340.jpg?1400875182
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/multiply-2013/960x680.jpg?1400875205
   messages:
   - title: Sowing and Reaping
     headline: ''
@@ -641,7 +716,7 @@
     Where are your friendships leading you? Come learn what the Bible says about Friending.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1780-friending
+  open_url: http://open.lifechurch.tv/groups/1780-friending
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/friending/
   categories:
@@ -649,14 +724,14 @@
     name: Relationships
     created_at: '2014-02-03T22:38:58.852Z'
     updated_at: '2014-06-05T19:41:17.695Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/friending/300x200.jpg?1396040901
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/friending/600x400.jpg?1396041037
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/friending/1200x800.jpg?1396041057
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/friending/400x400.jpg?1393350403
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/friending/1500x340.jpg?1400874609
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/friending/3000x680.jpg?1400874569
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/friending/480x340.jpg?1400874638
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/friending/960x680.jpg?1400874663
+  image_small: http://s3.amazonaws.com/lcapi.production/series/friending/300x200.jpg?1396040901
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/friending/600x400.jpg?1396041037
+  image_large: http://s3.amazonaws.com/lcapi.production/series/friending/1200x800.jpg?1396041057
+  image_social: http://s3.amazonaws.com/lcapi.production/series/friending/400x400.jpg?1393350403
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/friending/1500x340.jpg?1400874609
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/friending/3000x680.jpg?1400874569
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/friending/480x340.jpg?1400874638
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/friending/960x680.jpg?1400874663
   messages:
   - title: Unfriending
     headline: ''
@@ -680,7 +755,7 @@
     the Church and use our story of survival to Rescue others.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1796-rescue
+  open_url: http://open.lifechurch.tv/groups/1796-rescue
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/rescue/
   categories:
@@ -692,10 +767,10 @@
     name: Ed Young
     created_at: '2014-06-11T15:27:31.681Z'
     updated_at: '2014-06-11T15:27:31.681Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/rescue/300x200.jpg?1396037750
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/rescue/600x400.jpg?1396037853
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/rescue/1200x800.jpg?1396037915
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/rescue/400x400.jpg?1393366956
+  image_small: http://s3.amazonaws.com/lcapi.production/series/rescue/300x200.jpg?1396037750
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/rescue/600x400.jpg?1396037853
+  image_large: http://s3.amazonaws.com/lcapi.production/series/rescue/1200x800.jpg?1396037915
+  image_social: http://s3.amazonaws.com/lcapi.production/series/rescue/400x400.jpg?1393366956
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -713,7 +788,7 @@
     when we let go…when we decide to have Ridiculous Faith.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1751-elisha-a-tale-of-ridiculous-faith
+  open_url: http://open.lifechurch.tv/groups/1751-elisha-a-tale-of-ridiculous-faith
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/elisha-a-tale-of-ridiculous-faith/
   categories:
@@ -725,14 +800,14 @@
     name: Leadership
     created_at: '2014-06-11T15:52:33.291Z'
     updated_at: '2014-06-11T15:52:33.291Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/elisha/300x200.jpg?1396039930
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/elisha/600x400.jpg?1396039995
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/elisha/1200x800.jpg?1396040035
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/elisha/400x400.jpg?1393350339
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/elisha/1500x340.jpg?1399994393
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/elisha/3000x680.jpg?1399994440
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/elisha/480x340.jpg?1399994498
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/elisha/960x680.jpg?1399994520
+  image_small: http://s3.amazonaws.com/lcapi.production/series/elisha/300x200.jpg?1396039930
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/elisha/600x400.jpg?1396039995
+  image_large: http://s3.amazonaws.com/lcapi.production/series/elisha/1200x800.jpg?1396040035
+  image_social: http://s3.amazonaws.com/lcapi.production/series/elisha/400x400.jpg?1393350339
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/elisha/1500x340.jpg?1399994393
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/elisha/3000x680.jpg?1399994440
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/elisha/480x340.jpg?1399994498
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/elisha/960x680.jpg?1399994520
   messages:
   - title: Ridiculous Recovery
     headline: ''
@@ -756,7 +831,7 @@
     to follow while he’s On the Road.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1744-on-the-road
+  open_url: http://open.lifechurch.tv/groups/1744-on-the-road
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/on-the-road/
   categories:
@@ -764,14 +839,14 @@
     name: Leadership
     created_at: '2014-06-11T15:52:33.291Z'
     updated_at: '2014-06-11T15:52:33.291Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/on-the-road/300x200.jpg?1396039428
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/on-the-road/600x400.jpg?1396039710
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/on-the-road/1200x800.jpg?1396039728
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/on-the-road/400x400.jpg?1396039506
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/on-the-road/1500x340.jpg?1400875620
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/on-the-road/3000x680.jpg?1400875593
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/on-the-road/480x340.jpg?1400875663
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/on-the-road/960x680.jpg?1400875692
+  image_small: http://s3.amazonaws.com/lcapi.production/series/on-the-road/300x200.jpg?1396039428
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/on-the-road/600x400.jpg?1396039710
+  image_large: http://s3.amazonaws.com/lcapi.production/series/on-the-road/1200x800.jpg?1396039728
+  image_social: http://s3.amazonaws.com/lcapi.production/series/on-the-road/400x400.jpg?1396039506
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/on-the-road/1500x340.jpg?1400875620
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/on-the-road/3000x680.jpg?1400875593
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/on-the-road/480x340.jpg?1400875663
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/on-the-road/960x680.jpg?1400875692
   messages:
   - title: Fear of Failure
     headline: ''
@@ -791,7 +866,7 @@
     about the specific part we get to play, because God's Just Getting Started.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1746-just-getting-started
+  open_url: http://open.lifechurch.tv/groups/1746-just-getting-started
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/just-getting-started/
   categories:
@@ -803,14 +878,14 @@
     name: Bobby Gruenewald
     created_at: '2014-06-11T15:28:00.582Z'
     updated_at: '2014-06-11T15:28:00.582Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/just-getting-started/300x200.jpg?1396038955
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/just-getting-started/600x400.jpg?1396039010
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/just-getting-started/1200x800.jpg?1396039033
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/just-getting-started/400x400.jpg?1396038984
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/just-getting-started/1500x340.jpg?1400874929
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/just-getting-started/3000x680.jpg?1400874893
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/just-getting-started/480x340.jpg?1400874987
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/just-getting-started/960x680.jpg?1400875028
+  image_small: http://s3.amazonaws.com/lcapi.production/series/just-getting-started/300x200.jpg?1396038955
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/just-getting-started/600x400.jpg?1396039010
+  image_large: http://s3.amazonaws.com/lcapi.production/series/just-getting-started/1200x800.jpg?1396039033
+  image_social: http://s3.amazonaws.com/lcapi.production/series/just-getting-started/400x400.jpg?1396038984
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/just-getting-started/1500x340.jpg?1400874929
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/just-getting-started/3000x680.jpg?1400874893
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/just-getting-started/480x340.jpg?1400874987
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/just-getting-started/960x680.jpg?1400875028
   messages:
   - title: Just Getting Started
     headline: ''
@@ -824,7 +899,7 @@
     us for answers to these difficult questions in Helping the Hurting.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1747-helping-the-hurting
+  open_url: http://open.lifechurch.tv/groups/1747-helping-the-hurting
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/helping-the-hurting/
   categories:
@@ -848,10 +923,10 @@
     name: Dave Ramsey
     created_at: '2014-06-11T15:42:22.866Z'
     updated_at: '2014-06-11T15:42:22.866Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/helping-the-hurting/300x200.jpg?1396039125
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/helping-the-hurting/600x400.jpg?1396039212
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/helping-the-hurting/1200x800.jpg?1396039260
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/helping-the-hurting/400x400.jpg?1396039162
+  image_small: http://s3.amazonaws.com/lcapi.production/series/helping-the-hurting/300x200.jpg?1396039125
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/helping-the-hurting/600x400.jpg?1396039212
+  image_large: http://s3.amazonaws.com/lcapi.production/series/helping-the-hurting/1200x800.jpg?1396039260
+  image_social: http://s3.amazonaws.com/lcapi.production/series/helping-the-hurting/400x400.jpg?1396039162
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -869,7 +944,7 @@
     four family-altering qualities as we ask God to Bless This Home.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1738-bless-this-home
+  open_url: http://open.lifechurch.tv/groups/1738-bless-this-home
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/bless-this-home/
   categories:
@@ -877,14 +952,14 @@
     name: Family
     created_at: '2014-06-05T19:32:01.499Z'
     updated_at: '2014-06-05T19:32:01.499Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/bless-this-home/300x200.jpg?1396038303
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/bless-this-home/600x400.jpg?1396038350
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/bless-this-home/1200x800.jpg?1396038377
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/bless-this-home/400x400.jpg?1396038323
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/bless-this-home/1500x340.jpg?1400874039
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/bless-this-home/3000x680.jpg?1400873999
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/bless-this-home/480x340.jpg?1400874060
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/bless-this-home/960x680.jpg?1400874078
+  image_small: http://s3.amazonaws.com/lcapi.production/series/bless-this-home/300x200.jpg?1396038303
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/bless-this-home/600x400.jpg?1396038350
+  image_large: http://s3.amazonaws.com/lcapi.production/series/bless-this-home/1200x800.jpg?1396038377
+  image_social: http://s3.amazonaws.com/lcapi.production/series/bless-this-home/400x400.jpg?1396038323
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/bless-this-home/1500x340.jpg?1400874039
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/bless-this-home/3000x680.jpg?1400873999
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/bless-this-home/480x340.jpg?1400874060
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/bless-this-home/960x680.jpg?1400874078
   messages:
   - title: Persecuted
     headline: ''
@@ -907,7 +982,7 @@
     to you? Discover what it means when He says, "I Am Jesus."
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1733-i-am-jesus
+  open_url: http://open.lifechurch.tv/groups/1733-i-am-jesus
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/i-am-jesus/
   categories:
@@ -915,14 +990,14 @@
     name: God
     created_at: '2014-06-11T15:22:41.520Z'
     updated_at: '2014-06-11T15:22:41.520Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/i-am-jesus/300x200.jpg?1396037425
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/i-am-jesus/600x400.jpg?1396037484
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/i-am-jesus/1200x800.jpg?1396037519
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/i-am-jesus/400x400.jpg?1396037447
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/i-am-jesus/1500x340.jpg?1400874760
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/i-am-jesus/3000x680.jpg?1400874718
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/i-am-jesus/480x340.jpg?1400874797
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/i-am-jesus/960x680.jpg?1400874849
+  image_small: http://s3.amazonaws.com/lcapi.production/series/i-am-jesus/300x200.jpg?1396037425
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/i-am-jesus/600x400.jpg?1396037484
+  image_large: http://s3.amazonaws.com/lcapi.production/series/i-am-jesus/1200x800.jpg?1396037519
+  image_social: http://s3.amazonaws.com/lcapi.production/series/i-am-jesus/400x400.jpg?1396037447
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/i-am-jesus/1500x340.jpg?1400874760
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/i-am-jesus/3000x680.jpg?1400874718
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/i-am-jesus/480x340.jpg?1400874797
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/i-am-jesus/960x680.jpg?1400874849
   messages:
   - title: I Am the Vine
     headline: ''
@@ -945,7 +1020,7 @@
     what it means to become New. '
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1723-new
+  open_url: http://open.lifechurch.tv/groups/1723-new
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/new/
   categories:
@@ -957,14 +1032,14 @@
     name: Purpose
     created_at: '2014-06-11T15:21:10.086Z'
     updated_at: '2014-06-11T15:21:10.086Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/new/300x200.jpg?1396037280
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/new/600x400.jpg?1396037336
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/new/1200x800.jpg?1396037368
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/new/400x400.jpg?1396037299
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/new/1500x340.jpg?1400875492
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/new/3000x680.jpg?1400875470
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/new/480x340.jpg?1400875512
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/new/960x680.jpg?1400875535
+  image_small: http://s3.amazonaws.com/lcapi.production/series/new/300x200.jpg?1396037280
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/new/600x400.jpg?1396037336
+  image_large: http://s3.amazonaws.com/lcapi.production/series/new/1200x800.jpg?1396037368
+  image_social: http://s3.amazonaws.com/lcapi.production/series/new/400x400.jpg?1396037299
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/new/1500x340.jpg?1400875492
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/new/3000x680.jpg?1400875470
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/new/480x340.jpg?1400875512
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/new/960x680.jpg?1400875535
   messages:
   - title: New From Old - Week 3
     headline: ''
@@ -985,7 +1060,7 @@
     Let’s discover our Altar Ego.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1715-altar-ego
+  open_url: http://open.lifechurch.tv/groups/1715-altar-ego
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/altar-ego-talk-it-over/
   categories:
@@ -993,14 +1068,14 @@
     name: Purpose
     created_at: '2014-06-11T15:21:10.086Z'
     updated_at: '2014-06-11T15:21:10.086Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/altar-ego/300x200.jpg?1396036237
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/altar-ego/600x400.jpg?1396036279
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/altar-ego/1200x800.jpg?1396036298
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/altar-ego/400x400.jpg?1396036259
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/altar-ego/1500x340.jpg?1398870819
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/altar-ego/3000x680.jpg?1398870801
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/altar-ego/480x340.jpg?1398890218
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/altar-ego/960x680.jpg?1398890255
+  image_small: http://s3.amazonaws.com/lcapi.production/series/altar-ego/300x200.jpg?1396036237
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/altar-ego/600x400.jpg?1396036279
+  image_large: http://s3.amazonaws.com/lcapi.production/series/altar-ego/1200x800.jpg?1396036298
+  image_social: http://s3.amazonaws.com/lcapi.production/series/altar-ego/400x400.jpg?1396036259
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/altar-ego/1500x340.jpg?1398870819
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/altar-ego/3000x680.jpg?1398870801
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/altar-ego/480x340.jpg?1398890218
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/altar-ego/960x680.jpg?1398890255
   messages:
   - title: My Longing For Approval
     headline: ''
@@ -1023,7 +1098,7 @@
     My Story, we're going to learn to live a story worth telling.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1708-my-story
+  open_url: http://open.lifechurch.tv/groups/1708-my-story
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/my-story/
   categories:
@@ -1031,14 +1106,14 @@
     name: Disciplines
     created_at: '2014-06-11T15:23:03.968Z'
     updated_at: '2014-06-11T15:23:03.968Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/my-story/300x200.jpg?1396036085
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/my-story/600x400.jpg?1396036159
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/my-story/1200x800.jpg?1396036183
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/my-story/400x400.jpg?1396036128
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/my-story/1500x340.jpg?1399995955
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/my-story/3000x680.jpg?1399995934
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/my-story/480x340.jpg?1399996005
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/my-story/960x680.jpg?1399995978
+  image_small: http://s3.amazonaws.com/lcapi.production/series/my-story/300x200.jpg?1396036085
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/my-story/600x400.jpg?1396036159
+  image_large: http://s3.amazonaws.com/lcapi.production/series/my-story/1200x800.jpg?1396036183
+  image_social: http://s3.amazonaws.com/lcapi.production/series/my-story/400x400.jpg?1396036128
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/my-story/1500x340.jpg?1399995955
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/my-story/3000x680.jpg?1399995934
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/my-story/480x340.jpg?1399996005
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/my-story/960x680.jpg?1399995978
   messages:
   - title: I Decided to Go
     headline: ''
@@ -1061,7 +1136,7 @@
     for a special message from Ken Blanchard as we learn to Lead Like Jesus.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1709-lead-like-jesus
+  open_url: http://open.lifechurch.tv/groups/1709-lead-like-jesus
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/lead-like-jesus/
   categories:
@@ -1077,10 +1152,10 @@
     name: Leadership
     created_at: '2014-06-11T15:52:33.291Z'
     updated_at: '2014-06-11T15:52:33.291Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/lead-like-jesus/300x200.jpg?1396035436
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/lead-like-jesus/600x400.jpg?1396035490
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/lead-like-jesus/1200x800.jpg?1396035527
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/lead-like-jesus/400x400.jpg?1396035463
+  image_small: http://s3.amazonaws.com/lcapi.production/series/lead-like-jesus/300x200.jpg?1396035436
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/lead-like-jesus/600x400.jpg?1396035490
+  image_large: http://s3.amazonaws.com/lcapi.production/series/lead-like-jesus/1200x800.jpg?1396035527
+  image_social: http://s3.amazonaws.com/lcapi.production/series/lead-like-jesus/400x400.jpg?1396035463
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -1099,7 +1174,7 @@
     and believe Like a Child.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1700-like-a-child
+  open_url: http://open.lifechurch.tv/groups/1700-like-a-child
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/like-a-child/
   categories:
@@ -1115,14 +1190,14 @@
     name: Chris Beall
     created_at: '2014-06-11T15:49:00.818Z'
     updated_at: '2014-06-11T15:49:00.818Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/like-a-child/300x200.jpg?1396035268
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/like-a-child/600x400.jpg?1396035345
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/like-a-child/1200x800.jpg?1396035377
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/like-a-child/400x400.jpg?1396035290
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/like-a-child/1500x340.jpg?1399995768
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/like-a-child/3000x680.jpg?1399995744
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/like-a-child/480x340.jpg?1399995834
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/like-a-child/960x680.jpg?1399995793
+  image_small: http://s3.amazonaws.com/lcapi.production/series/like-a-child/300x200.jpg?1396035268
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/like-a-child/600x400.jpg?1396035345
+  image_large: http://s3.amazonaws.com/lcapi.production/series/like-a-child/1200x800.jpg?1396035377
+  image_social: http://s3.amazonaws.com/lcapi.production/series/like-a-child/400x400.jpg?1396035290
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/like-a-child/1500x340.jpg?1399995768
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/like-a-child/3000x680.jpg?1399995744
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/like-a-child/480x340.jpg?1399995834
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/like-a-child/960x680.jpg?1399995793
   messages:
   - title: My God Can Do Anything
     headline: ''
@@ -1146,7 +1221,7 @@
     to life Because of You.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1697-because-of-you
+  open_url: http://open.lifechurch.tv/groups/1697-because-of-you
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/because-of-you/
   categories:
@@ -1158,14 +1233,14 @@
     name: Steven Furtick
     created_at: '2014-06-11T15:35:51.030Z'
     updated_at: '2014-06-11T15:35:51.030Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/because-of-you-2012/300x200.jpg?1396024682
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/because-of-you-2012/600x400.jpg?1396024750
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/because-of-you-2012/1200x800.jpg?1396030792
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/because-of-you-2012/400x400.jpg?1396024713
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/because-of-you-2012/1500x340.jpg?1400876731
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/because-of-you-2012/3000x680.jpg?1400876710
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/because-of-you-2012/480x340.jpg?1400876865
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/because-of-you-2012/960x680.jpg?1400876780
+  image_small: http://s3.amazonaws.com/lcapi.production/series/because-of-you-2012/300x200.jpg?1396024682
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/because-of-you-2012/600x400.jpg?1396024750
+  image_large: http://s3.amazonaws.com/lcapi.production/series/because-of-you-2012/1200x800.jpg?1396030792
+  image_social: http://s3.amazonaws.com/lcapi.production/series/because-of-you-2012/400x400.jpg?1396024713
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/because-of-you-2012/1500x340.jpg?1400876731
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/because-of-you-2012/3000x680.jpg?1400876710
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/because-of-you-2012/480x340.jpg?1400876865
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/because-of-you-2012/960x680.jpg?1400876780
   messages:
   - title: Steven Furtick
     headline: ''
@@ -1182,7 +1257,7 @@
     to the Bible for answers as we explore The End.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1683-the-end
+  open_url: http://open.lifechurch.tv/groups/1683-the-end
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/the-end/
   categories:
@@ -1194,14 +1269,14 @@
     name: Supernatural
     created_at: '2014-06-11T15:52:47.494Z'
     updated_at: '2014-06-11T15:52:47.494Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/the-end/300x200.jpg?1396034855
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/the-end/600x400.jpg?1396034937
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/the-end/1200x800.jpg?1396034967
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/the-end/400x400.jpg?1396034904
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/the-end/1500x340.jpg?1399998622
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/the-end/3000x680.jpg?1399998602
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/the-end/480x340.jpg?1399998669
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/the-end/960x680.jpg?1399998647
+  image_small: http://s3.amazonaws.com/lcapi.production/series/the-end/300x200.jpg?1396034855
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/the-end/600x400.jpg?1396034937
+  image_large: http://s3.amazonaws.com/lcapi.production/series/the-end/1200x800.jpg?1396034967
+  image_social: http://s3.amazonaws.com/lcapi.production/series/the-end/400x400.jpg?1396034904
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/the-end/1500x340.jpg?1399998622
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/the-end/3000x680.jpg?1399998602
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/the-end/480x340.jpg?1399998669
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/the-end/960x680.jpg?1399998647
   messages:
   - title: Snapshots of Revelation
     headline: ''
@@ -1221,7 +1296,7 @@
     as we explore Love and Hate.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1690-love-and-hate
+  open_url: http://open.lifechurch.tv/groups/1690-love-and-hate
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/love-hate/
   categories:
@@ -1233,14 +1308,14 @@
     name: Sam Roberts
     created_at: '2014-06-11T15:48:49.991Z'
     updated_at: '2014-06-11T15:48:49.991Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/love-and-hate/300x200.jpg?1396034718
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/love-and-hate/600x400.jpg?1396034761
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/love-and-hate/1200x800.jpg?1396034791
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/love-and-hate/400x400.jpg?1396034738
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/love-and-hate/1500x340.jpg?1400877311
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/love-and-hate/3000x680.jpg?1400877284
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/love-and-hate/480x340.jpg?1400877333
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/love-and-hate/960x680.jpg?1400877358
+  image_small: http://s3.amazonaws.com/lcapi.production/series/love-and-hate/300x200.jpg?1396034718
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/love-and-hate/600x400.jpg?1396034761
+  image_large: http://s3.amazonaws.com/lcapi.production/series/love-and-hate/1200x800.jpg?1396034791
+  image_social: http://s3.amazonaws.com/lcapi.production/series/love-and-hate/400x400.jpg?1396034738
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/love-and-hate/1500x340.jpg?1400877311
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/love-and-hate/3000x680.jpg?1400877284
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/love-and-hate/480x340.jpg?1400877333
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/love-and-hate/960x680.jpg?1400877358
   messages:
   - title: Part 2
     headline: ''
@@ -1258,7 +1333,7 @@
     from being Strapped.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1662-strapped
+  open_url: http://open.lifechurch.tv/groups/1662-strapped
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/strapped/
   categories:
@@ -1270,14 +1345,14 @@
     name: Tithe
     created_at: '2014-06-11T15:15:22.933Z'
     updated_at: '2014-06-11T15:15:22.933Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/strapped/300x200.jpg?1396034569
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/strapped/600x400.jpg?1396034612
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/strapped/1200x800.jpg?1396034664
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/strapped/400x400.jpg?1396034589
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/strapped/1500x340.jpg?1399998236
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/strapped/3000x680.jpg?1399998211
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/strapped/480x340.jpg?1399998285
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/strapped/960x680.jpg?1399998263
+  image_small: http://s3.amazonaws.com/lcapi.production/series/strapped/300x200.jpg?1396034569
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/strapped/600x400.jpg?1396034612
+  image_large: http://s3.amazonaws.com/lcapi.production/series/strapped/1200x800.jpg?1396034664
+  image_social: http://s3.amazonaws.com/lcapi.production/series/strapped/400x400.jpg?1396034589
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/strapped/1500x340.jpg?1399998236
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/strapped/3000x680.jpg?1399998211
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/strapped/480x340.jpg?1399998285
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/strapped/960x680.jpg?1399998263
   messages:
   - title: Q and A
     headline: ''
@@ -1304,7 +1379,7 @@
     Forward.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1655-from-this-day-forward
+  open_url: http://open.lifechurch.tv/groups/1655-from-this-day-forward
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/from-this-day-forward/
   categories:
@@ -1312,14 +1387,14 @@
     name: Marriage
     created_at: '2014-06-05T19:14:26.586Z'
     updated_at: '2014-06-05T19:14:26.586Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/from-this-day-forward/300x200.jpg?1396034418
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/from-this-day-forward/600x400.jpg?1396034477
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/from-this-day-forward/1200x800.jpg?1396034502
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/from-this-day-forward/400x400.jpg?1396034447
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/from-this-day-forward/1500x340.jpg?1399997481
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/from-this-day-forward/3000x680.jpg?1399997366
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/from-this-day-forward/480x340.jpg?1399997608
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/from-this-day-forward/960x680.jpg?1399997538
+  image_small: http://s3.amazonaws.com/lcapi.production/series/from-this-day-forward/300x200.jpg?1396034418
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/from-this-day-forward/600x400.jpg?1396034477
+  image_large: http://s3.amazonaws.com/lcapi.production/series/from-this-day-forward/1200x800.jpg?1396034502
+  image_social: http://s3.amazonaws.com/lcapi.production/series/from-this-day-forward/400x400.jpg?1396034447
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/from-this-day-forward/1500x340.jpg?1399997481
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/from-this-day-forward/3000x680.jpg?1399997366
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/from-this-day-forward/480x340.jpg?1399997608
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/from-this-day-forward/960x680.jpg?1399997538
   messages:
   - title: Never Give Up
     headline: ''
@@ -1358,10 +1433,10 @@
     name: Pierre du Plessis
     created_at: '2014-06-11T15:47:09.892Z'
     updated_at: '2014-06-11T15:47:09.892Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/more-than-dust/300x200.jpg?1396033970
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/more-than-dust/600x400.jpg?1396034014
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/more-than-dust/1200x800.jpg?1396034038
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/more-than-dust/400x400.jpg?1396033996
+  image_small: http://s3.amazonaws.com/lcapi.production/series/more-than-dust/300x200.jpg?1396033970
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/more-than-dust/600x400.jpg?1396034014
+  image_large: http://s3.amazonaws.com/lcapi.production/series/more-than-dust/1200x800.jpg?1396034038
+  image_social: http://s3.amazonaws.com/lcapi.production/series/more-than-dust/400x400.jpg?1396033996
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -1379,7 +1454,7 @@
     limitations, and joy even in our lowest moments. It all comes down to Perspective.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1643-perspective
+  open_url: http://open.lifechurch.tv/groups/1643-perspective
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/perspective-week-1-talk-it-over-pdf/
   categories:
@@ -1391,14 +1466,14 @@
     name: Optimistic
     created_at: '2014-06-11T15:19:48.323Z'
     updated_at: '2014-06-11T15:19:48.323Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/perspective/300x200.jpg?1396033276
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/perspective/600x400.jpg?1396033518
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/perspective/1200x800.jpg?1396033550
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/perspective/400x400.jpg?1396033442
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/perspective/1500x340.jpg?1400877431
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/perspective/3000x680.jpg?1400877408
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/perspective/480x340.jpg?1400877448
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/perspective/960x680.jpg?1400877471
+  image_small: http://s3.amazonaws.com/lcapi.production/series/perspective/300x200.jpg?1396033276
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/perspective/600x400.jpg?1396033518
+  image_large: http://s3.amazonaws.com/lcapi.production/series/perspective/1200x800.jpg?1396033550
+  image_social: http://s3.amazonaws.com/lcapi.production/series/perspective/400x400.jpg?1396033442
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/perspective/1500x340.jpg?1400877431
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/perspective/3000x680.jpg?1400877408
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/perspective/480x340.jpg?1400877448
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/perspective/960x680.jpg?1400877471
   messages:
   - title: 'A Different Perspective On Worry '
     headline: ''
@@ -1422,7 +1497,7 @@
     You.”
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1644-forget-you
+  open_url: http://open.lifechurch.tv/groups/1644-forget-you
   promo: ''
   resources_url: ''
   categories:
@@ -1434,14 +1509,14 @@
     name: Sam Roberts
     created_at: '2014-06-11T15:48:49.991Z'
     updated_at: '2014-06-11T15:48:49.991Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/forget-you/300x200.jpg?1396032329
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/forget-you/600x400.jpg?1396032423
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/forget-you/1200x800.jpg?1396032471
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/forget-you/400x400.jpg?1396032365
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/forget-you/1500x340.jpg?1400876962
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/forget-you/3000x680.jpg?1400876930
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/forget-you/480x340.jpg?1400876982
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/forget-you/960x680.jpg?1400877006
+  image_small: http://s3.amazonaws.com/lcapi.production/series/forget-you/300x200.jpg?1396032329
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/forget-you/600x400.jpg?1396032423
+  image_large: http://s3.amazonaws.com/lcapi.production/series/forget-you/1200x800.jpg?1396032471
+  image_social: http://s3.amazonaws.com/lcapi.production/series/forget-you/400x400.jpg?1396032365
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/forget-you/1500x340.jpg?1400876962
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/forget-you/3000x680.jpg?1400876930
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/forget-you/480x340.jpg?1400876982
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/forget-you/960x680.jpg?1400877006
   messages:
   - title: I am Less, He is More
     headline: ''
@@ -1458,7 +1533,7 @@
     neutralize damaging influences and embrace clean living in Soul Detox.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1638-soul-detox
+  open_url: http://open.lifechurch.tv/groups/1638-soul-detox
   promo: ''
   resources_url: ''
   categories:
@@ -1470,14 +1545,14 @@
     name: Spiritual Warfare
     created_at: '2014-08-05T18:45:34.299Z'
     updated_at: '2014-08-05T20:06:31.641Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/soul-detox/300x200.jpg?1396032146
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/soul-detox/600x400.jpg?1396032219
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/soul-detox/1200x800.jpg?1396032245
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/soul-detox/400x400.jpg?1396032196
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/soul-detox/1500x340.jpg?1399998050
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/soul-detox/3000x680.jpg?1399998026
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/soul-detox/480x340.jpg?1399998111
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/soul-detox/960x680.jpg?1399998088
+  image_small: http://s3.amazonaws.com/lcapi.production/series/soul-detox/300x200.jpg?1396032146
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/soul-detox/600x400.jpg?1396032219
+  image_large: http://s3.amazonaws.com/lcapi.production/series/soul-detox/1200x800.jpg?1396032245
+  image_social: http://s3.amazonaws.com/lcapi.production/series/soul-detox/400x400.jpg?1396032196
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/soul-detox/1500x340.jpg?1399998050
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/soul-detox/3000x680.jpg?1399998026
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/soul-detox/480x340.jpg?1399998111
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/soul-detox/960x680.jpg?1399998088
   messages:
   - title: The Seduced Soul
     headline: ''
@@ -1501,7 +1576,7 @@
     welcomes our questions. Join us as we ask "Why?"
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1632-why
+  open_url: http://open.lifechurch.tv/groups/1632-why
   promo: ''
   resources_url: ''
   categories:
@@ -1513,14 +1588,14 @@
     name: Trials
     created_at: '2014-06-11T15:23:13.523Z'
     updated_at: '2014-06-11T15:23:13.523Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/why-2012/300x200.jpg?1396031869
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/why-2012/600x400.jpg?1396031942
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/why-2012/1200x800.jpg?1396031995
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/why-2012/400x400.jpg?1396031910
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/why-2012/1500x340.jpg?1400877583
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/why-2012/3000x680.jpg?1400877525
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/why-2012/480x340.jpg?1400877626
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/why-2012/960x680.jpg?1400877658
+  image_small: http://s3.amazonaws.com/lcapi.production/series/why-2012/300x200.jpg?1396031869
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/why-2012/600x400.jpg?1396031942
+  image_large: http://s3.amazonaws.com/lcapi.production/series/why-2012/1200x800.jpg?1396031995
+  image_social: http://s3.amazonaws.com/lcapi.production/series/why-2012/400x400.jpg?1396031910
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/why-2012/1500x340.jpg?1400877583
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/why-2012/3000x680.jpg?1400877525
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/why-2012/480x340.jpg?1400877626
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/why-2012/960x680.jpg?1400877658
   messages:
   - title: Why would God Use Me?
     headline: ''
@@ -1544,7 +1619,7 @@
     things go our way—and when they don't—in Found Favor.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1629-found-favor
+  open_url: http://open.lifechurch.tv/groups/1629-found-favor
   promo: ''
   resources_url: ''
   categories:
@@ -1556,14 +1631,14 @@
     name: Steven Furtick
     created_at: '2014-06-11T15:35:51.030Z'
     updated_at: '2014-06-11T15:35:51.030Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/found-favor/300x200.jpg?1396031561
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/found-favor/600x400.jpg?1396031652
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/found-favor/1200x800.jpg?1396031694
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/found-favor/400x400.jpg?1396031616
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/found-favor/1500x340.jpg?1400877128
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/found-favor/3000x680.jpg?1400877104
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/found-favor/480x340.jpg?1400877152
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/found-favor/960x680.jpg?1400877225
+  image_small: http://s3.amazonaws.com/lcapi.production/series/found-favor/300x200.jpg?1396031561
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/found-favor/600x400.jpg?1396031652
+  image_large: http://s3.amazonaws.com/lcapi.production/series/found-favor/1200x800.jpg?1396031694
+  image_social: http://s3.amazonaws.com/lcapi.production/series/found-favor/400x400.jpg?1396031616
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/found-favor/1500x340.jpg?1400877128
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/found-favor/3000x680.jpg?1400877104
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/found-favor/480x340.jpg?1400877152
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/found-favor/960x680.jpg?1400877225
   messages:
   - title: Walking in the Fog
     headline: ''
@@ -1580,7 +1655,7 @@
     strong against forces of darkness that want to take us out.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1622-samson
+  open_url: http://open.lifechurch.tv/groups/1622-samson
   promo: ''
   resources_url: ''
   categories:
@@ -1592,14 +1667,14 @@
     name: Spiritual Warfare
     created_at: '2014-08-05T18:45:34.299Z'
     updated_at: '2014-08-05T20:06:31.641Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/samson-2012/300x200.jpg?1396031079
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/samson-2012/600x400.jpg?1396031139
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/samson-2012/1200x800.jpg?1396031170
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/samson-2012/400x400.jpg?1396031106
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/samson-2012/1500x340.jpg?1399997694
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/samson-2012/3000x680.jpg?1399997659
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/samson-2012/480x340.jpg?1399997748
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/samson-2012/960x680.jpg?1399997725
+  image_small: http://s3.amazonaws.com/lcapi.production/series/samson-2012/300x200.jpg?1396031079
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/samson-2012/600x400.jpg?1396031139
+  image_large: http://s3.amazonaws.com/lcapi.production/series/samson-2012/1200x800.jpg?1396031170
+  image_social: http://s3.amazonaws.com/lcapi.production/series/samson-2012/400x400.jpg?1396031106
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/samson-2012/1500x340.jpg?1399997694
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/samson-2012/3000x680.jpg?1399997659
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/samson-2012/480x340.jpg?1399997748
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/samson-2012/960x680.jpg?1399997725
   messages:
   - title: Failing Forward
     headline: ''
@@ -1622,7 +1697,7 @@
     days. When life hands you choices, choose Better. '
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1611-better
+  open_url: http://open.lifechurch.tv/groups/1611-better
   promo: ''
   resources_url: http://resources.lifechurch.tv/products/better-week-1-pdf-video/
   categories:
@@ -1634,14 +1709,14 @@
     name: Sam Roberts
     created_at: '2014-06-11T15:48:49.991Z'
     updated_at: '2014-06-11T15:48:49.991Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/better/300x200.jpg?1396025667
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/better/600x400.jpg?1396025751
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/better/1200x800.jpg?1396025777
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/better/400x400.jpg?1396025709
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/better/1500x340.jpg?1399997228
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/better/3000x680.jpg?1399997204
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/better/480x340.jpg?1399997305
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/better/960x680.jpg?1399997249
+  image_small: http://s3.amazonaws.com/lcapi.production/series/better/300x200.jpg?1396025667
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/better/600x400.jpg?1396025751
+  image_large: http://s3.amazonaws.com/lcapi.production/series/better/1200x800.jpg?1396025777
+  image_social: http://s3.amazonaws.com/lcapi.production/series/better/400x400.jpg?1396025709
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/better/1500x340.jpg?1399997228
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/better/3000x680.jpg?1399997204
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/better/480x340.jpg?1399997305
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/better/960x680.jpg?1399997249
   messages:
   - title: Better is a Good Name
     headline: ''
@@ -1664,7 +1739,7 @@
     the way God brings people together to form a Miracle. '
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1612-john-maxwell
+  open_url: http://open.lifechurch.tv/groups/1612-john-maxwell
   promo: ''
   resources_url: ''
   categories:
@@ -1676,10 +1751,10 @@
     name: Leadership
     created_at: '2014-06-11T15:52:33.291Z'
     updated_at: '2014-06-11T15:52:33.291Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/problem-or-a-miracle/300x200.jpg?1396025900
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/problem-or-a-miracle/600x400.jpg?1396025944
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/problem-or-a-miracle/1200x800.jpg?1396025980
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/problem-or-a-miracle/400x400.jpg?1396025924
+  image_small: http://s3.amazonaws.com/lcapi.production/series/problem-or-a-miracle/300x200.jpg?1396025900
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/problem-or-a-miracle/600x400.jpg?1396025944
+  image_large: http://s3.amazonaws.com/lcapi.production/series/problem-or-a-miracle/1200x800.jpg?1396025980
+  image_social: http://s3.amazonaws.com/lcapi.production/series/problem-or-a-miracle/400x400.jpg?1396025924
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -1697,7 +1772,7 @@
     our joy that Christ has entered the world. Join us for Carols.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1602-carols
+  open_url: http://open.lifechurch.tv/groups/1602-carols
   promo: ''
   resources_url: ''
   categories:
@@ -1709,14 +1784,14 @@
     name: Sam Roberts
     created_at: '2014-06-11T15:48:49.991Z'
     updated_at: '2014-06-11T15:48:49.991Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/carols/300x200.jpg?1396024882
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/carols/600x400.jpg?1396024923
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/carols/1200x800.jpg?1396024948
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/carols/400x400.jpg?1396024906
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/carols/1500x340.jpg?1400878193
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/carols/3000x680.jpg?1400878171
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/carols/480x340.jpg?1400878212
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/carols/960x680.jpg?1400878244
+  image_small: http://s3.amazonaws.com/lcapi.production/series/carols/300x200.jpg?1396024882
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/carols/600x400.jpg?1396024923
+  image_large: http://s3.amazonaws.com/lcapi.production/series/carols/1200x800.jpg?1396024948
+  image_social: http://s3.amazonaws.com/lcapi.production/series/carols/400x400.jpg?1396024906
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/carols/1500x340.jpg?1400878193
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/carols/3000x680.jpg?1400878171
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/carols/480x340.jpg?1400878212
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/carols/960x680.jpg?1400878244
   messages:
   - title: Emmanuel
     headline: ''
@@ -1739,7 +1814,7 @@
     live with—and show love to—Those People. '
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1597-those-people
+  open_url: http://open.lifechurch.tv/groups/1597-those-people
   promo: ''
   resources_url: ''
   categories:
@@ -1747,14 +1822,14 @@
     name: Relationships
     created_at: '2014-02-03T22:38:58.852Z'
     updated_at: '2014-06-05T19:41:17.695Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/those-people/300x200.jpg?1396022828
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/those-people/600x400.jpg?1396022900
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/those-people/1200x800.jpg?1396022945
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/those-people/400x400.jpg?1396022860
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/those-people/1500x340.jpg?1400879515
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/those-people/3000x680.jpg?1400879500
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/those-people/480x340.jpg?1400879532
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/those-people/960x680.jpg?1400879551
+  image_small: http://s3.amazonaws.com/lcapi.production/series/those-people/300x200.jpg?1396022828
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/those-people/600x400.jpg?1396022900
+  image_large: http://s3.amazonaws.com/lcapi.production/series/those-people/1200x800.jpg?1396022945
+  image_social: http://s3.amazonaws.com/lcapi.production/series/those-people/400x400.jpg?1396022860
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/those-people/1500x340.jpg?1400879515
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/those-people/3000x680.jpg?1400879500
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/those-people/480x340.jpg?1400879532
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/those-people/960x680.jpg?1400879551
   messages:
   - title: Those Critical People
     headline: ''
@@ -1777,7 +1852,7 @@
     what it looks like when we're Passing the Test.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1595-passing-the-test
+  open_url: http://open.lifechurch.tv/groups/1595-passing-the-test
   promo: ''
   resources_url: ''
   categories:
@@ -1793,14 +1868,14 @@
     name: James MacDonald
     created_at: '2014-06-11T15:49:34.518Z'
     updated_at: '2014-06-11T15:49:34.518Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/passing-the-test/300x200.jpg?1396022464
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/passing-the-test/600x400.jpg?1396022525
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/passing-the-test/1200x800.jpg?1396022575
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/passing-the-test/400x400.jpg?1396022493
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/passing-the-test/1500x340.jpg?1401375523
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/passing-the-test/3000x680.jpg?1401375473
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/passing-the-test/480x340.jpg?1401375561
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/passing-the-test/960x680.jpg?1401375541
+  image_small: http://s3.amazonaws.com/lcapi.production/series/passing-the-test/300x200.jpg?1396022464
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/passing-the-test/600x400.jpg?1396022525
+  image_large: http://s3.amazonaws.com/lcapi.production/series/passing-the-test/1200x800.jpg?1396022575
+  image_social: http://s3.amazonaws.com/lcapi.production/series/passing-the-test/400x400.jpg?1396022493
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/passing-the-test/1500x340.jpg?1401375523
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/passing-the-test/3000x680.jpg?1401375473
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/passing-the-test/480x340.jpg?1401375561
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/passing-the-test/960x680.jpg?1401375541
   messages:
   - title: When We Test God
     headline: ''
@@ -1814,10 +1889,10 @@
   description_small: ''
   description_medium: There's a slice of the world just waiting for your imprint.
     How will you shape it? Learn how you're uniquely qualified to make a difference
-    in Change Your World in 52 Days.
+    in Change Your World in 52 Days.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1592-change-your-world-in-52-days
+  open_url: http://open.lifechurch.tv/groups/1592-change-your-world-in-52-days
   promo: ''
   resources_url: ''
   categories:
@@ -1825,14 +1900,14 @@
     name: Leadership
     created_at: '2014-06-11T15:52:33.291Z'
     updated_at: '2014-06-11T15:52:33.291Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/change-your-world/300x200.jpg?1396021202
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/change-your-world/600x400.jpg?1396021262
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/change-your-world/1200x800.jpg?1396021294
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/change-your-world/400x400.jpg?1396021232
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/change-your-world/1500x340.jpg?1400878381
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/change-your-world/3000x680.jpg?1400878337
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/change-your-world/480x340.jpg?1400878406
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/change-your-world/960x680.jpg?1400878445
+  image_small: http://s3.amazonaws.com/lcapi.production/series/change-your-world/300x200.jpg?1396021202
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/change-your-world/600x400.jpg?1396021262
+  image_large: http://s3.amazonaws.com/lcapi.production/series/change-your-world/1200x800.jpg?1396021294
+  image_social: http://s3.amazonaws.com/lcapi.production/series/change-your-world/400x400.jpg?1396021232
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/change-your-world/1500x340.jpg?1400878381
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/change-your-world/3000x680.jpg?1400878337
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/change-your-world/480x340.jpg?1400878406
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/change-your-world/960x680.jpg?1400878445
   messages:
   - title: Finishing Strong
     headline: ''
@@ -1855,7 +1930,7 @@
     better together.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1589-twogather
+  open_url: http://open.lifechurch.tv/groups/1589-twogather
   promo: ''
   resources_url: ''
   categories:
@@ -1867,14 +1942,14 @@
     name: Chris Hodges
     created_at: '2014-06-11T15:26:28.191Z'
     updated_at: '2014-06-11T15:26:28.191Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/twogather/300x200.jpg?1396021016
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/twogather/600x400.jpg?1396021101
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/twogather/1200x800.jpg?1396021134
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/twogather/400x400.jpg?1396021065
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/twogather/1500x340.jpg?1400879622
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/twogather/3000x680.jpg?1400879595
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/twogather/480x340.jpg?1400879640
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/twogather/960x680.jpg?1400879656
+  image_small: http://s3.amazonaws.com/lcapi.production/series/twogather/300x200.jpg?1396021016
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/twogather/600x400.jpg?1396021101
+  image_large: http://s3.amazonaws.com/lcapi.production/series/twogather/1200x800.jpg?1396021134
+  image_social: http://s3.amazonaws.com/lcapi.production/series/twogather/400x400.jpg?1396021065
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/twogather/1500x340.jpg?1400879622
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/twogather/3000x680.jpg?1400879595
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/twogather/480x340.jpg?1400879640
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/twogather/960x680.jpg?1400879656
   messages:
   - title: Where Everybody Knows Your Name
     headline: ''
@@ -1891,7 +1966,7 @@
     we become Bold.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1582-bold
+  open_url: http://open.lifechurch.tv/groups/1582-bold
   promo: ''
   resources_url: ''
   categories:
@@ -1907,14 +1982,14 @@
     name: Spiritual Warfare
     created_at: '2014-08-05T18:45:34.299Z'
     updated_at: '2014-08-05T20:06:31.641Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/bold/300x200.jpg?1396020776
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/bold/600x400.jpg?1396020833
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/bold/1200x800.jpg?1396020862
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/bold/400x400.jpg?1396020801
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/bold/1500x340.jpg?1400878086
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/bold/3000x680.jpg?1400878006
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/bold/480x340.jpg?1400878104
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/bold/960x680.jpg?1400878122
+  image_small: http://s3.amazonaws.com/lcapi.production/series/bold/300x200.jpg?1396020776
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/bold/600x400.jpg?1396020833
+  image_large: http://s3.amazonaws.com/lcapi.production/series/bold/1200x800.jpg?1396020862
+  image_social: http://s3.amazonaws.com/lcapi.production/series/bold/400x400.jpg?1396020801
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/bold/1500x340.jpg?1400878086
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/bold/3000x680.jpg?1400878006
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/bold/480x340.jpg?1400878104
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/bold/960x680.jpg?1400878122
   messages:
   - title: Bold Obedience
     headline: ''
@@ -1938,7 +2013,7 @@
     RE.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1563-re
+  open_url: http://open.lifechurch.tv/groups/1563-re
   promo: ''
   resources_url: ''
   categories:
@@ -1962,14 +2037,14 @@
     name: Sins
     created_at: '2014-06-05T19:20:27.559Z'
     updated_at: '2014-06-11T16:19:31.726Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/re/300x200.jpg?1396020632
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/re/600x400.jpg?1396020704
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/re/1200x800.jpg?1396020726
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/re/400x400.jpg?1396020661
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/re/1500x340.jpg?1400878801
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/re/3000x680.jpg?1400878755
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/re/480x340.jpg?1400878819
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/re/960x680.jpg?1400878845
+  image_small: http://s3.amazonaws.com/lcapi.production/series/re/300x200.jpg?1396020632
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/re/600x400.jpg?1396020704
+  image_large: http://s3.amazonaws.com/lcapi.production/series/re/1200x800.jpg?1396020726
+  image_social: http://s3.amazonaws.com/lcapi.production/series/re/400x400.jpg?1396020661
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/re/1500x340.jpg?1400878801
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/re/3000x680.jpg?1400878755
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/re/480x340.jpg?1400878819
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/re/960x680.jpg?1400878845
   messages:
   - title: Remain
     headline: ''
@@ -1993,7 +2068,7 @@
     Your Past. '
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1558-getting-past-your-past
+  open_url: http://open.lifechurch.tv/groups/1558-getting-past-your-past
   promo: ''
   resources_url: ''
   categories:
@@ -2009,14 +2084,14 @@
     name: Spiritual Warfare
     created_at: '2014-08-05T18:45:34.299Z'
     updated_at: '2014-08-05T20:06:31.641Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/getting-past-your-past/300x200.jpg?1396019390
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/getting-past-your-past/600x400.jpg?1396019450
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/getting-past-your-past/1200x800.jpg?1396019479
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/getting-past-your-past/400x400.jpg?1396019416
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/getting-past-your-past/1500x340.jpg?1399998910
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/getting-past-your-past/3000x680.jpg?1399998860
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/getting-past-your-past/480x340.jpg?1399999149
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/getting-past-your-past/960x680.jpg?1399998955
+  image_small: http://s3.amazonaws.com/lcapi.production/series/getting-past-your-past/300x200.jpg?1396019390
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/getting-past-your-past/600x400.jpg?1396019450
+  image_large: http://s3.amazonaws.com/lcapi.production/series/getting-past-your-past/1200x800.jpg?1396019479
+  image_social: http://s3.amazonaws.com/lcapi.production/series/getting-past-your-past/400x400.jpg?1396019416
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/getting-past-your-past/1500x340.jpg?1399998910
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/getting-past-your-past/3000x680.jpg?1399998860
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/getting-past-your-past/480x340.jpg?1399999149
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/getting-past-your-past/960x680.jpg?1399998955
   messages:
   - title: Getting Past Your Personal Failures
     headline: ''
@@ -2039,7 +2114,7 @@
     explore life beyond normal in our next series, WEIRD.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1551-weird
+  open_url: http://open.lifechurch.tv/groups/1551-weird
   promo: ''
   resources_url: ''
   categories:
@@ -2059,14 +2134,14 @@
     name: Dave Ramsey
     created_at: '2014-06-11T15:42:22.866Z'
     updated_at: '2014-06-11T15:42:22.866Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/weird/300x200.jpg?1396018778
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/weird/600x400.jpg?1396018846
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/weird/1200x800.jpg?1396018886
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/weird/400x400.jpg?1396018821
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/weird/1500x340.jpg?1400879738
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/weird/3000x680.jpg?1400879703
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/weird/480x340.jpg?1400879757
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/weird/960x680.jpg?1400879775
+  image_small: http://s3.amazonaws.com/lcapi.production/series/weird/300x200.jpg?1396018778
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/weird/600x400.jpg?1396018846
+  image_large: http://s3.amazonaws.com/lcapi.production/series/weird/1200x800.jpg?1396018886
+  image_social: http://s3.amazonaws.com/lcapi.production/series/weird/400x400.jpg?1396018821
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/weird/1500x340.jpg?1400879738
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/weird/3000x680.jpg?1400879703
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/weird/480x340.jpg?1400879757
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/weird/960x680.jpg?1400879775
   messages:
   - title: A Weird View of Money
     headline: ''
@@ -2092,7 +2167,7 @@
     Join us for a special message from Pastor Steven Furtick
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1550-sun-stand-still
+  open_url: http://open.lifechurch.tv/groups/1550-sun-stand-still
   promo: ''
   resources_url: ''
   categories:
@@ -2108,14 +2183,14 @@
     name: Steven Furtick
     created_at: '2014-06-11T15:35:51.030Z'
     updated_at: '2014-06-11T15:35:51.030Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/sun-stand-still/300x200.jpg?1396016407
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/sun-stand-still/600x400.jpg?1396016463
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/sun-stand-still/1200x800.jpg?1396016485
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/sun-stand-still/400x400.jpg?1396016434
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/sun-stand-still/1500x340.jpg?1400879398
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/sun-stand-still/3000x680.jpg?1400879345
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/sun-stand-still/480x340.jpg?1400879419
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/sun-stand-still/960x680.jpg?1400879442
+  image_small: http://s3.amazonaws.com/lcapi.production/series/sun-stand-still/300x200.jpg?1396016407
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/sun-stand-still/600x400.jpg?1396016463
+  image_large: http://s3.amazonaws.com/lcapi.production/series/sun-stand-still/1200x800.jpg?1396016485
+  image_social: http://s3.amazonaws.com/lcapi.production/series/sun-stand-still/400x400.jpg?1396016434
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/sun-stand-still/1500x340.jpg?1400879398
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/sun-stand-still/3000x680.jpg?1400879345
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/sun-stand-still/480x340.jpg?1400879419
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/sun-stand-still/960x680.jpg?1400879442
   messages:
   - title: Sun Stand Still
     headline: ''
@@ -2132,7 +2207,7 @@
     give you a new view of yourself. '
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1548-who-do-you-think-you-are
+  open_url: http://open.lifechurch.tv/groups/1548-who-do-you-think-you-are
   promo: ''
   resources_url: ''
   categories:
@@ -2144,14 +2219,14 @@
     name: Witnessing
     created_at: '2014-06-11T15:25:15.255Z'
     updated_at: '2014-06-11T15:25:15.255Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/who-do-you-think-you-are/300x200.jpg?1396015782
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/who-do-you-think-you-are/600x400.jpg?1396015845
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/who-do-you-think-you-are/1200x800.jpg?1396015877
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/who-do-you-think-you-are/400x400.jpg?1396015809
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/who-do-you-think-you-are/1500x340.jpg?1399999667
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/who-do-you-think-you-are/3000x680.jpg?1399999610
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/who-do-you-think-you-are/480x340.jpg?1399999768
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/who-do-you-think-you-are/960x680.jpg?1399999704
+  image_small: http://s3.amazonaws.com/lcapi.production/series/who-do-you-think-you-are/300x200.jpg?1396015782
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/who-do-you-think-you-are/600x400.jpg?1396015845
+  image_large: http://s3.amazonaws.com/lcapi.production/series/who-do-you-think-you-are/1200x800.jpg?1396015877
+  image_social: http://s3.amazonaws.com/lcapi.production/series/who-do-you-think-you-are/400x400.jpg?1396015809
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/who-do-you-think-you-are/1500x340.jpg?1399999667
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/who-do-you-think-you-are/3000x680.jpg?1399999610
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/who-do-you-think-you-are/480x340.jpg?1399999768
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/who-do-you-think-you-are/960x680.jpg?1399999704
   messages:
   - title: Disciple
     headline: ''
@@ -2176,7 +2251,7 @@
     things have to be. Come see what happens when we’re ready to say, “I quit.”
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1544-i-quit
+  open_url: http://open.lifechurch.tv/groups/1544-i-quit
   promo: ''
   resources_url: ''
   categories:
@@ -2188,14 +2263,14 @@
     name: Sam Roberts
     created_at: '2014-06-11T15:48:49.991Z'
     updated_at: '2014-06-11T15:48:49.991Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/i-quit/300x200.jpg?1396018576
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/i-quit/600x400.jpg?1396018624
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/i-quit/1200x800.jpg?1396018673
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/i-quit/400x400.jpg?1396018600
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/i-quit/1500x340.jpg?1399999235
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/i-quit/3000x680.jpg?1399999213
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/i-quit/480x340.jpg?1399999297
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/i-quit/960x680.jpg?1399999263
+  image_small: http://s3.amazonaws.com/lcapi.production/series/i-quit/300x200.jpg?1396018576
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/i-quit/600x400.jpg?1396018624
+  image_large: http://s3.amazonaws.com/lcapi.production/series/i-quit/1200x800.jpg?1396018673
+  image_social: http://s3.amazonaws.com/lcapi.production/series/i-quit/400x400.jpg?1396018600
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/i-quit/1500x340.jpg?1399999235
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/i-quit/3000x680.jpg?1399999213
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/i-quit/480x340.jpg?1399999297
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/i-quit/960x680.jpg?1399999263
   messages:
   - title: I Quit Comparing
     headline: ''
@@ -2228,10 +2303,10 @@
     name: Church Vision
     created_at: '2014-06-11T15:25:52.761Z'
     updated_at: '2014-06-11T15:25:52.761Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/xv/300x200.jpg?1396017703
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/xv/600x400.jpg?1396017885
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/xv/1200x800.jpg?1396017915
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/xv/400x400.jpg?1396017729
+  image_small: http://s3.amazonaws.com/lcapi.production/series/xv/300x200.jpg?1396017703
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/xv/600x400.jpg?1396017885
+  image_large: http://s3.amazonaws.com/lcapi.production/series/xv/1200x800.jpg?1396017915
+  image_social: http://s3.amazonaws.com/lcapi.production/series/xv/400x400.jpg?1396017729
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -2250,7 +2325,7 @@
     First.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1536-first
+  open_url: http://open.lifechurch.tv/groups/1536-first
   promo: ''
   resources_url: ''
   categories:
@@ -2258,14 +2333,14 @@
     name: Disciplines
     created_at: '2014-06-11T15:23:03.968Z'
     updated_at: '2014-06-11T15:23:03.968Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/first/300x200.jpg?1396013916
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/first/600x400.jpg?1396014102
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/first/1200x800.jpg?1396014131
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/first/400x400.jpg?1396014074
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/first/1500x340.jpg?1400878519
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/first/3000x680.jpg?1400878499
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/first/480x340.jpg?1400878600
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/first/960x680.jpg?1400878638
+  image_small: http://s3.amazonaws.com/lcapi.production/series/first/300x200.jpg?1396013916
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/first/600x400.jpg?1396014102
+  image_large: http://s3.amazonaws.com/lcapi.production/series/first/1200x800.jpg?1396014131
+  image_social: http://s3.amazonaws.com/lcapi.production/series/first/400x400.jpg?1396014074
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/first/1500x340.jpg?1400878519
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/first/3000x680.jpg?1400878499
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/first/480x340.jpg?1400878600
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/first/960x680.jpg?1400878638
   messages:
   - title: Firsts
     headline: ''
@@ -2279,7 +2354,7 @@
     peace and joy as we Never Lose Heart.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1535-never-lose-heart
+  open_url: http://open.lifechurch.tv/groups/1535-never-lose-heart
   promo: ''
   resources_url: ''
   categories:
@@ -2291,10 +2366,10 @@
     name: Chris Hodges
     created_at: '2014-06-11T15:26:28.191Z'
     updated_at: '2014-06-11T15:26:28.191Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/never-lose-heart/300x200.jpg?1395957477
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/never-lose-heart/600x400.jpg?1395957539
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/never-lose-heart/1200x800.jpg?1395957568
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/never-lose-heart/400x400.jpg?1395957517
+  image_small: http://s3.amazonaws.com/lcapi.production/series/never-lose-heart/300x200.jpg?1395957477
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/never-lose-heart/600x400.jpg?1395957539
+  image_large: http://s3.amazonaws.com/lcapi.production/series/never-lose-heart/1200x800.jpg?1395957568
+  image_social: http://s3.amazonaws.com/lcapi.production/series/never-lose-heart/400x400.jpg?1395957517
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -2312,7 +2387,7 @@
     the birth of the one who brings peace.\r\n"
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1533-christmas-2010
+  open_url: http://open.lifechurch.tv/groups/1533-christmas-2010
   promo: ''
   resources_url: ''
   categories:
@@ -2328,14 +2403,14 @@
     name: God
     created_at: '2014-06-11T15:22:41.520Z'
     updated_at: '2014-06-11T15:22:41.520Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/christmas10/300x200.jpg?1395958092
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/christmas10/600x400.jpg?1395958139
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/christmas10/1200x800.jpg?1395958159
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/christmas10/400x400.jpg?1395958120
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/christmas10/1500x340.jpg?1401210083
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/christmas10/3000x680.jpg?1401210056
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/christmas10/480x340.jpg?1401210131
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/christmas10/960x680.jpg?1401210199
+  image_small: http://s3.amazonaws.com/lcapi.production/series/christmas10/300x200.jpg?1395958092
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/christmas10/600x400.jpg?1395958139
+  image_large: http://s3.amazonaws.com/lcapi.production/series/christmas10/1200x800.jpg?1395958159
+  image_social: http://s3.amazonaws.com/lcapi.production/series/christmas10/400x400.jpg?1395958120
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/christmas10/1500x340.jpg?1401210083
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/christmas10/3000x680.jpg?1401210056
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/christmas10/480x340.jpg?1401210131
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/christmas10/960x680.jpg?1401210199
   messages:
   - title: Hope Shines Through
     headline: ''
@@ -2348,7 +2423,7 @@
     the real you. Tired of keeping up the façade? Join us for Masquerade.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1517-masquerade
+  open_url: http://open.lifechurch.tv/groups/1517-masquerade
   promo: ''
   resources_url: ''
   categories:
@@ -2364,14 +2439,14 @@
     name: Sins
     created_at: '2014-06-05T19:20:27.559Z'
     updated_at: '2014-06-11T16:19:31.726Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/masquerade/300x200.jpg?1395956137
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/masquerade/600x400.jpg?1395956192
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/masquerade/1200x800.jpg?1395956220
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/masquerade/400x400.jpg?1395956160
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/masquerade/1500x340.jpg?1400003126
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/masquerade/3000x680.jpg?1400003100
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/masquerade/480x340.jpg?1400003175
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/masquerade/960x680.jpg?1400003152
+  image_small: http://s3.amazonaws.com/lcapi.production/series/masquerade/300x200.jpg?1395956137
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/masquerade/600x400.jpg?1395956192
+  image_large: http://s3.amazonaws.com/lcapi.production/series/masquerade/1200x800.jpg?1395956220
+  image_social: http://s3.amazonaws.com/lcapi.production/series/masquerade/400x400.jpg?1395956160
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/masquerade/1500x340.jpg?1400003126
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/masquerade/3000x680.jpg?1400003100
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/masquerade/480x340.jpg?1400003175
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/masquerade/960x680.jpg?1400003152
   messages:
   - title: Hiding Your Hurt
     headline: ''
@@ -2397,7 +2472,7 @@
     Learn how to be Planted.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1516-planted
+  open_url: http://open.lifechurch.tv/groups/1516-planted
   promo: ''
   resources_url: ''
   categories:
@@ -2417,14 +2492,14 @@
     name: Dino Rizzo
     created_at: '2014-06-11T15:50:20.388Z'
     updated_at: '2014-06-11T15:50:20.388Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/planted/300x200.jpg?1395955990
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/planted/600x400.jpg?1395956048
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/planted/1200x800.jpg?1395956078
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/planted/400x400.jpg?1395956017
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/planted/1500x340.jpg?1400005324
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/planted/3000x680.jpg?1400005299
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/planted/480x340.jpg?1400005367
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/planted/960x680.jpg?1400005342
+  image_small: http://s3.amazonaws.com/lcapi.production/series/planted/300x200.jpg?1395955990
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/planted/600x400.jpg?1395956048
+  image_large: http://s3.amazonaws.com/lcapi.production/series/planted/1200x800.jpg?1395956078
+  image_social: http://s3.amazonaws.com/lcapi.production/series/planted/400x400.jpg?1395956017
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/planted/1500x340.jpg?1400005324
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/planted/3000x680.jpg?1400005299
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/planted/480x340.jpg?1400005367
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/planted/960x680.jpg?1400005342
   messages:
   - title: Week 2
     headline: ''
@@ -2442,7 +2517,7 @@
     dream for your life—your Chazown.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1515-chazown
+  open_url: http://open.lifechurch.tv/groups/1515-chazown
   promo: ''
   resources_url: ''
   categories:
@@ -2450,14 +2525,14 @@
     name: Purpose
     created_at: '2014-06-11T15:21:10.086Z'
     updated_at: '2014-06-11T15:21:10.086Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/chazown/300x200.jpg?1395955851
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/chazown/600x400.jpg?1395956613
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/chazown/1200x800.jpg?1395955909
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/chazown/400x400.jpg?1395955870
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/chazown/1500x340.jpg?1401209047
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/chazown/3000x680.jpg?1401209020
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/chazown/480x340.jpg?1401209068
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/chazown/960x680.jpg?1401209088
+  image_small: http://s3.amazonaws.com/lcapi.production/series/chazown/300x200.jpg?1395955851
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/chazown/600x400.jpg?1395956613
+  image_large: http://s3.amazonaws.com/lcapi.production/series/chazown/1200x800.jpg?1395955909
+  image_social: http://s3.amazonaws.com/lcapi.production/series/chazown/400x400.jpg?1395955870
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/chazown/1500x340.jpg?1401209047
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/chazown/3000x680.jpg?1401209020
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/chazown/480x340.jpg?1401209068
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/chazown/960x680.jpg?1401209088
   messages:
   - title: Chazown
     headline: ''
@@ -2472,7 +2547,7 @@
     insight, and speak into our souls: I Believe in You.'
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1512-i-believe-in-you
+  open_url: http://open.lifechurch.tv/groups/1512-i-believe-in-you
   promo: ''
   resources_url: ''
   categories:
@@ -2488,14 +2563,14 @@
     name: Dr. Samuel R. Chand
     created_at: '2014-06-11T15:50:32.197Z'
     updated_at: '2014-06-11T15:50:32.197Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/i-believe-in-you/300x200.jpg?1395955702
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/i-believe-in-you/600x400.jpg?1395955753
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/i-believe-in-you/1200x800.jpg?1395955780
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/i-believe-in-you/400x400.jpg?1395955731
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/i-believe-in-you/1500x340.jpg?1401214741
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/i-believe-in-you/3000x680.jpg?1401214712
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/i-believe-in-you/480x340.jpg?1401214771
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/i-believe-in-you/960x680.jpg?1401214806
+  image_small: http://s3.amazonaws.com/lcapi.production/series/i-believe-in-you/300x200.jpg?1395955702
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/i-believe-in-you/600x400.jpg?1395955753
+  image_large: http://s3.amazonaws.com/lcapi.production/series/i-believe-in-you/1200x800.jpg?1395955780
+  image_social: http://s3.amazonaws.com/lcapi.production/series/i-believe-in-you/400x400.jpg?1395955731
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/i-believe-in-you/1500x340.jpg?1401214741
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/i-believe-in-you/3000x680.jpg?1401214712
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/i-believe-in-you/480x340.jpg?1401214771
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/i-believe-in-you/960x680.jpg?1401214806
   messages:
   - title: Week 4
     headline: ''
@@ -2518,7 +2593,7 @@
     to recognize and remove the hidden dangers in our lives? Join us for Toxic.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1489-toxic
+  open_url: http://open.lifechurch.tv/groups/1489-toxic
   promo: ''
   resources_url: ''
   categories:
@@ -2530,14 +2605,14 @@
     name: Thoughts
     created_at: '2014-06-11T15:20:28.824Z'
     updated_at: '2014-06-11T15:20:28.824Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/toxic/300x200.jpg?1395955541
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/toxic/600x400.jpg?1395955585
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/toxic/1200x800.jpg?1395955605
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/toxic/400x400.jpg?1395955566
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/toxic/1500x340.jpg?1400005428
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/toxic/3000x680.jpg?1400005402
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/toxic/480x340.jpg?1400005486
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/toxic/960x680.jpg?1400005455
+  image_small: http://s3.amazonaws.com/lcapi.production/series/toxic/300x200.jpg?1395955541
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/toxic/600x400.jpg?1395955585
+  image_large: http://s3.amazonaws.com/lcapi.production/series/toxic/1200x800.jpg?1395955605
+  image_social: http://s3.amazonaws.com/lcapi.production/series/toxic/400x400.jpg?1395955566
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/toxic/1500x340.jpg?1400005428
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/toxic/3000x680.jpg?1400005402
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/toxic/480x340.jpg?1400005486
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/toxic/960x680.jpg?1400005455
   messages:
   - title: Toxic Religion
     headline: ''
@@ -2563,7 +2638,7 @@
     what it can mean when the Church becomes unstoppable.    '
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1473-one-prayer-2010
+  open_url: http://open.lifechurch.tv/groups/1473-one-prayer-2010
   promo: ''
   resources_url: ''
   categories:
@@ -2583,14 +2658,14 @@
     name: Brian Houston
     created_at: '2014-06-11T15:51:04.977Z'
     updated_at: '2014-06-11T15:51:04.977Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-10/300x200.jpg?1395955200
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-10/600x400.jpg?1395955247
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-10/1200x800.jpg?1395955275
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-10/400x400.jpg?1395955226
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-10/1500x340.jpg?1401215270
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-10/3000x680.jpg?1401215245
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-10/480x340.jpg?1401215328
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-10/960x680.jpg?1401215358
+  image_small: http://s3.amazonaws.com/lcapi.production/series/one-prayer-10/300x200.jpg?1395955200
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/one-prayer-10/600x400.jpg?1395955247
+  image_large: http://s3.amazonaws.com/lcapi.production/series/one-prayer-10/1200x800.jpg?1395955275
+  image_social: http://s3.amazonaws.com/lcapi.production/series/one-prayer-10/400x400.jpg?1395955226
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/one-prayer-10/1500x340.jpg?1401215270
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/one-prayer-10/3000x680.jpg?1401215245
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/one-prayer-10/480x340.jpg?1401215328
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/one-prayer-10/960x680.jpg?1401215358
   messages:
   - title: Unstoppable Power
     headline: ''
@@ -2613,7 +2688,7 @@
     these Forgotten Virtues.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1467-forgotten-virtues
+  open_url: http://open.lifechurch.tv/groups/1467-forgotten-virtues
   promo: ''
   resources_url: ''
   categories:
@@ -2629,14 +2704,14 @@
     name: Amy Groeschel
     created_at: '2014-06-11T15:51:17.593Z'
     updated_at: '2014-06-11T15:51:17.593Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/forgotten-virtues/300x200.jpg?1395954850
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/forgotten-virtues/600x400.jpg?1395954906
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/forgotten-virtues/1200x800.jpg?1395955104
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/forgotten-virtues/400x400.jpg?1395954880
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/forgotten-virtues/1500x340.jpg?1401214610
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/forgotten-virtues/3000x680.jpg?1401214590
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/forgotten-virtues/480x340.jpg?1401214633
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/forgotten-virtues/960x680.jpg?1401214662
+  image_small: http://s3.amazonaws.com/lcapi.production/series/forgotten-virtues/300x200.jpg?1395954850
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/forgotten-virtues/600x400.jpg?1395954906
+  image_large: http://s3.amazonaws.com/lcapi.production/series/forgotten-virtues/1200x800.jpg?1395955104
+  image_social: http://s3.amazonaws.com/lcapi.production/series/forgotten-virtues/400x400.jpg?1395954880
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/forgotten-virtues/1500x340.jpg?1401214610
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/forgotten-virtues/3000x680.jpg?1401214590
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/forgotten-virtues/480x340.jpg?1401214633
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/forgotten-virtues/960x680.jpg?1401214662
   messages:
   - title: Gratitude
     headline: ''
@@ -2662,7 +2737,7 @@
     out the answers to these questions and more—join us for FAQ
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1463-faq
+  open_url: http://open.lifechurch.tv/groups/1463-faq
   promo: ''
   resources_url: ''
   categories:
@@ -2674,14 +2749,14 @@
     name: Sins
     created_at: '2014-06-05T19:20:27.559Z'
     updated_at: '2014-06-11T16:19:31.726Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/faq/300x200.jpg?1395955372
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/faq/600x400.jpg?1395955419
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/faq/1200x800.jpg?1395955438
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/faq/400x400.jpg?1395955395
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/faq/1500x340.jpg?1401210514
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/faq/3000x680.jpg?1401210494
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/faq/480x340.jpg?1401210534
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/faq/960x680.jpg?1401210550
+  image_small: http://s3.amazonaws.com/lcapi.production/series/faq/300x200.jpg?1395955372
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/faq/600x400.jpg?1395955419
+  image_large: http://s3.amazonaws.com/lcapi.production/series/faq/1200x800.jpg?1395955438
+  image_social: http://s3.amazonaws.com/lcapi.production/series/faq/400x400.jpg?1395955395
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/faq/1500x340.jpg?1401210514
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/faq/3000x680.jpg?1401210494
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/faq/480x340.jpg?1401210534
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/faq/960x680.jpg?1401210550
   messages:
   - title: Week 1
     headline: ''
@@ -2702,7 +2777,7 @@
     victory on this Red Letter Day.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1461-red-letter-day
+  open_url: http://open.lifechurch.tv/groups/1461-red-letter-day
   promo: ''
   resources_url: ''
   categories:
@@ -2722,14 +2797,14 @@
     name: Joel A'Bell
     created_at: '2014-06-11T15:51:31.851Z'
     updated_at: '2014-06-11T15:51:31.851Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/red-letter-day/300x200.jpg?1395954671
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/red-letter-day/600x400.jpg?1395954722
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/red-letter-day/1200x800.jpg?1395954745
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/red-letter-day/400x400.jpg?1395954695
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/red-letter-day/1500x340.jpg?1401215503
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/red-letter-day/3000x680.jpg?1401215484
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/red-letter-day/480x340.jpg?1401215534
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/red-letter-day/960x680.jpg?1401215557
+  image_small: http://s3.amazonaws.com/lcapi.production/series/red-letter-day/300x200.jpg?1395954671
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/red-letter-day/600x400.jpg?1395954722
+  image_large: http://s3.amazonaws.com/lcapi.production/series/red-letter-day/1200x800.jpg?1395954745
+  image_social: http://s3.amazonaws.com/lcapi.production/series/red-letter-day/400x400.jpg?1395954695
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/red-letter-day/1500x340.jpg?1401215503
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/red-letter-day/3000x680.jpg?1401215484
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/red-letter-day/480x340.jpg?1401215534
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/red-letter-day/960x680.jpg?1401215557
   messages:
   - title: Week 5
     headline: ''
@@ -2756,7 +2831,7 @@
     Upon a Marriage.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1460-once-upon-a-marriage
+  open_url: http://open.lifechurch.tv/groups/1460-once-upon-a-marriage
   promo: ''
   resources_url: ''
   categories:
@@ -2764,14 +2839,14 @@
     name: Marriage
     created_at: '2014-06-05T19:14:26.586Z'
     updated_at: '2014-06-05T19:14:26.586Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/once-upon-a-marriage/300x200.jpg?1395954447
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/once-upon-a-marriage/600x400.jpg?1395954510
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/once-upon-a-marriage/1200x800.jpg?1395954560
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/once-upon-a-marriage/400x400.jpg?1395954476
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/once-upon-a-marriage/1500x340.jpg?1401215091
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/once-upon-a-marriage/3000x680.jpg?1401215056
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/once-upon-a-marriage/480x340.jpg?1401215122
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/once-upon-a-marriage/960x680.jpg?1401215178
+  image_small: http://s3.amazonaws.com/lcapi.production/series/once-upon-a-marriage/300x200.jpg?1395954447
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/once-upon-a-marriage/600x400.jpg?1395954510
+  image_large: http://s3.amazonaws.com/lcapi.production/series/once-upon-a-marriage/1200x800.jpg?1395954560
+  image_social: http://s3.amazonaws.com/lcapi.production/series/once-upon-a-marriage/400x400.jpg?1395954476
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/once-upon-a-marriage/1500x340.jpg?1401215091
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/once-upon-a-marriage/3000x680.jpg?1401215056
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/once-upon-a-marriage/480x340.jpg?1401215122
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/once-upon-a-marriage/960x680.jpg?1401215178
   messages:
   - title: Unfailing Love
     headline: ''
@@ -2795,7 +2870,7 @@
     brings our way. Come explore what it means to live with Margin.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1447-margin
+  open_url: http://open.lifechurch.tv/groups/1447-margin
   promo: ''
   resources_url: ''
   categories:
@@ -2803,14 +2878,14 @@
     name: Money
     created_at: '2014-02-03T22:38:58.881Z'
     updated_at: '2014-06-05T19:12:14.043Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/margin/300x200.jpg?1395954017
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/margin/600x400.jpg?1395954063
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/margin/1200x800.jpg?1395954090
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/margin/400x400.jpg?1395954043
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/margin/1500x340.jpg?1401214915
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/margin/3000x680.jpg?1401214887
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/margin/480x340.jpg?1401214936
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/margin/960x680.jpg?1401214956
+  image_small: http://s3.amazonaws.com/lcapi.production/series/margin/300x200.jpg?1395954017
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/margin/600x400.jpg?1395954063
+  image_large: http://s3.amazonaws.com/lcapi.production/series/margin/1200x800.jpg?1395954090
+  image_social: http://s3.amazonaws.com/lcapi.production/series/margin/400x400.jpg?1395954043
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/margin/1500x340.jpg?1401214915
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/margin/3000x680.jpg?1401214887
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/margin/480x340.jpg?1401214936
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/margin/960x680.jpg?1401214956
   messages:
   - title: Moral Margin
     headline: ''
@@ -2834,7 +2909,7 @@
     as we explore the power of One Thing."
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1446-one-thing
+  open_url: http://open.lifechurch.tv/groups/1446-one-thing
   promo: ''
   resources_url: ''
   categories:
@@ -2842,10 +2917,10 @@
     name: Disciplines
     created_at: '2014-06-11T15:23:03.968Z'
     updated_at: '2014-06-11T15:23:03.968Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/one-thing/300x200.jpg?1395952110
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/one-thing/600x400.jpg?1395936667
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/one-thing/1200x800.jpg?1395936568
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/one-thing/400x400.jpg?1395952136
+  image_small: http://s3.amazonaws.com/lcapi.production/series/one-thing/300x200.jpg?1395952110
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/one-thing/600x400.jpg?1395936667
+  image_large: http://s3.amazonaws.com/lcapi.production/series/one-thing/1200x800.jpg?1395936568
+  image_social: http://s3.amazonaws.com/lcapi.production/series/one-thing/400x400.jpg?1395952136
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -2862,7 +2937,7 @@
     up?  He''s here.  Maybe you just haven’t been searching for him. '
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1445-christmas-2009
+  open_url: http://open.lifechurch.tv/groups/1445-christmas-2009
   promo: ''
   resources_url: ''
   categories:
@@ -2870,14 +2945,14 @@
     name: God
     created_at: '2014-06-11T15:22:41.520Z'
     updated_at: '2014-06-11T15:22:41.520Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/this-christmas/300x200.jpg?1395945033
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/this-christmas/600x400.jpg?1395945103
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/this-christmas/1200x800.jpg?1395945170
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/this-christmas/400x400.jpg?1395945065
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/this-christmas/1500x340.jpg?1401217777
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/this-christmas/3000x680.jpg?1401217712
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/this-christmas/480x340.jpg?1401217809
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/this-christmas/960x680.jpg?1401217831
+  image_small: http://s3.amazonaws.com/lcapi.production/series/this-christmas/300x200.jpg?1395945033
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/this-christmas/600x400.jpg?1395945103
+  image_large: http://s3.amazonaws.com/lcapi.production/series/this-christmas/1200x800.jpg?1395945170
+  image_social: http://s3.amazonaws.com/lcapi.production/series/this-christmas/400x400.jpg?1395945065
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/this-christmas/1500x340.jpg?1401217777
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/this-christmas/3000x680.jpg?1401217712
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/this-christmas/480x340.jpg?1401217809
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/this-christmas/960x680.jpg?1401217831
   messages:
   - title: This Christmas
     headline: ''
@@ -2891,14 +2966,14 @@
     Discover what the Bible says about living The Blessed Life.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1441-the-blessed-life
+  open_url: http://open.lifechurch.tv/groups/1441-the-blessed-life
   promo: ''
   resources_url: ''
   categories: []
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/blessed-life/300x200.jpg?1395945759
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/blessed-life/600x400.jpg?1395946193
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/blessed-life/1200x800.jpg?1395946215
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/blessed-life/400x400.jpg?1395946164
+  image_small: http://s3.amazonaws.com/lcapi.production/series/blessed-life/300x200.jpg?1395945759
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/blessed-life/600x400.jpg?1395946193
+  image_large: http://s3.amazonaws.com/lcapi.production/series/blessed-life/1200x800.jpg?1395946215
+  image_social: http://s3.amazonaws.com/lcapi.production/series/blessed-life/400x400.jpg?1395946164
   image_banner_archive: ''
   image_banner_archive_2x: ''
   image_banner_archive_small: ''
@@ -2942,14 +3017,14 @@
     name: Miles Paludan
     created_at: '2014-06-11T15:50:02.989Z'
     updated_at: '2014-06-11T15:50:02.989Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/carbon-copy/300x200.jpg?1395946430
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/carbon-copy/600x400.jpg?1395946485
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/carbon-copy/1200x800.jpg?1395946538
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/carbon-copy/400x400.jpg?1395946454
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/carbon-copy/1500x340.jpg?1401217366
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/carbon-copy/3000x680.jpg?1401217315
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/carbon-copy/480x340.jpg?1401217400
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/carbon-copy/960x680.jpg?1401217417
+  image_small: http://s3.amazonaws.com/lcapi.production/series/carbon-copy/300x200.jpg?1395946430
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/carbon-copy/600x400.jpg?1395946485
+  image_large: http://s3.amazonaws.com/lcapi.production/series/carbon-copy/1200x800.jpg?1395946538
+  image_social: http://s3.amazonaws.com/lcapi.production/series/carbon-copy/400x400.jpg?1395946454
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/carbon-copy/1500x340.jpg?1401217366
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/carbon-copy/3000x680.jpg?1401217315
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/carbon-copy/480x340.jpg?1401217400
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/carbon-copy/960x680.jpg?1401217417
   messages:
   - title: The Life Of Jesus
     headline: ''
@@ -2967,7 +3042,7 @@
     one who resides within...The Ghost.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1431-the-ghost
+  open_url: http://open.lifechurch.tv/groups/1431-the-ghost
   promo: ''
   resources_url: ''
   categories:
@@ -2975,14 +3050,14 @@
     name: Supernatural
     created_at: '2014-06-11T15:52:47.494Z'
     updated_at: '2014-06-11T15:52:47.494Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/ghost/300x200.jpg?1395946626
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/ghost/600x400.jpg?1395946673
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/ghost/1200x800.jpg?1395946702
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/ghost/400x400.jpg?1395946651
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/ghost/1500x340.jpg?1401218699
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/ghost/3000x680.jpg?1401218390
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/ghost/480x340.jpg?1401219773
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/ghost/960x680.jpg?1401219798
+  image_small: http://s3.amazonaws.com/lcapi.production/series/ghost/300x200.jpg?1395946626
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/ghost/600x400.jpg?1395946673
+  image_large: http://s3.amazonaws.com/lcapi.production/series/ghost/1200x800.jpg?1395946702
+  image_social: http://s3.amazonaws.com/lcapi.production/series/ghost/400x400.jpg?1395946651
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/ghost/1500x340.jpg?1401218699
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/ghost/3000x680.jpg?1401218390
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/ghost/480x340.jpg?1401219773
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/ghost/960x680.jpg?1401219798
   messages:
   - title: Filled With The Spirit
     headline: ''
@@ -3006,7 +3081,7 @@
     spot carved out just for you. Join us as we discover A Place for Everyone.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1428-a-place-for-everyone
+  open_url: http://open.lifechurch.tv/groups/1428-a-place-for-everyone
   promo: ''
   resources_url: ''
   categories:
@@ -3022,14 +3097,14 @@
     name: Andy Stanley
     created_at: '2014-06-11T15:52:23.089Z'
     updated_at: '2014-06-11T15:52:23.089Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/place-for-everyone/300x200.jpg?1395946819
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/place-for-everyone/600x400.jpg?1395946866
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/place-for-everyone/1200x800.jpg?1395946917
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/place-for-everyone/400x400.jpg?1395946895
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/place-for-everyone/1500x340.jpg?1401216847
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/place-for-everyone/3000x680.jpg?1401216819
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/place-for-everyone/480x340.jpg?1401216874
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/place-for-everyone/960x680.jpg?1401216905
+  image_small: http://s3.amazonaws.com/lcapi.production/series/place-for-everyone/300x200.jpg?1395946819
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/place-for-everyone/600x400.jpg?1395946866
+  image_large: http://s3.amazonaws.com/lcapi.production/series/place-for-everyone/1200x800.jpg?1395946917
+  image_social: http://s3.amazonaws.com/lcapi.production/series/place-for-everyone/400x400.jpg?1395946895
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/place-for-everyone/1500x340.jpg?1401216847
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/place-for-everyone/3000x680.jpg?1401216819
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/place-for-everyone/480x340.jpg?1401216874
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/place-for-everyone/960x680.jpg?1401216905
   messages:
   - title: Week 2
     headline: ''
@@ -3048,7 +3123,7 @@
     Easy Steps to Wreck Your Life.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1425-5-easy-steps-to-wreck-your-life
+  open_url: http://open.lifechurch.tv/groups/1425-5-easy-steps-to-wreck-your-life
   promo: ''
   resources_url: ''
   categories:
@@ -3060,14 +3135,14 @@
     name: Sins
     created_at: '2014-06-05T19:20:27.559Z'
     updated_at: '2014-06-11T16:19:31.726Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/five-easy-steps/300x200.jpg?1395949098
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/five-easy-steps/600x400.jpg?1395949158
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/five-easy-steps/1200x800.jpg?1395949182
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/five-easy-steps/400x400.jpg?1395949140
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/five-easy-steps/1500x340.jpg?1401216566
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/five-easy-steps/3000x680.jpg?1401215994
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/five-easy-steps/480x340.jpg?1401216596
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/five-easy-steps/960x680.jpg?1401216764
+  image_small: http://s3.amazonaws.com/lcapi.production/series/five-easy-steps/300x200.jpg?1395949098
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/five-easy-steps/600x400.jpg?1395949158
+  image_large: http://s3.amazonaws.com/lcapi.production/series/five-easy-steps/1200x800.jpg?1395949182
+  image_social: http://s3.amazonaws.com/lcapi.production/series/five-easy-steps/400x400.jpg?1395949140
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/five-easy-steps/1500x340.jpg?1401216566
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/five-easy-steps/3000x680.jpg?1401215994
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/five-easy-steps/480x340.jpg?1401216596
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/five-easy-steps/960x680.jpg?1401216764
   messages:
   - title: How to Become Dissatisfied
     headline: ''
@@ -3092,7 +3167,7 @@
     Acting Like a Christian and Just Be One.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1420-stop-acting-like-a-christian
+  open_url: http://open.lifechurch.tv/groups/1420-stop-acting-like-a-christian
   promo: ''
   resources_url: ''
   categories:
@@ -3108,14 +3183,14 @@
     name: Christine Caine
     created_at: '2014-06-11T15:27:08.231Z'
     updated_at: '2014-06-11T15:27:08.231Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/stop-acting-like-a-christian/300x200.jpg?1395949281
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/stop-acting-like-a-christian/600x400.jpg?1395949351
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/stop-acting-like-a-christian/1200x800.jpg?1395949381
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/stop-acting-like-a-christian/400x400.jpg?1395949305
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/stop-acting-like-a-christian/1500x340.jpg?1401220220
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/stop-acting-like-a-christian/3000x680.jpg?1401220192
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/stop-acting-like-a-christian/480x340.jpg?1401220248
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/stop-acting-like-a-christian/960x680.jpg?1401220285
+  image_small: http://s3.amazonaws.com/lcapi.production/series/stop-acting-like-a-christian/300x200.jpg?1395949281
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/stop-acting-like-a-christian/600x400.jpg?1395949351
+  image_large: http://s3.amazonaws.com/lcapi.production/series/stop-acting-like-a-christian/1200x800.jpg?1395949381
+  image_social: http://s3.amazonaws.com/lcapi.production/series/stop-acting-like-a-christian/400x400.jpg?1395949305
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/stop-acting-like-a-christian/1500x340.jpg?1401220220
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/stop-acting-like-a-christian/3000x680.jpg?1401220192
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/stop-acting-like-a-christian/480x340.jpg?1401220248
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/stop-acting-like-a-christian/960x680.jpg?1401220285
   messages:
   - title: Week 2
     headline: ''
@@ -3149,14 +3224,14 @@
     name: Church Vision
     created_at: '2014-06-11T15:25:52.761Z'
     updated_at: '2014-06-11T15:25:52.761Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/behind-the-curtain/300x200.jpg?1395949464
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/behind-the-curtain/600x400.jpg?1395949509
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/behind-the-curtain/1200x800.jpg?1395949530
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/behind-the-curtain/400x400.jpg?1395949488
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/behind-the-curtain/1500x340.jpg?1401216980
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/behind-the-curtain/3000x680.jpg?1401216946
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/behind-the-curtain/480x340.jpg?1401217001
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/behind-the-curtain/960x680.jpg?1401217044
+  image_small: http://s3.amazonaws.com/lcapi.production/series/behind-the-curtain/300x200.jpg?1395949464
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/behind-the-curtain/600x400.jpg?1395949509
+  image_large: http://s3.amazonaws.com/lcapi.production/series/behind-the-curtain/1200x800.jpg?1395949530
+  image_social: http://s3.amazonaws.com/lcapi.production/series/behind-the-curtain/400x400.jpg?1395949488
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/behind-the-curtain/1500x340.jpg?1401216980
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/behind-the-curtain/3000x680.jpg?1401216946
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/behind-the-curtain/480x340.jpg?1401217001
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/behind-the-curtain/960x680.jpg?1401217044
   messages:
   - title: Week 3
     headline: ''
@@ -3177,7 +3252,7 @@
     we share, serve, and give…as one.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1401-one-prayer-2009
+  open_url: http://open.lifechurch.tv/groups/1401-one-prayer-2009
   promo: ''
   resources_url: ''
   categories:
@@ -3189,14 +3264,14 @@
     name: Worship
     created_at: '2014-06-05T19:23:33.805Z'
     updated_at: '2014-06-05T19:23:33.805Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-09/300x200.jpg?1395949925
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-09/600x400.jpg?1395949977
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-09/1200x800.jpg?1395949997
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-09/400x400.jpg?1395949948
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-09/1500x340.jpg?1401220026
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-09/3000x680.jpg?1401220003
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-09/480x340.jpg?1401220059
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/one-prayer-09/960x680.jpg?1401220124
+  image_small: http://s3.amazonaws.com/lcapi.production/series/one-prayer-09/300x200.jpg?1395949925
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/one-prayer-09/600x400.jpg?1395949977
+  image_large: http://s3.amazonaws.com/lcapi.production/series/one-prayer-09/1200x800.jpg?1395949997
+  image_social: http://s3.amazonaws.com/lcapi.production/series/one-prayer-09/400x400.jpg?1395949948
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/one-prayer-09/1500x340.jpg?1401220026
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/one-prayer-09/3000x680.jpg?1401220003
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/one-prayer-09/480x340.jpg?1401220059
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/one-prayer-09/960x680.jpg?1401220124
   messages:
   - title: God Is...
     headline: ''
@@ -3219,7 +3294,7 @@
     out of control, where do we turn? Join us as we learn from Elijah.</p>
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1397-elijah
+  open_url: http://open.lifechurch.tv/groups/1397-elijah
   promo: ''
   resources_url: ''
   categories:
@@ -3231,14 +3306,14 @@
     name: Miracles
     created_at: '2014-06-11T15:21:20.475Z'
     updated_at: '2014-06-11T15:21:20.475Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/elijah/300x200.jpg?1395950082
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/elijah/600x400.jpg?1395950122
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/elijah/1200x800.jpg?1395950151
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/elijah/400x400.jpg?1395950103
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/elijah/1500x340.jpg?1401218125
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/elijah/3000x680.jpg?1401217923
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/elijah/480x340.jpg?1401218148
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/elijah/960x680.jpg?1401218215
+  image_small: http://s3.amazonaws.com/lcapi.production/series/elijah/300x200.jpg?1395950082
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/elijah/600x400.jpg?1395950122
+  image_large: http://s3.amazonaws.com/lcapi.production/series/elijah/1200x800.jpg?1395950151
+  image_social: http://s3.amazonaws.com/lcapi.production/series/elijah/400x400.jpg?1395950103
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/elijah/1500x340.jpg?1401218125
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/elijah/3000x680.jpg?1401217923
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/elijah/480x340.jpg?1401218148
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/elijah/960x680.jpg?1401218215
   messages:
   - title: Depression
     headline: ''
@@ -3263,7 +3338,7 @@
     as we discover how to see God in everything.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1395-can-you-see-him
+  open_url: http://open.lifechurch.tv/groups/1395-can-you-see-him
   promo: ''
   resources_url: ''
   categories:
@@ -3275,14 +3350,14 @@
     name: Trials
     created_at: '2014-06-11T15:23:13.523Z'
     updated_at: '2014-06-11T15:23:13.523Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/can-you-see-him/300x200.jpg?1395950540
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/can-you-see-him/600x400.jpg?1395950764
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/can-you-see-him/1200x800.jpg?1395950790
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/can-you-see-him/400x400.jpg?1395950743
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/can-you-see-him/1500x340.jpg?1401217125
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/can-you-see-him/3000x680.jpg?1401217109
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/can-you-see-him/480x340.jpg?1401217179
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/can-you-see-him/960x680.jpg?1401217205
+  image_small: http://s3.amazonaws.com/lcapi.production/series/can-you-see-him/300x200.jpg?1395950540
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/can-you-see-him/600x400.jpg?1395950764
+  image_large: http://s3.amazonaws.com/lcapi.production/series/can-you-see-him/1200x800.jpg?1395950790
+  image_social: http://s3.amazonaws.com/lcapi.production/series/can-you-see-him/400x400.jpg?1395950743
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/can-you-see-him/1500x340.jpg?1401217125
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/can-you-see-him/3000x680.jpg?1401217109
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/can-you-see-him/480x340.jpg?1401217179
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/can-you-see-him/960x680.jpg?1401217205
   messages:
   - title: In Your Struggles
     headline: ''
@@ -3305,7 +3380,7 @@
     your own roof. '
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1390-life-money-hope-featuring-dave-ramsey
+  open_url: http://open.lifechurch.tv/groups/1390-life-money-hope-featuring-dave-ramsey
   promo: ''
   resources_url: ''
   categories:
@@ -3317,14 +3392,14 @@
     name: Dave Ramsey
     created_at: '2014-06-11T15:42:22.866Z'
     updated_at: '2014-06-11T15:42:22.866Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/life-money-hope/300x200.jpg?1395950860
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/life-money-hope/600x400.jpg?1395950919
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/life-money-hope/1200x800.jpg?1395950946
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/life-money-hope/400x400.jpg?1395950887
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/life-money-hope/1500x340.jpg?1401219889
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/life-money-hope/3000x680.jpg?1401219843
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/life-money-hope/480x340.jpg?1401219911
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/life-money-hope/960x680.jpg?1401219953
+  image_small: http://s3.amazonaws.com/lcapi.production/series/life-money-hope/300x200.jpg?1395950860
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/life-money-hope/600x400.jpg?1395950919
+  image_large: http://s3.amazonaws.com/lcapi.production/series/life-money-hope/1200x800.jpg?1395950946
+  image_social: http://s3.amazonaws.com/lcapi.production/series/life-money-hope/400x400.jpg?1395950887
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/life-money-hope/1500x340.jpg?1401219889
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/life-money-hope/3000x680.jpg?1401219843
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/life-money-hope/480x340.jpg?1401219911
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/life-money-hope/960x680.jpg?1401219953
   messages:
   - title: '#1 Myth about Money'
     headline: ''
@@ -3354,14 +3429,14 @@
     name: Marriage
     created_at: '2014-06-05T19:14:26.586Z'
     updated_at: '2014-06-05T19:14:26.586Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/the-vow/300x200.jpg?1395951072
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/the-vow/600x400.jpg?1395951126
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/the-vow/1200x800.jpg?1395951144
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/the-vow/400x400.jpg?1395951105
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/the-vow/1500x340.jpg?1400005786
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/the-vow/3000x680.jpg?1400005760
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/the-vow/480x340.jpg?1400005850
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/the-vow/960x680.jpg?1400005806
+  image_small: http://s3.amazonaws.com/lcapi.production/series/the-vow/300x200.jpg?1395951072
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/the-vow/600x400.jpg?1395951126
+  image_large: http://s3.amazonaws.com/lcapi.production/series/the-vow/1200x800.jpg?1395951144
+  image_social: http://s3.amazonaws.com/lcapi.production/series/the-vow/400x400.jpg?1395951105
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/the-vow/1500x340.jpg?1400005786
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/the-vow/3000x680.jpg?1400005760
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/the-vow/480x340.jpg?1400005850
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/the-vow/960x680.jpg?1400005806
   messages:
   - title: The Vow Of Purity
     headline: ''
@@ -3384,7 +3459,7 @@
     or facts we wish to be true, rather than those known to be true... the gray area.
   quote: ''
   quote_cite: ''
-  open_url: http://my.thursdaychurch.org/groups/1371-true-ish
+  open_url: http://open.lifechurch.tv/groups/1371-true-ish
   promo: ''
   resources_url: ''
   categories:
@@ -3392,14 +3467,14 @@
     name: Knowing God
     created_at: '2014-02-03T22:38:58.863Z'
     updated_at: '2014-02-03T22:38:58.863Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/trueish/300x200.jpg?1395951218
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/trueish/600x400.jpg?1395951254
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/trueish/1200x800.jpg?1395951275
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/trueish/400x400.jpg?1395951235
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/trueish/1500x340.jpg?1401220378
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/trueish/3000x680.jpg?1401220356
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/trueish/480x340.jpg?1401220396
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/trueish/960x680.jpg?1401220416
+  image_small: http://s3.amazonaws.com/lcapi.production/series/trueish/300x200.jpg?1395951218
+  image_medium: http://s3.amazonaws.com/lcapi.production/series/trueish/600x400.jpg?1395951254
+  image_large: http://s3.amazonaws.com/lcapi.production/series/trueish/1200x800.jpg?1395951275
+  image_social: http://s3.amazonaws.com/lcapi.production/series/trueish/400x400.jpg?1395951235
+  image_banner_archive: http://s3.amazonaws.com/lcapi.production/series/trueish/1500x340.jpg?1401220378
+  image_banner_archive_2x: http://s3.amazonaws.com/lcapi.production/series/trueish/3000x680.jpg?1401220356
+  image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/trueish/480x340.jpg?1401220396
+  image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/trueish/960x680.jpg?1401220416
   messages:
   - title: As Long As Nobody Gets Hurt
     headline: ''
