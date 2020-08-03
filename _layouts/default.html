@@ -91,7 +91,7 @@
                           <div class="top-nav-right pull-right">
                             <a id="menu-btn" href="javascript:void(0);" title="Menu"><span id="menu-btn-icon" class="icon-fw icon-menu-3"></span><span class="hidden-xs"> Menu</span></a>
                             <a id="events-btn" href="/events/" title="Events"><span class="icon-fw icon-calendar-1"></span><span class="hidden-xs"> Events</span></a>
-                             <a id="give-btn" data-toggle="modal" data-target="#iframe-cta-giving" class="hidden-xs" href="/give/" title="Giving">
+                             <a id="give-btn" class="hidden-xs" href="/give/" title="Giving">
                               <span class="icon-fw icon-heart"></span> Giving</a>
                              
                              <a id="search-btn" href="javascript:void(0);" title="Search">
@@ -119,7 +119,7 @@
                       <li><a href='/about/' style="color: white;">About Us </a></li>
                       <li ><a href='/about/staff/' style="color: white;">Meet The Team  </a></li>
                       <li ><a href='/about/beliefs/' style="color: white;">What We Believe </a></li>
-                      <li ><a data-toggle="modal" data-target="#iframe-cta-contact-us" style="color: white;">Contact Us </a></li>
+                      <li ><a href='/about/contact/' style="color: white;">Contact Us </a></li>
                     </ul>
                   </li>
                   <li id="nav_locations" class='dropdown'><a href='#' id='locations-nav' >Locations</a>
@@ -371,39 +371,7 @@
     {% endif %}
 
 <!-- form modals begin -->
-<!--{% include form-modals.html %}-->
-
-<div class="modal fade" style="" id="iframe-cta-contact-us" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog modal-lg" role="document" style="height:100%;width:100%;">
-      <div class="modal-content" style="height:100%;width:100%;">
-          <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true"><i class="fas fa-times-circle"></i>X</span>
-              </button>
-              <h4 class="modal-title" id="myModalLabel"><i class="fas fa-calendar-plus"></i>&nbsp;Prayer Request</h4>
-          </div>
-          <div class="modal-body" style="height:90%;width:100%;">
-            <iframe allowTransparency="true" style="min-height:300px; height:inherit; overflow:auto;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="//www.123formbuilder.com/my-contact-form-5359398.html"></iframe>
-          </div>
-      </div>
-  </div>
-</div>
-
-<div class="modal fade" style="" id="iframe-cta-giving" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog modal-lg" role="document" style="height:100%;width:100%;">
-      <div class="modal-content" style="height:100%;width:100%;">
-          <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true"><i class="fas fa-times-circle"></i>X</span>
-              </button>
-              <h4 class="modal-title" id="myModalLabel"><i class="fas fa-calendar-plus"></i>&nbsp;Online Giving</h4>
-          </div>
-          <div class="modal-body" style="height:90%;width:100%;"> 
-              <iframe allowTransparency="true" style="min-height:300px; height:inherit; overflow:auto;" width="100%" id="givinglink" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="{{ 'Global' | Attribute:'Giving' }}"></iframe>
-          </div>
-      </div>
-  </div>
-</div>
+{% include form-modals.html %}
 <!-- form modals end -->
 <script>
 initSample();

@@ -19,8 +19,6 @@
   })
 </script>
 
-<!-- Begin reusable Modals -->
-
 <!-- Begin Notes Modal -->
     <div id="notes-Modal" class="modal fade" role="dialog">
 
@@ -338,4 +336,37 @@ not be included in the outgoing email as part of your prayer request.</small></p
       </div>
     </div>
 
+</div>
+
+
+<div class="modal fade" style="" id="iframe-cta-contact-us" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document" style="height:100%;width:100%;">
+      <div class="modal-content" style="height:100%;width:100%;">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true"><i class="fas fa-times-circle"></i>X</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"><i class="fas fa-calendar-plus"></i>&nbsp;Prayer Request</h4>
+          </div>
+          <div class="modal-body" style="height:90%;width:100%;">
+              <iframe allowTransparency="true" style="min-height:300px; height:inherit; overflow:auto;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="//www.123formbuilder.com/my-contact-form-5359398.html"></iframe>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="modal fade" style="" id="iframe-cta-giving" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document" style="height:100%;width:100%;">
+      <div class="modal-content" style="height:100%;width:100%;">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true"><i class="fas fa-times-circle"></i>X</span>
+              </button>
+              <h4 class="modal-title" id="myModalLabel"><i class="fas fa-calendar-plus"></i>&nbsp;Online Giving</h4>
+          </div>
+          <div class="modal-body" style="height:90%;width:100%;"> 
+              <iframe allowTransparency="true" style="min-height:300px; height:inherit; overflow:auto;" width="100%" id="givinglink" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="{{ 'Global' | Attribute:'Giving' }}"></iframe>
+          </div>
+      </div>
+  </div>
 </div>
