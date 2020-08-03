@@ -552,10 +552,10 @@ permalink: /map/
   </div>
 </section>
 
-    <div class="give-modal full reveal" data-animation-in="fade-in fast" data-animation-out="fade-out fast" data-deep-link="true" data-reset-on-close="true" data-reveal="" id="giving-app"><div class="giving-loader absolute-center"></div></div>
-    <footer class="footer footer-closing">
-  <div class="row">
-    <div class="footer-closing-copy-fd large-6 medium-12 small-12 columns">
-      <p>Join us at <a href="http://live.life.church" target="_blank">Church Online<i class="icon icon-window"></i></a> or a <a href="/locations">Life.Church location</a>.</p>
-      <p>&copy; 2020 Life.Church. All rights reserved. <a href="/privacy/">Privacy Policy</a> | <a href="/terms/">Terms of Use</a></p>
-    </div>
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiamF5Z3JlZW50cmVlIiwiYSI6ImNqM2kxdnZ0bDAwbWkyd3F0cHExNXkxNnMifQ.KxZ8y7BdrON3g0pI9n__ZQ';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11'
+    });
+    </script>
