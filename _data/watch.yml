@@ -12,7 +12,7 @@
   image_medium: /assets/images/watch/series/Whats-At-The-Core.png
   image_large: /assets/images/watch/series/Whats-At-The-Core.png
   image_social: /assets/images/watch/series/Whats-At-The-Core.png
-  messages:
+  categories:
   - title: Serve God and Others
     headline: ''
     video: 671ilM0gBho
@@ -44,7 +44,7 @@
   image_medium: /assets/images/watch/series/healthy-heart-series.png
   image_large: /assets/images/watch/series/healthy-heart-series.png
   image_social: /assets/images/watch/series/healthy-heart-series.png
-  messages:
+  categories:
   - title: Physical Health
     headline: ''
     video: kAVvjH1vvNc
@@ -76,7 +76,7 @@
   image_medium: /assets/images/watch/series/vision-2020.jpg
   image_large: /assets/images/watch/series/vision-2020.jpg
   image_social: /assets/images/watch/series/vision-2020.jpg
-  messages:
+  categories:
   - title: Seek
     headline: 
     video: n4iqCLsDBDg
