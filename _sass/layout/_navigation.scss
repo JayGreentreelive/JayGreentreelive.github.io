@@ -1,0 +1,140 @@
+// Navigation - Bar along the top of the page with logo and links
+///////////////////////////////////////////////////////////////////////////////
+
+#navigation {
+  @include transition(background .25s ease-in-out);
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  position: relative;
+  z-index: 10;
+
+  #header-logo {
+    @include span-columns(8);
+    @include svg-image('../images/branding/logo-red-black');
+    @extend %hide-text;
+
+    .logo-white-white & {
+      @include svg-image('../images/branding/logo-white-white');
+    }
+
+    .logo-red-white & {
+      @include svg-image('../images/branding/logo-red-white');
+    }
+
+    .logo-red-black & {
+      @include svg-image('../images/branding/logo-red-black');
+    }
+
+    .logo-black-black & {
+      @include svg-image('../images/branding/logo-black-black');
+    }
+
+    height: 30px;
+    background-size: auto 20px;
+    background-position: left center;
+
+    @include media($large-screen) {
+      @include span-columns(3);
+    }
+  }
+
+  nav {
+    @include span-columns(4);
+    text-align: right;
+    margin-top: 4px;   
+
+    @include media($large-screen) {
+      @include span-columns(9);
+    }
+
+    a {
+      color: $black;
+      display: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: $helvetica;
+      font-size: 14px; // Fixed px size to force across all screen sizes
+
+      &.js-more-trigger {
+        display: inline;
+      }
+
+      &:hover {
+        color: $dark-blue;
+      }
+
+      @include media($large-screen) {
+        display: inline;
+        margin-left: 1.5em;
+      }
+    }
+  }
+}
+
+#navigation .nav-live {
+  color: $dark-gray;
+  position: relative;
+
+  .header-light & {
+    color: rgba(255, 255, 255, .5);
+  }
+
+  &.is-live {
+    color: $red !important;
+
+    &.alt {
+      color: lighten($red, 20%) !important;
+    }
+
+    span {
+      display: none;
+    }
+  }
+
+  span {
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    font-size: 9px;
+  }
+}
+
+.lt-ie9 .js-more-trigger {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#persistent-navigation.excuse-me {
+  top: 79px !important;
+} 
+
+.navigation-wrapper {
+  height: 80px;
+}
+
+#navigation.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(255, 255, 255, .97);
+  border-bottom: 1px solid #DDD;
+
+  #header-logo {
+     @include svg-image('../images/branding/logo-red-black');
+  }
+
+  div nav a {
+    color: #444;
+
+    .more-line-1,
+    .more-line-2,
+    .more-line-3 {
+      background: #444;
+    }
+  }
+
+  .nav-live {
+    color: $dark-gray;
+  }
+}

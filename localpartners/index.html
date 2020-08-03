@@ -1,0 +1,147 @@
+---
+layout: default
+title: Local Partners
+permalink: /localpartners/
+---
+#####
+#
+# class: header-red localpartners logo-white-white header-light
+# hero: localpartners-bg
+#
+#####
+
+  <div class="hero-inner">
+    <div class="hero-copy alt" style="margin:0 auto 1em;">
+      <figure class="connectlocally-logo"></figure>
+      <p class="detail" style="margin-top:1em;">We believe the local church is the hope of the world. That's why we're passionate about supporting relief and restoration efforts in each of our communities. By partnering with local organizations, we know we can accomplish infinitely more together.</p>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <section class="grid-items grid-one text-center">
+    <div class="grid-item">
+      <h2>Find a Local Partner</h2>
+      <p>Just select the causes you're interested in and your community to find local partners near you.</p>
+    </div>
+  </section>
+  <section class="grid-items grid-two text-center">
+    <div class="grid-item panel cause-panel">
+      <h3>Needs</h3>
+      <article>
+        <p>Learn more about local partners meeting specific needs by selecting one or more options below.</p>
+      </article>
+      <ul id="persistent-navigation">
+        <li><a href="/localpartners/?q=adoption-fostering" class="button">Adoption &amp; Fostering</a></li>
+        <li><a href="/localpartners/?q=food-clothing-shelter" class="button">Food, Clothing, &amp; Shelter</a></li>
+        <li><a href="/localpartners/?q=mentoring-education" class="button">Mentoring &amp; Education</a></li>
+        <li><a href="/localpartners/?q=recovery-transitional-living" class="button">Recovery &amp; Transitional Living</a></li>
+        <li><a href="/localpartners/?q=spiritual-development" class="button">Spiritual Development</a></li>
+        <li><a href="/localpartners/?q=military" class="button">Military</a></li>
+        <li><a href="/localpartners/?q=pregnancy-care" class="button">Pregnancy Care</a></li>
+        <li><a href="/localpartners/?q=neighborhood-community-development" class="button">Neigborhood/Community Development</a></li>
+      </ul>
+    </div>
+    <div class="grid-item panel cause-panel">
+      <h3>Communities</h3>
+      <article>
+        <p>Find partners in your community by selecting from the options below.</p>
+      </article>
+      <ul id="persistent-navigation">
+        <li><a href="/localpartners/?q=okc" class="button">Oklahoma City Metro</a></li>
+        <li><a href="/localpartners/?q=stillwater" class="button">Stillwater, OK</a></li>
+        <li><a href="/localpartners/?q=tulsa" class="button">Tulsa Metro</a></li>
+        <li><a href="/localpartners/?q=dfw" class="button">Dallas-Forth Worth Metro</a></li>
+        <li><a href="/localpartners/?q=hendersonville" class="button">Hendersonville, TN</a></li>
+        <li><a href="/localpartners/?q=albany" class="button">Albany, NY</a></li>
+        <li><a href="/localpartners/?q=wellington" class="button">Wellington, FL</a></li>
+        <li><a href="/localpartners/?q=rio-rancho" class="button">Rio Rancho, NM</a></li>
+        <li><a href="/localpartners/?q=wichita" class="button">Wichita, KS</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Search form -->
+  <form method="get" action="/localpartners" data-search-form id="hide">
+    <input type="search" name="q" id="q" placeholder="Search for a cause..." data-search-input autofocus="autofocus" />
+  </form>
+  <!-- Search results placeholder -->
+  <div class="search-description">
+    <p data-search-found class="detail">
+      <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+    </p>
+  </div>
+</div>
+
+<div class="group of-grid-items">
+  <!-- Archive Grid -->
+  <div class="container">
+    <div class="grid-items grid-three involved-list">
+      {% for location in site.data.locations %}
+      {% for item in location.missions %}
+      {% capture type %}Locations{% endcapture %}
+      {% include involved-local-partners.html %}
+      {% endfor %}
+       {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="container" id="search-results-grid">
+  <a name="results"></a>
+  <div class="grid-items grid-one text-center">
+    <div data-has-search-results class="hide">
+      <div class="grid-item">
+          <h2>Connect with a Local Partner</h2>
+          <p>Below are the organizations that match your interests. Learn more about local partners and share your information to get involved.</p>
+      </div>
+    </div>
+    <div data-has-no-search-results class="hide">
+      <div class="grid-item">
+        <h2>Connect with a Local Partner</h2>
+        <p>We don't yet have a local partner that matches your selections.</p>
+      </div>
+    </div>
+  </div>
+  <div class="grid-items grid-three involved-list">
+    <div data-search-results></div>
+  </div>
+</div>
+
+<!-- Search result template -->
+<script type="text/x-template" id="search-result">
+  <!-- Archive Grid -->
+    <div id="##Id##" class="grid-item panel involved-item">
+      <h6 style="font-weight:900;font-size:1.35em;color:black;">##Title##</h6>
+      <p class="detail" style="font-style:italic;color:#b4b4b4;">##Location##</p>
+      <p><a class="button">##Cause##</a></p>
+      <p class="detail">##Description##</p>
+      <div class="cta">
+      <p>
+        <a href="#"
+           class="action get-involved"
+           onclick="ga('send', 'event', '##Id##', 'Click', 'Expand ##Title##');">
+           Get Involved <i class="icon icon-arrow"></i>
+        </a>
+      </p>
+
+      <form class="form-involved" style="display:none;" action="http://lifechurch-site-mailer.herokuapp.com/involved" method="post">
+          <input type="hidden" class="recipient" name="recipient" value="##Recipient##" />
+          <input type="hidden" class="title" name="subject" value="##Location## - ##Title##" />
+        <hr />
+        <h6>Get Connected</h6>
+        <p class="detail">Give us your name and email address and we'll get back to you on how to get started.</p>
+        <input type="text" class="details" name="name" placeholder="Name" />
+        <input type="text" class="details" name="email" placeholder="Email" />
+
+        <input type="text" class="details" name="number" placeholder="Phone (Optional)" />
+
+        <input type="submit"
+               class="button small submit-involved"
+               value="Get Involved"
+               onclick="ga('send', 'event', 'Local Partners ##Id##', 'Click', '##Title##');missionsContactValidate();" />
+      </form>
+    </div>
+  </div>
+</script>
+<script type="text/javascript" src="/js/search-missions.js"></script>

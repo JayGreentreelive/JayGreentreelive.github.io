@@ -1,0 +1,117 @@
+// Tile items - Full-bleed background tiles, can be used in link form.
+///////////////////////////////////////////////////////////////////////////////
+
+$tile-color: white;
+$tile-color-alt: $black;
+
+.tile-one,
+.tile-two,
+.tile-three {
+  @include row();
+  max-width: $max-page-width;
+  margin: 0 auto;
+  font-family: $sans-serif;
+  font-weight: 400;
+
+  .tile-item {
+    width: 100%;
+    height: 180px;
+    padding: 80px 1em 0;
+    text-align: center;
+    font-family: $sans-serif;
+    border-bottom: 2px solid $tile-color;
+    background-size: cover !important;
+
+    @include media($medium-screen) {
+      height: 252px;
+      padding: 1em;
+      line-height: 200px;
+    }
+  }
+
+  a.tile-item {
+    color: white;
+    font-size: 1.4em;
+    text-shadow: 0 1px 2px $black;
+    display: block;
+    position: relative;
+    
+    @include media($medium-screen) {
+      &:after {
+        @include transition (background 0.1s ease-in-out);
+        content: "";
+        width: 100%;
+        height: 248px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0);
+      }
+
+      &:hover:after {
+        background: rgba(0, 0, 0, 0.5);
+      }
+    }
+
+    // When the tile is a link, put any copy in a span to prevent it being blown
+    // out by the hover color.
+    span {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+    }
+  }
+}
+
+@include media($medium-screen) {
+  .tile-one .tile-item {
+    width: 100%;
+    border: 2px solid $tile-color;
+  }
+  
+  .tile-two .tile-item {
+    width: 50%;
+    float: left;
+    border: 2px solid $tile-color;
+    border-left: none;
+  }
+  
+  .tile-three .tile-item {
+    width: 33%;
+    float: left;
+    border: 2px solid $tile-color;
+    border-left: none;
+    
+    &:nth-child(3n) {
+      width: 34%;
+      border-right: none;
+    }
+  }
+}
+
+.tile-alt .tile-item {
+  border-color: $tile-color-alt;
+}
+
+.lt-ie9 .tile-one .tile-item {
+  width: 100%;
+  margin: 0;
+  border: none;
+  float: left;
+}
+
+.lt-ie9 .tile-two .tile-item {
+  width: 50%;
+  margin: 0;
+  border: none;
+  float: left;
+}
+
+.lt-ie9 .tile-three .tile-item {
+  width: 33%;
+  margin: 0;
+  border: none;
+  float: left;
+}

@@ -1,0 +1,306 @@
+// Watch Page
+///////////////////////////////////////////////////////////////////////////////
+
+.page-watch {
+
+  .watch-hero {
+    @include retina-image(/images/watch/watch-bg, cover, jpg);
+    background-color: #000;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 280px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media only screen and (max-width: $medium-screen) {
+      @include retina-image(/images/watch/watch-bg-small, cover, jpg);
+      background-color: #000;
+      background-position: top left;
+      background-repeat: no-repeat;
+      height: auto;
+    }
+    
+    h1 {
+      margin: 0;
+
+      a {
+        color: white;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+  }
+
+  .ribbon-wrapper {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 105px;
+    height: 90px;
+    font-family: $sans-serif;
+    font-size: 1.3em;
+
+    .ribbon {
+      font-size: .8em;
+      font-weight: 800;
+      text-align: center;
+      transform:rotate(45deg);
+      -ms-transform:rotate(45deg); /* IE 9 */
+      -webkit-transform:rotate(45deg); /* Opera, Chrome, and Safari */
+      position: relative;
+      padding: 2px 7px;
+      left: 31px;
+      top: -26px;
+      width: 120px;
+      background-color: $red;
+      color: white;
+      padding-top: 50px;
+    }
+  }
+}
+
+.lt-ie9 .ribbon-wrapper {
+  display: none;
+}
+
+// Series page
+///////////////////////////////////////////////////////////////////////////////
+
+.messages-with-description {
+  @include row(); 
+  padding-bottom: 3em;
+
+  .series-messages {
+    @include media($medium-screen) {
+      @include span-columns(5);
+      @include omega();
+      padding-top: 2em;
+      padding-bottom: 2em;
+      float: right;
+    }
+
+    .message {
+      @include row();
+      display: block;
+      font-size: 16px;
+      padding: 1em;
+      border-radius: $base-border-radius; 
+
+      @include media($max-width) {
+        margin: 0 -1em;
+      }
+
+      &:hover {
+        background: $light-blue;
+      }
+
+      &.live {
+        background: $blue;
+        color: white;
+
+        &:hover {
+          background: darken($blue, 10%);
+        }
+      }
+
+      .series-number {
+        @extend h4;
+        @include span-columns(2);
+        
+        margin-top: -4px;
+        margin-bottom: 0;
+      }
+
+      h6 {
+        @include span-columns(7);
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .action {
+        @include span-columns(3);
+        text-align: right;
+
+        i {
+          float: none;
+        }
+      }
+    }
+  }
+
+  .series-description {
+    @include media($medium-screen) {
+      @include span-columns(6);
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+  }
+}
+
+.no-touch .message.live a {
+  background: $blue;
+  color: #fff !important;
+  margin-bottom: 8px;
+
+  &:hover {
+    background: darken($blue, 5%);
+  }
+
+  h4,
+  h5,
+  h6 {
+    color: #fff !important;
+  }
+}
+
+
+.watch-archive-art {
+  @include media($medium-screen) {
+    margin-top: 30px;
+  }
+}
+
+.watch-podcast,
+.watch-talkitover,
+.watch-open {
+  padding-top: 10px !important;
+  padding-bottom: 12px !important;
+}
+
+.watch-podcast:before,
+.watch-talkitover:before,
+.watch-open:before {
+  content: "";
+  display: block;
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-top: -3px
+}
+
+.watch-podcast:before {
+  @include svg-image('/images/watch/watch-podcast');
+}
+
+.watch-talkitover:before {
+  @include svg-image('/images/watch/watch-talkitover');
+}
+
+.watch-open:before {
+  @include svg-image('/images/watch/watch-open');
+}
+
+.watch-message-first-archive {
+  position: relative;
+  display: block;
+  float: left;
+
+  span {
+    text-indent: -999em;
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: black;
+    background: rgba(0,0,0,.4);
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 100px;
+    border: 2px solid white;
+    border: 2px solid rgba(255,255,255,.6);
+  }
+
+  &:hover span {
+    background: rgba(0,0,0,.6);
+  }
+}
+
+.hero-watch-archive {
+  background-color: #f0f1eb;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1500px;
+  margin: -27px auto 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  color: #fff;
+  min-height: 340px;
+
+  @include media($medium-screen) {
+    margin: -33px auto;
+  }
+
+  &:hover {
+    color: #fff;
+  }
+
+  .inner {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, .3);
+    position: absolute;
+    top: 0;
+  }
+
+  .play-large {
+    @include svg-image('/images/watch/watch-play-large');
+    width: 44px;
+    height: 53px;
+    padding: 60px;
+    background-size: 44px 53px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border-radius: 100px;
+    background-color: rgba(0,0,0,.6);
+    display: block;
+    margin: 60px auto 0;
+  }
+
+  &:hover .play-large {
+    background-color: rgba(0,0,0,1);
+  }
+
+  h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #fff !important;
+  }
+}
+
+.hero-watch-archive.hero-tio {
+  min-height: 220px;
+
+  .inner {
+    padding-top: 85px;
+  }
+
+  .logo-talkitover {
+    @include svg-image('../images/branding/logo-talkitover');
+    @extend %hide-text;
+    background-position: center;
+    display: block;
+    height: 63px;
+
+    @include media($medium-screen) {
+      height: 113px;
+    }
+  }
+
+  @include media($medium-screen) {
+    min-height: 340px;
+
+    .inner {
+      padding-top: 140px;
+    }
+  }
+}

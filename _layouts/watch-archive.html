@@ -4,32 +4,132 @@ section: watch
 class: header-red section-watch section-series
 ---
 
-           
 {% for series in site.data.watch %}
 {% if series.id == page.series-id %}
 
-<!-- Page Main -->
-<div class="page-main">
-{% comment %}
-  <div class="page-section section-first">
-    <div class="row">
-      <div class="medium-6 large-4 columns">
-        <h1 class="text-red">{{ series.title }}</h1>
-        <p>{{ series.description_medium | newline_to_br }}</p>
-      </div>
-      <div class="medium-6 large-7 columns">
-        <img class="watch-archive-art" data-interchange="[{{ series.image_medium }}, (default)], [{{ series.image_large }}, (medium)]" alt="{{ series.title }}" />
-        <noscript><img class="watch-archive-art" src="{{ series.image_small }}" alt="{{ series.title }}" /></noscript>
-      </div>
+{% include tertiary.html %}
+
+{% if forloop.first %}
+  {% for message in series.messages %}
+  {% if forloop.first %}
+  <a href="javascript:void(0)"  
+     {% if series.image_banner_archive == '' %}
+     style="background-image: url('{{ series.image_large }}')"
+     {% else %}
+     style="background-image: url('{{ series.image_banner_archive_small_2x }}')" 
+     data-banner-archive-2x="background-image: url('{{ series.image_banner_archive_small_2x }}')"
+     data-banner-archive-large="background-image: url('{{ series.image_banner_archive }}')"
+     data-banner-archive-large-2x="background-image: url('{{ series.image_banner_archive_2x }}')"
+     {% endif %}
+     data-video-player="{{message.video}}"
+     class="hero section-light hero-watch-archive"
+     onclick="ga('send', 'event', 'Watch', 'Click', 'Play Message Hero');">
+     
+    <div class="inner">
+      <span class="play-large"></span>
+      <h1>{{ series.title }}</h1>
+      Watch latest video
     </div>
-  </div>
-{% endcomment %}
-  {% include watch-messages.html %}
-}
+  </a>
+  {% endif %}
+  {% endfor %}
+{% else %}
+  {% for message in series.messages reversed %}
+  {% if forloop.first %}
+  <a href="javascript:void(0)"
+     class="hero section-light hero-watch-archive"
+     {% if series.image_banner_archive == '' %}
+     style="background-image: url('{{ series.image_large }}')"
+     {% else %}
+     style="background-image: url('{{ series.image_banner_archive_small }}')"
+     data-banner-archive-2x="background-image: url('{{ series.image_banner_archive_small_2x }}')"
+     data-banner-archive-large="background-image: url('{{ series.image_banner_archive }}')"
+     data-banner-archive-large-2x="background-image: url('{{ series.image_banner_archive_2x }}')"
+     {% endif %}
+     data-video-player="{{message.video}}"
+     onclick="ga('send', 'event', 'Watch', 'Click', 'Play Message Hero');"
+     >
+    <div class="inner">
+      <span class="play-large"></span>
+      <h1>{{ series.title }}</h1>
+      Watch week 1
+    </div>
+  </a>
+  {% endif %}
+  {% endfor %}
+{% endif%}
+
+<div class="container messages-with-description">
+  <section class="series-messages">
+    <h2>In this series</h2>
+    <div class="watch-messages">
+      {% if page.live == true %}
+      <a class="message live" href="http://live.lifechurch.tv/" onclick="ga('send', 'event', 'Watch', 'Click', 'Live');">
+        <span class="series-number series-live-icon">Live </span>
+        <h6>Church Online <span data-churchonline-counter></span></h6>
+        <div class="action"><span>Visit</span> <i class="icon icon-arrow"></i></div>
+      </a>
+      {% endif %}
+
+      <!-- Get the messages out of the series and list them out -->
+      {% for message in series.messages reversed %}
+
+      <a class="message" href="javascript:void(0);" data-video-player="{{message.video}}" onclick="ga('send', 'event', 'Watch', 'Play', 'Play Message');">
+        <span class="series-number">{% cycle '1', '2', '3', '4', '5', '6' %}</span>
+        <h6>{{ message.title }}</h6>
+        <div class="action">Play <i class="icon icon-play"></i></div>
+      </a>
+    {% endfor %}
+  </section>
+
+  <section class="series-description">
+     <h2>Series description</h2> 
+     <p>{{ series.description_medium | newline_to_br }}</p>
+
+     <p class="detail">
+       <a onclick="return popitup('http://twitter.com/home/?status=I’d love to share this @lifechurchtv message with you: “{{ series.title }}” http://lifechurch.tv{{ page.url }}');ga('send', 'event', 'Watch', 'Click', 'Invite on Twitter')" href="http://twitter.com/home/?status=I'd love to share this @lifechurchtv message with you: “{{ series.title }}” http://lifechurch.tv{{ page.url }}" target="_blank" class="action"><i class="icon-social-twitter"></i> Invite on Twitter</a>
+       <a onclick="return popitup('http://www.facebook.com/sharer.php?app_id=567912296616576&amp;sdk=joey&amp;u=http%3A%2F%2Fwww.lifechurch.tv{{ page.url }}');ga('send', 'event', 'Watch', 'Click', 'Invite on Facebook')" href="http://www.facebook.com/sharer.php?app_id=567912296616576&amp;sdk=joey&amp;u=http%3A%2F%2Fwww.lifechurch.tv{{ page.url }}" target="_blank" class="action"><i class="icon-social-facebook"></i> Invite on Facebook</a>
+       <!--<a href="https://plus.google.com/share?url=www.lifechurch.tv{{ page.url }}" target="_blank" class="action small"><i class="icon-social-gplus"></i> Invite on Google+</a>-->
+     </p>
+  </section>
 </div>
 
-<!--<div class="series-locator">series-{{ series.id }}</div>-->
+<div class="page-main">
+  {% for message in series.messages %}
+  {% include video-player.html id=message.video %}
+  {% endfor %}
+</div>
 
+<div class="series-locator">series-{{ series.id }}</div>
+
+{% unless series.categories == empty %}
+<div class="group alt">
+  <div class="container">
+    <h2>Related Series</h2> 
+
+    <div class="grid-items grid-three">
+    {% for category in series.categories limit:1 %}{% for related in site.data.watch %}{% for categories in related.categories %}{% if categories.name == category.name %}{% unless related.title == series.title %}{% for post in site.categories.watch %}{% if post.series-id == related.id limit:9 %}
+    <!-- Archive Item -->
+    <div class="grid-item watch-item">
+      <a href="{{ post.url }}" onclick="ga('send', 'event', 'Watch', 'Click', 'Related Message');">
+        <div class="panel">
+          <img src="{{ related.image_small }}" data-retina="{{ related.image_medium }}" />
+          <h6>{{ related.title }}</h6>
+        </div>
+      </a>
+    </div>
+    {% endif %}{% endfor %}{% endunless %}{% endif %}{% endfor %}{% endfor %}{% endfor %}
+  </div>
+</div>
+{% endunless %}
 
 {% endif %}
 {% endfor %}
+
+<script language="javascript" type="text/javascript">
+  function popitup(url) {
+    newwindow=window.open(url,'name','height=300,width=550');
+    if (window.focus) {newwindow.focus()}
+    return false;
+  }
+</script>

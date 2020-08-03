@@ -1,0 +1,25 @@
+baseurl: /
+permalink: /:categories/:title/
+markdown: rdiscount
+excerpt_separator: ""
+relative_permalinks: false
+exclude: ["vendor","gruntfile.js","package.json","README.md","Rakefile","Procfile","Gemfile","Gemfile.lock","CNAME","config.ru","node_modules"]
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+prose:
+  rooturl: 'announcements/_posts'
+  siteurl: 'http://www.lifechurch.tv/'
+  metadata:
+    _posts:
+      - name: 'layout'
+        field:
+          element: 'hidden'
+          value: 'announcement'
+      - name: 'permalink'
+        field:
+          element: 'text'
+          label: 'Permalink'
+          value: ''

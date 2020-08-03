@@ -1,0 +1,84 @@
+---
+layout: default
+title: Watch a Message
+class: header-light section-watch page-watch logo-red-white
+hero: watch-hero
+---
+
+  <div class="hero-inner">
+    <div class="hero-side alt">
+      <h1 class="h2">View a message on demand or <a href="http://live.lifechurch.tv" onclick="ga('send', 'event', 'Watch', 'Click', 'Live');">visit a live experience <span data-churchonline-counter></span> <i class="icon-arrow"></i></a></h1>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="container padded">
+  <!-- Search form -->
+  <form method="get" action="/watch" data-search-form>
+    <input type="search" name="q" id="q" placeholder="Search for a series" data-search-input autofocus="autofocus" />
+  </form>
+
+  <!-- Search results placeholder -->
+  <div class="search-description">
+    <p data-search-found class="detail">
+      <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="grid-items grid-three">
+    <div data-search-results></div>
+  </div>
+</div>
+
+<!-- Search result template -->
+<script type="text/x-template" id="search-result">
+  <div class="grid-item watch-item">
+    <a href="##Url##">
+      <div class="panel">
+        <img src="##Image##" />
+        <h6>##Title##</h6>
+      </div>
+    </a>
+  </div>
+</script>
+
+<div class="group of-grid-items">
+  <!-- Archive Grid -->
+  <div class="container">
+    <div class="grid-items grid-three">
+      {% for post in site.categories.watch limit:9 %}
+      {% for series in site.data.watch %}
+      {% if series.id == post.series-id %}
+
+      <!-- Archive Item -->
+      <div class="grid-item watch-item">
+        <a href="{{ post.url }}">
+          <div class="panel">
+            {% if post.live == true %}
+            <div class="ribbon-wrapper"><div class="ribbon">LIVE</div></div>
+            {% endif %}
+
+            <img src="{{ series.image_small }}" data-retina="{{ series.image_medium }}" />
+            <h6>{{ series.title }}</h6>
+          </div>
+        </a>
+      </div>
+
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<p class="text-center container">
+  <a href="/watch/archive/"
+     class="action large text-black"
+     onclick="ga('send', 'event', 'Watch', 'Click', 'View Archives');">
+     View more archives <i class="icon icon-play"></i>
+  </a>
+</p>

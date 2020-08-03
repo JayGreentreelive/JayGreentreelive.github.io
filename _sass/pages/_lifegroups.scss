@@ -1,0 +1,186 @@
+// LifeGroups page section
+
+// Establish the height of the main section
+// Small
+.section-lifegroups-top {
+  // Medium sized
+  @media only screen and (min-width: 40.063em) {
+    height: 780px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    height: 700px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    height: 600px;
+  }
+}
+
+// Hide the tertiary nav
+.lifegroups .page-tertiary {
+  display: none;
+}
+
+// Clear the call to action
+.section-lifegroups-find {
+  padding: 4em 0 3.5em;
+  clear: both;
+}
+
+.hero-lifegroups-inner {
+  text-align: left;
+  @include span-columns(9);
+  @include shift(3);
+
+  @include media($medium-screen) {
+    @include span-columns(6);
+    @include shift(6);
+  }
+}
+
+.lifegroups #tertiary {
+  display: none;
+}
+
+.hero blockquote {
+  margin-bottom: 0;
+
+  p {
+    margin-bottom: .3em;
+  }
+}
+
+
+// Tile 1
+.lifegroups-tile-1 {
+  @include retina-image(/images/lifegroups/lifegroups-1-tile, cover, jpg);
+}
+
+// Tile 2
+.lifegroups-tile-2 {
+  @include retina-image(/images/lifegroups/lifegroups-2-tile, cover, jpg);
+}
+
+// Tile 3
+.lifegroups-tile-3 {
+  @include retina-image(/images/lifegroups/lifegroups-3-tile, cover, jpg);
+}
+
+// Tile 4
+.lifegroups-tile-4 {
+  @include retina-image(/images/lifegroups/lifegroups-4-tile, cover, jpg);
+}
+
+
+// Page-specific
+
+.has-alerts.lifegroups-1,
+.has-alerts.lifegroups-2,
+.has-alerts.lifegroups-3,
+.has-alerts.lifegroups-4 {
+  background-position: left 44px;
+  @include media($medium-screen) {
+    background-position: center 44px;
+  }
+}
+
+// LifeGroups 1
+.lifegroups-1 .section-lifegroups-top {
+  background-repeat: no-repeat;
+  background-color: #222;
+
+  @media only screen and (max-width: $medium-screen) {
+    @include retina-image(/images/lifegroups/lifegroups-1-thin, 100% auto, jpg);
+    background-color: #d9e5cd;
+    background-position: left top;
+  }
+ 
+  @include media($medium-screen) {
+    @include retina-image(/images/lifegroups/lifegroups-1, cover, jpg);
+    background-position: -320px top;
+  }
+
+  @include media($large-screen) {
+    background-position: center top;
+  }
+
+  .lt-ie9 & {
+    background: url("/images/lifegroups/lifegroups-1.jpg") center top no-repeat;
+  }
+}
+
+// LifeGroups 2
+.lifegroups-2 .section-lifegroups-top {
+  background-repeat: no-repeat;
+  background-color: #222;
+
+  @media only screen and (max-width: $medium-screen) {
+    @include retina-image(/images/lifegroups/lifegroups-2-thin, 100% auto, jpg);
+    background-position: left top;
+    background-color: #fefff1;
+  }
+
+  @include media($medium-screen) {
+    @include retina-image(/images/lifegroups/lifegroups-2, cover, jpg);
+    background-position: -320px top;
+  }
+
+  @include media($large-screen) {
+    background-position: center top;
+  }
+
+  .lt-ie9 & {
+    background: url("/images/lifegroups/lifegroups-2.jpg") center top no-repeat;
+  }
+}
+
+// LifeGroups 3
+.lifegroups-3 .section-lifegroups-top {
+  background-repeat: no-repeat;
+  background-color: #222;
+
+  @media only screen and (max-width: $medium-screen) {
+    @include retina-image(/images/lifegroups/lifegroups-3-thin, 100% auto, jpg);
+    background-position: left top;
+    background-color: #000;
+  }
+
+  @include media($medium-screen) {
+    @include retina-image(/images/lifegroups/lifegroups-3, cover, jpg);
+    background-position: -320px top;
+  }
+
+  @include media($large-screen) {
+    background-position: center top;
+  }
+
+  .lt-ie9 & {
+    background: url("/images/lifegroups/lifegroups-3.jpg") center top no-repeat;
+  }
+}
+
+// LifeGroups 4
+.lifegroups-4 .section-lifegroups-top {
+  background-repeat: no-repeat;
+  background-color: #222;
+
+  @media only screen and (max-width: $medium-screen) {
+    @include retina-image(/images/lifegroups/lifegroups-4-thin, 100% auto, jpg);
+    background-position: left top;
+    background-color: #faf9dd;
+  }
+
+  @include media($medium-screen) {
+    @include retina-image(/images/lifegroups/lifegroups-4, cover, jpg);
+    background-position: -320px top;
+  }
+
+  @include media($large-screen) {
+    background-position: center top;
+  }
+
+  .lt-ie9 & {
+    background: url("/images/lifegroups/lifegroups-4.jpg") center top no-repeat;
+  }
+}
