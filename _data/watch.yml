@@ -19,29 +19,17 @@
     created_at: '2020-07-05T12:00:00-04:00Z'
     updated_at: '2020-06-11T15:18:18.611Z'
   - id: 31
-    name: Insecurity
+    name: Lessons learned from a pig
     created_at: '2020-06-11T15:18:45.147Z'
     updated_at: '2020-06-11T15:18:45.147Z'
   - id: 35
-    name: Feelings
+    name: Lessons learned from Geese
     created_at: '2020-06-11T15:20:16.022Z'
     updated_at: '2020-06-11T15:20:16.022Z'
   - id: 39
-    name: Purpose
+    name: Lessons Learned from Sheep
     created_at: '2020-06-11T15:21:10.086Z'
     updated_at: '2020-06-11T15:21:10.086Z'
-  - id: 42
-    name: Disciplines
-    created_at: '2020-06-11T15:23:03.968Z'
-    updated_at: '2020-06-11T15:23:03.968Z'
-  - id: 43
-    name: Trials
-    created_at: '2020-06-11T15:23:13.523Z'
-    updated_at: '2020-06-11T15:23:13.523Z'
-  - id: 13
-    name: Sins
-    created_at: '2020-06-05T19:20:27.559Z'
-    updated_at: '2020-06-11T16:19:31.726Z'
   image_small: http://s3.amazonaws.com/lcapi.production/series/struggles/300x200.jpg?1410207282
   image_medium: http://s3.amazonaws.com/lcapi.production/series/struggles/600x400.jpg?1410207346
   image_large: http://s3.amazonaws.com/lcapi.production/series/struggles/1200x800.jpg?1410207407
