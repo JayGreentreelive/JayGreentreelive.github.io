@@ -1,35 +1,294 @@
----
-- id: down-on-the-farm
-  title: Down On the Farm
+
+- id: joy-in-christ
+  title: Joy in Christ
   headline: ''
-  description_small: ''
-  description_medium: ''
-  quote: ''
-  quote_cite: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
   open_url: 
-  promo: n0xy2v2cwk
-  resources_url: ''
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&w=300&h=200
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&w=600&h=400
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&w=1200&h=800
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&w=400&h=400
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&w=1500&h=340
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&w=3000&h=680
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&w=480&h=340
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&w=960&h=680
+  resources_url: 
+  image_small: /assets/images/watch/series/joy-in-christ.jpg
+  image_medium: /assets/images/watch/series/joy-in-christ.jpg
+  image_large: /assets/images/watch/series/joy-in-christ.jpg
+  image_social: /assets/images/watch/series/joy-in-christ.jpg
   messages:
-  - title: Lessons Learned from a donkey
+  - title: Joy of Uncertainty
     headline: ''
-    video: r2liax1joe
-  - title: Lessons Learned from Soil
+    video: ut0Y2nfr1vY
+    notes: 
+  - title: Joy in Believing
     headline: ''
-    video: 0exxbrfzz2
-  - title: Lessons Learned from a pig
+    video: QwcrWK-meuQ
+    notes: 
+  - title: Joy in the journey
+    headline: 
+    video: 7t0D3g59-ww
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-12.13.18.pdf
+  - title: Joy in Being Loved
+    headline: 
+    video: prsxyi8R5Jc
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-12.20.18.pdf
+  - title: Joy in Sharing Christ
+    headline: 
+    video: C4JbiiCk-iU
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-12.27.18.pdf
+
+- id: living-in-the-in-between
+  title: Living in the in-between
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/living-in-the-in-between.jpg
+  image_medium: /assets/images/watch/series/living-in-the-in-between.jpg
+  image_large: /assets/images/watch/series/living-in-the-in-between.jpg
+  image_social: /assets/images/watch/series/living-in-the-in-between.jpg
+  messages:
+  - title: 
     headline: ''
-    video: 83lx2wkink
-  - title: Lessons Learned from Geese
+    video: zNGj-ZMxh_E
+    notes: 
+
+- id: play-by-the-rules
+  title: Play by the rules
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/play-by-the-rules.jpg
+  image_medium: /assets/images/watch/series/play-by-the-rules.jpg
+  image_large: /assets/images/watch/series/play-by-the-rules.jpg
+  image_social: /assets/images/watch/series/play-by-the-rules.jpg
+  messages:
+  - title: 
     headline: ''
-    video: 2yv9vufl9r
-  - title: Lessons Learned from sheep
+    video: wfkQujwnACY
+    notes: 
+
+- id: we-have-to-put-our-hands-in-the-dirt
+  title: We have to put our hands in the dirt
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
+  image_medium: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
+  image_large: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
+  image_social: /assets/images/watch/series/we-have-to-put-our-hands-in-the-dirt.jpg
+  messages:
+  - title: 
     headline: ''
-    video: f5inyspcmy
+    video: ljQzwPpHxms
+    notes: 
+
+- id: waste-not-want-not
+  title: Waste not want not
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/waste-not-want-not.jpg
+  image_medium: /assets/images/watch/series/waste-not-want-not.jpg
+  image_large: /assets/images/watch/series/waste-not-want-not.jpg
+  image_social: /assets/images/watch/series/waste-not-want-not.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: yrWPE5qg5c4
+    notes: /assets/pdf/sermonnotes/
+  - title: 
+    headline: ''
+    video: cYF_c6cqfCE
+    notes: /assets/pdf/sermonnotes/
+
+- id: our-thoughts-are-powerful
+  title: Our thoughts are powerful
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/our-thoughts-are-powerful.jpg
+  image_medium: /assets/images/watch/series/our-thoughts-are-powerful.jpg
+  image_large: /assets/images/watch/series/our-thoughts-are-powerful.jpg
+  image_social: /assets/images/watch/series/our-thoughts-are-powerful.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: WQ3ecI8oGLA
+    notes: 
+
+- id: again-i-say-amen
+  title: Again I say amen
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/again-i-say-amen.jpg
+  image_medium: /assets/images/watch/series/again-i-say-amen.jpg
+  image_large: /assets/images/watch/series/again-i-say-amen.jpg
+  image_social: /assets/images/watch/series/again-i-say-amen.jpg
+  messages:
+  - title: Part 1
+    headline: ''
+    video: CbpJhIMR35Q
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-10.4.18.pdf
+  - title: Part 2
+    headline: ''
+    video: a0EuatSBMFM
+    notes: /assets/pdf/sermonnotes/
+
+- id: toward-the-amazing
+  title: Toward-the-amazing
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/toward-the-amazing.jpg
+  image_medium: /assets/images/watch/series/toward-the-amazing.jpg
+  image_large: /assets/images/watch/series/toward-the-amazing.jpg
+  image_social: /assets/images/watch/series/toward-the-amazing.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: OnaY62dwMSU
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-9.27.18.pdf
+
+- id: where-you-go-i-go
+  title: Where you go I go
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/where-you-go-i-go.jpg
+  image_medium: /assets/images/watch/series/where-you-go-i-go.jpg
+  image_large: /assets/images/watch/series/where-you-go-i-go.jpg
+  image_social: /assets/images/watch/series/where-you-go-i-go.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: QmoAnfYpLC8
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-9.20.18.pdf
+
+- id: god-intervenes-when-the-church-prays
+  title: God intervenes when the Church prays
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
+  image_medium: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
+  image_large: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
+  image_social: /assets/images/watch/series/god-intervenes-when-the-church-prays.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: oluoDDGLg8M
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-9.13.18.pdf
+
+- id: jesus-is-that-friend-that-floods-our-soul-with-joy
+  title: Jesus is that friend that floods our soul with joy
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
+  image_medium: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
+  image_large: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
+  image_social: /assets/images/watch/series/jesus-is-that-friend-that-floods-our-soul-with-joy.JPG
+  messages:
+  - title: 
+    headline: ''
+    video: R6YB-id4KYk
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-9.6.18.pdf
+
+- id: friend-day-is-coming-are-you-ready
+  title: Friend day is coming are you ready
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
+  image_medium: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
+  image_large: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
+  image_social: /assets/images/watch/series/friend-day-is-coming-are-you-ready.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: NHXxi_dbs7o
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-8.30.18.pdf
+
+- id: baptism-is-a-commission-to-a-lifelong-vacation
+  title: Baptism is a commission to a lifelong vacation
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
+  image_medium: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
+  image_large: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
+  image_social: /assets/images/watch/series/baptism-is-a-commission-to-a-lifelong-vacation.jpg
+  messages:
+  - title: 
+    headline: ''
+    video: 8OTdOZOGVhI
+    notes: /assets/pdf/sermonnotes/
+
+- id: a-new-thing
+  title: A new thing
+  headline: ''
+  description_small: 
+  description_medium: 
+  quote: 
+  quote_cite: 
+  open_url: 
+  resources_url: 
+  image_small: /assets/images/watch/series/a-new-thing.jpg
+  image_medium: /assets/images/watch/series/a-new-thing.jpg
+  image_large: /assets/images/watch/series/a-new-thing.jpg
+  image_social: /assets/images/watch/series/a-new-thing.jpg
+  messages:
+  - title: Cleaning the Stain of Sin
+    headline: ''
+    video: 2MN2F72lb6Q
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-8.9.18.pdf
+  - title: Not of, But Above - The Mud
+    headline: ''
+    video: ezsPqRg-Dpc
+    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-8.16.18.pdf
