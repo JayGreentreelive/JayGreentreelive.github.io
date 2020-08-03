@@ -11,9 +11,11 @@
 
 <!-- General -->
 <title>{{ page.title }}{% if page.section != 'home' %} | LifeChurch.tv{% endif %}</title>
+{%- comment -%}
 {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
 <link rel="stylesheet" href="/css/application.css" />
 {% if page.styles %}<link rel="stylesheet" href="/css/pages/{{ page.styles }}" />{% endif %}
+{%- endcomment -%}
 
 <!-- Modernizr -->
 <script src="/js/libs/modernizr.min.js"></script>
