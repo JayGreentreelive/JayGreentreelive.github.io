@@ -206,8 +206,8 @@
     headline: ''
     video: 9ajgsawfmc
 
-- id: puzzled
-  title: Puzzled
+- id: Unprecedented
+  title: Unprecedented (Easter Service)
   headline: Trying to make sense of life? Find out what to do when life leaves you
     Puzzled.
   description_small: What can you do when life is rough around the edges and the pieces
@@ -219,7 +219,7 @@
   quote_cite: ''
   open_url: http://open.lifechurch.tv/groups/1898-puzzled
   promo: ''
-  resources_url: http://resources.lifechurch.tv/products/puzzled/
+  resources_url: http://resources.lifechurch.tv/products/https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=
   categories:
   - id: 43
     name: Trials
@@ -229,21 +229,19 @@
     name: Sam Roberts
     created_at: '2014-06-11T15:48:49.991Z'
     updated_at: '2014-06-11T15:48:49.991Z'
-  image_small: puzzled/300x200.jpg?1401807842
-  image_medium: puzzled/600x400.jpg?1401807867
-  image_large: puzzled/1200x800.jpg?1401807892
-  image_social: puzzled/400x400.jpg?1400685700
-  image_banner_archive: puzzled/1500x340.jpg?1401912178
-  image_banner_archive_2x: puzzled/3000x680.jpg?1401912148
-  image_banner_archive_small: puzzled/480x340.jpg?1401912237
-  image_banner_archive_small_2x: puzzled/960x680.jpg?1401912263
+  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=300x200.jpg?1401807842
+  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=600x400.jpg?1401807867
+  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=1200x800.jpg?1401807892
+  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=400x400.jpg?1400685700
+  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=1500x340.jpg?1401912178
+  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=3000x680.jpg?1401912148
+  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=480x340.jpg?1401912237
+  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=960x680.jpg?1401912263
   messages:
-  - title: Week 2
+  - title: Unprecedented (Easter Service)
     headline: ''
     video: ged0m0cm1k
-  - title: Week 1
-    headline: ''
-    video: zcw4vmg6yi
+
 - id: in-the-fire
   title: In the Fire
   headline: Feeling in over your head? Today, choose to fight.
