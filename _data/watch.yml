@@ -120,8 +120,8 @@
     headline: ''
     video: q8igoyfefa
 
-- id: atm-2014-five-easy-steps
-  title: Five Easy Steps to Wreck Your Life
+- id: whats-at-the-core
+  title: What's at the Core?
   headline: ''
   description_small: ''
   description_medium: Nobody plans for it to happen, but life can get pretty messy.
@@ -151,18 +151,26 @@
   image_banner_archive_small: ''
   image_banner_archive_small_2x: ''
   messages:
-  - title: How to Become Dissatisfied
+  - title: Serve God and Others
     headline: ''
     video: 57lyxqir0e
-  - title: How to Become an Addict
+  - title: Tranformation - A call to holliness (Ephesians 5:1)
     headline: ''
     video: dqb1llfx3m
-  - title: How to Drift From God
+  - title: All one body (Unity) (Galatians 6:2-3)
     headline: ''
     video: 4fhn7ydkx4
-  - title: How to Commit Adultery
+  - title: Renewal - A call for forgiveness (2 Corinthians 5:17-21)
     headline: ''
     video: m2xawcp08d
+  - title: No judgemental attitudes (Matthew 7:1)
+    headline: 
+    video:
+  - title: Determined to Love (Romans 5:8)
+    headline: 
+    video:
+
+
 - id: love
   title: Love
   headline: 'Does perfect love exist? '
