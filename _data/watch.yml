@@ -1,77 +1,5 @@
 - id: down-on-the-farm
   title: Down on the Farm
-  headline: 'Let’s be real with our #struggles.'
-  description_small: 'It''s hard to be true to ourselves when we control what the
-    world sees about us online. Let’s learn to be real with our #Struggles.'
-  description_medium: 'As you scroll through your day, does it feel like everyone
-    else has it all together? Someone always has the best job, cutest kid, or happiest
-    relationship. We''re pressured to measure up to other people''s status updates
-    and left with more #struggles.'
-  quote: ''
-  quote_cite: ''
-  open_url: http://open.lifechurch.tv/groups/1938-struggles
-  promo: n0xy2v2cwk
-  resources_url: ''
-  categories:
-  - id: 1
-    name: Relationships
-    created_at: '2014-02-03T22:38:58.852Z'
-    updated_at: '2014-06-05T19:41:17.695Z'
-  - id: 30
-    name: Fears
-    created_at: '2014-06-11T15:18:18.611Z'
-    updated_at: '2014-06-11T15:18:18.611Z'
-  - id: 31
-    name: Insecurity
-    created_at: '2014-06-11T15:18:45.147Z'
-    updated_at: '2014-06-11T15:18:45.147Z'
-  - id: 35
-    name: Feelings
-    created_at: '2014-06-11T15:20:16.022Z'
-    updated_at: '2014-06-11T15:20:16.022Z'
-  - id: 39
-    name: Purpose
-    created_at: '2014-06-11T15:21:10.086Z'
-    updated_at: '2014-06-11T15:21:10.086Z'
-  - id: 42
-    name: Disciplines
-    created_at: '2014-06-11T15:23:03.968Z'
-    updated_at: '2014-06-11T15:23:03.968Z'
-  - id: 43
-    name: Trials
-    created_at: '2014-06-11T15:23:13.523Z'
-    updated_at: '2014-06-11T15:23:13.523Z'
-  - id: 13
-    name: Sins
-    created_at: '2014-06-05T19:20:27.559Z'
-    updated_at: '2014-06-11T16:19:31.726Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&amp;w=300&amp;h=200
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=600&amp;h=400
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=1200&amp;h=800
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=400&amp;h=400
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=1500&amp;h=340
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=3000&amp;h=680
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=480&amp;h=340
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=960&amp;h=680
-  messages:
-  - title: Rest
-    headline: ''
-    video: r2liax1joe
-  - title: Compassion
-    headline: ''
-    video: 0exxbrfzz2
-  - title: Authenticity
-    headline: ''
-    video: 83lx2wkink
-  - title: Relationships
-    headline: ''
-    video: 2yv9vufl9r
-  - title: Contentment
-    headline: ''
-    video: f5inyspcmy
-
-- id: stand
-  title: Stand
   headline: When push comes to shove, it might seem easier to let things slide rather
     than fight for what’s right.
   description_small: When your beliefs are challenged, do you have the courage to
@@ -100,27 +28,30 @@
     name: Spiritual Warfare
     created_at: '2014-08-05T18:45:34.299Z'
     updated_at: '2014-08-05T20:06:31.641Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=/stand/300x200.jpg?1405366982
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=/stand/600x400.jpg?1405367007
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=/stand/1200x800.jpg?1405367040
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=/stand/400x400.jpg?1404934723
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=/stand/1500x340.jpg?1406565165
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/stand/3000x680.jpg?1406565130
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=/stand/480x340.jpg?1406565187
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=/stand/960x680.jpg?1406565217
+  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=def4706b-116b-4685-b790-5f595e4776f1&amp;w=300&amp;h=200
+  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=600&amp;h=400
+  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=1200&amp;h=800
+  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=400&amp;h=400
+  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=1500&amp;h=340
+  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=3000&amp;h=680
+  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=480&amp;h=340
+  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=ef4706b-116b-4685-b790-5f595e4776f1&amp;w=960&amp;h=680
   messages:
-  - title: Standing Firm in the Fire
+  - title: Lessons Learned from a donkey
     headline: ''
-    video: 2b7jkc9xaj
-  - title: Stand In Faith
+    video: w1hDlHgM_t0
+  - title: Lessons Learned from Soil
     headline: ''
-    video: 27bsr1nil0
-  - title: Stand Strong
+    video: paTaymeCdek
+  - title: Lessons learned from a pig
     headline: ''
     video: 6eqcwtp6zz
-  - title: Stand Up
+  - title: Lessons learned from Geese
     headline: ''
     video: q8igoyfefa
-  - title: Stand Out
+  - title: Lessons Learned from Sheep
     headline: ''
     video: 2p64n4bvmp
+  - title: Lessons Learned from a Goat
+    headline: ''
+    video:
