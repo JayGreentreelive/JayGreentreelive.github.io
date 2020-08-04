@@ -68,8 +68,8 @@
     headline: ''
     video: 2yv9vufl9r
 
-- id: stand
-  title: Stand
+- id: healthy-heart
+  title: Healthy Heart
   headline: When push comes to shove, it might seem easier to let things slide rather
     than fight for what’s right.
   description_small: When your beliefs are challenged, do you have the courage to
@@ -107,21 +107,19 @@
   image_banner_archive_small: http://s3.amazonaws.com/lcapi.production/series/stand/480x340.jpg?1406565187
   image_banner_archive_small_2x: http://s3.amazonaws.com/lcapi.production/series/stand/960x680.jpg?1406565217
   messages:
-  - title: Standing Firm in the Fire
+  - title: Physical Health
     headline: ''
     video: 2b7jkc9xaj
-  - title: Stand In Faith
+  - title: Stout Heart (My own Burdens)
     headline: ''
     video: 27bsr1nil0
-  - title: Stand Strong
+  - title: Willing Heart (To Bear the Burdens of Others)
     headline: ''
     video: 6eqcwtp6zz
-  - title: Stand Up
+  - title: Believing Heart (Trust & Faith)
     headline: ''
     video: q8igoyfefa
-  - title: Stand Out
-    headline: ''
-    video: 2p64n4bvmp
+
 - id: atm-2014-five-easy-steps
   title: Five Easy Steps to Wreck Your Life
   headline: ''
