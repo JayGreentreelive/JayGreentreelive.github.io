@@ -1,12 +1,38 @@
-<script src="/assets/application-077717b50cc60c2353d2f93c3b2b2b8552b8369b6c88d3084345562dbb28308f.js"></script>
+<!-- jQuery -->
+<!--[if lt IE 9]>
+<script src="/js/libs/jquery/jquery-1.11.0.min.js"></script>
+<![endif]-->
+<!--[if gte IE 9]><!-->
+<script src="/js/libs/jquery/jquery-2.1.0.min.js"></script>
+<!--<![endif]-->
 
+<script src="/js/libs/jquery.event.move.js"></script>
+<script src="/js/libs/jquery.event.swipe.js"></script>
 
-    
+<script src="/js/production.min.js"></script>
 
-<!-- HubSpot -->
-  <!-- Start of HubSpot Embed Code -->
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/449781.js"></script>
-<!-- End of HubSpot Embed Code -->
+{% if page.section == "locations" or page.title == "LifeMissions" %}
+<script src="/js/pages/persistent-nav.js"></script>
+{% endif %}
 
-<!-- OptinMonster -->
-  <script type="text/javascript" src="https://a.optmstr.com/app/js/api.min.js" data-account="2231" data-user="12205" async></script>
+{% if page.hero == "hero-connect" %}
+<script src="/js/pages/connect.js"></script>
+{% endif %}
+
+{% if page.section == "home" %}
+<script>
+jQuery(function() {
+  setInterval(function() {
+    $('.struggles-figure span').toggleClass('is-visible');
+  }, 750);
+});
+</script>
+{% endif %}
+
+<!-- Crazy Egg -->
+<script type="text/javascript">
+  setTimeout(function(){var a=document.createElement("script");
+  var b=document.getElementsByTagName("script")[0];
+  a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0017/7361.js?"+Math.floor(new Date().getTime()/3600000);
+  a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
