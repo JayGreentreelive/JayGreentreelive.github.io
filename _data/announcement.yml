@@ -6,6 +6,6 @@
 
 - active: true
   type: notice
-  icon: calendar
-  message: View additional Easter service times.
-  url: /easter/
+  icon: campus
+  message: Worship Service Reopening Plans (covid-19)
+  url: /coronavirus/
