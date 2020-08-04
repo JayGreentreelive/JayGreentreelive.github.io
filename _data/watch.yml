@@ -142,14 +142,14 @@
     name: Sins
     created_at: '2014-06-05T19:20:27.559Z'
     updated_at: '2014-06-11T16:19:31.726Z'
-  image_small: ''
-  image_medium: ''
-  image_large: ''
-  image_social: http://s3.amazonaws.com/lcapi.production/series/atm-2014-five-easy-steps/400x400.jpg?1404932459
-  image_banner_archive: ''
-  image_banner_archive_2x: ''
-  image_banner_archive_small: ''
-  image_banner_archive_small_2x: ''
+  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=804387d1-3ad7-4d03-b7c7-8b4aa7299e6a&w=300&h=200
+  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=804387d1-3ad7-4d03-b7c7-8b4aa7299e6a&w=600&h=400
+  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=804387d1-3ad7-4d03-b7c7-8b4aa7299e6a&w=200&h=800
+  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=804387d1-3ad7-4d03-b7c7-8b4aa7299e6a&w=400&h=400
+  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=804387d1-3ad7-4d03-b7c7-8b4aa7299e6a&w=500&h=340
+  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=804387d1-3ad7-4d03-b7c7-8b4aa7299e6a&w=3000&h=680
+  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=804387d1-3ad7-4d03-b7c7-8b4aa7299e6a&w=1480&h=340
+  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=804387d1-3ad7-4d03-b7c7-8b4aa7299e6a&w=1960&h=680
   messages:
   - title: Serve God and Others
     headline: ''
