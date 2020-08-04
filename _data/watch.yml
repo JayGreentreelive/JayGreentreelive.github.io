@@ -229,14 +229,14 @@
     name: Sam Roberts
     created_at: '2014-06-11T15:48:49.991Z'
     updated_at: '2014-06-11T15:48:49.991Z'
-  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=300x200.jpg?1401807842
-  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=600x400.jpg?1401807867
-  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=1200x800.jpg?1401807892
-  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=400x400.jpg?1400685700
-  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=1500x340.jpg?1401912178
-  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=3000x680.jpg?1401912148
-  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=480x340.jpg?1401912237
-  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=960x680.jpg?1401912263
+  image_small: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=300&h=200
+  image_medium: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=600&h=400
+  image_large: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=1200&h=800
+  image_social: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=400&h=400
+  image_banner_archive: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=1500&h=340
+  image_banner_archive_2x: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=3000&h=680
+  image_banner_archive_small: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=480&h=340
+  image_banner_archive_small_2x: https://thursdaychurch.org/GetImage.ashx?Guid=f4355f28-d1f1-4edf-8155-6d60d175cd83&w=960&h=680
   messages:
   - title: Unprecedented (Easter Service)
     headline: ''
