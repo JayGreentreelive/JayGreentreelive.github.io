@@ -9,14 +9,14 @@
 
   <article class="container">
     <div class="map-panel">
-      <div id="florida" class="location-state">
-        <h4 class="state-title"><a href="javascript:void(0);">Florida, US</a></h4>
+      <div id="indiana" class="location-state">
+        <h4 class="state-title"><a href="javascript:void(0);">Indiana, US</a></h4>
         <ul class="map-list">
-          <li><a id="wel" href="/wellington/{% if include.for and include.for != '' and include.for != 'locations' %}#{{ include.for }}{% endif %}">
+          <li><a id="vin" href="/vincennes/{% if include.for and include.for != '' and include.for != 'locations' %}#{{ include.for }}{% endif %}">
             <span class="marker">A</span>
-            <h6>Wellington FL</h6>
+            <h6>Vincennes IN</h6>
             {% for location in site.data.locations %}
-            {% if location.id == 'wel' %}<p class="detail">{{ location.address }}</p>{% endif %}
+            {% if location.id == 'vin' %}<p class="detail">{{ location.address }}</p>{% endif %}
             {% endfor %}
           </a></li>
         </ul>
