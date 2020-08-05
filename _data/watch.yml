@@ -242,8 +242,8 @@
     headline: ''
     video: ged0m0cm1k
 
-- id: in-the-fire
-  title: In the Fire
+- id: spiritually-contagious
+  title: Spiritually Contagious
   headline: Feeling in over your head? Today, choose to fight.
   description_small: We were created to fight and equipped to win. Learn what can
     happen In the Fire.
@@ -277,12 +277,13 @@
   image_banner_archive_small: in-the-fire/480x340.jpg?1400864055
   image_banner_archive_small_2x: in-the-fire/960x680.jpg?1400864098
   messages:
-  - title: A Problem Called Praise
+  - title: Calm is Contagious
     headline: ''
     video: ib9q8z827c
-  - title: I Was Born For This
+  - title: Suit Up
     headline: ''
     video: 6ijptdhyzv
+    
 - id: outlasters
   title: Outlasters
   headline: 'What are you doing today that will endure the test of time? '
