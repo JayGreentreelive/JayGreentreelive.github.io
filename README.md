@@ -1,4 +1,4 @@
-# LifeChurch.tv Website
+# thursdaychurch.og Website
 
 ## Requirements
 

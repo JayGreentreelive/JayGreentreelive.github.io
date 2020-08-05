@@ -3,18 +3,18 @@
 /* TEAM */
 
   Adam Fairhead
-    LifeChurch.tv
-    adam.fairhead@lifechurch.tv
+    thursdaychurch.og
+    adam.fairhead@thursdaychurch.og
     http://adamfairhead.com
     @adamfairhead
 
   Chelsea Nelson
-    LifeChurch.tv
-    chelsea.nelson@lifechurch.tv
+    thursdaychurch.og
+    chelsea.nelson@thursdaychurch.og
     
   Justin Battenfield
-    LifeChurch.tv
-    justin.battenfield@lifechurch.tv
+    thursdaychurch.og
+    justin.battenfield@thursdaychurch.og
     @jbatphoto
 
 /* SITE */

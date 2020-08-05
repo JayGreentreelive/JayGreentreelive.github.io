@@ -10,7 +10,7 @@ sass:
 
 prose:
   rooturl: 'announcements/_posts'
-  siteurl: 'http://www.lifechurch.tv/'
+  siteurl: 'http://www.thursdaychurch.og/'
   metadata:
     _posts:
       - name: 'layout'
