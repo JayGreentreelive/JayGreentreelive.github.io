@@ -3,18 +3,18 @@
 /* TEAM */
 
   Adam Fairhead
-    thursdaychurch.og
-    adam.fairhead@thursdaychurch.og
+    thursdaychurch.org
+    adam.fairhead@thursdaychurch.org
     http://adamfairhead.com
     @adamfairhead
 
   Chelsea Nelson
-    thursdaychurch.og
-    chelsea.nelson@thursdaychurch.og
+    thursdaychurch.org
+    chelsea.nelson@thursdaychurch.org
     
   Justin Battenfield
-    thursdaychurch.og
-    justin.battenfield@thursdaychurch.og
+    thursdaychurch.org
+    justin.battenfield@thursdaychurch.org
     @jbatphoto
 
 /* SITE */

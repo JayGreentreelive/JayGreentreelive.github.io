@@ -790,7 +790,7 @@
 	<rect x="691.2" y="340.1" width="0.7" height="1.7"/>
 	<path fill="#C2C3C7" d="M689.4,360c0,1.5-1.2,2.7-2.7,2.7H538.4c-1.5,0-2.7-1.2-2.7-2.7v-9.5c0-1.5,1.2-2.7,2.7-2.7h148.3
 		c1.5,0,2.7,1.2,2.7,2.7V360L689.4,360z"/>
-	<text transform="matrix(1 0 0 1 581.1406 358.3081)" font-family="'HelveticaNeue'" font-size="8.7895">live.thursdaychurch.og</text>
+	<text transform="matrix(1 0 0 1 581.1406 358.3081)" font-family="'HelveticaNeue'" font-size="8.7895">live.thursdaychurch.org</text>
 	<path d="M682.2,352.8v1.5l2.4-1.6l-2.4-1.6v1l0,0c-1.8,0-3.3,1.5-3.3,3.3s1.5,3.3,3.3,3.3s3.3-1.5,3.3-3.3h-0.7
 		c0,1.5-1.2,2.7-2.7,2.7c-1.5,0-2.7-1.2-2.7-2.7C679.5,354,680.7,352.8,682.2,352.8"/>
 </g>

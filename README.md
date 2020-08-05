@@ -1,4 +1,4 @@
-# thursdaychurch.og Website
+# thursdaychurch.org Website
 
 ## Requirements
 

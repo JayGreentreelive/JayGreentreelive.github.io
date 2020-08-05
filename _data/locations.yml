@@ -1,7 +1,7 @@
 ---
 - id: ftw
   title: Fort Worth TX Campus
-  email: ftw.serving@thursdaychurch.og
+  email: ftw.serving@thursdaychurch.org
   phone: 817-923-5433
   address: 5298 Trail Lake Dr. Fort Worth, TX 76133
   facebook: '236157182628'
@@ -79,25 +79,25 @@
   missions:
   - id: 2
     title: Tarrant Read2Win
-    recipient: ftw.serving@thursdaychurch.og
+    recipient: ftw.serving@thursdaychurch.org
     url: http://www.tarrantnet.org/read2win/
     description_medium: 'Partner with Fort Worth elementary schools and volunteer
       as a reading coach for first graders in the Fort Worth Independent School District. '
   - id: 31
     title: Habitat for Humanity
-    recipient: ftw.serving@thursdaychurch.og
+    recipient: ftw.serving@thursdaychurch.org
     url: http://www.habitat.org/
     description_medium: 'Build and renovate high quality, affordable housing and serve
       as a partner and catalyst to create healthy and sustainable communities. '
   - id: 32
     title: Altamesa Neighborhood Needs
-    recipient: ftw.serving@thursdaychurch.og
+    recipient: ftw.serving@thursdaychurch.org
     url: http://www.altamesa.org/ministries/local/neighborhood-needs/
     description_medium: Help our neighborhood with what they need most. Provide food,
       clothing, technology access, and mentorship to those in our community.
 - id: edm
   title: Edmond OK Campus
-  email: edm.serving@thursdaychurch.og
+  email: edm.serving@thursdaychurch.org
   phone: 405-688-5433
   address: 4600 E. 2nd St. Edmond, OK 73034
   facebook: '206643266075'
@@ -175,70 +175,70 @@
   missions:
   - id: 3
     title: Whiz Kids
-    recipient: edm.serving@thursdaychurch.og
+    recipient: edm.serving@thursdaychurch.org
     url: http://www.whizkidsok.org/
     description_medium: Improve the well-being of inner city youth through academic
       tutoring and positive mentoring relationships as well as communicating spiritual
       and moral values.
   - id: 4
     title: The Mentoring Project
-    recipient: edm.serving@thursdaychurch.og
+    recipient: edm.serving@thursdaychurch.org
     url: http://www.thementoringproject.org/
     description_medium: Rewrite the fatherless story through mentoring, training,
       resourcing, and encouraging at-risk and fatherless kids.
   - id: 5
     title: Inner City Action Group
-    recipient: edm.serving@thursdaychurch.og
+    recipient: edm.serving@thursdaychurch.org
     url: http://icag.org/
     description_medium: Build mentoring relationships between at-risk youth in OKC
       and Christian role models who encourage positive character.
   - id: 6
     title: SeeWorth Foundation
-    recipient: edm.serving@thursdaychurch.og
+    recipient: edm.serving@thursdaychurch.org
     url: http://www.seeworthfoundation.org/
     description_medium: 'Help students see their value and learn how to better engage
       their world by mentoring, caring for, and listening to kids in your community. '
   - id: 7
     title: Young Life
-    recipient: edm.serving@thursdaychurch.og
+    recipient: edm.serving@thursdaychurch.org
     url: http://www.younglife.org/Pages/default.aspx
     description_medium: 'Introduce teens to Jesus and help them grow in their faith
       by building relationships through weekly one-on-one mentoring and activities.  '
   - id: 23
     title: T.E.E.M (The Education and Employment Ministry)
-    recipient: edm.serving@thursdaychurch.og
+    recipient: edm.serving@thursdaychurch.org
     url: http://www.teem.org/
     description_medium: Provide consistent and compassionate relationships with OKC
       area adult inmates to promote stability, friendship, and success in the work
       place and personal life.
   - id: 34
     title: The Spero Project
-    recipient: edm.serving@thursdaychurch.og
+    recipient: edm.serving@thursdaychurch.org
     url: http://www.thesperoproject.com/
     description_medium: Confront injustice and oppression by mobilizing the Church
       to fully engage in a biblical response to under-resourced populations.
   - id: 49
     title: Lilyfield Christian Adoption and Foster Care
-    recipient: edm.serving@thursdaychurch.og
+    recipient: edm.serving@thursdaychurch.org
     url: http://www.lilyfield.org/
     description_medium: 'Share a meal with local foster care families and provide
       them with support and encouragement through monthly group gatherings. '
   - id: 52
     title: Branch15
-    recipient: edm.serving@thursdaychurch.og
+    recipient: edm.serving@thursdaychurch.org
     url: http://www.branch15.com/
     description_medium: Help provide Christ-centered transitional housing and individualized
       support to women who are on the path toward recovery and independent living.
   - id: 35
     title: City Rescue Mission
-    recipient: edm.serving@thursdaychurch.og
+    recipient: edm.serving@thursdaychurch.org
     url: http://cityrescue.org/
     description_medium: Provide help, hope, healing, and restoration to our community’s
       marginalized families and neighbors by working under the call of Christ with
       City Rescue Mission.
 - id: mor
   title: Moore OK Campus
-  email: mor.serving@thursdaychurch.og
+  email: mor.serving@thursdaychurch.org
   phone: 405-237-4844
   address: 2916 S. Telephone Rd. Moore, OK 73160
   facebook: '409843575804511'
@@ -316,20 +316,20 @@
   missions:
   - id: 48
     title: Serve Moore
-    recipient: mor.serving@thursdaychurch.og
+    recipient: mor.serving@thursdaychurch.org
     url: http://www.servemoore.com/
     description_medium: Help bring healing and restoration to Moore, Oklahoma and
       its surrounding communities by sharing the Gospel and meeting the needs of its
       residents.
   - id: 51
     title: Plaza Towers Elementary
-    recipient: mor.serving@thursdaychurch.og
+    recipient: mor.serving@thursdaychurch.org
     url: http://www.mooreschools.com/plazatowers
     description_medium: Be part of this school’s new start and help build up the youth
       of today to become tomorrow’s leaders.
 - id: klr
   title: Keller TX Campus
-  email: klr.serving@thursdaychurch.og
+  email: klr.serving@thursdaychurch.org
   phone: 682-593-1140
   address: 1075 Keller Pkwy. Keller, TX 76248
   facebook: '343331435797233'
@@ -367,7 +367,7 @@
   missions: []
 - id: jnk
   title: Jenks OK Campus
-  email: jnk.serving@thursdaychurch.og
+  email: jnk.serving@thursdaychurch.org
   phone: 539-777-1000
   address: 890 W. 81st St. Tulsa, OK 74132
   facebook: '283866385077708'
@@ -465,13 +465,13 @@
   missions:
   - id: 41
     title: New Hope Oklahoma
-    recipient: jnk.serving@thursdaychurch.og
+    recipient: jnk.serving@thursdaychurch.org
     url: http://www.newhopeoklahoma.org/
     description_medium: New Hope helps end generational incarceration one child at
       a time through after-school programs, summer camps, and holiday parties.
 - id: bao
   title: Broken Arrow OK Campus
-  email: bao.serving@thursdaychurch.og
+  email: bao.serving@thursdaychurch.org
   phone: 918-615-4246
   address: 2420 E. Kenosha Street Broken Arrow, OK 74014
   facebook: '229503863780213'
@@ -569,25 +569,25 @@
   missions:
   - id: 16
     title: Arrowhead Elementary
-    recipient: bao.serving@thursdaychurch.og
+    recipient: bao.serving@thursdaychurch.org
     url: http://www.baschools.org/vnews/display.v/SEC/Arrowhead
     description_medium: Provide character and team building experiences and allow
       students to work with one another in a small group setting to build new friendships.
   - id: 19
     title: Tulsa Boys Home
-    recipient: bao.serving@thursdaychurch.og
+    recipient: bao.serving@thursdaychurch.org
     url: http://www.tulsaboyshome.org/tulsaboys/default.asp
     description_medium: 'Help restore the lives of boys and lead them to be healthy,
       responsible young men. '
   - id: 36
     title: Broken Arrow Neighbors
-    recipient: bao.serving@thursdaychurch.og
+    recipient: bao.serving@thursdaychurch.org
     url: http://www.baneighbors.org/
     description_medium: Provide basic needs assistance with dignity and compassion
       to neighbors in need through a cooperative effort.
 - id: mwc
   title: Midwest City OK Campus
-  email: mwc.serving@thursdaychurch.og
+  email: mwc.serving@thursdaychurch.org
   phone: 405-622-3233
   address: 6809 E. Reno Ave Midwest City, OK 73110
   facebook: '141521929249905'
@@ -665,32 +665,32 @@
   missions:
   - id: 24
     title: Eden Clinic
-    recipient: mwc.serving@thursdaychurch.og
+    recipient: mwc.serving@thursdaychurch.org
     url: http://www.edenclinic.tv/
     description_medium: In partnership with this Pregnancy Wellness program, provide
       emotional support, material assistance, education and counseling, community
       referrals, and pregnancy wellness classes.
   - id: 4
     title: The Mentoring Project
-    recipient: mwc.serving@thursdaychurch.og
+    recipient: mwc.serving@thursdaychurch.org
     url: http://www.thementoringproject.org/
     description_medium: Rewrite the fatherless story through mentoring, training,
       resourcing, and encouraging at-risk and fatherless kids.
   - id: 25
     title: LifeTroops
-    recipient: mwc.serving@thursdaychurch.og
+    recipient: mwc.serving@thursdaychurch.org
     url: http://lifetroops.tv/
     description_medium: Meet the spiritual, emotional, educational, financial, and
       physical needs of military members 24 hours a day, at home and abroad.
   - id: 34
     title: The Spero Project
-    recipient: mwc.serving@thursdaychurch.og
+    recipient: mwc.serving@thursdaychurch.org
     url: http://www.thesperoproject.com/
     description_medium: Confront injustice and oppression by mobilizing the Church
       to fully engage in a biblical response to under-resourced populations.
 - id: alb
   title: Albany NY Campus
-  email: alb.serving@thursdaychurch.og
+  email: alb.serving@thursdaychurch.org
   phone: 518-456-0969
   address: 560 Sand Creek Rd. Albany, NY 12205
   facebook: '198238577847'
@@ -758,33 +758,33 @@
   missions:
   - id: 1
     title: Big Brothers Big Sisters
-    recipient: alb.serving@thursdaychurch.og
+    recipient: alb.serving@thursdaychurch.org
     url: http://www.bbbs.org/
     description_medium: Provide children facing adversity with strong and enduring,
       one-on-one relationships that change their lives for the better - forever. Each
       volunteer will be in a mentor relationship with a child.
   - id: 30
     title: City Mission of Schenectady
-    recipient: alb.serving@thursdaychurch.og
+    recipient: alb.serving@thursdaychurch.org
     url: http://citymission.com/
     description_medium: City Missions provides for the needs of the hungry and homeless
       in our community. Their mission is to help people get out of poverty - and stay
       out.
   - id: 31
     title: Habitat for Humanity
-    recipient: alb.serving@thursdaychurch.og
+    recipient: alb.serving@thursdaychurch.org
     url: http://www.habitat.org/
     description_medium: 'Build and renovate high quality, affordable housing and serve
       as a partner and catalyst to create healthy and sustainable communities. '
   - id: 50
     title: Youth for Christ
-    recipient: alb.serving@thursdaychurch.og
+    recipient: alb.serving@thursdaychurch.org
     url: http://www.cdyfc.org/
     description_medium: Work together with local churches to raise up lifelong followers
       of Christ through mentoring and building relationships with young people.
 - id: ykn
   title: Yukon OK Campus
-  email: ykn.serving@thursdaychurch.og
+  email: ykn.serving@thursdaychurch.org
   phone: 405-605-5433
   address: 1101 E. Main Street Yukon, OK 73099
   facebook: '310515131268'
@@ -872,26 +872,26 @@
   missions:
   - id: 13
     title: Youth & Family Services
-    recipient: ykn.serving@thursdaychurch.og
+    recipient: ykn.serving@thursdaychurch.org
     url: http://www.yfsok.org/
     description_medium: Support families and children in foster care and engage in
       the foster care system on multiple levels.
   - id: 14
     title: Yukon Special Athletes
-    recipient: ykn.serving@thursdaychurch.og
+    recipient: ykn.serving@thursdaychurch.org
     url: http://www.specialolympicsyukon.ca/
     description_medium: Partner with special needs families to give kids healthy and
       beneficial relationships.
   - id: 35
     title: City Rescue Mission
-    recipient: ykn.serving@thursdaychurch.og
+    recipient: ykn.serving@thursdaychurch.org
     url: http://cityrescue.org/
     description_medium: Provide help, hope, healing, and restoration to our community’s
       marginalized families and neighbors by working under the call of Christ with
       City Rescue Mission.
 - id: tul
   title: Tulsa OK Campus
-  email: tul.serving@thursdaychurch.og
+  email: tul.serving@thursdaychurch.org
   phone: 918-459-5433
   address: 7015 E. 41st St. Tulsa, OK 74145
   facebook: '111300269668'
@@ -969,20 +969,20 @@
   missions:
   - id: 39
     title: Emergency Infant Services
-    recipient: tul.serving@thursdaychurch.og
+    recipient: tul.serving@thursdaychurch.org
     url: http://emergencyinfantservices.org/
     description_medium: Provide basic needs for infants and children through 5 years
       of age whose families are in crisis by organizing donations and meeting with
       families.
   - id: 43
     title: John 3:16
-    recipient: tul.serving@thursdaychurch.og
+    recipient: tul.serving@thursdaychurch.org
     url: http://john316mission.org/home.php
     description_medium: Meet the physical, emotional, and spiritual needs of Tulsa's
       hungry, homeless, and at-risk by serving the community and building relationships.
 - id: stw
   title: Stillwater OK Campus
-  email: stw.serving@thursdaychurch.og
+  email: stw.serving@thursdaychurch.org
   phone: 405-624-5433
   address: 1917 North Country Club Rd. Stillwater, OK 74075
   facebook: '111614742192203'
@@ -1050,39 +1050,39 @@
   missions:
   - id: 1
     title: Big Brothers Big Sisters
-    recipient: stw.serving@thursdaychurch.og
+    recipient: stw.serving@thursdaychurch.org
     url: http://www.bbbs.org/
     description_medium: Provide children facing adversity with strong and enduring,
       one-on-one relationships that change their lives for the better - forever. Each
       volunteer will be in a mentor relationship with a child.
   - id: 15
     title: Payne County Department of Human Services
-    recipient: stw.serving@thursdaychurch.og
+    recipient: stw.serving@thursdaychurch.org
     url: http://www.okdhs.org/okdhslocal/payne/
     description_medium: Help ensure the safety of at-risk children in the community
       by restoring parents and children or finding a new opportunity for children
       to have a healthy family environment.
   - id: 26
     title: Stillwater Life Services
-    recipient: stw.serving@thursdaychurch.og
+    recipient: stw.serving@thursdaychurch.org
     url: http://www.stillwaterlife.org/
     description_medium: Provide testing, treatment, one-on-one mentoring, and options
       for women and men who visit the pregnancy resource clinic.
   - id: 27
     title: Wings of Hope
-    recipient: stw.serving@thursdaychurch.og
+    recipient: stw.serving@thursdaychurch.org
     url: http://www.sdvs.org/
     description_medium: Join the mission to break the cycle of interpersonal violence
       by supporting families through restoration and healing.
   - id: 31
     title: Habitat for Humanity
-    recipient: stw.serving@thursdaychurch.og
+    recipient: stw.serving@thursdaychurch.org
     url: http://www.habitat.org/
     description_medium: 'Build and renovate high quality, affordable housing and serve
       as a partner and catalyst to create healthy and sustainable communities. '
 - id: soc
   title: South Oklahoma City OK Campus
-  email: soc.serving@thursdaychurch.og
+  email: soc.serving@thursdaychurch.org
   phone: 405-216-5433
   address: 7800 S. Walker Ave. Oklahoma City, OK 73139
   facebook: '152357570862'
@@ -1170,46 +1170,46 @@
   missions:
   - id: 5
     title: Inner City Action Group
-    recipient: soc.serving@thursdaychurch.og
+    recipient: soc.serving@thursdaychurch.org
     url: http://icag.org/
     description_medium: Build mentoring relationships between at-risk youth in OKC
       and Christian role models who encourage positive character.
   - id: 12
     title: Warriors Mentoring
-    recipient: soc.serving@thursdaychurch.og
+    recipient: soc.serving@thursdaychurch.org
     url: http://okcyouthwrestling.ning.com/
     description_medium: Build relationships between at-risk youth and caring role
       models in the OKC area through wrestling. Influence each child's actions by
       teaching positive character traits.
   - id: 34
     title: The Spero Project
-    recipient: soc.serving@thursdaychurch.og
+    recipient: soc.serving@thursdaychurch.org
     url: http://www.thesperoproject.com/
     description_medium: Confront injustice and oppression by mobilizing the Church
       to fully engage in a biblical response to under-resourced populations.
   - id: 47
     title: Stand in the Gap Ministries
-    recipient: soc.serving@thursdaychurch.og
+    recipient: soc.serving@thursdaychurch.org
     url: http://www.sitgm.org/
     description_medium: Defend widows and orphans and set prisoners free through Life
       Launch, Women in Transition, and Stand in the Gap for Widows.
   - id: 46
     title: No Boundaries International
-    recipient: soc.serving@thursdaychurch.og
+    recipient: soc.serving@thursdaychurch.org
     url: http://nbint.org/
     description_medium: 'Help restore a sense of value and independence to those affected
       by human trafficking by training and providing realistic solutions to those
       in need. '
   - id: 35
     title: City Rescue Mission
-    recipient: soc.serving@thursdaychurch.og
+    recipient: soc.serving@thursdaychurch.org
     url: http://cityrescue.org/
     description_medium: Provide help, hope, healing, and restoration to our community’s
       marginalized families and neighbors by working under the call of Christ with
       City Rescue Mission.
 - id: okc
   title: Oklahoma City OK Campus
-  email: okc.serving@thursdaychurch.og
+  email: okc.serving@thursdaychurch.org
   phone: 405-478-5433
   address: 2001 NW. 178th St. Edmond, OK 73012
   facebook: '284153305483'
@@ -1297,34 +1297,34 @@
   missions:
   - id: 3
     title: Whiz Kids
-    recipient: okc.serving@thursdaychurch.og
+    recipient: okc.serving@thursdaychurch.org
     url: http://www.whizkidsok.org/
     description_medium: Improve the well-being of inner city youth through academic
       tutoring and positive mentoring relationships as well as communicating spiritual
       and moral values.
   - id: 11
     title: Sunset Elementary
-    recipient: okc.serving@thursdaychurch.og
+    recipient: okc.serving@thursdaychurch.org
     url: http://www.edmondschools.net/sunset/Home.aspx
     description_medium: Help your surrounding community where there are financial
       needs, language barriers, single parent homes, and other life concerns that
       directly affect children's experience in the classroom.
   - id: 25
     title: LifeTroops
-    recipient: okc.serving@thursdaychurch.og
+    recipient: okc.serving@thursdaychurch.org
     url: http://lifetroops.tv/
     description_medium: Meet the spiritual, emotional, educational, financial, and
       physical needs of military members 24 hours a day, at home and abroad.
   - id: 21
     title: 111 Project
-    recipient: okc.serving@thursdaychurch.og
+    recipient: okc.serving@thursdaychurch.org
     url: http://111project.org/
     description_medium: The goal of this organization is for every child to have a
       family and to be loved. You can provide hope and love to children in your community.
       1 Church, 1 Family, 1 Purpose.
 - id: noc
   title: NW Oklahoma City OK Campus
-  email: noc.serving@thursdaychurch.og
+  email: noc.serving@thursdaychurch.org
   phone: 405-748-5433
   address: 5821 NW. Expressway Oklahoma City, OK 73132
   facebook: '156898983627'
@@ -1412,44 +1412,44 @@
   missions:
   - id: 3
     title: Whiz Kids
-    recipient: noc.serving@thursdaychurch.og
+    recipient: noc.serving@thursdaychurch.org
     url: http://www.whizkidsok.org/
     description_medium: Improve the well-being of inner city youth through academic
       tutoring and positive mentoring relationships as well as communicating spiritual
       and moral values.
   - id: 4
     title: The Mentoring Project
-    recipient: noc.serving@thursdaychurch.og
+    recipient: noc.serving@thursdaychurch.org
     url: http://www.thementoringproject.org/
     description_medium: Rewrite the fatherless story through mentoring, training,
       resourcing, and encouraging at-risk and fatherless kids.
   - id: 8
     title: Novo Ministries
-    recipient: noc.serving@thursdaychurch.og
+    recipient: noc.serving@thursdaychurch.org
     url: http://www.novoministries.org/
     description_medium: Connect passionate individuals with inner-city communities
       by helping facilitate weekly after-school programs.
   - id: 9
     title: Tulakes Elementary
-    recipient: noc.serving@thursdaychurch.og
+    recipient: noc.serving@thursdaychurch.org
     url: http://tes.putnamcityschools.org/
     description_medium: Support children, families, teachers, and administrators in
       an under-resourced environment.
   - id: 10
     title: Watch D.O.G.S.
-    recipient: noc.serving@thursdaychurch.og
+    recipient: noc.serving@thursdaychurch.org
     url: http://www.fathers.com/content/index.php?option=com_content&task=view&id=21&Itemid=60
     description_medium: Provide positive male role models for students  while enhancing
       school security and reducing bullying.
   - id: 34
     title: The Spero Project
-    recipient: noc.serving@thursdaychurch.og
+    recipient: noc.serving@thursdaychurch.org
     url: http://www.thesperoproject.com/
     description_medium: Confront injustice and oppression by mobilizing the Church
       to fully engage in a biblical response to under-resourced populations.
 - id: bnb
   title: Broadway and Britton OK Campus
-  email: bnb.serving@thursdaychurch.og
+  email: bnb.serving@thursdaychurch.org
   phone: (405) 213-0248
   address: 9001 N. Broadway Extension Oklahoma City, OK 73114
   facebook: '227205990810209'
@@ -1497,7 +1497,7 @@
   missions: []
 - id: wch
   title: Wichita KS Campus
-  email: wch.serving@thursdaychurch.og
+  email: wch.serving@thursdaychurch.org
   phone: 316-202-6640
   address: 1544 N. Governeour Rd. Wichita, KS 67206
   facebook: '1454704991443722'
@@ -1525,7 +1525,7 @@
   missions: []
 - id: ows
   title: Owasso OK Campus
-  email: ows.serving@thursdaychurch.og
+  email: ows.serving@thursdaychurch.org
   phone: 918-272-4393
   address: 14008 E. 96th St.  Owasso, OK 74055
   facebook: '136945189263'
@@ -1623,27 +1623,27 @@
   missions:
   - id: 17
     title: Southwest Foster Care
-    recipient: ows.serving@thursdaychurch.og
+    recipient: ows.serving@thursdaychurch.org
     url: https://www.facebook.com/southwestfostercareok
     description_medium: Help recruit families and provide quality foster care service
       as well as support foster care families in our community.
   - id: 1
     title: Big Brothers Big Sisters
-    recipient: ows.serving@thursdaychurch.og
+    recipient: ows.serving@thursdaychurch.org
     url: http://www.bbbs.org/
     description_medium: Provide children facing adversity with strong and enduring,
       one-on-one relationships that change their lives for the better - forever. Each
       volunteer will be in a mentor relationship with a child.
   - id: 37
     title: Owasso Community Resources
-    recipient: ows.serving@thursdaychurch.og
+    recipient: ows.serving@thursdaychurch.org
     url: http://owassohelps.org/
     description_medium: Offer services for families and individuals facing economic
       hardship. This program works to fight hunger, prevent homelessness, and to restore
       hope to families and individuals on their path to self-sufficiency.
 - id: wel
   title: Wellington FL Campus
-  email: wel.serving@thursdaychurch.og
+  email: wel.serving@thursdaychurch.org
   phone: 561-793-6889
   address: 3061 State Road 7 Wellington, FL 33449
   facebook: '105749019464173'
@@ -1701,34 +1701,34 @@
   missions:
   - id: 28
     title: First Care
-    recipient: wel.serving@thursdaychurch.og
+    recipient: wel.serving@thursdaychurch.org
     url: http://www.first-care.org/
     description_medium: Help women make an educated decision about giving birth and
       empower them to carry out their decision without guilt or shame.
   - id: 42
     title: 4Kids of South Florida
-    recipient: wel.serving@thursdaychurch.og
+    recipient: wel.serving@thursdaychurch.org
     url: https://www.4kidsofsfl.org/
     description_medium: 'Help care for and mentor kids in our community by providing
       them with consistent and loving relationships. Kids in crisis can find shelter
       and safety at SafePlace. '
   - id: 40
     title: Oasis Compassion
-    recipient: wel.serving@thursdaychurch.og
+    recipient: wel.serving@thursdaychurch.org
     url: http://oasiscompassion.org/
     description_medium: Restore people that have fallen on hard times by helping them
       build a resume, learn interview skills, acquire housing, and find a job while
       showing them who they are in Christ.
   - id: 45
     title: Urban Youth Impact
-    recipient: wel.serving@thursdaychurch.og
+    recipient: wel.serving@thursdaychurch.org
     url: http://www.urbanyouthimpact.com/
     description_medium: Love, equip, and empower inner-city youth and their parents
       to fulfill their God-given purpose through one-on-one mentorship, academic development
       after school, and parent development classes.
 - id: sto
   title: South Tulsa OK Campus
-  email: sto.serving@thursdaychurch.og
+  email: sto.serving@thursdaychurch.org
   phone: 918-938-0900
   address: 7071 E. 121st Street S. Bixby, OK 74008
   facebook: '168831606831'
@@ -1826,25 +1826,25 @@
   missions:
   - id: 18
     title: Relations Group Home
-    recipient: sto.serving@thursdaychurch.og
+    recipient: sto.serving@thursdaychurch.org
     url: ''
     description_medium: 'Help students see their value and learn how to better engage
       their world by mentoring, caring for, and listening to kids in your community. '
   - id: 19
     title: Tulsa Boys Home
-    recipient: sto.serving@thursdaychurch.og
+    recipient: sto.serving@thursdaychurch.org
     url: http://www.tulsaboyshome.org/tulsaboys/default.asp
     description_medium: 'Help restore the lives of boys and lead them to be healthy,
       responsible young men. '
   - id: 38
     title: Bixby Outreach Center
-    recipient: sto.serving@thursdaychurch.og
+    recipient: sto.serving@thursdaychurch.org
     url: http://www.bixbyoc.org/
     description_medium: Help people who find themselves in situations that they did
       not expect by collecting, organizing, and distributing items.
 - id: hnv
   title: Hendersonville TN Campus
-  email: hnv.serving@thursdaychurch.og
+  email: hnv.serving@thursdaychurch.org
   phone: 615-338-7241
   address: 120 Indian Lake Blvd. Hendersonville, TN 37075
   facebook: '121921428281'
@@ -1912,21 +1912,21 @@
   missions:
   - id: 22
     title: End Slavery
-    recipient: hnv.serving@thursdaychurch.og
+    recipient: hnv.serving@thursdaychurch.org
     url: http://www.endslaverytn.org/
     description_medium: Create a slave-free Tennessee and holistically restore survivors
       of human trafficking. Volunteers can assist through awareness programs, distributing
       door hangers, and fundraising.
   - id: 29
     title: Shalom Zone
-    recipient: hnv.serving@thursdaychurch.og
+    recipient: hnv.serving@thursdaychurch.org
     url: http://www.gallatinshalomzone.org/
-    description_medium: thursdaychurch.og volunteers assist with all aspects of the program
+    description_medium: thursdaychurch.org volunteers assist with all aspects of the program
       including mentoring, helping with homework, and encouraging residents and children
       towards healing, peace, reconciliation, and love.
   - id: 33
     title: Room in the Inn
-    recipient: hnv.serving@thursdaychurch.og
+    recipient: hnv.serving@thursdaychurch.org
     url: http://www.roomintheinn.org/
     description_medium: For those who call the streets of Nashville home, volunteers
       will help provide meals, sort mail, teach classes, and mentor.
