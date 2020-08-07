@@ -9,4 +9,4 @@ gem "rack-rewrite", "1.4.1"
 gem "puma", "2.7.1"
 gem "rake", "12.3.3"
 gem 'rdiscount'
-gem "yajl-ruby", ">= 1.3.1"
+
