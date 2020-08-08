@@ -2639,6 +2639,7 @@ a.button:hover, a.button:focus {
     color: #0a0a0a; }
 
 .breadcrumbs {
+  display: none;
   margin: 0 0 1rem 0;
   list-style: none; }
   .breadcrumbs::before, .breadcrumbs::after {
