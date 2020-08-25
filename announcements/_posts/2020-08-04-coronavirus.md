@@ -1,7 +1,7 @@
 ---
-layout: announcement
+layout: announcements
 title: COVID-19 News and Service Updates
-permalink: /coronavirus/
+permalink: /announcements/coronavirus/
 ---
 
 <p id="video" class="text-center">
