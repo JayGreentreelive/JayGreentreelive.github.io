@@ -1,8 +1,8 @@
 - id: thursday
   title: Living on the Edge
   subtitle: Not Easy
-  partnum: 2
-  date: 09/06/2020
+  partnum: 3
+  date: 09/10/2020
   speaker: Debbie Salters
   chat: 
   servicetimes: 
@@ -18,9 +18,9 @@
   nextDay: September 26, 2020
   year: "2020"
   month: "09"
-  day: "06"
-  startHour: "10"
+  day: "10"
+  startHour: "18"
   startTime: "40"
   endDay: "0"
-  endHour: "12"
+  endHour: "20"
   endMinute: "00"
