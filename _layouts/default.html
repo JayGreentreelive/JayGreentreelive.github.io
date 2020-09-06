@@ -78,7 +78,7 @@
 
 <body>
    
-<div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }}'>
+<div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }} {% if short_header %}top-short-header{% endif %}'>
     <!-- Announcement -->
     {% for announcement in site.data.announcement %}
     {% if announcement.active == true %}
