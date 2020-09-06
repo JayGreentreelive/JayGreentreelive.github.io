@@ -1,0 +1,52 @@
+2016-02-17 10:58:43	admin	http://church.markgoldsmith.me/admin/login/	Successful login for 'admin'
+2016-02-18 08:57:36	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: 173.64.10.79)
+2016-02-18 08:57:38	admin	http://church.markgoldsmith.me/admin/login/?id=125	Successful login for 'admin'
+2016-04-18 15:09:24	admin	http://church.markgoldsmith.me/admin/login/	Successful login for 'admin'
+2019-09-16 23:09:46	guest	http://localhost:8080/admin/login/	Error: Failed login for 'admin' - Invalid password
+2019-09-16 23:12:14	guest	http://localhost:8080/admin/login/	Error: Failed login for 'admin' - Invalid password
+2019-09-16 23:12:20	guest	http://localhost:8080/admin/login/	Error: Failed login for 'admin' - Invalid password
+2019-09-16 23:13:13	guest	http://localhost:8080/admin/login/	Error: Failed login for 'admin' - Invalid password
+2019-09-16 23:25:07	admin	http://localhost:8080/admin/login/	Successful login for 'admin'
+2019-09-17 07:06:09	admin	http://localhost:8080/admin/login/	Successful login for 'admin'
+2019-09-17 23:51:23	admin	http://localhost:8080/admin/login/	Successful login for 'admin'
+2019-09-18 09:24:16	admin	http://localhost:8080/admin/login/	Successful login for 'admin'
+2019-09-18 09:53:44	admin	http://192.168.1.100:8080/admin/login/	Successful login for 'admin'
+2019-09-18 11:13:03	admin	http://192.168.1.100:8080/admin/login/	Successful login for 'admin'
+2019-09-18 14:54:34	admin	http://192.168.1.100:8080/admin/login/?id=1081	Successful login for 'admin'
+2019-09-19 15:03:36	admin	http://localhost:8080/admin/login/	Successful login for 'admin'
+2019-09-19 15:17:40	admin	http://192.168.1.101:8080/admin/login/	Successful login for 'admin'
+2019-09-19 15:17:57	admin	http://192.168.1.101:8080/admin/login/	Successful login for 'admin'
+2019-09-19 15:18:15	admin	http://192.168.1.101:8080/admin/login/	Successful login for 'admin'
+2019-09-20 13:13:16	admin	http://192.168.2.40:8080/admin/login/	Successful login for 'admin'
+2019-09-20 21:47:32	admin	http://localhost:8080/admin/login/export-import/	Successful login for 'admin'
+2019-09-21 12:32:45	admin	http://localhost:8080/admin/login/	Successful login for 'admin'
+2019-09-24 10:46:55	admin	http://localhost:8888/admin/login/logout/	Logout for 'admin'
+2019-09-24 10:47:09	admin	http://localhost:8888/admin/login/	Successful login for 'admin'
+2019-09-24 10:47:47	admin	http://localhost:8888/admin/login/logout/	Logout for 'admin'
+2019-09-24 10:48:00	kthacker	http://localhost:8888/admin/login/	Successful login for 'kthacker'
+2019-09-24 10:48:41	kthacker	http://localhost:8888/admin/login/logout/	Logout for 'kthacker'
+2019-09-24 10:48:52	admin	http://localhost:8888/admin/login/	Successful login for 'admin'
+2019-09-24 13:04:39	admin	http://localhost:8888/admin/login/logout/	Logout for 'admin'
+2019-09-24 13:05:01	kthacker	http://localhost:8888/admin/login/	Successful login for 'kthacker'
+2019-09-24 13:08:18	kthacker	http://localhost:8888/admin/login/logout/	Logout for 'kthacker'
+2019-09-24 13:08:23	admin	http://localhost:8888/admin/login/	Successful login for 'admin'
+2019-09-25 16:32:39	?	?	User 'admin' - Error: Session fingerprint changed (IP address or useragent) (IP: 0.0.0.0)
+2019-09-25 16:32:51	admin	http://localhost:8888/admin/login/	Successful login for 'admin'
+2019-09-25 22:42:46	admin	http://localhost:8888/admin/login/logout/	Logout for 'admin'
+2019-09-25 22:43:04	admin	http://localhost:8888/admin/login/	Successful login for 'admin'
+2019-12-10 14:16:26	admin	http://localhost:8888/admin/login/	Successful login for 'admin'
+2019-12-10 14:55:58	guest	http://localhost:8888/admin/login/	Error: Failed login for 'admin' - Invalid password
+2019-12-10 14:56:08	guest	http://localhost:8888/admin/login/	Error: Failed login for 'jaygreentree' - Unknown user: jaygreentree
+2019-12-10 14:59:12	guest	http://localhost:8888/admin/login/	Error: Failed login for 'adin' - Unknown user: adin
+2019-12-10 14:59:26	guest	http://localhost:8888/admin/login/	Error: Failed login for 'admin' - Invalid password
+2019-12-10 14:59:31	admin	http://localhost:8888/admin/login/	Successful login for 'admin'
+2019-12-10 22:50:22	guest	http://localhost:8888/admin/login/	Error: Failed login for 'admin' - Unknown user: admin
+2019-12-10 22:50:31	jaygreentree	http://localhost:8888/admin/login/	Successful login for 'jaygreentree'
+2019-12-22 19:48:35	jaygreentree	http://localhost/admin/login/	Successful login for 'jaygreentree'
+2019-12-28 20:28:07	jaygreentree	http://localhost/admin/login/	Successful login for 'jaygreentree'
+2020-01-08 05:16:45	guest	http://localhost:81/admin/login/	Error: Failed login for 'jay-thursdaychurch.org' - Unknown user
+2020-01-08 05:16:57	jaygreentree	http://localhost:81/admin/login/	Successful login for 'jaygreentree'
+2020-01-09 11:30:56	?	?	User 'jaygreentree' - Session timed out (session older than 86400 seconds) (IP: 127.0.0.1)
+2020-01-09 11:31:19	jaygreentree	http://localhost:81/admin/login/	Successful login for 'jaygreentree'
+2020-01-12 22:20:09	?	?	User 'jaygreentree' - Session timed out (session older than 86400 seconds) (IP: 127.0.0.1)
+2020-01-12 22:21:19	jaygreentree	http://localhost:81/admin/login/	Successful login for 'jaygreentree'

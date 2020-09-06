@@ -1,48 +1,23 @@
-<ul class="options-list">
+<ul id="drop" data-dropdown-content class="f-dropdown text-left watch-resources">
   <li>
     <a href="http://feedpress.me/lifechurchipod"
        class="watch-podcast"
        onclick="ga('send', 'event', 'Series', 'Click', 'Resource Podcast');">
-       Video Podcast
+       Podcast Feed
     </a>
   </li>
   <li>
-    <a href="http://feedpress.me/lifechurchaudio"
-       class="watch-podcast"
-       onclick="ga('send', 'event', 'Series', 'Click', 'Resource Podcast Audio');">
-       Audio Podcast
-    </a>
-  </li>
-
-  {% for talkitover in site.categories.talkitover reversed %}
-  {% if page.series-id == talkitover.series-id %}
-  <li>
-    <a href="{{ talkitover.url }}"
-       class="watch-talkitover"
-       onclick="ga('send', 'event', 'Series', 'Click', 'Resource Talkitover');">
-       {{ talkitover.title }}
-    </a>
-  </li>
-  {% endif %}
-  {% endfor %}
-
-  {% unless series.resources_url == '' or page.section == 'watch-promo' %}
-  <li>
-    <a href="{% unless series.resources_url == '' %}{{ series.resources_url }}{% else %}http://resources.thursdaychurch.org{% endunless %}"
+  <a href="{% unless series.resources_url == '' %}{{ series.resources_url }}{% else %}http://resources.lifechurch.tv{% endunless %}"
        class="watch-talkitover"
        onclick="ga('send', 'event', 'Series', 'Click', 'Resource Resources');">
        Notes &amp; Downloads
     </a>
   </li>
-  {% endunless %}
-
-  {% unless page.section == 'watch-promo' %}
   <li>
-    <a href="{% unless series.open_url == '' %}{{ series.open_url }}{% else %}http://open.thursdaychurch.org{% endunless %}"
+    <a href="{% unless series.open_url == '' %}{{ series.open_url }}{% else %}http://open.lifechurch.tv{% endunless %}"
        class="watch-open"
        onclick="ga('send', 'event', 'Series', 'Click', 'Resource OPEN');">
        For Churches
     </a>
   </li>
-  {% endunless %}
 </ul>

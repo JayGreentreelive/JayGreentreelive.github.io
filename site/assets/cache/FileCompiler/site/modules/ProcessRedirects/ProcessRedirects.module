@@ -1,0 +1,380 @@
+<?php
+
+class ProcessRedirects extends \ProcessWire\Process {
+
+	public static function getModuleInfo() {
+		return array(
+			'title' => 'Redirects',
+			'summary' => \ProcessWire\__('Manage redirects'),
+			'href' => 'https://processwire.com/talk/topic/148-release-redirects/',
+			'version' => 104,
+			'permanent' => false,
+			'autoload' => true,
+			'singular' => true,
+			'permission' => 'redirects-admin',
+			'icon' => 'exchange', 
+		);
+	}
+
+	public function init() {
+		parent::init();
+		$this->addHook('ProcessPageView::pageNotFound', $this, 'checkRedirects');
+	}
+
+	public function ___execute() {
+		$this->setFuel('processHeadline', \ProcessWire\__('Redirects'));
+        $this->config->styles->add($this->config->urls->ProcessRedirects . "ProcessRedirects2.css");
+
+		$description = "<p class='description'>" . \ProcessWire\__("Note: The Redirect From URL must be unique to all existing page paths.") . "</p>";
+
+		$table = $this->modules->get("MarkupAdminDataTable");
+		$table->setEncodeEntities(false);
+		$redirectToLabel = \ProcessWire\__("Redirect To");
+		$testLabel = \ProcessWire\__("Test Redirect");
+		$hitsLabel = \ProcessWire\__('Hits');
+		$deleteLabel = \ProcessWire\__('Delete');
+		$table->headerRow(array(\ProcessWire\__('Redirect From'), $redirectToLabel, $testLabel, $hitsLabel, $deleteLabel));
+
+		$result = $this->db->query("SELECT * FROM {$this->className} ORDER BY redirect_from");
+
+		while($row = $result->fetch_assoc()) {
+
+			$row['redirect_to'] = $this->_makeRedirectToURL($row['redirect_to']); 
+
+			 // output in table rows with edit link and delete checkbox?
+			 $table->row(array(
+				 "<a href='edit/?id=$row[id]'>{$row['redirect_from']}</a>",
+				 "<a href='edit/?id=$row[id]'>{$row['redirect_to']}</a>",
+				 "<a target='_blank' href='".substr($this->config->urls->root, 0, -1)."$row[redirect_from]'>Test</a>",
+				 $row['counter'],
+				 "<input type='checkbox' name='delete[]' value='$row[id]' />"
+				 ));
+		}
+
+		$button = $this->modules->get("InputfieldButton");
+		$button->type = 'submit';
+		$button->id = 'submit_delete';
+		$button->value = \ProcessWire\__('Remove selected redirects');
+
+		$table->action(array(\ProcessWire\__('Add Redirect') => 'edit/?id=0'));
+		$table->action(array(\ProcessWire\__('Import Redirects') => 'import/'));
+
+		// Is there clean way to add button to right side?
+		return $description . "<form id='redirects_form' action='./delete/' method='post'>" .$table->render() . $button->render() . "</form>";
+	}
+
+	/**
+	 * Edit/Add Redirect - Called when the URL is: ./edit/
+	 *
+	 */
+	public function ___executeEdit() {
+
+		$this->fuel->breadcrumbs->add(new \ProcessWire\Breadcrumb('../', \ProcessWire\__('Redirects')));
+
+		$id = (int) $this->input->get->id;
+
+		if($id > 0) {
+			// edit existing record
+			$result = $this->db->query("SELECT id, redirect_from, redirect_to FROM {$this->className} WHERE id=$id");
+			list($id, $from, $to) = $result->fetch_array();
+			$to = $this->_makeRedirectToURL($to); 
+			$this->setFuel('processHeadline', \ProcessWire\__("Edit Redirect"));
+
+		} else {
+			// add new record
+			$id = 0;
+			$from = '';
+			$to = '';
+			$this->setFuel('processHeadline', \ProcessWire\__("Add Redirect"));
+		}
+
+		$form = $this->modules->get("InputfieldForm");
+		$form->method = 'post';
+		$form->action = '../save/';
+
+		$field = $this->modules->get("InputfieldHidden");
+		$field->name = 'id';
+		$field->value = $id;
+		$form->add($field);
+
+		$field = $this->modules->get("InputfieldText");
+		$field->label = \ProcessWire\__('Redirect From');
+		$field->description = \ProcessWire\__('Enter relative URL with slashes.');
+		$field->notes = \ProcessWire\__("Example: /summer/\nExample: /products/t-shirt.html");
+		$field->name = 'redirect_from';
+		$field->value = $from;
+		$form->add($field);
+
+		$field = $this->modules->get("InputfieldPageListSelect");
+		$field->label = \ProcessWire\__('Select Page to Redirect To');
+		$field->attr('id+name', 'select_page');
+		$field->startLabel = \ProcessWire\__("Select Page");
+		$field->parent_id = 0; // tell it to start from homepage
+
+		if(strpos($to, '/') === 0) {
+			// if a value is already set, determine if it's a page
+			// if it's a page, then populate the input with the page_id
+			$page = $this->pages->get($to);
+			if($page->id) $field->value = $page->id;
+		} else $page = new \ProcessWire\NullPage();
+		$form->add($field);
+
+
+		$field = $this->modules->get("InputfieldURL");
+		$field->label = \ProcessWire\__('or type URL here');
+		$field->description = \ProcessWire\__('Enter a valid URL, i.e. www.otherdomain.com/dir/ or relative URL like /season/summer/');
+		$field->name = 'redirect_to';
+		$field->id = 'redirect_to';
+		if($page->id || $id == 0) $field->collapsed = 1;
+		$field->value = $to;
+		$form->add($field);
+
+		// now add a script that makes it automatically populate the redirect_to field
+		// with the URL of the selected page.
+		$script = <<< _END
+
+<script type="text/javascript">
+	$("#select_page").bind('pageSelected', function(event, data) {
+		 if(data.url.length) $("#redirect_to").val(data.url);
+	});
+</script>
+
+_END;
+
+		$field = $this->modules->get("InputfieldButton");
+		$field->type = 'submit';
+
+		/*
+		if($id > 0 ) {
+			$field->value = \ProcessWire\__('Update Redirect');
+		} else {
+			$field->value = \ProcessWire\__('Add New Redirect');
+		}
+		*/
+		$field->value = \ProcessWire\__('Save');
+
+		$form->add($field);
+
+		return $form->render() . $script;
+	}
+
+	public function ___executeImport() {
+
+		$this->fuel->breadcrumbs->add(new \ProcessWire\Breadcrumb('../', \ProcessWire\__('Redirects')));
+		$this->setFuel('processHeadline', "Import Redirects");
+
+		$form = $this->modules->get("InputfieldForm");
+		$form->method = 'post';
+		$form->action = '../savearray/';
+
+		$field = $this->modules->get("InputfieldTextarea");
+		$field->label = \ProcessWire\__('List of redirects');
+		// note: technically speaking, commas are valid characters in URLs, so this may throw off the importer if a URL contains a comma
+		// more info: https://stackoverflow.com/a/1547940/1397709
+		$field->description = \ProcessWire\__("Comma separeted list, where each redirect is on one line. ie. /campaign/,/products/tools/offers/ or /campaign/,www.someotherdomain.com");
+		$field->name = 'redirects';
+		$field->rows = 15;
+		$form->add($field);
+
+		$field = $this->modules->get("InputfieldButton");
+		$field->type = 'submit';
+		$field->value = \ProcessWire\__('Add New Redirects');
+		$form->add($field);
+
+		return $form->render();
+	}
+
+	/**
+	 * Save Redirect - Called when the URL is ./save/
+	 *
+	 */
+	public function ___executeSave() {
+
+		$id = (int) $this->input->post->id;
+		$from = $this->input->post->redirect_from;
+		$to = $this->input->post->redirect_to;
+
+		if ($from == '' || $to == '') {
+			$this->error("No redirect created, please check your values.");
+			$this->session->redirect("../"); // back to list
+		}
+
+		elseif ($this->pages->getByPath($this->sanitizer->path($from))->id) {
+			$this->error("The Redirect From URL already exists as a page path.  Redirect not added.");
+			$this->session->redirect("../"); // back to list
+		}
+
+		$this->_saveRedirect($from, $to, $id);
+
+		$this->message(\ProcessWire\__("Saved redirect from \"$from\" to \"$to\"."));
+		$this->session->redirect("../"); // back to list
+
+	}
+
+	public function ___executeSavearray() {
+
+		$count = 0;
+		$redirects_array = explode("\n",$this->input->post->redirects);
+
+		if (empty($redirects_array) || $redirects_array[0] == '') {
+			$this->error("No redirect created, please check your values.");
+			$this->session->redirect("../"); // back to list
+		}
+
+		foreach ($redirects_array as $redirect) {
+
+			$redirect_urls = explode(",", $redirect);
+
+			$from = trim($redirect_urls[0]);
+			$to = trim($redirect_urls[1]);
+
+			// We want to skip empty lines
+			if($from == "" | $to == "") continue;
+
+			$this->_saveRedirect($from, $to);
+			$count++;
+
+		}
+
+		$this->message("Saved $count new redirects.");
+		$this->session->redirect("../"); // back to list
+	}
+
+	public function ___executeDelete() {
+
+		$count = 0;
+
+		if(!$this->input->post->delete) {
+			$this->message("Nothing to delete");
+			$this->session->redirect("../"); // back to list
+		} else {
+			if (is_array($this->input->post->delete)) {
+				foreach($this->input->post->delete as $id) {
+					$id = (int) $id;
+					$this->db->query("DELETE FROM {$this->className} WHERE id=$id");
+					$count++;
+				}
+			} else {
+				$id = (int) $this->input->post->delete;
+				$this->db->query("DELETE FROM {$this->className} WHERE id=$id");
+				$count++;
+			}
+		}
+
+		$this->message("Deleted " . $count . " redirect(s)");
+		$this->session->redirect("../"); // back to list
+	}
+
+	public function checkRedirects($event) {
+
+        // determine the URL that wasn't found
+        $parsed_url = parse_url($_SERVER['REQUEST_URI']);
+
+		$url    = $parsed_url['path'];
+		if (isset($parsed_url['query']))
+        	$query = $parsed_url['query'];
+		else 
+			$query = false;
+
+		// if installed in a subdirectory, make $url relative to the directory ProcessWire is installed in
+		if($this->config->urls->root != '/') {
+			$url = substr($url, strlen($this->config->urls->root)-1);
+		}
+
+		// we'll check the DB against trailing slash version and non-trailing slash version
+		// and escape them for the DB select while we are at it
+		$url = $this->db->escape_string(rtrim($url, '/'));
+		$url2 = $this->db->escape_string($url . '/');
+
+		// now see if it's in the DB
+		$sql = "SELECT id, redirect_to FROM {$this->className} WHERE redirect_from='$url' OR redirect_from='$url2'";
+		$result = $this->db->query($sql);
+
+		// if there is a match, then redirect to it
+		if($result->num_rows) {
+			list($id, $redirect_to) = $result->fetch_array();
+			$redirect_to = $this->_makeRedirectToURL($redirect_to, true); 
+			$sql = "UPDATE {$this->className} SET counter = counter +1 WHERE id = $id";
+			$this->db->query($sql);
+
+			if ($query)
+				$this->session->redirect($redirect_to . "?$query");
+			else
+				$this->session->redirect($redirect_to);
+		}
+	}
+
+	private function _makeRedirectToURL($to, $http = false) {
+		// if redirect_to is a page ID, convert it to be the URL to the page
+		if($to[0] != '^') return $to; 
+		$page = $this->pages->get((int) substr($to, 1)); 
+		// we get httpUrl during actual redirects so that it will redirect to http/https depending on template setting.
+		// this prevents ProcessWire from doing an extra redirect to the https version if the template calls for it. 
+		if($page->id) $to = $page->get($http ? 'httpUrl' : 'path'); 
+		return $to; 
+	}
+
+	private function _saveRedirect($from, $to, $id = 0) {
+		$from = $this->_addUrlSlashes($from);
+		$to = $this->sanitizer->url($to);
+
+		// Not external URL, if it starts with slash
+		if(substr($to, 0, 1) == "/") {
+			// if the redirect_to maps to a page, then store it's ID instead
+			if(($page = $this->pages->get($to)) && $page->id) $to = '^' . $page->id;
+		}
+
+		$from = $this->db->escape_string($from);
+		$to = $this->db->escape_string($to);
+
+		if ($id == 0) {
+			$sql = "INSERT INTO {$this->className} SET redirect_from = '$from', redirect_to = '$to' ON DUPLICATE KEY UPDATE id = id;";
+		} else {
+			$sql = "UPDATE {$this->className} SET redirect_from = '$from', redirect_to = '$to' WHERE id = $id";
+		}
+		return $this->db->query($sql);
+	}
+
+	private function _addUrlSlashes($url) {
+
+		if(substr($url, 0, 1) != "/")
+			$url = "/" . $url;
+
+		return $url;
+	}
+
+
+	public function ___install() {
+		parent::___install();
+
+		$p = new \ProcessWire\Page();
+		$p->template = $this->templates->get("admin");
+		$p->parent = $this->pages->get("template=admin, name=setup");
+		$p->title = 'Redirects';
+		$p->name = 'redirects';
+		$p->process = $this;
+		$p->save();
+
+		$sql = <<< _END
+
+		CREATE TABLE {$this->className} (
+			id int unsigned NOT NULL auto_increment,
+			counter int unsigned DEFAULT 0,
+			redirect_from varchar(255) NOT NULL DEFAULT '',
+			redirect_to varchar(255) NOT NULL DEFAULT '',
+			PRIMARY KEY(id),
+			UNIQUE KEY(redirect_from)
+		) ENGINE = MYISAM;
+
+_END;
+
+		$this->db->query($sql);
+
+	}
+
+	public function ___uninstall() {
+		$p = $this->pages->get('template=admin, name=redirects');
+		$p->delete();
+		$this->db->query("DROP TABLE {$this->className}");
+	}
+}

@@ -1,50 +1,37 @@
-<section class="watch-messages page-section section-last section-light" id="messages">
-  <div class="row">
-    <div class="large-7 columns">
-      <h2 class="underlined">In this series</h2>
-
-      <!-- Get the messages out of the series and list them out -->
-      {% for message in series.messages reversed %}
-
-      <div class="row message">
-        <a href="javascript:void(0);" data-video-player="{{message.video}}" onclick="ga('send', 'event', 'Watch', 'Play', 'Play Message”');">
-        <div class="small-1 medium-3 columns">
-          <h4>
-            <span class="hide-for-small">{% cycle 'Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6' %}</span>
-            <span class="show-for-small">{% cycle '1', '2', '3', '4', '5', '6' %}</span>
-          </h4>
+<div class='container mg-t-lg mg-b-lg serif' >
+        <div class='row '>
+          {% for message in series.messages %}
+          {% if message.video %}
+          <div class='col-md-7 '>
+          <h1></h1>
         </div>
-        <div class="small-8 medium-7 columns medium-text-right">
-          <h6>{{ message.title }}</h6>
+        <div class='col-md-4 col-md-offset-1 series-sidebar'>
         </div>
-        <div class="small-2 medium-2 columns medium-text-right play-message">
-          <div class="action text-lprimary small"><span class="hide-for-small">Play</span> <i class="icon icon-play"></i></div>
-        </div>
-      </a>
       </div>
-
-      {% endfor %}
-
-    </div>
-
-    <div class="large-4 columns">
-      <h2 class="underlined">Invite</h2>
-
-      <a href="http://twitter.com/home/?status=“Some text goes here that captures the essence of some pretty sweet quotage.” http://thursdaychurch.org{{ page.url }}" target="_blank" class="action small text-lprimary"><i class="icon-social-twitter"></i> Invite on Twitter</a>
-
-      <a href="http://www.facebook.com/sharer.php?app_id=567912296616576&amp;sdk=joey&amp;u=http%3A%2F%2Fwww.thursdaychurch.org{{ page.url }}%2F" target="_blank" class="action text-lprimary small"><i class="icon-social-facebook"></i> Invite on Facebook</a>
-
-      <a href="https://plus.google.com/share?url=www.thursdaychurch.org{{ page.url }}%2F" target="_blank" class="action text-lprimary small"><i class="icon-social-gplus"></i> Invite on Google+</a>
-
-      <!--<a href="#" target="_blank" class="action text-lprimary small"><i class="icon-social-instagram"></i> Invite on Instagram</a>-->
-
-    </div>
-  </div>
-
-</section>
-
-{% for message in series.messages %}
-
-{% include video-player.html id=message.video %}
-
+      <div class='row ' id="series-{{ series.id }}">
+        <div class='col-md-12 '>
+          <hr class='mg-t-md mg-b-none'></div>
+        </div>
+        <div class='item-and-audio-holder'>
+          <div class='row mg-b-md2 mg-t-md2'>
+            <div class='col-sm-4 col-md-3 col-md-offset-1 text-center' >
+              <a href='{{ item.url }}'>
+              <img src='{{ item.image_small }}' class='img-responsive img-full-width mg-b-md'></a>
+              {% if message.notes %}
+              <a href="{{ message.notes }}" target="_blank" class='hidden-xs btn btn-left btn-default'><i class='icon-right-4'></i> Sermon Notes</a></div>
+              {% endif %}
+              <div class='col-sm-8  col-md-7 sermon-item-info' >
+                <a href='{{ message.url }}'>
+                  <h3>{{ series.title }} {% if message.title %}: {{ message.title }}{% endif %}</h3>
+                </a>
+                
+                {% include video-player.html id=messages.video %}
+                {% endif %}
+                <div class='serif-sm'></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 {% endfor %}

@@ -1,56 +1,151 @@
 ---
-title: Thursday Church - Watch a Message, do Church Online Live, get Involved.
 layout: default
-section: home
-class: home header-light closing-dark logo-red-white
-hero: true
-description: Watch a Message, do Church Online Live, get Involved. Our mission is
-  to lead people to become fully devoted followers of Christ.
+title: home
+class: home
+id: 1
+heroimage: /assets/images/hero-easter.jpg
 ---
+  
+<div class='section section-gray'>
+  <div class='container pd-t-lg pd-b-lg'>
 
-<div class="hero-inner">
-    <div class="hero-copy alt">
-      <h1>#struggles</h1>
-      <p>It's hard to be true to ourselves when we control what the world sees about us online. Let’s learn to be real with our #struggles.</p>
+    <div class="row">
+    <h1>WELCOME</h1>
+<p>We welcome the opportunity to connect with you and your family. We have lots of opportunities to get connected and meet new people. Feel free to browse through our web site and learn about the exciting things happening at Thursday Church.
 
-      <figure class="struggles-figure"><span></span></figure>
+<p>We meet on Thursdays at 6:45 pm at our Vincennes and Bicknell campuses. We offer a Sunday morning service at 10:45 am at our Vincennes Campus. We provide programs for children 5th grade and under during services on Thursdays at both campuses and on Sundays at the Vincennes Campus.</p>
+</div>
+</div>
+</div>
 
-      <a href="/watch/promos/struggles/"
-         class="action large"
-         onclick="ga('send', 'event', 'Home', 'Play', 'Watch');">
-         Watch Series <i class="icon icon-play"></i>
-       </a>
 
-      <a href="http://live.thursdaychurch.org"
-         class="action large action-live"
-         onclick="ga('send', 'event', 'Home', 'Click', 'Live');">
-         Visit Church Online <i class="icon icon-play"></i> <span data-churchonline-counter></span>
-      </a>
-   </div>
- </div>
-</section>
+ <div class='section section-series' style='background-color: #444444; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;'>
 
-<section class="home-menu">
-  <dl>
-    <a class="nav-watch" href="/watch/">
-      <dt>Watch a Message<span class="live hide"> Live</span></dt>
-      <dd>Check out a thursdaychurch.org message—live with our Church Online community or on demand.</dd>
-    </a>
-    <a href="/locations/">
-      <dt>Locations</dt>
-      <dd>Find out more about our campuses located all over the US.</dd>
-    </a>
-    <a href="/giving/">
-      <dt>Give</dt>
-      <dd>Taking action on your generosity is simple. Find out how to give at thursdaychurch.org.</dd>
-    </a>
-    <a href="/who-we-are/">
-      <dt>New Here?</dt>
-      <dd>Learn more about who we are, what we believe, and how we'd love to serve you.</dd>
-    </a>
-  </dl>
-</section>
+  <div class='container pd-t-lg pd-b-lg'>
+    <div class="row center-row-series">
+{% assign latest = site.data.watch | first %}
 
-<!--<section class="tile-items tile-one tile-alt">
-  <div class="home-tile tile-item">#struggles. Starts September 6.</div>
-  </section>-->
+      {% for post in site.categories.watch limit:1 %}
+      {% for series in site.data.watch %}
+      {% if series.id == post.series-id %}
+       <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' id='current-series-graphic'>
+          <div class='series-img-holder'>
+            <img src='{{ series.image_small }}' alt='Series logo' class='img-responsive'/>
+          </div>
+       </div>
+        <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' style='padding:0px 40px;'>
+
+          <h4>CURRENT SERIES</h4>
+          <h3>{{ series.title }}</h3>
+<a class='btn btn-primary btn-clear btn-left mg-t-sm' href="{{ post.url }}">View Series</a>
+                     </div>
+{% endif %}
+{% endfor %}
+{% endfor %}
+                  </div>
+                </div>
+
+              </div>
+
+
+
+
+<div class='section section-locations' >
+  <div class='container pd-t-lg pd-b-lg'>
+
+    <div class="row">
+       <div class='col-md-12 pd-b-md text-center'>
+           <h1>Locations &amp; Times</h1>
+      </div>
+    </div>
+
+    <div class='row'>
+{% for location in site.data.locations limit:3 %}
+
+
+           <div class="col-xs-12 col-sm-4 col-md-4 ">
+
+            <div class='pd-xs'>
+              <img src='{{ item.image_small }}' class='img-responsive img-full-width'/>
+
+              <h3>{{ location.title }}</h3>
+             <p class='campus-times'>{{ item.time }}</p>
+
+               <ul class="fa-ul">
+                <li><i class="fa-li icon-location-pin-1"></i>
+                                 {{ location.address }}</li>
+                <li><i class="fa-li icon-call-2"></i>{{ location.phone}}</li>
+              </ul>
+               <div class=' mg-t-sm2'><a href='http://maps.google.com/?q={{ location.address }}' class='btn btn-default btn-left' ><i class='icon-right-4 icon-fw'></i> Map &amp; Directions</a></div>
+            </div>
+
+        </div>
+
+{% endfor %}
+
+    </div>
+  </div>
+</div>
+
+
+{% for story in site.data.stories limit:1 %}
+<div class='section section-featured-story' style='background: #565656 {% if story.heroimage %}url("{{ story.heroimage }}") no-repeat center center{% endif %}; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;' >
+      <div class='container pd-t-lg pd-b-lg'>
+        <div class='row'>
+          <div class='col-sm-6  col-xs-8 '>
+               <h5 class='mg-b-none'>STORIES</h5>
+               <h4 class='mg-b-sm'>{{ story.title }}</h4> 
+               <p class='hidden-xs home-quote'>
+                {{ story.description_small }}
+               </p> <a class='btn btn-default btn-clear btn-left mg-t-sm' href='{{ story.readmore }}'> {{ story.readmoretext }}</a>
+               </div>
+            </div>
+          </div>
+
+    </div>
+    {% endfor %}
+
+
+
+<div class='section section-gray'>
+
+
+
+  <div class='container pd-t-lg pd-b-lg'>
+
+    <div class='row'>
+      <div class='col-md-12 text-center pd-b-md'>
+          <h1>LIFE Groups</h1>
+      </div>
+    </div>
+
+    <div class="row">
+<div class="container pd-t-md pd-b-lg">
+    <div class="row multi-columns-row ">
+        {% for item in site.data.lifegroups limit:3 %}
+        {% if item.location == "Vincennes" %}
+        {% capture type %}LIFE Groups{% endcapture %}
+        {% include lifegroup-item.html %}
+        {% endif %}
+        {% endfor %}
+      </div>
+
+    <div class='container  pd-b-lg'>
+        <div class='row'>
+            <div class='col-md-12 text-center pd-b-md'>
+              <a href='/ministries/life-groups/' class='btn btn-left btn-default'><i class='icon-right-4'></i> All LIFE Groups</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div> <!-- end section -->
+
+ 
+
+
+    </div>
+  </div>
+</div>

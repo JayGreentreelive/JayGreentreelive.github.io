@@ -1,0 +1,54 @@
+---
+layout: default
+title: Events List
+permalink: /events/
+---
+
+<section class="page-section section-first section-lifegroups-top">
+    <div class="medium-10 medium-centered text-center columns">
+      <h2>Upcoming Events</h2>
+      <p></p>
+      </div>
+</section>
+
+<div class="container pd-t-md pd-b-lg ">
+    <div class="row multi-columns-row ">
+        {% for item in site.data.events %}
+        {% include event-item.html %}
+        {% endfor %}
+      </div>
+
+    <div class='container  pd-b-lg'>
+        <div class='row'>
+            <div class='col-md-12'>
+                    </div>
+        </div>
+
+    </div>
+
+
+
+</div> <!-- end section -->
+
+    </div>
+  </div>
+</section>
+
+<section class="page-section" id="digital-missions" style="display: none;">
+
+  <div class="row padded">
+    <div class="large-12 columns">
+      
+      <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 involved-list">
+        {% for item in site.data.events %}
+        {% if item.location == "Bicknell" %}
+        {% capture type %}Events{% endcapture %}
+        {% include event-item.html %}
+        {% endif %}
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</section>
+

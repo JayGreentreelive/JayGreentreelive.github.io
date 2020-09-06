@@ -1,11 +1,5 @@
-# type: notice or alert
-# active: true or false
-# icon: weather-snow, weather-rain, campus, money, calendar, maintenance
-# message: the message in the announcement
-# url: link or leave blank
-
 - active: false
   type: notice
-  icon: campus
-  message: Worship Service Reopening Plans (covid-19)
-  url: /coronavirus/
+  icon: money
+  message: Worship services will be online only until further notice. Covid-19 (Coronavirus) Update & Service Announcement
+  url: /news/covid-19

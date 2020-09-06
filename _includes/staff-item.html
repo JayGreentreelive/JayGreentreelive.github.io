@@ -1,0 +1,22 @@
+<!-- begin Staff template -->
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            
+            <div style='background-color:#ffffff;padding-bottom:10px;' class='serif serif-md'>
+                <a href=''><img src='{{ item.image_small }}' class=' img-responsive img-full-width' /></a>
+                <div style='padding:10px 20px;'>
+                    <h3 style='margin-top:0px;padding-top:6px;padding-bottom:6px;'>
+                    {% if item.url %}<a href='{{ item.url }}'>{% endif %}{{ item.title }}{% if item.url %}</a>{% endif %}</h3>
+                    <h4>{{ item.position }}</h4>
+                        {{ item.description_medium | newline_to_br }}
+                        <div class='clearfix'></div>
+                        {% if item.url %}
+                                <div class='mg-t-md mg-b-sm'>
+                                    <a href='{{ item.url }}' class='btn btn-left btn-default'><i class='icon-right-4'></i> My Bio</a>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+
+<!-- end Staff template -->
