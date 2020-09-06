@@ -78,7 +78,7 @@
 
 <body>
    
-<div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }} top-short-header'>
+<div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }}'>
     <!-- Announcement -->
     {% for announcement in site.data.announcement %}
     {% if announcement.active == true %}
@@ -209,7 +209,7 @@
 
 
 
-  <div id='top-area' class='top-home {% if page.shortheader %}top-short-header{% endif %}'>
+  <div id='top-area' class='top-home <!--{% if page.shortheader %}--> top-short-header <!--{% endif %}-->'>
 
     <div class='top-cover-gradient-fromtop gradient'></div>
     <div class='top-cover-gradient-frombot gradient '></div>
