@@ -3214,12 +3214,8 @@ span.divider-line
 
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
   
-    body .onair-center {
-        font-family: 'Hack';
-    }
 .onair-center {
   display: flex;
-
  justify-content: Center;
  align-items: Center;
  flex-direction: column;
