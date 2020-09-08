@@ -742,7 +742,7 @@ footer .serif a, #footer .serif a
 
 #top-quick-menu.has-top-live
 {
-  padding-top: 67px;
+  padding-top: 70px;
 }
 
 
@@ -902,7 +902,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .template-story-detail .story-title h3 {   font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
-.header-banner.has-top-live { padding-top:40px !important;}
+.header-banner.has-top-live { padding-top:50px !important;}
 
 .header-campus h1 {font-size: 5.1em}
 
@@ -926,11 +926,11 @@ p.campus-address { font-size:1.3em; margin-bottom: 0.2em;}
   .top-short-header { height:100px !important;}
   .top-short-header.has-top-live{height:140px !important;}
   #top-quick-menu{padding-top:9px;}
-  #top-quick-menu.has-top-live{padding-top: 49px;}
+  #top-quick-menu.has-top-live{padding-top: 50px;}
   #logo-mark { margin-top: 10px;}
 
-   /*.page-id-6906 .header-banner h1 { font-size:3em !important;  }
-   .page-id-6906 .header-banner h2{ font-size: 1.75em}*/
+   .page-id-6906 .header-banner h1 { font-size:3em !important;  }
+   .page-id-6906 .header-banner h2{ font-size: 1.75em}
 
    .center-col {width: 750px;}
 }
@@ -955,7 +955,7 @@ p.campus-address { font-size:1.3em; margin-bottom: 0.2em;}
   .top-short-header { height:100px !important;}
   .top-short-header.has-top-live{height:140px !important;}
   #top-quick-menu{padding-top:9px;}
-  #top-quick-menu.has-top-live{padding-top: 49px;}
+  #top-quick-menu.has-top-live{padding-top: 50px;}
   #logo-mark { margin-top: 10px;}
 }
 
