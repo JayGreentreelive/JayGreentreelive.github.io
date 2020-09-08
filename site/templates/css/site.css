@@ -3215,7 +3215,7 @@ span.divider-line
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
   
 .onair-center {
-  display: flex;
+ display: flex;
  justify-content: Center;
  align-items: Center;
  flex-direction: column;
@@ -3245,7 +3245,7 @@ span.divider-line
     background-color: #004A7F;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    border: none;
+    border: 1px;
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
