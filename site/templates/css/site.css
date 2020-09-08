@@ -3219,8 +3219,7 @@ span.divider-line
     }
 .onair-center {
   display: flex;
-  min-height: 100vh;
-  height: 100%;
+
  justify-content: Center;
  align-items: Center;
  flex-direction: column;
