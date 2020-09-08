@@ -5,7 +5,6 @@ body {
   -webkit-text-size-adjust: none;"Open Sans"
 }
 
-
 a {
   color: #490b4d;
   text-decoration: none;
@@ -3211,8 +3210,6 @@ span.divider-line
 .series-locator {
   display: none;
 }
-
-@import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
   
 .onair-center {
  display: flex;
@@ -3230,7 +3227,6 @@ span.divider-line
     color: #fff018;
     cursor: pointer;
     display: inline-block;
-    font-family: 'Hack';
     font-size: 14px;
     padding: 15px;
     text-align: center;
