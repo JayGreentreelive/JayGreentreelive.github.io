@@ -1,7 +1,5 @@
 ---
-permalink: /api/live.js
 ---
-{% for post in site.data.live limit:1 %}
 (function () {
     var j = false;
     window.JQClass = function () {};
@@ -745,14 +743,15 @@ var server_time;
 var live_streaming = window.live_streaming;
 var need_countdown = window.need_countdown;
 var setCountDownDuringLiveEvent;
+{% for post in site.data.live %}
 var end_service_hours = "{{ live.endHour }}";
 var end_service_minutes = "{{ live.endMinute }}";
 var end_service_day = "{{ live.endDay }}";
-
+{% endfor %}
 function grabServerTime() {
     var time = null;
     $.ajax({
-        url: '/api/server-time/',
+        url: '/server-time/',
         async: false,
         dataType: 'text',
         success: function (text) {
@@ -843,7 +842,7 @@ $(document).ready(function () {
 
     function onFinish() {
         if (outroVideoPlaying == false) {
-            $('#video-holder').html('<iframe id="ls_embed_1458644761" src="https://youtube.com/embed/<?php echo $page->youtube_id; ?>" width="960" height="540" frameborder="0" scrolling="no"></iframe>');
+            $('#video-holder').html('<iframe id="ls_embed_1458644761" src="https://www.youtube.com/embed/live_stream?channel=UCOkzwUS7legBk1DMzgBCY-g" width="960" height="540" frameborder="0" scrolling="no"></iframe>');
             $("body").fitVids({
                 customSelector: "iframe[src^='https://youtube.com']"
             });
@@ -888,7 +887,7 @@ $(document).ready(function () {
         if (live_streaming == true && need_countdown == false) {
             $('#countdown-block').hide();
         }
-        $.getJSON('/api/next-service-time/?time=' + new Date().getTime(), function (json) {
+        $.getJSON('/api/1746/?time=' + new Date().getTime(), function (json) {
             $('#next-service').html("Next service:<br/>" + json['nextTime'] + ", <br/>" + json['nextDay']);
             if (!live_streaming || need_countdown == true) {
                 $('#countdown-block').show();
@@ -948,7 +947,7 @@ $(document).ready(function () {
                 if (live_streaming == false) {
                     live_streaming = true;
                     $.ajax({
-                        url: '/api/live-message-details/?intro=true&time=' + new Date().getTime(),
+                        url: '/api/1748/?intro=true&time=' + new Date().getTime(),
                         dataType: 'json',
                         success: function (response) {
                             var d = CKEDITOR.instances.editor1.getData;
@@ -1176,4 +1175,3 @@ $(document).ready(function () {
     });
     renderCountdown();
 });
-{% endfor %}
