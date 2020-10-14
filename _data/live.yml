@@ -1,7 +1,7 @@
 - id: thursday
-  title: Living on the Edge
-  subtitle: Not Afraid
-  partnum: 3
+  title: 
+  subtitle: 
+  partnum: 
   date: 09/24/2020
   speaker: Debbie Salters
   chat: 
@@ -15,10 +15,10 @@
   reviewquestion: 'review questions'
   video: 
   nextTime: 6:40pm Thursday
-  nextDay: October 08, 2020
+  nextDay: October 16, 2020
   year: "2020"
   month: "10"
-  day: "08"
+  day: "04"
   startHour: "18"
   startTime: "40"
   endDay: "0"
