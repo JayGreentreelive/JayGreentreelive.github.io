@@ -42,7 +42,7 @@ shortheader: true
 
                <div id="live-message-details">
                    <h2>{{ post.title }}</h2><p></p><h4>{{ post.subtitle }} </h4>
-                   <p>Part {{ post.partnum }} · {{ post.date }} · {{ post.speaker }}</p>               </div>
+                   <p>{% if post.partnum %}Part {{ post.partnum }} ·{% endif %} {{ post.date }} · {{ post.speaker }}</p>               </div>
              </div>
 
                <div class="text-muted mg-b-sm2 hide" id="live-message-body">
