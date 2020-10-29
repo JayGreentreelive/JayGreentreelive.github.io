@@ -22,7 +22,7 @@
 <!-- Begin reusable Modals -->
 
 <!-- Begin Notes Modal -->
-    <div id="notes-Modal" class="modal fade" role="dialog">
+<div class="modal fade" id="notes-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
     <!-- Modal content-->
     <div class="modal-content">
@@ -48,7 +48,7 @@
 <!-- End notes Modal -->
 
 <!-- Begin send to friend Modal-->
-    <div id="sendtofriend-Modal" class="modal fade" role="dialog">
+<div class="modal fade" id="dendtofriend-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
     <!-- Modal content-->
     <div class="modal-content">
@@ -89,7 +89,7 @@
 
 
 <!-- Begin Prayer Request Modal -->
- <div id="prayer-Modal" class="modal fade" role="dialog">
+  <div class="modal fade" id="prayer-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
  	    <!-- Modal content-->
     <div class="modal-content">
@@ -142,7 +142,7 @@ not be included in the outgoing email as part of your prayer request.</small></p
 <!-- End Prayer Request Modal -->
 
 <!-- Begin tech support Modal -->
-     <div id="techsupport-Modal" class="modal fade" role="dialog">
+<div class="modal fade" id="techsupport-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
     <!-- Modal content-->
     <div class="modal-content">
@@ -183,8 +183,7 @@ not be included in the outgoing email as part of your prayer request.</small></p
 <!-- End tech support Modal-->
 
 <!-- Begin get connected Modal -->
-
-<div id="connect-Modal" class="modal fade" role="dialog">
+<div class="modal fade" id="connect-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
     <!-- Modal content-->
     <div class="modal-content">
@@ -217,7 +216,10 @@ not be included in the outgoing email as part of your prayer request.</small></p
                 <input class="form-control required" placeholder="City" id="city" name="city" type="text">
               </div>
               <div class="col-xs-4">
-                <input class="form-control required" placeholder="State" id="state" name="state" type="text">
+                <label  for='state'>State</label>
+                <select name='state' class='form-control'>
+                  {{% include states.html %}}
+                  </select>
               </div>
               <div class="col-xs-4">
                 <input class="form-control required" placeholder="Zip Code" id="zip" name="zip" type="text">
@@ -254,7 +256,7 @@ not be included in the outgoing email as part of your prayer request.</small></p
 
 
 <!-- Begin Notes Modal -->
-    <div id="contact-Modal" class="modal fade" role="dialog">
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
     <!-- Modal content-->
     <div class="modal-content">
@@ -305,7 +307,7 @@ not be included in the outgoing email as part of your prayer request.</small></p
               <div class='col-sm-3 col-xs-6'>
                 <label  for='state'>State</label>
                 <select name='state' class='form-control'>
-                  <?php include("./includes/states.inc");?>
+                  {{% include states.html %}}
                   </select>
                 </div>
                 <div class='col-sm-3 col-xs-6'>
