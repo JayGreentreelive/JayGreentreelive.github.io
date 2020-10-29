@@ -1,3 +1,13 @@
+- id: starting-point
+  title: Starting Point
+  location: Vincennes
+  description_small: ''
+  description_medium: ''
+  website: /life-groups/starting-point
+  image_small: /assets/images/lifegroups/starting-point.png
+  image_medium: /assets/images/lifegroups/starting-point.png
+  image_large: /assets/images/lifegroups/starting-point.png
+
 - id: youth-group
   title: Youth Group
   location: Vincennes
