@@ -1,13 +1,3 @@
-- id: starting-point
-  title: Starting Point
-  location: Vincennes
-  description_small: ''
-  description_medium: 'A LIFE Group specifically for young adults. Enjoy a conversation about faith over a cup of coffee at I'mpressed Coffee on Sundays at 6:00 pm. Sage Merrimon leads this group. If you have questions or need more details please contact the Vincennes Campus.'
-  website: /life-groups/starting-point
-  image_small: /assets/images/lifegroups/starting-point.png
-  image_medium: /assets/images/lifegroups/starting-point.png
-  image_large: /assets/images/lifegroups/starting-point.png
-
 - id: youth-group
   title: Youth Group
   location: Vincennes
@@ -67,3 +57,13 @@
   image_small: /assets/images/lifegroups/sermon-study-notes.png
   image_medium: /assets/images/lifegroups/sermon-study-notes.png
   image_large: /assets/images/lifegroups/sermon-study-notes.png
+
+- id: starting-point
+  title: Starting Point
+  location: Vincennes
+  description_small: ''
+  description_medium: 'A LIFE Group specifically for young adults. Enjoy a conversation about faith over a cup of coffee at I'mpressed Coffee on Sundays at 6:00 pm. Sage Merrimon leads this group. If you have questions or need more details please contact the Vincennes Campus.'
+  website: /life-groups/starting-point
+  image_small: /assets/images/lifegroups/starting-point.png
+  image_medium: /assets/images/lifegroups/starting-point.png
+  image_large: /assets/images/lifegroups/starting-point.png
