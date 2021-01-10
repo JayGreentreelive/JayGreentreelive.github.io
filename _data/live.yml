@@ -13,13 +13,13 @@
   msg_takeaway: 'Sermon msg takeaway'
   reviewquestion: 'review questions'
   video: 
-  nextTime: 6:40pm Thursday
+  nextTime: 10:40am Sundaday
   nextDay: October 29, 2020
-  year: "2020"
-  month: "10"
+  year: "2021"
+  month: "1"
   day: "0"
   startHour: "10"
   startTime: "40"
   endDay: "0"
-  endHour: "20"
+  endHour: "12"
   endMinute: "00"
