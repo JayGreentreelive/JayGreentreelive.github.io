@@ -5,7 +5,7 @@
   <!-- <![endif] -->
   <head>
 
-    <title>{% if page.title %}{{ page.title }} |{% endif %} Thursday Church</title>
+    <title>{{ page.title }} | Thursday Church</title>
 
 
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -34,21 +34,7 @@
  background: #490b4d url("{{ page.heroimage }}") no-repeat center center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
 .gradient,.gradient:after {filter: none; } 
            </style>
-    <!-- Javascript ================================================== -->
-    <script src="/site/templates/js/plugins/modernizr/modernizr.min.js"></script>
-    <script src="/site/templates/js/plugins/jquery/jquery.min.js"></script>
-    <script src='/site/templates/js/plugins/fastbutton/google.fastbutton.js'></script>
-    <script src='/site/templates/js/plugins/fastbutton/jquery.google.fastbutton.js'></script>
-    <script src='/site/templates/js/bootstrap.min.js'></script>
-    <script src='/site/templates/js/plugins/emailObfuscation/emo.min.js'></script>
-    <script src='/site/templates/js/plugins/fitvids/jquery.fitvids.min.js'></script>
-    <script src='/site/templates/js/plugins/validate/jquery.validate.js'></script>
-    <script src='/site/templates/js/main.js'></script>
-    <script src='/site/templates/js/popup.js'></script>
-    <script src='/site/templates/js/share.js'></script>
-    <script src="http://church.jaygreentree.com/site/templates/js/live.js"></script>
-    <script src='/site/templates/css/ckeditor/ckeditor.js'></script>
-    <script src='/site/templates/css/ckeditor/samples/js/sample.js'></script>
+ 
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -345,7 +331,7 @@
          <div class="row mg-t-md mg-b-md">
              <div class="col-md-12">
                <hr>
-               <p>Copyright &copy; <?php echo date("Y");?> Thursday Church <!--span class="middot">·</span> <a href="/privacy-policy/" style="color: white;">Privacy Policy</a>
+               <p>Copyright &copy; 2008-2021 Thursday Church <!--span class="middot">·</span> <a href="/privacy-policy/" style="color: white;">Privacy Policy</a>
                  <span class="middot">·</span> <a href="/credits/" style="color: white;">Credits</a>
                  <span class="middot">·</span> <a href="/tags/" style="color: white;">Tags</a-->
 
@@ -367,7 +353,23 @@
 
 
 </div> <!-- / wrapper -->
-
+   <!-- Javascript ================================================== -->
+    <script src="/site/templates/js/plugins/modernizr/modernizr.min.js"></script>
+    <script src="/site/templates/js/plugins/jquery/jquery.min.js"></script>
+    <script src='/site/templates/js/plugins/fastbutton/google.fastbutton.js'></script>
+    <script src='/site/templates/js/plugins/fastbutton/jquery.google.fastbutton.js'></script>
+    <script src='/site/templates/js/bootstrap.min.js'></script>
+    <script src='/site/templates/js/plugins/emailObfuscation/emo.min.js'></script>
+    <script src='/site/templates/js/plugins/fitvids/jquery.fitvids.min.js'></script>
+    <script src='/site/templates/js/plugins/validate/jquery.validate.js'></script>
+    <script src='/site/templates/js/main.js'></script>
+    <script src='/site/templates/js/popup.js'></script>
+    <script src='/site/templates/js/share.js'></script>
+    <script>
+      {% include livejs.html %}
+    </script>
+    <script src='/site/templates/css/ckeditor/ckeditor.js'></script>
+    <script src='/site/templates/css/ckeditor/samples/js/sample.js'></script>
 <!-- form modals begin -->
 {% include form-modals.html %}
 <!-- form modals end -->
