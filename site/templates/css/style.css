@@ -79,7 +79,7 @@ header .navbar .navbar-nav.absolute-right {
 }
 
 header .navbar .nav-item.active>a {
-  color: #490b4d !important;
+  color: #a31a1a !important;
   font-weight: bold;
 }
 
@@ -138,12 +138,12 @@ header .navbar .dropdown-menu:before {
 }
 
 header .navbar .dropdown-menu .dropdown-item:hover {
-  background: #490b4d;
+  background: #a31a1a;
   color: #fff;
 }
 
 header .navbar .dropdown-menu .dropdown-item.active {
-  background: #490b4d;
+  background: #a31a1a;
   color: #fff;
 }
 
@@ -220,7 +220,7 @@ header .navbar.navbar-light .nav-link.active {
 
 .site-hero .btn {
   box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2) !important;
-  background: #490b4d !important;
+  background: #a31a1a !important;
   border: 2px solid transparent !important;
   color: #fff;
 }
@@ -273,7 +273,7 @@ header .navbar.navbar-light .nav-link.active {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: #490b4d;
+  background: #a31a1a;
   border-radius: 50%;
 }
 
@@ -306,7 +306,7 @@ header .navbar.navbar-light .nav-link.active {
   font-size: 14px;
   letter-spacing: .2em;
   color: #cccccc;
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .episodes .episode-number {
@@ -318,7 +318,7 @@ header .navbar.navbar-light .nav-link.active {
   text-transform: uppercase;
   line-height: 74px;
   border-radius: 50%;
-  background: #490b4d;
+  background: #a31a1a;
   color: #fff;
   font-size: 30px;
 }
@@ -506,7 +506,7 @@ header .navbar.navbar-light .nav-link.active {
 .school-instructors.text-dark .feature .icon>span:before {
   font-size: 50px;
   margin-left: 0;
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .img-bg {
@@ -625,12 +625,12 @@ textarea.form-control {
 .btn.btn-primary:focus {
   color: #000 !important;
   background: none !important;
-  border: 2px solid #490b4d !important;
+  border: 2px solid #a31a1a !important;
 }
 
 .btn.btn-primary-white {
   border: 2px solid transparent;
-  background: #490b4d;
+  background: #a31a1a;
 }
 
 .btn.btn-primary-white:hover,
@@ -651,7 +651,7 @@ textarea.form-control {
 .btn.btn-white:focus,
 .btn.btn-white:active {
   border: 2px solid transparent;
-  background: #490b4d !important;
+  background: #a31a1a !important;
 }
 
 .flaticon-custom {
@@ -701,10 +701,10 @@ textarea.form-control {
 
 .box.hover:hover .box-body,
 .box.hover:focus .box-body {
-  background: #490b4d;
+  background: #a31a1a;
   color: #fff;
   padding: 30px 20px;
-  border-color: #490b4d;
+  border-color: #a31a1a;
 }
 
 .box.hover:hover h2,
@@ -718,7 +718,7 @@ textarea.form-control {
 }
 
 .breadcrumb-custom li a {
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .breadcrumb-custom li a:hover {
@@ -834,7 +834,7 @@ textarea.form-control {
 
 .media-feature .icon {
   font-size: 60px;
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .media-feature h3 {
@@ -847,7 +847,7 @@ textarea.form-control {
   box-shadow: 0 2px 20px -3px rgba(0, 0, 0, 0.1);
   transform: scale(1.05);
   z-index: 2;
-  border-bottom: 10px solid #490b4d;
+  border-bottom: 10px solid #a31a1a;
 }
 
 .media-custom {
@@ -914,7 +914,7 @@ textarea.form-control {
   display: block;
   text-align: left;
   text-decoration: none;
-  color: #490b4d;
+  color: #a31a1a;
   position: relative;
   box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
   border-radius: 0;
@@ -1104,7 +1104,7 @@ blockquote p {
   background-repeat: no-repeat;
   padding: 5em 0;
   line-height: 1.7;
-  background: #490b4d;
+  background: #a31a1a;
 }
 
 .site-footer .heading {
@@ -1226,7 +1226,7 @@ blockquote p {
   font-size: 45px;
   margin: 0;
   padding: 0;
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .block-15 .text {
@@ -1257,7 +1257,7 @@ blockquote p {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #490b4d;
+  background: #a31a1a;
   z-index: -1;
 }
 
@@ -1367,7 +1367,7 @@ blockquote p {
 .block-18 .text strong {
   font-size: 40px;
   line-height: 1.5;
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .block-18 .text span {
@@ -1407,7 +1407,7 @@ blockquote p {
 }
 
 .block-19 .text .heading a:hover {
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .block-19 .text .meta .number,
@@ -1416,7 +1416,7 @@ blockquote p {
 }
 
 .block-19 .text .meta .number span {
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .block-19 .text .meta .price del {
@@ -1424,7 +1424,7 @@ blockquote p {
 }
 
 .block-19 .text .meta .price span {
-  background: #490b4d;
+  background: #a31a1a;
   border-radius: 4px;
   display: inline-block;
   padding: 1px 10px;
@@ -1492,7 +1492,7 @@ blockquote p {
 .block-21 .text .heading a:hover,
 .block-21 .text .heading a:active,
 .block-21 .text .heading a:focus {
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .block-21 .text .meta>div {
@@ -1572,7 +1572,7 @@ blockquote p {
 .block-20 .text .heading a:hover,
 .block-20 .text .heading a:focus,
 .block-20 .text .heading a:active {
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .block-20 .meta>div {
@@ -1638,7 +1638,7 @@ blockquote p {
   transform: translateY(-50%);
   width: 100%;
   height: 10px;
-  background: #490b4d;
+  background: #a31a1a;
 }
 
 .section-heading .heading {
@@ -1653,7 +1653,7 @@ blockquote p {
 }
 
 .bg-light .section-heading:before {
-  background: #490b4d;
+  background: #a31a1a;
 }
 
 .bg-light .section-heading .heading {
@@ -1661,7 +1661,7 @@ blockquote p {
 }
 
 .block-22 {
-  background: #490b4d;
+  background: #a31a1a;
 }
 
 .block-22 .heading {
@@ -1945,8 +1945,8 @@ blockquote p {
 
 .block-24 ul li a:hover,
 .block-24 ul li a:focus {
-  color: #490b4d;
-  border-left: 4px solid #490b4d;
+  color: #a31a1a;
+  border-left: 4px solid #a31a1a;
 }
 
 .block-25 {
@@ -1993,11 +1993,11 @@ blockquote p {
 }
 
 .block-25 ul li a .meta {
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .block-25 ul li a:hover .text .heading {
-  color: #490b4d;
+  color: #a31a1a;
 }
 
 .block-26 {
@@ -2032,7 +2032,7 @@ blockquote p {
   padding: 0 10px;
   border-radius: 4px;
   display: inline-block;
-  background: #490b4d;
+  background: #a31a1a;
 }
 
 .block-27 ul,
@@ -2060,7 +2060,7 @@ blockquote p {
 
 .block-27 ul li.active a,
 .block-27 ul li.active span {
-  background: #490b4d;
+  background: #a31a1a;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -2227,9 +2227,9 @@ blockquote p {
   content: "\f126";
   font-size: 12px;
   transition: .3s all ease;
-  background: #490b4d;
+  background: #a31a1a;
   color: #fff;
-  border: 1px solid #490b4d;
+  border: 1px solid #a31a1a;
 }
 
 .block-8 .accordion-item .heading>a[aria-expanded="false"]:before {
@@ -2304,7 +2304,7 @@ blockquote p {
   margin: 0;
   border-radius: 50% !important;
   font-size: 16px;
-  background: #490b4d;
+  background: #a31a1a;
   color: #fff;
 }
 
@@ -2326,7 +2326,7 @@ blockquote p {
 }
 
 .block-42 {
-  border-top: 2px solid #490b4d;
+  border-top: 2px solid #a31a1a;
   background: #fff;
   position: relative;
   z-index: 2;
@@ -2470,7 +2470,7 @@ blockquote p {
 }
 
 .block-45 {
-  background: #490b4d;
+  background: #a31a1a;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 14px;
