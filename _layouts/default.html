@@ -28,19 +28,35 @@
     <link rel="stylesheet" href="/site/templates/css/site.css">
     <link rel="stylesheet" href="/site/templates/css/font-awesome/css/font-awesome.css">
     <style>
-        .top-home{
-    background: #a31a1a url("{{ page.heroimage }}") no-repeat center center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
-    .gradient,.gradient:after {filter: none; }
+        .top-home {
+            background: #013852 url("{{ page.heroimage }}") no-repeat center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+        .gradient,
+        .gradient:after {
+            filter: none;
+        }
     </style>
     {% if site.google_analytics %}
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-      </script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+    </script>
     {% endif %}
     <!-- end of javascript includes  -->
 </head>
@@ -48,23 +64,20 @@
 <body>
     <div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }}'>
         <!-- Announcement -->
-        {% for announcement in site.data.announcement %}
-        {% if announcement.active == true %}
-        {% if page.section != 'announcements' %}
+        {% for announcement in site.data.announcement %} {% if announcement.active == true %} {% if page.section != 'announcements' %}
         <div class="top-news-bar">
             <div data-alert class="alert-box {{ announcement.type }}">
                 <div class="row">
-                    <div class="medium-12 columns"><center>
-                        {% if announcement.url %}<a class="announcement-link" href="{{ announcement.url }}">{% endif %}
+                    <div class="medium-12 columns">
+                        <center>
+                            {% if announcement.url %}<a class="announcement-link" href="{{ announcement.url }}">{% endif %}
                             <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i> {{ announcement.message }}
                             {% if announcement.url %}</a></center>{% endif %}
                     </div>
                 </div>
             </div>
         </div>
-        {% endif %}
-        {% endif %}
-        {% endfor %}
+        {% endif %} {% endif %} {% endfor %}
         <div class='header' id='chapel-header-bar'>
             <div id='search-area'>
                 <div class='container'>
@@ -184,7 +197,7 @@
             <!-- begin Countdown -->
             <div class="announcement-bar">
                 <!--span class="">Next Service begins in: <div id="defaultCountdown"></div></span-->
-                
+
                 <div id="churchonline_counter">
                     <div class="live">Live Now</div>
                     <ul class="time">
@@ -195,24 +208,21 @@
                         <li><span class="seconds btn-live"></span> <span class="label">secs</span></li>
                     </ul>
                 </div>
-                
+
             </div>
             <!-- End Countdown -->
-            {% endunless %}
-            {% if content %}
-            {{ content }}
-            {% else %}
+            {% endunless %} {% if content %} {{ content }} {% else %}
             <p>Page not found</p>
             {% endif %}
-        </div> <!-- end Main -->
+        </div>
+        <!-- end Main -->
         <div id="footer-social-bar">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12  col-sm-4 col-md-4 ">
                         <div id="footer-address" style="display:none;">
                             <h4>Mailing Address</h4>
-                            <p>218 Main St.,<span class="hidden-sm hidden-md hidden-lg"><br></span> Vincennes, IN 47591<br>
-                                Phone: 812.‍882.2737
+                            <p>218 Main St.,<span class="hidden-sm hidden-md hidden-lg"><br></span> Vincennes, IN 47591<br> Phone: 812.‍882.2737
                                 <!--&nbsp;|&nbsp; Fax: 716.‍634.4184-->
                             </p>
                         </div>
@@ -290,15 +300,14 @@
         <!-- window resize helper -->
         <span id="mq-detector">
             <span class="visible-xs"></span>
-            <span class="visible-sm"></span>
-            <span class="visible-md"></span>
-            <span class="visible-lg"></span>
+        <span class="visible-sm"></span>
+        <span class="visible-md"></span>
+        <span class="visible-lg"></span>
         </span>
-    </div> <!-- / wrapper -->
-        <!-- form modals begin -->
-    {% comment %}
-    {% include form-modals.html %}
-    {% endcomment %}
+    </div>
+    <!-- / wrapper -->
+    <!-- form modals begin -->
+    {% comment %} {% include form-modals.html %} {% endcomment %}
     <!-- form modals end -->
     <!-- Javascript ================================================== -->
     <script src="/site/templates/js/plugins/modernizr/modernizr.min.js"></script>
@@ -317,7 +326,7 @@
     <script src='/site/templates/js/site/templates/css/ckeditor/samples/js/sample.js'></script>
 
     <script>
-    initSample();
+        initSample();
     </script>
 </body>
 
