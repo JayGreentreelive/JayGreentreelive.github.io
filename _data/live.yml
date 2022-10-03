@@ -1,25 +1,25 @@
 - title: American Truck Simulator
   subtitle: Sample text
-  partnum: 
+  partnum: null
   date: 10/05/2022
-  speaker: 
-  chat: 
-  servicetimes: 
-  bible: ' <iframe frameborder="0" allowtransparency="true" src="https://www.bible.com/bible/116/GEN.1.NLT" class="bible-iframe"  style="padding:0px;margin:0px;width:100%;min-height: 645px;max-height: 700px;height: 100%;" ></iframe>'
+  speaker: null
+  chat: null
+  servicetimes: null
+  bible: ''
   no_review: ''
   sermonnotes: ''
   msg_body: ''
   msg_details: ''
   msg_takeaway: ''
-  reviewquestion: ''
-  video: 
-  nextTime: 6:00pm Wednesday
-  nextDay: October 05, 2022
-  year: "2022"
-  month: "10"
-  day: "05"
-  startHour: "18"
-  startTime: "00"
-  endDay: "0"
-  endHour: "20"
-  endMinute: "00"
+  reviewquestion: what does the bible say about happiness?
+  video: null
+  nextTime: '6:00pm Wednesday'
+  nextDay: 'October 05, 2022'
+  year: 2022
+  month: 10
+  day: '05'
+  startHour: 18
+  startTime: '00'
+  endDay: 0
+  endHour: 20
+  endMinute: '00'
