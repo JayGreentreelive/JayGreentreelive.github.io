@@ -1,4 +1,6 @@
-{ % assign latest = site.data.live | first % } { % for post in site.data.live % } {
+---
+---
+    { % assign latest = site.data.live | first % } { % for post in site.data.live % } {
     "nextTime": "{{ post.nextTime }}",
     "nextDay": "{{ post.nextDay }}",
     "year": "{{ post.year }}",
