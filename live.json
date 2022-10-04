@@ -1,17 +1,12 @@
----
----
-{% assign latest = site.data.live | first %}
-{% for post in site.data.live %}
-{
-"nextTime":"{{ post.nextTime }}",
-"nextDay":"{{ post.nextDay }}",
-"year":"{{ post.year }}",
-"month":"{{ post.month }}",
-"day":"{{ post.day }}",
-"start_hour":"{{ post.startHour }}",
-"start_minute":"{{ post.startTime }}",
-"end_day":"{{ post.endDay }}",
-"end_hour":"{{ post.endHour }}",
-"end_minute":"{{ post.endMinute }}"
-}
-{% endfor %}
+{ % assign latest = site.data.live | first % } { % for post in site.data.live % } {
+    "nextTime": "{{ post.nextTime }}",
+    "nextDay": "{{ post.nextDay }}",
+    "year": "{{ post.year }}",
+    "month": "{{ post.month }}",
+    "day": "{{ post.day }}",
+    "start_hour": "{{ post.startHour }}",
+    "start_minute": "{{ post.startTime }}",
+    "end_day": "{{ post.endDay }}",
+    "end_hour": "{{ post.endHour }}",
+    "end_minute": "{{ post.endMinute }}"
+} { % endfor % }
