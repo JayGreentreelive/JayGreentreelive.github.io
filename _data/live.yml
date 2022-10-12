@@ -1,25 +1,25 @@
 - title: Stream Title
   subtitle: Short desciption
-  partnum: ''
+  partnum: 
   date: 10/12/2022
-  speaker: ''
-  chat: ''
-  servicetimes: ''
-  bible: ''
-  no_review: ''
-  sermonnotes: ''
-  msg_body: ''
-  msg_details: ''
-  msg_takeaway: ''
+  speaker: 
+  chat: 
+  servicetimes: 
+  bible: 
+  no_review: 
+  sermonnotes: 
+  msg_body: 
+  msg_details: 
+  msg_takeaway: 
   reviewquestion: what does the bible say about happiness?
   video: null
-  nextTime: '6:00pm Wednesday'
-  nextDay: 'October 12, 2022'
+  nextTime: 6:00pm Wednesday
+  nextDay: October 12, 2022
   year: 2022
   month: 10
   day: 12
   startHour: 18
-  startTime: '00'
+  startTime: 00
   endDay: 0
   endHour: 20
-  endMinute: '00'
+  endMinute: 00
