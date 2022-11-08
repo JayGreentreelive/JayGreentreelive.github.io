@@ -972,14 +972,7 @@ $(document).ready(function() {
             }
         }
     }
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
-        var str = String(e.target);
-        if (str.indexOf("bible") > -1) {
-            if ($('#bible-tab').find("iframe").length == 0) {
-                $('#bible-tab').append('<iframe tabindex="-1" title="bible" src="https://chop.bible.com/en/bible/111/GEN.1.niv" frameborder="0" width="100%" height="100%" data-testid="bible-iframe"></iframe>');
-            }
-        }
-    })
+
     $("#welcome-form").validate({
         submitHandler: function(form) {
             $.ajax({
