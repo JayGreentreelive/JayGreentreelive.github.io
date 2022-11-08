@@ -2667,7 +2667,8 @@ span.divider-line {
 
 .live-sidebar .tab-content .tab-pane {
     border: 1px solid #dddddd;
-    padding: 20px;
+    padding: 2px;
+    height: 100%;
 }
 
 .live-sidebar .tab-content .tab-pane .btn {
