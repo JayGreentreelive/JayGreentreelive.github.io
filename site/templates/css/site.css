@@ -464,12 +464,11 @@ img.img-full-width {
 }
 
 #main {
-    /*
-  word-wrap:break-word;
-  -ms-word-break:break-all;
-  webkit-hyphens:auto;
-  -moz-hyphens:auto;
-  hyphens:auto;*/
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }
 
 h1,
@@ -782,7 +781,7 @@ footer .serif a,
     position: relative;
     height: 140px !important;
     background-image: none;
-    background: #ae4120;
+    background: #013852;
 }
 
 .top-short-header.has-top-live {
@@ -1026,7 +1025,7 @@ p.campus-address {
     padding: 2em 0;
     text-align: center;
     z-index: 2000;
-    background: #ae4120;
+    background: #013852;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: 600;
 }
@@ -2751,13 +2750,11 @@ span.divider-line {
     background-color: #013852;
 }
 
-
-/*
 @media (min-width: 1200px) {
-#ls_embed_1458644761 { width:99.5%;}
+    #ls_embed_1458644761 {
+        width: 99.5%;
+    }
 }
-
-*/
 
 
 /* jQuery Countdown styles 2.0.0. */
@@ -2796,7 +2793,9 @@ span.divider-line {
     direction: rtl;
 }
 
-.countdown-holding span {}
+.countdown-holding span {
+    display: block;
+}
 
 .countdown-row {
     clear: both;
@@ -3322,49 +3321,6 @@ span.divider-line {
 
 
 /* End Announcement Bar Styling */
-
-
-/*
- Church Online Countdown Integration
---------------------------------------------------------------------------------------- 
-*/
-
-#churchonline_counter {
-    overflow: auto;
-    width: 100%;
-    padding: 10px;
-    display: none;
-}
-
-#churchonline_counter .description,
-#churchonline_counter .time li .label {
-    font-size: 0.8em;
-}
-
-#churchonline_counter .time {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0 0;
-}
-
-#churchonline_counter .time li {
-    float: left;
-    /* padding: 0 10px; */
-    text-align: center;
-}
-
-#churchonline_counter .time li:first-child {
-    padding-left: 0;
-}
-
-#churchonline_counter .time li span {
-    font-size: 1.2em;
-}
-
-#churchonline_counter .live {
-    display: none;
-    font-weight: bold;
-}
 
 .series-locator {
     display: none;
