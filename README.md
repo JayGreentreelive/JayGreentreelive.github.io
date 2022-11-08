@@ -1,2 +1,0 @@
-# thursdaychurch.github.io
-
