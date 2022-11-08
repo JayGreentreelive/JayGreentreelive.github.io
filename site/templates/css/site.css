@@ -2330,6 +2330,7 @@ ul.share-ul li:last-child {
 .page-section .tab-content {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .page-section .nav-tabs>li>a {
