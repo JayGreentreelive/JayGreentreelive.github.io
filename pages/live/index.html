@@ -1,11 +1,4 @@
---- 
-layout: default
-permalink: /
-section: live
-#heroimage: /assets/images/hero-easter.jpg 
-shortheader: true
---- 
-    {% for post in site.data.live limit:1 %} {% if live_streaming %}
+--- layout: default permalink: / section: live #heroimage: /assets/images/hero-easter.jpg shortheader: true --- {% for post in site.data.live limit:1 %} {% if live_streaming %}
 
 <script>
     var live_streaming = true;
@@ -111,7 +104,7 @@ shortheader: true
                     <textarea name="editor1" rows="25">
                               {{ post.sermonnotes }}
                             </textarea>
-                    <a href="#notes-Modal">Email Study Notes</a>
+
                 </div>
 
                 <div class="tab-pane" id="response-tab">
