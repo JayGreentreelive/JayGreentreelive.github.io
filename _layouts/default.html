@@ -60,31 +60,8 @@
 </head>
 
 <body>
-    <div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }} breaking-news'>
-        <!-- Announcement -->
-        {% for announcement in site.data.announcement %}
-        {% if announcement.active == true %}
-        {% if page.section != 'announcements' %}
-  <div id='top-bar-live'>
-        <div class='container  pd-t-sm pd-b-sm'>
-                <div class='row'>
-                    <div class='col-md-12'>
-            <div data-alert class="alert-box {{ announcement.type }}">
-                <div class="row">
-                    <div class="medium-12 columns align-center">
-                            {% if announcement.url %}<a class="announcement-link" href="{{ announcement.url }}">{% endif %}
-                            <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i> {{ announcement.message }}
-                            {% if announcement.url %}</a>
-                            {% endif %}
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div></div></div>
-   </div>
-        {% endif %}
-        {% endif %}
-        {% endfor %}
+    <div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }} {% if announcement.active == true %}streaming-live{% endif %}'>
+ 
         <div class='header' id='chapel-header-bar'>
             <div id='search-area'>
                 <div class='container'>
@@ -101,6 +78,18 @@
                 </div>
             </div>
             <div id='floating-bar-nav'>
+
+                       <!-- Announcement -->
+        {% for announcement in site.data.announcement %}
+        {% if announcement.active == true %}
+        {% if page.section != 'announcements' %}
+    <div id='top-bar-live'>
+            <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i> {% if announcement.url %}<a id='live-btn'  href='{{ announcement.url }}' title="Live" >{% endif %}{{ announcement.message }} {% if announcement.url %}</a>{% endif %}
+    </div>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+
                 <div id='top-quick-menu' class=''>
                     <div class='container'>
                         <div class='row'>
@@ -311,12 +300,7 @@
     <script src='/site/templates/js/jquery.magnific-popup.js'></script>
     <script src='/site/templates/js/share.js'></script>
     <script src="/site/templates/js/live2022.js"></script>
-    <script src='/site/templates/js/site/templates/css/ckeditor/ckeditor.js'></script>
-    <script src='/site/templates/js/site/templates/css/ckeditor/samples/js/sample.js'></script>
 
-    <script>
-        initSample();
-    </script>
 </body>
 
 </html>
