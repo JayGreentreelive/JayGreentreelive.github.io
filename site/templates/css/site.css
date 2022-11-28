@@ -3429,3 +3429,40 @@ span.divider-line {
         box-shadow: 0 0 3px #B20000;
     }
 }
+
+#top-news-bar {
+    background-color: #490b4d;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 99999;
+    overflow: auto;
+}
+
+#top-news-bar a {
+    color: white;
+}
+
+#top-news-bar a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    position: relative;
+}
+
+@media (max-width:768px) {
+    #top-news-bar {
+        position: fixed;
+        top: 40px;
+        left: 0;
+        z-index: 500;
+    }
+    .wrapper.breaking-news {
+        margin-top: 0px;
+    }
+}
