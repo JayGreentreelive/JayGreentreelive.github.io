@@ -62,20 +62,24 @@
 <body>
     <div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }}'>
         <!-- Announcement -->
-        {% for announcement in site.data.announcement %} {% if announcement.active == true %} {% if page.section != 'announcements' %}
+        {% for announcement in site.data.announcement %}
+        {% if announcement.active == true %}
+        {% if page.section != 'announcements' %}
         <div class="top-news-bar">
             <div data-alert class="alert-box {{ announcement.type }}">
                 <div class="row">
-                    <div class="medium-12 columns">
-                        <center>
+                    <div class="medium-12 columns align-center">
                             {% if announcement.url %}<a class="announcement-link" href="{{ announcement.url }}">{% endif %}
                             <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i> {{ announcement.message }}
-                            {% if announcement.url %}</a></center>{% endif %}
+                            {% if announcement.url %}</a>
+                            {% endif %}
                     </div>
                 </div>
             </div>
         </div>
-        {% endif %} {% endif %} {% endfor %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
         <div class='header' id='chapel-header-bar'>
             <div id='search-area'>
                 <div class='container'>
