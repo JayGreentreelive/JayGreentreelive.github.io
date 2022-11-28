@@ -84,7 +84,9 @@
         {% if announcement.active == true %}
         {% if page.section != 'announcements' %}
     <div id='top-bar-live'>
+        <div class='container  pd-t-sm pd-b-sm'>
             <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i> {% if announcement.url %}<a id='live-btn'  href='{{ announcement.url }}' title="Live" >{% endif %}{{ announcement.message }} {% if announcement.url %}</a>{% endif %}
+        </div>
     </div>
         {% endif %}
         {% endif %}
