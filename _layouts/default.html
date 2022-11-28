@@ -65,13 +65,15 @@
         {% for announcement in site.data.announcement %}
         {% if announcement.active == true %}
         {% if page.section != 'announcements' %}
-        <div class="top-news-bar">
+        <div class="top-news-bar breaking-news">
             <div data-alert class="alert-box {{ announcement.type }}">
                 <div class="row">
+                    <div class="medium-12 columns align-center">
                             {% if announcement.url %}<a class="announcement-link" href="{{ announcement.url }}">{% endif %}
                             <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i> {{ announcement.message }}
                             {% if announcement.url %}</a>
                             {% endif %}
+                    </div>
                 </div>
             </div>
         </div>
