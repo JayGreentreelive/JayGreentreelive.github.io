@@ -65,7 +65,10 @@
         {% for announcement in site.data.announcement %}
         {% if announcement.active == true %}
         {% if page.section != 'announcements' %}
-        <div class="top-news-bar breaking-news">
+  <div id='top-bar-live'>
+        <div class='container  pd-t-sm pd-b-sm'>
+                <div class='row'>
+                    <div class='col-md-12'>
             <div data-alert class="alert-box {{ announcement.type }}">
                 <div class="row">
                     <div class="medium-12 columns align-center">
@@ -77,6 +80,8 @@
                 </div>
             </div>
         </div>
+        </div></div></div>
+   </div>
         {% endif %}
         {% endif %}
         {% endfor %}
