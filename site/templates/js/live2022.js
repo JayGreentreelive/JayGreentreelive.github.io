@@ -748,7 +748,7 @@ var end_service_day = 0;
 function grabServerTime() {
     var time = null;
     $.ajax({
-        url: 'https://jayhomelabbuild.site/api/server-time/',
+        url: '/api/server-time/',
         async: false,
         dataType: 'text',
         success: function(text) {
@@ -884,7 +884,7 @@ $(document).ready(function() {
         if (live_streaming == true && need_countdown == false) {
             $('#countdown-block').hide();
         }
-        $.getJSON('https://jayhomelabbuild.site/api/next-service-time/?time=' + new Date().getTime(), function(json) {
+        $.getJSON('/api/next-service-time/?time=' + new Date().getTime(), function(json) {
             $('#next-service').html("Next service:<br/>" + json['nextTime'] + ", <br/>" + json['nextDay']);
             if (!live_streaming || need_countdown == true) {
                 $('#countdown-block').show();
@@ -919,7 +919,7 @@ $(document).ready(function() {
         if (server_time.getDay() == end_service_day && server_time.getHours() == (end_service_hours + 2) && server_time.getMinutes() == end_service_minutes && server_time.getSeconds() == 0) {
             clearInterval(setCountDownDuringLiveEvent);
             $.ajax({
-                url: 'https://jayhomelabbuild.site/api/live-recent-message/?time=' + new Date().getTime(),
+                url: '/api/live-recent-message/?time=' + new Date().getTime(),
                 dataType: 'json',
                 success: function(response) {
                     live_streaming = false;
@@ -944,7 +944,7 @@ $(document).ready(function() {
                 if (live_streaming == false) {
                     live_streaming = true;
                     $.ajax({
-                        url: 'https://jayhomelabbuild.site/api/live-message-details/?intro=true&time=' + new Date().getTime(),
+                        url: '/api/live-message-details/?intro=true&time=' + new Date().getTime(),
                         dataType: 'json',
                         success: function(response) {
                             var d = CKEDITOR.instances.editor1.getData;
@@ -1022,7 +1022,7 @@ $(document).ready(function() {
         var honeypot = $('#send_prayer_website').val();
         if (honeypot == '' || honeypot == null) {
             ga('send', 'event', 'button', 'click', 'Prayer Request Email (Live Page)');
-            $.post("https://jayhomelabbuild.site/api/prayer-request/", {
+            $.post("/api/prayer-request/", {
                 name: $("#prayer_name").val(),
                 phone: $("#prayer_phone").val(),
                 email: $("#prayer_email").val(),
@@ -1049,7 +1049,7 @@ $(document).ready(function() {
             return false;
         }
         $("#tech_email_status").html(" Sending....");
-        $.post("https://jayhomelabbuild.site/api/live-support/", {
+        $.post("/api/live-support/", {
             email: $("#tech_email").val(),
             name: $("#tech_name").val(),
             issues: $("#tech_issues").val()
@@ -1073,7 +1073,7 @@ $(document).ready(function() {
         var current = $("#message-date-notes").html();
         $("#email_status").html(" Sending....");
         ga('send', 'event', 'button', 'click', 'Email Live Message Notes');
-        $.post("https://jayhomelabbuild.site/api/email-notes/", {
+        $.post("/api/email-notes/", {
             email: $("#send_email").val(),
             source_page: 'web',
             message_id: $("#message-id").html(),
@@ -1107,7 +1107,7 @@ $(document).ready(function() {
         var honeypot = $('#send_website').val();
         if (honeypot == '' || honeypot == null) {
             ga('send', 'event', 'button', 'click', 'Share Live Email with Friend');
-            $.post("https://jayhomelabbuild.site/api/email-friend/", {
+            $.post("/api/email-friend/", {
                 email: $("#send_email_friend").val(),
                 friend_email: $("#send_email_friend_friendname").val(),
                 message: $("#send_email_friend_message").val(),
