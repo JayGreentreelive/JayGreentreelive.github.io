@@ -22,7 +22,7 @@ shortheader:
 
     <div class='container pd-t-lg pd-b-lg'>
         <div class="row center-row-series">
-            {% assign latest = site.data.watch | first %} {% for post in site.categories.watch limit:1 %} {% for series in site.data.watch %} {% if series.id == post.series-id %}
+            {% assign latest = site.data.watch | first %} {% for series in site.data.watch limit:1 %} {% if series.id == post.series-id %}
             <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' id='current-series-graphic'>
                 <div class='series-img-holder'>
                     <img src='{{ series.image_small }}' alt='Series logo' class='img-responsive' />
