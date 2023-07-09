@@ -1,9 +1,9 @@
---- 
+---
 layout: default
 title: home
 class: home
 heroimage: /assets/images/hero-easter.jpg
-shortheader: 
+shortheader: true
 ---
 
 <div class='section section-gray'>
@@ -11,22 +11,23 @@ shortheader:
 
         <div class="row">
             <h1>WELCOME</h1>
-            <p>We welcome the opportunity to connect with you and your family. We have lots of opportunities to get connected and meet new people. Feel free to browse through our web site and learn about the exciting things happening at Thursday Church.
+            <p>welcome message here
 
         </div>
     </div>
 </div>
 
 
-<div class="section section-series" style="background-color: #444444; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;">
+<div class="section section-series"
+    style="background-color: #444444; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;">
 
     <div class='container pd-t-lg pd-b-lg'>
         <div class="row center-row-series">
             {% assign latest = site.data.watch | first %}
 
-      {% for post in site.categories.watch %}
-      {% for series in site.data.watch limit:1 %}
-      {% if series.id == post.series-id %}
+            {% for post in site.categories.watch %}
+            {% for series in site.data.watch limit:1 %}
+            {% if series.id == post.series-id %}
             <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' id='current-series-graphic'>
                 <div class='series-img-holder'>
                     <img src='{{ series.image_small }}' alt='Series logo' class='img-responsive' />
@@ -72,7 +73,9 @@ shortheader:
                         <li><i class="fa-li icon-location-pin-1"></i> {{ location.address }}</li>
                         <li><i class="fa-li icon-call-2"></i>{{ location.phone}}</li>
                     </ul>
-                    <div class=' mg-t-sm2'><a href='http://maps.google.com/?q={{ location.address }}' class='btn btn-default btn-left'><i class='icon-right-4 icon-fw'></i> Map &amp; Directions</a></div>
+                    <div class=' mg-t-sm2'><a href='http://maps.google.com/?q={{ location.address }}'
+                            class='btn btn-default btn-left'><i class='icon-right-4 icon-fw'></i> Map &amp;
+                            Directions</a></div>
                 </div>
 
             </div>
@@ -85,7 +88,8 @@ shortheader:
 
 
 {% for story in site.data.stories limit:1 %}
-<div class='section section-featured-story' style='background: #565656 {% if story.heroimage %}url("{{ story.heroimage }}") no-repeat center center{% endif %}; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;'>
+<div class='section section-featured-story'
+    style='background: #565656 {% if story.heroimage %}url("{{ story.heroimage }}") no-repeat center center{% endif %}; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;'>
     <div class='container pd-t-lg pd-b-lg'>
         <div class='row'>
             <div class='col-sm-6  col-xs-8 '>
@@ -93,7 +97,8 @@ shortheader:
                 <h4 class='mg-b-sm'>{{ story.title }}</h4>
                 <p class='hidden-xs home-quote'>
                     {{ story.description_small }}
-                </p> <a class='btn btn-default btn-clear btn-left mg-t-sm' href='{{ story.readmore }}'> {{ story.readmoretext }}</a>
+                </p> <a class='btn btn-default btn-clear btn-left mg-t-sm' href='{{ story.readmore }}'> {{
+                    story.readmoretext }}</a>
             </div>
         </div>
     </div>
@@ -118,13 +123,15 @@ shortheader:
         <div class="row">
             <div class="container pd-t-md pd-b-lg">
                 <div class="row multi-columns-row ">
-                    {% for item in site.data.lifegroups limit:3 %} {% if item.location == "Vincennes" %} {% capture type %}LIFE Groups{% endcapture %} {% include lifegroup-item.html %} {% endif %} {% endfor %}
+                    {% for item in site.data.lifegroups limit:3 %} {% if item.location == "Vincennes" %} {% capture type
+                    %}LIFE Groups{% endcapture %} {% include lifegroup-item.html %} {% endif %} {% endfor %}
                 </div>
 
                 <div class='container  pd-b-lg'>
                     <div class='row'>
                         <div class='col-md-12 text-center pd-b-md'>
-                            <a href='/ministries/life-groups/' class='btn btn-left btn-default'><i class='icon-right-4'></i> All LIFE Groups</a>
+                            <a href='/ministries/life-groups/' class='btn btn-left btn-default'><i
+                                    class='icon-right-4'></i> All LIFE Groups</a>
                         </div>
                     </div>
 
