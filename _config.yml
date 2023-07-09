@@ -1,0 +1,21 @@
+baseurl: /
+permalink: /:categories/:title/
+markdown: kramdown
+excerpt_separator: ""
+relative_permalinks: false
+title: JayGreentree Live
+
+prose:
+  rooturl: "announcements/_posts"
+  siteurl: "http://www.JayGreentree.info/"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "announcement"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""

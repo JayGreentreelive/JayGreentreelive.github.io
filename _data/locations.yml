@@ -1,19 +1,19 @@
 ---
 - id: vin
   title: Vincennes Campus
-  email: ''
-  address: 218 Main St.<br /> Vincennes, IN 47591
-  facebook: ''
+  email: ""
+  address: 218 Main St. Vincennes, IN 47591
+  facebook: ""
   phone: (812) 882 2737
   times:
-  - title: 06:45PM
-    time: 18-45
-    day: thu
-    duration: 60
-    type: service-time
-  - title: 10:45AM
-    time: 10-45
-    day: sun
-    duration: 60
-    type: service-time
+    - title: 06:45PM
+      time: 18-45
+      day: thu
+      duration: 60
+      type: service-time
+    - title: 10:45AM
+      time: 10-45
+      day: sun
+      duration: 60
+      type: service-time
   missions: []

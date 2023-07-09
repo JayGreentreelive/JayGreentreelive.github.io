@@ -15,7 +15,9 @@
     <script type='text/javascript' src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link href='//fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic|Open+Sans:100,200,300,400,600,700,800,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link
+        href='//fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic|Open+Sans:100,200,300,400,600,700,800,400italic&subset=latin,latin-ext'
+        rel='stylesheet' type='text/css'>
     <!-- styles -->
     <link rel="stylesheet" href="/site/templates/css/bootstrap.css">
     <link rel="stylesheet" href="/site/templates/css/magnific-popup.css">
@@ -33,7 +35,7 @@
             -o-background-size: cover;
             background-size: cover;
         }
-        
+
         .gradient,
         .gradient:after {
             filter: none;
@@ -41,9 +43,9 @@
     </style>
     {% if site.google_analytics %}
     <script>
-        (function(i, s, o, g, r, a, m) {
+        (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
+            i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
@@ -56,12 +58,13 @@
         ga('send', 'pageview');
     </script>
     {% endif %}
-    
+
 </head>
 
 <body>
-    <div id='wrapper' class='page-id-{{ page.id }} template-{{ page.css }} {% if announcement.active == true %}streaming-live{% endif %}'>
- 
+    <div id='wrapper'
+        class='page-id-{{ page.id }} template-{{ page.css }} {% if announcement.active == true %}streaming-live{% endif %}'>
+
         <div class='header' id='chapel-header-bar'>
             <div id='search-area'>
                 <div class='container'>
@@ -69,7 +72,8 @@
                         <div class='col-md-8 col-md-offset-2'>
                             <div class="searchTop">
                                 <form id="search-form-top" class='clearfix' action='/search/' method='get'>
-                                    <input class="clear-click" id='search-site-input' placeholder='Search the site' type='text' name='q' value=''>
+                                    <input class="clear-click" id='search-site-input' placeholder='Search the site'
+                                        type='text' name='q' value=''>
                                     <a id="search_query_btn" href="javascript:void(0);" class="icon-right-4"></a>
                                 </form>
                             </div>
@@ -79,18 +83,20 @@
             </div>
             <div id='floating-bar-nav'>
 
-                       <!-- Announcement -->
-        {% for announcement in site.data.announcement %}
-        {% if announcement.active == true %}
-        {% if page.section != 'announcements' %}
-    <div id='top-bar-live'>
-        <div class='container  pd-t-sm pd-b-sm'>
-            <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i> {% if announcement.url %}<a id='live-btn'  href='{{ announcement.url }}' title="Live" >{% endif %}{{ announcement.message }} {% if announcement.url %}</a>{% endif %}
-        </div>
-    </div>
-        {% endif %}
-        {% endif %}
-        {% endfor %}
+                <!-- Announcement -->
+                {% for announcement in site.data.announcement %}
+                {% if announcement.active == true %}
+                {% if page.section != 'announcements' %}
+                <div id='top-bar-live'>
+                    <div class='container  pd-t-sm pd-b-sm'>
+                        <i class="announcement-icon icon-announcement-{{ announcement.icon }}"></i> {% if
+                        announcement.url %}<a id='live-btn' href='{{ announcement.url }}' title="Live">{% endif %}{{
+                            announcement.message }} {% if announcement.url %}</a>{% endif %}
+                    </div>
+                </div>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
 
                 <div id='top-quick-menu' class=''>
                     <div class='container'>
@@ -98,14 +104,21 @@
                             <div class='col-lg-12'>
                                 <div class="logo pull-left">
                                     <a href="/" class="crosspoint_logo" title='{{ site.title }}'>
-                                        <img id="logo-mark" src='/site/templates/css/img/logo.gif' width="100%">
+                                        <!--img id="logo-mark" src='/site/templates/css/img/logo.gif' width="100%"-->
+                                        <h1>{{ site.title }}</h1>
                                     </a>
                                 </div>
                                 <div class="top-nav-right pull-right">
-                                    <a id="menu-btn" href="javascript:void(0);" title="Menu"><span id="menu-btn-icon" class="icon-fw icon-menu-3"></span><span class="hidden-xs"> Menu</span></a>
-                                    <a id="events-btn" href="/events/" title="Events"><span class="icon-fw icon-calendar-1"></span><span class="hidden-xs"> Events</span></a>
-                                    <a id="give-btn" class="hidden-xs" href="/give/" title="Giving"><span class="icon-fw icon-heart"></span> Giving</a>
-                                    <a id="search-btn" href="javascript:void(0);" title="Search"><span id="menu-search-btn-icon" class="icon-fw icon-zoom-2"></span><span class="hidden-xs"> Search</span></a>
+                                    <a id="menu-btn" href="javascript:void(0);" title="Menu"><span id="menu-btn-icon"
+                                            class="icon-fw icon-menu-3"></span><span class="hidden-xs"> Menu</span></a>
+                                    <a id="events-btn" href="/events/" title="Events"><span
+                                            class="icon-fw icon-calendar-1"></span><span class="hidden-xs">
+                                            Events</span></a>
+                                    <a id="give-btn" class="hidden-xs" href="/give/" title="Giving"><span
+                                            class="icon-fw icon-heart"></span> Giving</a>
+                                    <a id="search-btn" href="javascript:void(0);" title="Search"><span
+                                            id="menu-search-btn-icon" class="icon-fw icon-zoom-2"></span><span
+                                            class="hidden-xs"> Search</span></a>
                                 </div>
                             </div>
                         </div>
@@ -121,26 +134,34 @@
                                         <ul>
                                             <li><a href='/about/' style="color: white;">About Us </a></li>
                                             <li><a href='/about/staff/' style="color: white;">Meet The Team </a></li>
-                                            <li><a href='/about/beliefs/' style="color: white;">What We Believe </a></li>
+                                            <li><a href='/about/beliefs/' style="color: white;">What We Believe </a>
+                                            </li>
                                             <li><a href='/about/contact/' style="color: white;">Contact Us </a></li>
                                         </ul>
                                     </li>
                                     <li id="nav_locations" class='dropdown'><a href='#' id='locations-nav'>Locations</a>
                                         <ul>
-                                            <li><a href='/locations/vincennes/' style="color: white;">Vincennes </a></li>
+                                            <li><a href='/locations/vincennes/' style="color: white;">Vincennes </a>
+                                            </li>
                                             <li><a href='/locations/bicknell/' style="color: white;">Bicknell </a></li>
-                                            <li><a href='/locations/french-creole/' style="color: white;">French (Creole) </a></li>
+                                            <li><a href='/locations/french-creole/' style="color: white;">French
+                                                    (Creole) </a></li>
                                         </ul>
                                     </li>
                                     <li id="nav_connect" class='dropdown'><a href='#'>Ministries</a>
                                         <ul>
                                             <li><a href='/ministries/kids/' style="color: white;">Kids </a></li>
                                             <li><a href='/ministries/students/' style="color: white;">Students </a></li>
-                                            <li><a href='/ministries/life-groups/' style="color: white;">LIFE Groups </a></li>
-                                            <li><a href='/ministries/global-missions/' style="color: white;">Global Missions </a></li>
-                                            <li><a href='/ministries/celebrate-recovery/' style="color: white;">Celebrate Recovery </a></li>
-                                            <li><a href='/ministries/mobile-food-pantry/' style="color: white;">Mobile Food Pantry </a></li>
-                                            <li><a href='/ministries/3d-groups/' style="color: white;">3D Groups </a></li>
+                                            <li><a href='/ministries/life-groups/' style="color: white;">LIFE Groups
+                                                </a></li>
+                                            <li><a href='/ministries/global-missions/' style="color: white;">Global
+                                                    Missions </a></li>
+                                            <li><a href='/ministries/celebrate-recovery/'
+                                                    style="color: white;">Celebrate Recovery </a></li>
+                                            <li><a href='/ministries/mobile-food-pantry/' style="color: white;">Mobile
+                                                    Food Pantry </a></li>
+                                            <li><a href='/ministries/3d-groups/' style="color: white;">3D Groups </a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li id="nav_connect" class='dropdown'><a href='#'>Events</a>
@@ -159,7 +180,7 @@
                                         <ul>
                                             <li><a href='/watch/' style="color: white;">Archives Streams </a></li>
                                             <li><a href='/live/' style="color: white;">Live </a></li>
-                                            <li ><a href='/stories/' >Stories </a></li>
+                                            <li><a href='/stories/'>Stories </a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -202,20 +223,26 @@
                     <div class="col-xs-12  col-sm-4 col-md-4 ">
                         <div id="footer-address" style="display:none;">
                             <h4>Mailing Address</h4>
-                            <p>218 Main St.,<span class="hidden-sm hidden-md hidden-lg"><br></span> Vincennes, IN 47591<br> Phone: 812.‍882.2737
+                            <p>218 Main St.,<span class="hidden-sm hidden-md hidden-lg"><br></span> Vincennes, IN
+                                47591<br> Phone: 812.‍882.2737
                                 <!--&nbsp;|&nbsp; Fax: 716.‍634.4184-->
                             </p>
                         </div>
                     </div>
                     <div class="col-xs-12  col-sm-4 col-md-4  " id="footer-contact">
-                        <a href="#contact-form" class="btn btn-default btn-clear btn-left mg-t-sm" data-toggle="modal" data-target="#contact-modal"><i class="icon-right-4 icon-fw"></i> Contact Us</a>
+                        <a href="#contact-form" class="btn btn-default btn-clear btn-left mg-t-sm" data-toggle="modal"
+                            data-target="#contact-modal"><i class="icon-right-4 icon-fw"></i> Contact Us</a>
                     </div>
                     <div class="col-xs-12  col-sm-4 col-md-4 " style="text-align:center;">
                         <div id="social-icons">
-                            <a target="_blank" href="http://t.co/1PfouMf" title="Facebook" class="social-fb"><i class="icon-facebook-square  "></i></a>
-                            <a target="_blank" href="http://t.co/2d2vCF4" title="Twitter" class="social-tw"><i class="icon-twitter"></i></a>
-                            <a target="_blank" href="http://t.co/2dhdG8K" title="Instagram" class="social-in"><i class="icon-instagram "></i></a>
-                            <a target="_blank" href='http://t.co/1PKODFi' title="Youtube" class='social-yt'><i class="icon-youtube"></i></a>
+                            <a target="_blank" href="http://t.co/1PfouMf" title="Facebook" class="social-fb"><i
+                                    class="icon-facebook-square  "></i></a>
+                            <a target="_blank" href="http://t.co/2d2vCF4" title="Twitter" class="social-tw"><i
+                                    class="icon-twitter"></i></a>
+                            <a target="_blank" href="http://t.co/2dhdG8K" title="Instagram" class="social-in"><i
+                                    class="icon-instagram "></i></a>
+                            <a target="_blank" href='http://t.co/1PKODFi' title="Youtube" class='social-yt'><i
+                                    class="icon-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -240,7 +267,8 @@
                             <li><a href="/connect/giving/" style="color: white;">Why We Give</a></li>
                             <li><a href="/giving/" style="color: white;">Give Now</a></li>
                             <li><a href="/connect/giving/#mobile" style="color: white;">Mobile Giving</a></li>
-                            <li><a href="/media/videos/annual-family-update-2017/" style="color: white;">Annual Report</a></li>
+                            <li><a href="/media/videos/annual-family-update-2017/" style="color: white;">Annual
+                                    Report</a></li>
                         </ul>
                         <hr class="thin-hr visible-xs">
                     </div>
@@ -269,7 +297,8 @@
                     <div class="col-md-12">
                         <hr>
                         <p>Copyright &copy; {{ site.time | date: '%Y' }} JayGreentree.live
-                            <span class="middot">·</span> <a href="/privacy-policy/" style="color: white;">Privacy Policy</a>
+                            <span class="middot">·</span> <a href="/privacy-policy/" style="color: white;">Privacy
+                                Policy</a>
                             <span class="middot">·</span> <a href="/credits/" style="color: white;">Credits</a>
                             <span class="middot">·</span> <a href="/tags/" style="color: white;">Tags</a>
                         </p>
@@ -280,9 +309,9 @@
         <!-- window resize helper -->
         <span id="mq-detector">
             <span class="visible-xs"></span>
-        <span class="visible-sm"></span>
-        <span class="visible-md"></span>
-        <span class="visible-lg"></span>
+            <span class="visible-sm"></span>
+            <span class="visible-md"></span>
+            <span class="visible-lg"></span>
         </span>
     </div>
     <!-- / wrapper -->
@@ -302,7 +331,19 @@
     <script src='/site/templates/js/jquery.magnific-popup.js'></script>
     <script src='/site/templates/js/share.js'></script>
     <script src="/site/templates/js/live2022.js"></script>
-
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/57004db7403e672a0686e01a/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 
 </html>
