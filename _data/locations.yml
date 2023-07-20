@@ -12,9 +12,9 @@
       day: sun
       duration: 60
       type: service-time
-    - title: 10:45AM
-      time: 10-45
-      day: sun
+    - title: 7:00PM
+      time: 19-00
+      day: wed
       duration: 60
       type: service-time
   missions: []
@@ -23,6 +23,7 @@
   title: Online
   email: "online@donicachurch.com"
   address: "dcogb.online.church"
+  image_small: "/assets/images/locations/online.jpg"
   facebook: "https://www.facebook.com/donicachurch"
   phone: "(812) 279-1571"
   url: "/locations/online"
@@ -32,9 +33,9 @@
       day: sun
       duration: 60
       type: service-time
-    - title: 10:45AM
-      time: 10-45
-      day: sun
-      duration: 60
-      type: service-time
+    # - title: 10:45AM
+    #   time: 10-45
+    #   day: wed
+    #   duration: 60
+    #   type: service-time
   missions: []
