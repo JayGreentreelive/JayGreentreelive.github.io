@@ -62,7 +62,7 @@ shortheader: true
             {% for location in site.data.locations limit:3 %}
 
 
-            <div class="col-xs-12 col-sm-4 col-md-4 center-block">
+            <div class="col-xs-12 col-sm-4 col-md-4 ">
 
                 <div class='pd-xs'>
                     <img src='{{ item.image_small }}' class='img-responsive img-full-width' />
@@ -71,11 +71,11 @@ shortheader: true
                     <p class='campus-times'>{{ item.time }}</p>
 
                     <ul class="fa-ul">
-                        <li><i class="fa-li icon-location-pin-1"></i> {{ location.address }}</li>
+                        <li><a href=""><i class="fa-li icon-location-pin-1"></i> {{ location.address }}</a></li>
                         <li><i class="fa-li icon-call-2"></i>{{ location.phone}}</li>
                     </ul>
-                    <div class=' mg-t-sm2'><a href='{{ location.url }}' class='btn btn-default btn-left'><i
-                                class='icon-right-4 icon-fw'></i> More details</a></div>
+                    <div class=' mg-t-sm2'><a href='{{ location.url }}' class='btn btn-default btn-left'>
+                            <i class='icon-right-4 icon-fw'></i> Learn More</a></div>
                 </div>
 
             </div>
