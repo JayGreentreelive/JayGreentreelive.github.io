@@ -22,29 +22,19 @@ shortheader: true
 
     <div class='container pd-t-lg pd-b-lg'>
         <div class="row center-row-series">
+            {% assign latest = site.data.watch | first %}
 
+            {% for post in site.categories.watch %}
+            {% for series in site.data.watch limit:1 %}
+            {% if series.id == post.series-id %}
             <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' id='current-series-graphic'>
                 <div class='series-img-holder'>
-                    {% assign latest = site.data.watch | first %}
-
-                    {% for post in site.categories.watch %}
-                    {% for series in site.data.watch limit:1 %}
-                    {% if series.id == post.series-id %}
-                    <img src='{{ series.image_small }}' alt='{{ series.title }}' class='img-responsive' />
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
+                    <img src='{{ series.image_small }}' alt='Series logo' class='img-responsive' />
                 </div>
             </div>
-
             <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' style='padding:0px 40px;'>
 
                 <h4>CURRENT SERIES</h4>
-                {% assign latest = site.data.watch | first %}
-
-                {% for post in site.categories.watch %}
-                {% for series in site.data.watch limit:1 %}
-                {% if series.id == post.series-id %}
                 <h3>{{ series.title }}</h3>
                 <a class='btn btn-primary btn-clear btn-left mg-t-sm' href="{{ post.url }}">View Series</a>
             </div>
@@ -100,7 +90,7 @@ shortheader: true
 
 {% for story in site.data.stories limit:1 %}
 <div class='section section-featured-story'
-    style='background: #013852 {% if story.heroimage %}url("{{ story.heroimage }}") no-repeat center center{% endif %}; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;'>
+    style='background: #565656 {% if story.heroimage %}url("{{ story.heroimage }}") no-repeat center center{% endif %}; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;'>
     <div class='container pd-t-lg pd-b-lg'>
         <div class='row'>
             <div class='col-sm-6  col-xs-8 '>
