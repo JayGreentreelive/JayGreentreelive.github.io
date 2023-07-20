@@ -100,7 +100,7 @@ shortheader: true
 
 {% for story in site.data.stories limit:1 %}
 <div class='section section-featured-story'
-    style='background: {% if story.heroimage %}url("{{ story.heroimage }}") no-repeat center center{% endif %}; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;'>
+    style='background: #013852 {% if story.heroimage %}url("{{ story.heroimage }}") no-repeat center center{% endif %}; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;'>
     <div class='container pd-t-lg pd-b-lg'>
         <div class='row'>
             <div class='col-sm-6  col-xs-8 '>
