@@ -1,0 +1,53 @@
+---
+layout: default
+#title: Sermon Archives
+permalink: /watch/
+shortheader: true
+---
+
+<div class='section ' style='background-color:#efefef;'>
+
+  <div class='container pd-t-lg pd-b-lg'>
+    <div class='row multi-columns-row'>
+      {% assign latest = site.data.watch | first %}
+
+      {% for post in site.categories.watch %}
+      {% for series in site.data.watch %}
+      {% if series.id == post.series-id %}
+      <div class='col-xs-12 col-sm-6 col-md-4 col-lg-4'>
+
+        <div style='background-color:#ffffff;padding-bottom:10px;' class='serif serif-md'>
+          <a href='{{ post.url }}'><img src='{{ series.image_small }}' class='img-responsive'></a>
+
+          <div style='padding:10px 20px;'>
+            <h3 style='margin-top:0px;padding-top:6px;padding-bottom:0px;'><a href='{{ post.url }}'>{{ series.title
+                }}</a></h3>
+            <p class='text-muted mg-b-sm'>{{ post.date | date: "%B %-d, %Y" }}</p>
+            <p>{{ series.description_small }}</p>
+            <div class=' mg-t-md  mg-b-sm'><a class='btn btn-default btn-left' href='{{ post.url }}'><i
+                  class='icon-right-4'></i> View Series</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+
+
+
+    <!-- Archive list link -->
+    <!--section class="page-section section-last">
+<div class="row">
+  <div class="large-12 large-centered columns text-center">
+    <a href="/watch/archive/"
+       class="action large text-black"
+       onclick="ga('send', 'event', 'Watch', 'Click', 'View Archives');">
+       View more archives <i class="icon icon-play"></i>
+    </a>
+  </div>
+</div>
+</section -->
+  </div>

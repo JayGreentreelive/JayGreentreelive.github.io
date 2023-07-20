@@ -1,32 +1,31 @@
-#- id: whats-at-the-core
-#  title: Whats At The Core
-#  speaker: Pastor Debbie Salters
-#  headline: ''
-#  description_small: ''
-#  description_medium:
-#  quote:
-#  quote_cite:
-#  open_url:
-#  resources_url:
-#  image_small: /assets/images/watch/series/Whats-At-The-Core.png
-#  image_medium: /assets/images/watch/series/Whats-At-The-Core.png
-#  image_large: /assets/images/watch/series/Whats-At-The-Core.png
-#  image_social: /assets/images/watch/series/Whats-At-The-Core.png
-#  messages:
-#  - title: Serve God and Others
-#    headline: ''
-#    video: 671ilM0gBho
-#    notes: /assets/pdf/sermonnotes/Study-Notes-TCV-2.27.2020.pdf
-#  - title: Transformation
-#    headline: ''
-#    video:
-#    notes: /assets/pdf/sermonnotes/
-#  - title: All One Body
-#    headline:
-#    video:
-#    notes: /assets/pdf/sermonnotes/
-#  - title: Renewal
-#    headline:
-#    video:
-#    notes: /assets/pdf/sermonnotes/
-
+- id: whats-at-the-core
+  title: Whats At The Core
+  speaker: Pastor Debbie Salters
+  headline: ""
+  description_small: ""
+  description_medium:
+  quote:
+  quote_cite:
+  open_url:
+  resources_url:
+  image_small: /assets/images/watch/series/Whats-At-The-Core.png
+  image_medium: /assets/images/watch/series/Whats-At-The-Core.png
+  image_large: /assets/images/watch/series/Whats-At-The-Core.png
+  image_social: /assets/images/watch/series/Whats-At-The-Core.png
+  messages:
+    - title: Serve God and Others
+      headline: ""
+      video: 671ilM0gBho
+      notes: /assets/pdf/sermonnotes/Study-Notes-TCV-2.27.2020.pdf
+    - title: Transformation
+      headline: ""
+      video:
+      notes: /assets/pdf/sermonnotes/
+    - title: All One Body
+      headline:
+      video:
+      notes: /assets/pdf/sermonnotes/
+    - title: Renewal
+      headline:
+      video:
+      notes: /assets/pdf/sermonnotes/
