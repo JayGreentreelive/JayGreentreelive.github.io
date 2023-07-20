@@ -1,9 +1,9 @@
-- id: dcogb
+- id: bedford
   title: Bedford
   email: "donicachurchofgod@gmail.com"
   address: "1969 Donica Church Rd, \n Bedford, IN 47421"
   image_small: "/assets/images/locations/bedford.jpg"
-  facebook: "https://www.facebook.com/donicachurch"
+  facebook: "donicachurch"
   phone: "(812) 279-1571"
   url: "/locations/bedford"
   times:
@@ -22,9 +22,8 @@
 - id: online
   title: Online
   email: "online@donicachurch.com"
-  address: "dcogb.online.church"
   image_small: "/assets/images/locations/online.jpg"
-  facebook: "https://www.facebook.com/donicachurch"
+  facebook: "donicachurch"
   phone: "(812) 279-1571"
   url: "/locations/online"
   times:
