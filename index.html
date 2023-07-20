@@ -76,11 +76,11 @@ shortheader: true
                             <i class="fa-li icon-location-pin-1"></i>
                             {% if location.title == Online %}
                             <a href="https://{{ location.address }}" target="_blank">
-                                {{ location.address | newline_to_br }}
+                                {{ location.address }}
                             </a>
                             {% else %}
                             <a href="https://google.com/maps?q={{ location.address }}" target="_blank">
-                                {{ location.address }}
+                                {{ location.address | newline_to_br }}
                             </a>
                             {% endif %}
                         </li>
