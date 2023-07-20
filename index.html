@@ -71,7 +71,19 @@ shortheader: true
                     <p class='campus-times'>{{ item.time }}</p>
 
                     <ul class="fa-ul">
-                        <li><a href=""><i class="fa-li icon-location-pin-1"></i> {{ location.address }}</a></li>
+
+                        <li>
+                            <i class="fa-li icon-location-pin-1"></i>
+                            {% if location.title == Online %}
+                            <a href="https://{{ location.address }}" target="_blank">
+                                {{ location.address | newline_to_br }}
+                            </a>
+                            {% else %}
+                            <a href="https://google.com/maps?q={{ location.address }}" target="_blank">
+                                {{ location.address }}
+                            </a>
+                            {% endif %}
+                        </li>
                         <li><i class="fa-li icon-call-2"></i>{{ location.phone}}</li>
                     </ul>
                     <div class=' mg-t-sm2'><a href='{{ location.url }}' class='btn btn-default btn-left'>
