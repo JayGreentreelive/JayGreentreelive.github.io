@@ -1,14 +1,14 @@
 ---
-- id: vin
-  title: Vincennes Campus
+- id: dcogb
+  title: Bedford
   email: ""
-  address: 218 Main St. Vincennes, IN 47591
+  address:
   facebook: ""
-  phone: (812) 882 2737
+  phone:
   times:
-    - title: 06:45PM
-      time: 18-45
-      day: thu
+    - title: 10:30AM
+      time: 10-30
+      day: sun
       duration: 60
       type: service-time
     - title: 10:45AM
