@@ -1,4 +1,12 @@
 ---
 permalink: /api/server-time/
 ---
-{{ 'now' | date: '%b %d %Y %H:%M:%S', 'America/Chicago' }}
+{#
+  {{ 'now' | date: '%b %d %Y %H:%M:%S', 'America/Chicago' }}
+#}
+
+<h1 id="timeNow"></h1>
+  <script>
+    const el = document.getElementById(`timeNow`);
+    el.textContent = new Date();
+  </script>
