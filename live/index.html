@@ -6,6 +6,7 @@ section: live
 shortheader: true
 #heroimage: /assets/images/hero-easter.jpg shortheader: true
 --- 
+<link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/43.3.1/ckeditor5.css">
 {% for post in site.data.live limit:1 %} 
 {% if live_streaming %}
 
@@ -110,9 +111,9 @@ shortheader: true
                 </div>
 
                 <div class="tab-pane " id="notes-tab">
-                    <textarea name="editor1" rows="25">
+                    <div id="editor">
                               {{ post.sermonnotes }}
-                            </textarea>
+                            </div>
                 </div>
 
                 <div class="tab-pane" id="response-tab">
@@ -126,10 +127,6 @@ shortheader: true
                 <div class="tab-pane" id="bible-tab">
                     {{ post.bible }}
                 </div>
-
-
-
-
 
             </div>
         </div>
@@ -167,7 +164,36 @@ shortheader: true
 
 
 <script src="/site/templates/js/live.js"></script>
-<script src="https://cdn.ckeditor.com/4.25.0-lts/standard/ckeditor.js"></script>
-<script>
-    CKEDITOR.replace('editor1');
-</script>
+        <script type="importmap">
+            {
+                "imports": {
+                    "ckeditor5": "https://cdn.ckeditor.com/ckeditor5/43.3.1/ckeditor5.js",
+                    "ckeditor5/": "https://cdn.ckeditor.com/ckeditor5/43.3.1/"
+                }
+            }
+        </script>
+        <script type="module">
+            import {
+                ClassicEditor,
+                Essentials,
+                Paragraph,
+                Bold,
+                Italic,
+                Font
+            } from 'ckeditor5';
+
+            ClassicEditor
+                .create( document.querySelector( '#editor' ), {
+                    plugins: [ Essentials, Paragraph, Bold, Italic, Font ],
+                    toolbar: [
+						'undo', 'redo', '|', 'bold', 'italic', '|',
+						'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor'
+                    ]
+                } )
+                .then( editor => {
+                    window.editor = editor;
+                } )
+                .catch( error => {
+                    console.error( error );
+                } );
+        </script>
