@@ -1,8 +1,8 @@
 baseurl: /
 permalink: /:categories/:title/
 markdown: kramdown
-excerpt_separator: "|"
-relative_permalinks: true
+excerpt_separator: ""
+relative_permalinks: false
 title: JayGreentree Live
 
 prose:
