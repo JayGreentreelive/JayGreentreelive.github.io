@@ -8,10 +8,10 @@
   quote_cite:
   open_url:
   resources_url:
-  image_small: /assets/images/watch/series/Whats-At-The-Core.png
-  image_medium: /assets/images/watch/series/Whats-At-The-Core.png
-  image_large: /assets/images/watch/series/Whats-At-The-Core.png
-  image_social: /assets/images/watch/series/Whats-At-The-Core.png
+  image_small: "/assets/images/watch/series/Whats-At-The-Core.png"
+  image_medium: "/assets/images/watch/series/Whats-At-The-Core.png"
+  image_large: "/assets/images/watch/series/Whats-At-The-Core.png"
+  image_social: "/assets/images/watch/series/Whats-At-The-Core.png"
   messages:
     - title: Serve God and Others
       headline: ""

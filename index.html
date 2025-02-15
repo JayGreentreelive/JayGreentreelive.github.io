@@ -33,8 +33,11 @@ shortheader: true
                 </div>
             </div>
             <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' style='padding:0px 40px;'>
-                <h4>CURRENT SERIES</h4>
+                <h4>CURRENT SERIES:</h4>
                 <h3>{{ series.title }}</h3>
+                <p>{{ series.description_small }}</p>
+                <p>{{ series.speaker }}</p>
+                <p>{{ series.date| date: "%d %B %Y" }}</p>
                 <a class='btn btn-primary btn-clear btn-left mg-t-sm' href="{{ post.url }}">Latest Message</a>
             </div>
             {% endif %}
