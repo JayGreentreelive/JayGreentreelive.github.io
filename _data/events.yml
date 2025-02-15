@@ -1,10 +1,43 @@
-- id: pre-service-prayer
-  title: Pre-service Prayer
-  location: Vincennes Campus
+- id: ss
+  title: Sunday Service
+  location: Bedford Campus
   day: Sunday
-  time: 10:15am
-  description_small: ''
-  description_medium: ''
+  time: 10:30am
+  description_small: 'Short description here'
+  description_medium: 'long description here'
+  image_small: 
+  image_medium: 
+  image_large: 
+
+- id: bbs
+  title: Bible Study
+  location: Bedford Campus
+  day: Wednesday
+  time: 06:30pm
+  description_small: 'Short description here'
+  description_medium: 'Long description here'
+  image_small: 
+  image_medium: 
+  image_large: 
+
+- id: wnl
+  title: Wednesday Night Live
+  location: Online
+  day: Wednesday
+  time: 06:00pm
+  description_small: 'Short description here'
+  description_medium: 'Long description here'
+  image_small: 
+  image_medium: 
+  image_large: 
+
+- id: fnl
+  title: Friday Night Live
+  location: Online
+  day: Friday
+  time: 06:00pm
+  description_small: 'Short description here'
+  description_medium: 'Long description here'
   image_small: 
   image_medium: 
   image_large: 

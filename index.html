@@ -16,9 +16,9 @@ shortheader: true
     </div>
 </div>
 
-
+<!--
 <div class="section section-series"
-    style="background-color: #444444; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;">
+    style="background-color: #444444; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;" style="display: none;">
 
     <div class='container pd-t-lg pd-b-lg'>
         <div class="row center-row-series">
@@ -45,7 +45,7 @@ shortheader: true
     </div>
 
 </div>
-
+-->
 
 
 
@@ -69,7 +69,11 @@ shortheader: true
                         alt="{{ location.title }}">
 
                     <h3>{{ location.title }}</h3>
-                    <p class='campus-times'>{{ location.times }}</p>
+                    
+                    <p class='campus-times'>
+                        
+                        {{ locations.times.title }}
+                    </p>
 
                     <ul class="fa-ul">
 

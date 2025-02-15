@@ -1,13 +1,13 @@
 baseurl: /
 permalink: /:categories/:title/
 markdown: kramdown
-excerpt_separator: ""
-relative_permalinks: false
+excerpt_separator: "|"
+relative_permalinks: true
 title: JayGreentree Live
 
 prose:
   rooturl: "announcements/_posts"
-  siteurl: "http://www.JayGreentree.info/"
+  siteurl: ""
   metadata:
     _posts:
       - name: "layout"
