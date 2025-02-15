@@ -21,7 +21,7 @@ shortheader: true
 
     <div class='container pd-t-lg pd-b-lg'>
         <div class="row center-row-series">
-            <h4>CURRENT SERIES</h4>
+            
             {% assign latest = site.data.watch | first %}
 
             {% for post in site.categories.watch %}
@@ -33,8 +33,7 @@ shortheader: true
                 </div>
             </div>
             <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' style='padding:0px 40px;'>
-
-                
+                <h4>CURRENT SERIES</h4>
                 <h3>{{ series.title }}</h3>
                 <a class='btn btn-primary btn-clear btn-left mg-t-sm' href="{{ post.url }}">Latest Message</a>
             </div>
