@@ -9,14 +9,15 @@
   image_large:
   readmore: /stories/forgiveness/
   readmoretext: Read Jay's Story
-#- id: jeff-gramlich
-#  title: Jeff Gramlich
-#  name:
-#  description_small: I felt called to serve, there were a lot of people in my life that wanted me to take a safer route, but too often people are afraid to step out of their comfort zone and follow what they're called to do.
-#  description_medium:
-#  heroimage: /site/assets/files/1072/jeff-home_y92ybi.jpg
-#  image_small: /site/assets/files/1072/jeffthumb2.640x360.jpg
-#  image_medium:
-#  image_large: /site/assets/files/1072/jeff-home_y92ybi.jpg
-#  readmore: /stories/called-to-serve/
-#  readmoretext: Read Jeff's Story
+
+- id: jeff-gramlich
+  title: Jeff Gramlich
+  name:
+  description_small: I felt called to serve, there were a lot of people in my life that wanted me to take a safer route, but too often people are afraid to step out of their comfort zone and follow what they're called to do.
+  description_medium:
+  heroimage: /site/assets/files/1072/jeff-home_y92ybi.jpg
+  image_small: /site/assets/files/1072/jeffthumb2.640x360.jpg
+  image_medium:
+  image_large: /site/assets/files/1072/jeff-home_y92ybi.jpg
+  readmore: /stories/called-to-serve/
+  readmoretext: Read Jeff's Story
