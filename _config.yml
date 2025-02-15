@@ -4,7 +4,6 @@ markdown: "kramdown"
 excerpt_separator: ""
 relative_permalinks: false
 title: "Donica Church of God"
-github: ''
 
 prose:
   rooturl: "announcements/_posts"
@@ -20,3 +19,5 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
+
+github: [metadata]
