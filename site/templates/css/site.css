@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: #013852;
+    color: #003A5D;
     text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ blockquote {
     -moz-osx-font-smoothing: grayscale;
     content: "\f10d";
     font-size: 1em;
-    color: #013852;
+    color: #003A5D;
     text-align: center;
 }
 
@@ -109,7 +109,7 @@ blockquote {
     -moz-osx-font-smoothing: grayscale;
     content: "\f10e";
     font-size: 1em;
-    color: #013852;
+    color: #003A5D;
     text-align: center;
 }
 
@@ -126,7 +126,7 @@ p,
 }
 
 .teal {
-    color: #013852;
+    color: #003A5D;
 }
 
 .well p {
@@ -293,11 +293,11 @@ hr.thin-hr {
     outline: none;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    color: #013852 !important;
+    color: #003A5D !important;
     background-color: inherit !important;
     padding: .5em 1em;
     margin: 0 .5em;
-    border: solid 3px #013852 !important;
+    border: solid 3px #003A5D !important;
     border-radius: 0px !important;
 }
 
@@ -306,11 +306,11 @@ hr.thin-hr {
     outline: none;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    color: #013852 !important;
+    color: #003A5D !important;
     background-color: inherit !important;
     padding: .5em 1em;
     margin: 0 .5em;
-    border: solid 3px #013852 !important;
+    border: solid 3px #003A5D !important;
     border-radius: 0px !important;
     margin-left: 0px;
 }
@@ -321,24 +321,24 @@ hr.thin-hr {
 .btn-default:active,
 .btn-default.active,
 .open>.dropdown-toggle.btn-default {
-    background-color: #013852 !important;
+    background-color: #003A5D !important;
     color: #ffffff !important;
-    border: solid 3px #013852;
+    border: solid 3px #003A5D;
 }
 
 .btn-selected-ticket-date {
-    background-color: #013852 !important;
+    background-color: #003A5D !important;
     color: #ffffff !important;
-    border: solid 3px #013852 !important;
+    border: solid 3px #003A5D !important;
 }
 
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
-    background-color: #013852 !important;
+    background-color: #003A5D !important;
     color: #ffffff !important;
-    border: solid 3px #013852;
+    border: solid 3px #003A5D;
 }
 
 .btn-contrast {
@@ -389,7 +389,7 @@ hr.thin-hr {
     padding: .4em 0.8em;
     font-size: 14px;
     line-height: 1.5;
-    border: solid 3px #013852;
+    border: solid 3px #003A5D;
     border-radius: 0px !important;
 }
 
@@ -398,7 +398,7 @@ hr.thin-hr {
         padding: .4em 0.8em;
         font-size: 14px;
         line-height: 1.5;
-        border: solid 3px #013852;
+        border: solid 3px #003A5D;
         border-radius: 0px !important;
     }
 }
@@ -412,7 +412,7 @@ hr.thin-hr {
 .btn-clear:hover {
     border: solid 3px #ffffff !important;
     background-color: #ffffff !important;
-    color: #013852 !important;
+    color: #003A5D !important;
 }
 
 .btn i,
@@ -781,7 +781,7 @@ footer .serif a,
     position: relative;
     height: 140px !important;
     background-image: none;
-    background: #013852;
+    background: #003A5D;
 }
 
 .top-short-header.has-top-live {
@@ -1025,7 +1025,7 @@ p.campus-address {
     padding: 2em 0;
     text-align: center;
     z-index: 2000;
-    background: #013852;
+    background: #003A5D;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: 600;
 }
@@ -1145,7 +1145,7 @@ p.campus-address {
     padding: 1.5em 0;
     z-index: 0;
     min-height: 100px;
-    background: #013852;
+    background: #003A5D;
 }
 
 .clear-click {
@@ -1168,7 +1168,7 @@ p.campus-address {
     padding: .25em 0;
     font-size: 1.6em;
     text-align: center;
-    color: #013852;
+    color: #003A5D;
     cursor: pointer;
 }
 
@@ -1188,12 +1188,12 @@ p.campus-address {
     padding: 10px 44px 10px 10px !important;
     margin: 0 !important;
     width: 100%;
-    border: solid 3px #013852 !important;
+    border: solid 3px #003A5D !important;
     font-family: "Avenir LT W01_85 Heavy", Helvetica, Arial, sans-serif;
     font-size: 13pt !important;
     line-height: 1em !important;
     font-weight: normal;
-    color: #013852 !important;
+    color: #003A5D !important;
     border-radius: 0 !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
@@ -1213,19 +1213,19 @@ p.campus-address {
 
 /*
 #search-content-form input::-webkit-input-placeholder {
-  color:#013852 !important;text-overflow: ellipsis;
+  color:#003A5D !important;text-overflow: ellipsis;
 }
 
 #search-content-form input:-moz-placeholder {
-   color:#013852 !important;text-overflow: ellipsis;
+   color:#003A5D !important;text-overflow: ellipsis;
 }
 
 #search-content-form input::-moz-placeholder {
-  color:#013852 !important;text-overflow: ellipsis;
+  color:#003A5D !important;text-overflow: ellipsis;
 }
 
 #search-content-form input:-ms-input-placeholder {
-   color:#013852 !important;text-overflow: ellipsis;
+   color:#003A5D !important;text-overflow: ellipsis;
 }
 */
 
@@ -1237,7 +1237,7 @@ p.campus-address {
     top: 27%;
     padding: .25em 0;
     text-align: center;
-    color: #013852;
+    color: #003A5D;
     cursor: pointer;
 }
 
@@ -1277,7 +1277,7 @@ p.home-quote {
     display: block;
     width: 100%;
     min-height: 5px;
-    background-color: #013852;
+    background-color: #003A5D;
 }
 
 #bar-green p {
@@ -1920,7 +1920,7 @@ ul.share-ul li:before {
     -moz-osx-font-smoothing: grayscale;
     content: "\e66b";
     font-size: 1em;
-    color: #013852;
+    color: #003A5D;
     position: absolute;
     left: 0;
     top: 3px;
@@ -2069,7 +2069,7 @@ ul.share-ul li:last-child {
     -moz-osx-font-smoothing: grayscale;
     content: "\e66b";
     font-size: 0.9em;
-    color: #013852;
+    color: #003A5D;
     position: absolute;
     left: 0;
     top: 3px;
@@ -2118,7 +2118,7 @@ ul.share-ul li:last-child {
     -moz-osx-font-smoothing: grayscale;
     content: "\f044";
     font-size: 12px;
-    color: #013852;
+    color: #003A5D;
     position: absolute;
     left: 0;
     top: 2px;
@@ -2378,7 +2378,7 @@ ul.share-ul li:last-child {
     border-left: 0;
     border-right: 0;
     height: 100%;
-    border-bottom: 4px solid #013852 !important;
+    border-bottom: 4px solid #003A5D !important;
 }
 
 ul.nav-justified {
@@ -2739,15 +2739,15 @@ span.divider-line {
 .teal-video-btn,
 .teal-video-btn:link,
 .teal-video-btn:visited {
-    color: #013852;
+    color: #003A5D;
     background-color: white;
     padding: 0px 10px 3px 10px;
-    border: 2px solid #013852;
+    border: 2px solid #003A5D;
 }
 
 .teal-video-btn:hover {
     color: white;
-    background-color: #013852;
+    background-color: #003A5D;
 }
 
 @media (min-width: 1200px) {
@@ -2934,7 +2934,7 @@ span.divider-line {
 
 .badge {
     padding: 8px 10px;
-    color: #013852;
+    color: #003A5D;
     font-size: 12pt;
     background-color: #dadada;
     border-radius: 2px;
@@ -2943,7 +2943,7 @@ span.divider-line {
 }
 
 .badge-more {
-    background-color: #013852;
+    background-color: #003A5D;
     color: #ffffff;
 }
 
@@ -2953,7 +2953,7 @@ span.divider-line {
 }
 
 .badge:hover {
-    background-color: #013852;
+    background-color: #003A5D;
 }
 
 .well {
@@ -3025,7 +3025,7 @@ span.divider-line {
 
 .pagination>li>a,
 .pagination>li>span {
-    color: #013852;
+    color: #003A5D;
     background-color: #fff;
     border: 1px solid #ddd;
 }
@@ -3034,7 +3034,7 @@ span.divider-line {
 .pagination>li>span:hover,
 .pagination>li>a:focus,
 .pagination>li>span:focus {
-    color: #013852;
+    color: #003A5D;
     background-color: #eee;
     border-color: #ddd;
 }
@@ -3045,8 +3045,8 @@ span.divider-line {
 .pagination>.active>span:hover,
 .pagination>.active>a:focus,
 .pagination>.active>span:focus {
-    background-color: #013852;
-    border-color: #013852;
+    background-color: #003A5D;
+    border-color: #003A5D;
 }
 
 .pagination>.disabled>span,
@@ -3176,7 +3176,7 @@ span.divider-line {
     margin: 0;
     padding: 30px 0px;
     width: 100%;
-    background-color: #013852;
+    background-color: #003A5D;
     color: white;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 1.4em;
@@ -3242,7 +3242,7 @@ span.divider-line {
 }
 
 #footer a {
-    color: #013852;
+    color: #003A5D;
     text-decoration: none;
     -moz-transition: all .1s ease-in;
     -o-transition: all .1s ease-in;

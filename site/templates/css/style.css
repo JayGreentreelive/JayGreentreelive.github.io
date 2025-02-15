@@ -79,7 +79,7 @@ header .navbar .navbar-nav.absolute-right {
 }
 
 header .navbar .nav-item.active>a {
-    color: #013852 !important;
+    color: #003A5D !important;
     font-weight: bold;
 }
 
@@ -138,12 +138,12 @@ header .navbar .dropdown-menu:before {
 }
 
 header .navbar .dropdown-menu .dropdown-item:hover {
-    background: #013852;
+    background: #003A5D;
     color: #fff;
 }
 
 header .navbar .dropdown-menu .dropdown-item.active {
-    background: #013852;
+    background: #003A5D;
     color: #fff;
 }
 
@@ -220,7 +220,7 @@ header .navbar.navbar-light .nav-link.active {
 
 .site-hero .btn {
     box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2) !important;
-    background: #013852 !important;
+    background: #003A5D !important;
     border: 2px solid transparent !important;
     color: #fff;
 }
@@ -273,7 +273,7 @@ header .navbar.navbar-light .nav-link.active {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: #013852;
+    background: #003A5D;
     border-radius: 50%;
 }
 
@@ -306,7 +306,7 @@ header .navbar.navbar-light .nav-link.active {
     font-size: 14px;
     letter-spacing: .2em;
     color: #cccccc;
-    color: #013852;
+    color: #003A5D;
 }
 
 .episodes .episode-number {
@@ -318,7 +318,7 @@ header .navbar.navbar-light .nav-link.active {
     text-transform: uppercase;
     line-height: 74px;
     border-radius: 50%;
-    background: #013852;
+    background: #003A5D;
     color: #fff;
     font-size: 30px;
 }
@@ -500,7 +500,7 @@ header .navbar.navbar-light .nav-link.active {
 .school-instructors.text-dark .feature .icon>span:before {
     font-size: 50px;
     margin-left: 0;
-    color: #013852;
+    color: #003A5D;
 }
 
 .img-bg {
@@ -619,12 +619,12 @@ textarea.form-control {
 .btn.btn-primary:focus {
     color: #000 !important;
     background: none !important;
-    border: 2px solid #013852 !important;
+    border: 2px solid #003A5D !important;
 }
 
 .btn.btn-primary-white {
     border: 2px solid transparent;
-    background: #013852;
+    background: #003A5D;
 }
 
 .btn.btn-primary-white:hover,
@@ -645,7 +645,7 @@ textarea.form-control {
 .btn.btn-white:focus,
 .btn.btn-white:active {
     border: 2px solid transparent;
-    background: #013852 !important;
+    background: #003A5D !important;
 }
 
 .flaticon-custom {
@@ -695,10 +695,10 @@ textarea.form-control {
 
 .box.hover:hover .box-body,
 .box.hover:focus .box-body {
-    background: #013852;
+    background: #003A5D;
     color: #fff;
     padding: 30px 20px;
-    border-color: #013852;
+    border-color: #003A5D;
 }
 
 .box.hover:hover h2,
@@ -712,7 +712,7 @@ textarea.form-control {
 }
 
 .breadcrumb-custom li a {
-    color: #013852;
+    color: #003A5D;
 }
 
 .breadcrumb-custom li a:hover {
@@ -828,7 +828,7 @@ textarea.form-control {
 
 .media-feature .icon {
     font-size: 60px;
-    color: #013852;
+    color: #003A5D;
 }
 
 .media-feature h3 {
@@ -841,7 +841,7 @@ textarea.form-control {
     box-shadow: 0 2px 20px -3px rgba(0, 0, 0, 0.1);
     transform: scale(1.05);
     z-index: 2;
-    border-bottom: 10px solid #013852;
+    border-bottom: 10px solid #003A5D;
 }
 
 .media-custom {
@@ -908,7 +908,7 @@ textarea.form-control {
     display: block;
     text-align: left;
     text-decoration: none;
-    color: #013852;
+    color: #003A5D;
     position: relative;
     box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
     border-radius: 0;
@@ -1098,7 +1098,7 @@ blockquote p {
     background-repeat: no-repeat;
     padding: 5em 0;
     line-height: 1.7;
-    background: #013852;
+    background: #003A5D;
 }
 
 .site-footer .heading {
@@ -1220,7 +1220,7 @@ blockquote p {
     font-size: 45px;
     margin: 0;
     padding: 0;
-    color: #013852;
+    color: #003A5D;
 }
 
 .block-15 .text {
@@ -1251,7 +1251,7 @@ blockquote p {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #013852;
+    background: #003A5D;
     z-index: -1;
 }
 
@@ -1361,7 +1361,7 @@ blockquote p {
 .block-18 .text strong {
     font-size: 40px;
     line-height: 1.5;
-    color: #013852;
+    color: #003A5D;
 }
 
 .block-18 .text span {
@@ -1401,7 +1401,7 @@ blockquote p {
 }
 
 .block-19 .text .heading a:hover {
-    color: #013852;
+    color: #003A5D;
 }
 
 .block-19 .text .meta .number,
@@ -1410,7 +1410,7 @@ blockquote p {
 }
 
 .block-19 .text .meta .number span {
-    color: #013852;
+    color: #003A5D;
 }
 
 .block-19 .text .meta .price del {
@@ -1418,7 +1418,7 @@ blockquote p {
 }
 
 .block-19 .text .meta .price span {
-    background: #013852;
+    background: #003A5D;
     border-radius: 4px;
     display: inline-block;
     padding: 1px 10px;
@@ -1486,7 +1486,7 @@ blockquote p {
 .block-21 .text .heading a:hover,
 .block-21 .text .heading a:active,
 .block-21 .text .heading a:focus {
-    color: #013852;
+    color: #003A5D;
 }
 
 .block-21 .text .meta>div {
@@ -1566,7 +1566,7 @@ blockquote p {
 .block-20 .text .heading a:hover,
 .block-20 .text .heading a:focus,
 .block-20 .text .heading a:active {
-    color: #013852;
+    color: #003A5D;
 }
 
 .block-20 .meta>div {
@@ -1632,7 +1632,7 @@ blockquote p {
     transform: translateY(-50%);
     width: 100%;
     height: 10px;
-    background: #013852;
+    background: #003A5D;
 }
 
 .section-heading .heading {
@@ -1647,7 +1647,7 @@ blockquote p {
 }
 
 .bg-light .section-heading:before {
-    background: #013852;
+    background: #003A5D;
 }
 
 .bg-light .section-heading .heading {
@@ -1655,7 +1655,7 @@ blockquote p {
 }
 
 .block-22 {
-    background: #013852;
+    background: #003A5D;
 }
 
 .block-22 .heading {
@@ -1938,8 +1938,8 @@ blockquote p {
 
 .block-24 ul li a:hover,
 .block-24 ul li a:focus {
-    color: #013852;
-    border-left: 4px solid #013852;
+    color: #003A5D;
+    border-left: 4px solid #003A5D;
 }
 
 .block-25 {
@@ -1986,11 +1986,11 @@ blockquote p {
 }
 
 .block-25 ul li a .meta {
-    color: #013852;
+    color: #003A5D;
 }
 
 .block-25 ul li a:hover .text .heading {
-    color: #013852;
+    color: #003A5D;
 }
 
 .block-26 {
@@ -2025,7 +2025,7 @@ blockquote p {
     padding: 0 10px;
     border-radius: 4px;
     display: inline-block;
-    background: #013852;
+    background: #003A5D;
 }
 
 .block-27 ul,
@@ -2053,7 +2053,7 @@ blockquote p {
 
 .block-27 ul li.active a,
 .block-27 ul li.active span {
-    background: #013852;
+    background: #003A5D;
     color: #fff;
     border: 1px solid transparent;
 }
@@ -2219,9 +2219,9 @@ blockquote p {
     content: "\f126";
     font-size: 12px;
     transition: .3s all ease;
-    background: #013852;
+    background: #003A5D;
     color: #fff;
-    border: 1px solid #013852;
+    border: 1px solid #003A5D;
 }
 
 .block-8 .accordion-item .heading>a[aria-expanded="false"]:before {
@@ -2296,7 +2296,7 @@ blockquote p {
     margin: 0;
     border-radius: 50% !important;
     font-size: 16px;
-    background: #013852;
+    background: #003A5D;
     color: #fff;
 }
 
@@ -2318,7 +2318,7 @@ blockquote p {
 }
 
 .block-42 {
-    border-top: 2px solid #013852;
+    border-top: 2px solid #003A5D;
     background: #fff;
     position: relative;
     z-index: 2;
@@ -2462,7 +2462,7 @@ blockquote p {
 }
 
 .block-45 {
-    background: #013852;
+    background: #003A5D;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 14px;
