@@ -11,17 +11,17 @@ shortheader: true
 
         <div class="row">
             <h1 class="text-center">WELCOME</h1>
-            <p class="text-center">welcome message here</p>
+            <p class="text-center">welcome message here or can be replaced with 3 content blocks</p>
         </div>
     </div>
 </div>
 
-<!--
-<div class="section section-series"
-    style="background-color: #444444; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;" style="display: none;">
+
+<div class="section section-series" style="background-color: #444444; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;height:auto; color: #ffffff;">
 
     <div class='container pd-t-lg pd-b-lg'>
         <div class="row center-row-series">
+            <h4>CURRENT SERIES</h4>
             {% assign latest = site.data.watch | first %}
 
             {% for post in site.categories.watch %}
@@ -34,7 +34,7 @@ shortheader: true
             </div>
             <div class='col-xs-12 col-sm-6 col-md-6 center-col-series' style='padding:0px 40px;'>
 
-                <h4>CURRENT SERIES</h4>
+                
                 <h3>{{ series.title }}</h3>
                 <a class='btn btn-primary btn-clear btn-left mg-t-sm' href="{{ post.url }}">View Series</a>
             </div>
@@ -45,7 +45,7 @@ shortheader: true
     </div>
 
 </div>
--->
+
 
 
 
@@ -65,8 +65,7 @@ shortheader: true
             <div class="col-xs-12 col-sm-4 col-md-4 ">
 
                 <div class='pd-xs'>
-                    <img src='{{ location.image_small }}' class='img-responsive img-full-width'
-                        alt="{{ location.title }}">
+                    <img src='{{ location.image_small }}' class='img-responsive' alt="{{ location.title }}">
 
                     <h3>{{ location.title }}</h3>
                     
