@@ -1,9 +1,10 @@
-baseurl: /
-permalink: /:categories/:title/
-markdown: kramdown
+baseurl: "/"
+permalink: "/:categories/:title/"
+markdown: "kramdown"
 excerpt_separator: ""
 relative_permalinks: false
-title: JayGreentree Live
+title: "JayGreentree.Live"
+github: ''
 
 prose:
   rooturl: "announcements/_posts"

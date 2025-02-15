@@ -1,6 +1,6 @@
 ---
 ---
-[
+
 {% for post in site.categories.watch %}{% if post.title != null and post.title != empty and post.search_omit != true %}
   {% unless forloop.first == true %},{% endunless %}{% for series in site.data.watch %}{% if series.id == post.series-id %}{
     "id": "{{ post.id }}",
@@ -12,4 +12,3 @@
   }
   {% endif %}{% endfor %}
 {% endif %}{% endfor %}
-]
