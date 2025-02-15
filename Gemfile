@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'jekyll'
-gem "jekyll-paginate"
+gem 'jekyll', group: :jekyll_plugins
+gem "jekyll-paginate", group: :jekyll_plugins
 #gem 'jekyll-admin', group: :jekyll_plugins
-gem "webrick"
+gem "webrick", group: :jekyll_plugins
+gem 'github-pages', group: :jekyll_plugins
