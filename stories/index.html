@@ -46,7 +46,9 @@ You can't meet Jesus and be the same person you were before. Every person who co
             <div class="row multi-columns-row">
             	{% for story in site.data.stories %}
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mg-b-md media_item">
-                 <a href='{{ story.readmore }}'><img src='{{ story.image_small }}' class='img-responsive img-full-width' /></a>
+                 
+                    {% if story.image_small %}<img src='{{ story.image_small }}' class='img-responsive img-full-width' />{% endif %}
+                
                                 <h4 style='margin-bottom:2px;'>
                                 	<a href='{{ story.readmore }}'>{{ story.title }}</a>
                                 </h4>
