@@ -1,0 +1,84 @@
+---
+layout: basic
+title: Authentication
+shortheader: true
+---
+<div class="container">
+    <div id="static-signin-form" class="panel">
+        <div class="form-group">
+            <label for="username">Email</label>
+            <input name="username" type="email" autocomplete="username" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input name="password" type="password" autocomplete="password" class="form-control">
+        </div>
+        <div class="form-group">
+            <p><a href="/" data-se="recover-password" onclick="_showRecoverPassword(event)">Forgot your password?</a></p>
+            <a class="pure-button pure-button-primary" href="/" data-se="submit" onclick="_submitStaticSigninForm(event)">Signin</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+    function submitStaticSigninForm() {
+        const username = document.querySelector('#static-signin-form input[name=username]').value;
+        const password = document.querySelector('#static-signin-form input[name=password]').value;
+
+        if (!config.useInteractionCodeFlow) {
+            // Authn
+            return authClient.signIn({ username, password })
+                .then(handleTransaction)
+                .catch(showError);
+        }
+
+        return authClient.idx.authenticate({ username, password })
+            .then(handleTransaction)
+            .catch(showError);
+
+    }
+
+    function handleTransaction(transaction) {
+  if (!config.useInteractionCodeFlow) {
+    // Authn
+    return handleTransactionAuthn(transaction);
+  }
+
+  // IDX
+  if (transaction.messages) {
+    showError(transaction.messages);
+  }
+
+  switch (transaction.status) {
+    case 'PENDING':
+      if (transaction.nextStep.name === 'identify') {
+        renderDynamicSigninForm(transaction);
+        break;
+      }
+      hideSigninForm();
+      updateAppState({ transaction });
+      showMfa();
+      break;
+    case 'FAILURE':
+      showError(transaction.error);
+      break;
+    case 'SUCCESS':
+      hideSigninForm();
+      endAuthFlow(transaction.tokens);
+      break;
+    default:
+      throw new Error(transaction.status + ' status');
+  }
+
+  function getUserInfo() {
+  return authClient.token.getUserInfo()
+    .then(function(value) {
+      updateAppState({ userInfo: value });
+      renderApp();
+    })
+    .catch(function (error) {
+      // This is expected when Okta SSO does not exist
+      showError(error);
+    });
+}
+
+    </script>
+</div>
