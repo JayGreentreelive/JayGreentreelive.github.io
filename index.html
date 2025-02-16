@@ -58,18 +58,23 @@ shortheader: true
                     </p>
                     <ul class="fa-ul">
                         <li>
+                            {% if location.title == "online" %}
                             <i class="fa-li icon-location-pin-1"></i>
-                            {% if location.title == Online %}
-                            <a href="https://{{ location.address }}" target="_blank">
+                            <a href="{{ location.address }}" target="_blank">
                                 {{ location.address }}
                             </a>
                             {% else %}
+                            <i class="fa-li icon-location-pin-1"></i>
                             <a href="https://google.com/maps?q={{ location.address }}" target="_blank">
                                 {{ location.address | newline_to_br }}
                             </a>
                             {% endif %}
                         </li>
-                        <li><i class="fa-li icon-call-2"></i>{{ location.phone}}</li>
+                            {% if location.phone %}
+                        <li>
+                            <i class="fa-li icon-call-2"></i>{{ location.phone}}
+                        </li>
+                        {% endif %}
                     </ul>
                     <div class=' mg-t-sm2'><a href='{{ location.url }}' class='btn btn-default btn-left'>
                             <i class='icon-right-4 icon-fw'></i> Learn More</a></div>

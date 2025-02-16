@@ -22,6 +22,7 @@
 - id: online
   title: Online
   email: "online@donicachurch.com"
+  address: /live/
   image_small: "/assets/images/locations/online.jpg"
   facebook: "donicachurch"
   phone: "(812) 279-1571"
