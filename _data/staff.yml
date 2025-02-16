@@ -4,10 +4,24 @@
   position: Senior Pastor
   facebook: 
   twitter: 
-  description_small: 'Short description here'
-  description_medium: 'Long Description here'
+  description_small: ''
+  description_medium: 'Bio or other details here'
   email: 
   image_small: 
   image_medium: 
   image_large: 
   url: /about/staff/jason-walsh/
+
+- id: jay-greentree
+  title: Jay Greentree
+  location: 
+  position: Tech & Media arts
+  facebook: 
+  twitter: 
+  description_small: ''
+  description_medium: 'Bio or other details here'
+  email: 
+  image_small: 
+  image_medium: 
+  image_large: 
+  url: /about/staff/jay-greentree/

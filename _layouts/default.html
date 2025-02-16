@@ -5,7 +5,7 @@
 <!-- <![endif] -->
 
 <head>
-    <title>{{ page.title }} | JayGreentree Live</title>
+    <title>{{ page.title }} | Donica Church of God</title>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
     <meta name="algolia-site-verification"  content="BD9014D59C561355" />
@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="/site/templates/css/events.css">
     <link rel="stylesheet" href="/site/templates/css/site.css">
     <link rel="stylesheet" href="/site/templates/css/font-awesome/css/font-awesome.css">
+    {% if page.shortheader == false %}
     <style>
         .top-home {
             background: #013852 url("{{ page.heroimage }}") no-repeat center center;
@@ -40,6 +41,7 @@
             filter: none;
         }
     </style>
+    {% endif %}
 </head>
 
 <body>
