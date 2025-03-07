@@ -130,7 +130,7 @@ shortheader: true
             <div class="container pd-t-md pd-b-lg">
                 <div class="row multi-columns-row ">
                     {% for item in site.data.lifegroups limit:3 %}
-                        {% if item.location == "Vincennes" %}
+                        {% if item.location == "Bedford" %}
                             {% capture type %}LIFE Groups{% endcapture %}
                             {% include lifegroup-item.html %}
                         {% endif %}
