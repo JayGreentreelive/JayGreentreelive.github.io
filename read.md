@@ -1,6 +1,7 @@
 ---
 layout: basic
 title: Jekyll Read Me
+shortheader: true
 permalink: /read/
 ---
 
